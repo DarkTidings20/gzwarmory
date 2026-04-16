@@ -1,37 +1,45 @@
 import Link from "next/link";
 import { promises as fs } from "fs";
 import path from "path";
-import WeaponBuilder from "../components/WeaponBuilder";
+import WeaponBuilderShell from "../components/WeaponBuilderShell";
 
-async function getWeaponData() {
+async function getAllData() {
   const dataDir = path.join(process.cwd(), "data");
 
-  // Load weapon
-  const weaponFile = await fs.readFile(path.join(dataDir, "weapons", "M4A1.json"), "utf-8");
-  const weapon = JSON.parse(weaponFile);
+  // Load all weapons
+  const weaponFiles = await fs.readdir(path.join(dataDir, "weapons"));
+  const weapons = await Promise.all(
+    weaponFiles
+      .filter((f) => f.endsWith(".json"))
+      .map(async (f) => {
+        const raw = await fs.readFile(path.join(dataDir, "weapons", f), "utf-8");
+        return JSON.parse(raw);
+      })
+  );
 
-  // Load attachments
-  const attachmentCategories = ["pistolGrip", "magazine", "chargingHandle", "receiver", "bufferTube"];
+  // Load all attachments
+  const attachmentDir = path.join(dataDir, "attachments");
   const allAttachments: Record<string, object> = {};
-
-  for (const cat of attachmentCategories) {
-    const filePath = path.join(dataDir, "attachments", cat, "index.json");
-    try {
-      const raw = await fs.readFile(filePath, "utf-8");
-      const items = JSON.parse(raw);
-      for (const item of items) {
-        allAttachments[item.id] = item;
-      }
-    } catch {
-      // Category not yet populated
+  try {
+    const categories = await fs.readdir(attachmentDir);
+    for (const cat of categories) {
+      const filePath = path.join(attachmentDir, cat, "index.json");
+      try {
+        const raw = await fs.readFile(filePath, "utf-8");
+        const items = JSON.parse(raw);
+        for (const item of items) {
+          allAttachments[item.id] = item;
+        }
+      } catch { /* not yet populated */ }
     }
-  }
+  } catch { /* no attachments dir */ }
 
-  return { weapon, allAttachments };
+  return { weapons, allAttachments };
 }
 
 export default async function BuilderPage() {
-  const { weapon, allAttachments } = await getWeaponData();
+  const { weapons, allAttachments } = await getAllData();
+  const sortedWeapons = weapons.sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <main className="flex flex-col min-h-screen">
@@ -41,7 +49,7 @@ export default async function BuilderPage() {
             GZW <span className="text-amber-500">Armory</span>
           </span>
           <span className="text-xs bg-gray-800 text-gray-400 px-2 py-0.5 rounded font-mono">
-            v0.4.0.2
+            v0.4.0.3
           </span>
         </Link>
         <div className="flex items-center gap-6 text-sm text-gray-400">
@@ -51,21 +59,10 @@ export default async function BuilderPage() {
       </nav>
 
       <div className="flex-1 px-6 py-8 max-w-6xl mx-auto w-full">
-        {/* Weapon selector header */}
-        <div className="flex items-center justify-between mb-8">
-          <div>
-            <h1 className="text-3xl font-bold text-white">{weapon.name}</h1>
-            <p className="text-gray-500 text-sm mt-1">{weapon.type} · {weapon.caliber}</p>
-          </div>
-          <div className="bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs px-3 py-1.5 rounded-lg">
-            More weapons coming soon
-          </div>
-        </div>
-
-        <WeaponBuilder weapon={weapon} allAttachments={allAttachments} />
+        <WeaponBuilderShell weapons={sortedWeapons} allAttachments={allAttachments} />
 
         <p className="text-xs text-gray-700 mt-8 text-center">
-          Stat values are community-sourced estimates. Some attachment stats are placeholders pending in-game verification.{" "}
+          Stats sourced from in-game screenshots. Some attachment data is estimated pending full verification.{" "}
           <a href="https://github.com/DarkTidings20/gzwarmory" className="text-gray-600 hover:text-gray-400 underline" target="_blank" rel="noopener noreferrer">
             Help us improve the data →
           </a>

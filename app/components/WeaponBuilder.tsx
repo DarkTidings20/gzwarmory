@@ -35,20 +35,10 @@ interface Weapon {
   name: string;
   type: string;
   caliber: string;
+  manufacturer?: string;
   vendor: string;
   vendorRank: number;
-  baseStats: {
-    accuracy: number;
-    recoilControl: number;
-    ergonomics: number;
-    weaponHandling: number;
-    reloadSpeed: number;
-    muzzleVelocity: number;
-    loudnessReduction: number;
-    muzzleDeviceEfficiency: number;
-    weight: number;
-    rateOfFire: number;
-  };
+  baseStats: Record<string, number>;
   slots: Record<string, SlotDef>;
 }
 
@@ -63,30 +53,36 @@ const STAT_LABELS: Record<string, string> = {
   muzzleDeviceEfficiency: "Muzzle Device Efficiency",
 };
 
-function StatBar({ label, base, delta, isAccuracy = false }: {
+function StatBar({ label, base, delta, isAccuracy = false, unit = "%" }: {
   label: string;
   base: number;
   delta: number;
   isAccuracy?: boolean;
+  unit?: string;
 }) {
-  // For accuracy, lower is better — invert the delta display
+  // For accuracy, lower is better — invert the delta color logic
   const effectiveDelta = isAccuracy ? -delta : delta;
   const isPositive = effectiveDelta > 0;
   const isNegative = effectiveDelta < 0;
+  const total = base + delta;
 
   return (
     <div className="flex items-center justify-between py-1.5 border-b border-gray-800 last:border-0">
       <span className="text-gray-400 text-sm w-44">{label}</span>
       <div className="flex items-center gap-3">
-        <span className="text-gray-300 text-sm font-mono w-12 text-right">{base.toFixed(1)}</span>
+        <span className="text-gray-300 text-sm font-mono w-16 text-right">
+          {unit === "%" ? `${base > 0 ? "+" : ""}${base.toFixed(1)}%` : `${base.toFixed(2)} ${unit}`}
+        </span>
         {delta !== 0 && (
-          <span className={`text-sm font-mono font-semibold w-14 text-right ${isPositive ? "text-green-400" : isNegative ? "text-red-400" : "text-gray-500"}`}>
-            {delta > 0 ? "+" : ""}{delta.toFixed(1)}
+          <span className={`text-sm font-mono font-semibold w-16 text-right ${
+            isPositive ? "text-green-400" : isNegative ? "text-red-400" : "text-gray-500"
+          }`}>
+            {delta > 0 ? "+" : ""}{delta.toFixed(1)}{unit === "%" ? "%" : ""}
           </span>
         )}
-        {delta === 0 && <span className="w-14" />}
-        <span className="text-white text-sm font-mono font-bold w-12 text-right">
-          {(base + delta).toFixed(1)}
+        {delta === 0 && <span className="w-16" />}
+        <span className="text-white text-sm font-mono font-bold w-20 text-right">
+          {unit === "%" ? `${total > 0 ? "+" : ""}${total.toFixed(1)}%` : `${total.toFixed(2)} ${unit}`}
         </span>
       </div>
     </div>
@@ -184,25 +180,19 @@ export default function WeaponBuilder({
   };
 
   // Calculate stat deltas
-  const statDeltas: StatModifiers & { weight: number } = {
-    accuracy: 0, recoilControl: 0, ergonomics: 0, weaponHandling: 0,
-    reloadSpeed: 0, muzzleVelocity: 0, loudnessReduction: 0, muzzleDeviceEfficiency: 0,
-    weight: 0,
-  };
+  const statDeltas: Record<string, number> = { weight: 0 };
 
   Object.values(selectedSlots).forEach((id) => {
     if (!id) return;
     const att = allAttachments[id];
     if (!att) return;
-    statDeltas.weight += att.weight;
+    statDeltas.weight = (statDeltas.weight ?? 0) + att.weight;
     Object.entries(att.statModifiers).forEach(([stat, val]) => {
-      if (stat in statDeltas) {
-        (statDeltas as Record<string, number>)[stat] += val ?? 0;
-      }
+      statDeltas[stat] = (statDeltas[stat] ?? 0) + (val ?? 0);
     });
   });
 
-  const totalWeight = weapon.baseStats.weight + statDeltas.weight;
+  const totalWeight = (weapon.baseStats.weight ?? 0) + (statDeltas.weight ?? 0);
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -235,14 +225,14 @@ export default function WeaponBuilder({
               <span className="w-12 text-right font-bold text-gray-400">Total</span>
             </div>
           </div>
-          <StatBar label="Accuracy (MOA ↓)" base={weapon.baseStats.accuracy} delta={statDeltas.accuracy ?? 0} isAccuracy />
-          <StatBar label="Recoil Control" base={weapon.baseStats.recoilControl} delta={statDeltas.recoilControl ?? 0} />
-          <StatBar label="Ergonomics" base={weapon.baseStats.ergonomics} delta={statDeltas.ergonomics ?? 0} />
-          <StatBar label="Weapon Handling" base={weapon.baseStats.weaponHandling} delta={statDeltas.weaponHandling ?? 0} />
-          <StatBar label="Reload Speed" base={weapon.baseStats.reloadSpeed} delta={statDeltas.reloadSpeed ?? 0} />
-          <StatBar label="Muzzle Velocity" base={weapon.baseStats.muzzleVelocity} delta={statDeltas.muzzleVelocity ?? 0} />
-          <StatBar label="Loudness Reduction" base={weapon.baseStats.loudnessReduction} delta={statDeltas.loudnessReduction ?? 0} />
-          <StatBar label="Muzzle Device Eff." base={weapon.baseStats.muzzleDeviceEfficiency} delta={statDeltas.muzzleDeviceEfficiency ?? 0} />
+          <StatBar label="Accuracy (MOA ↓)" base={weapon.baseStats.accuracy ?? 0} delta={statDeltas.accuracy ?? 0} isAccuracy unit="MOA" />
+          <StatBar label="Fire Rate" base={weapon.baseStats.fireRateBonus ?? 0} delta={statDeltas.fireRateBonus ?? 0} />
+          <StatBar label="Recoil Control" base={weapon.baseStats.recoilControl ?? 0} delta={statDeltas.recoilControl ?? 0} />
+          <StatBar label="Muzzle Device Eff." base={weapon.baseStats.muzzleDeviceEfficiency ?? 0} delta={statDeltas.muzzleDeviceEfficiency ?? 0} />
+          <StatBar label="Muzzle Velocity" base={weapon.baseStats.muzzleVelocity ?? 0} delta={statDeltas.muzzleVelocity ?? 0} />
+          <StatBar label="Loudness Reduction" base={weapon.baseStats.loudnessReduction ?? 0} delta={statDeltas.loudnessReduction ?? 0} />
+          <StatBar label="Ergonomics" base={weapon.baseStats.ergonomics ?? 0} delta={statDeltas.ergonomics ?? 0} />
+          <StatBar label="Reload Speed" base={weapon.baseStats.reloadSpeed ?? 0} delta={statDeltas.reloadSpeed ?? 0} />
         </div>
 
         {/* Weight */}
@@ -262,7 +252,8 @@ export default function WeaponBuilder({
           <div className="grid grid-cols-2 gap-2 text-gray-400">
             <span>Type</span><span className="text-gray-200">{weapon.type}</span>
             <span>Caliber</span><span className="text-gray-200">{weapon.caliber}</span>
-            <span>ROF</span><span className="text-gray-200">{weapon.baseStats.rateOfFire} RPM</span>
+            <span>ROF</span><span className="text-gray-200">{weapon.baseStats.rateOfFire ?? "—"} RPM</span>
+            <span>Durability</span><span className="text-gray-200">{weapon.baseStats.durability ?? "—"}%</span>
             <span>Vendor</span><span className="text-gray-200">{weapon.vendor} R{weapon.vendorRank}</span>
           </div>
         </div>

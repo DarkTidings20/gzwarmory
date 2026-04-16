@@ -1,0 +1,77 @@
+[
+  {
+    "id": "cq-a2-flash-hider",
+    "name": "CQ A2 Flash Hider",
+    "category": "muzzleDevice",
+    "statModifiers": { "muzzleDeviceEfficiency": 5 },
+    "weight": 0.066,
+    "vendor": "Gunny R.1", "vendorRank": 1, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "dd-extended-flash-suppressor",
+    "name": "DD Extended Flash Suppressor",
+    "category": "muzzleDevice",
+    "statModifiers": { "muzzleDeviceEfficiency": 8 },
+    "weight": 0.08,
+    "vendor": "Gunny", "vendorRank": 3, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "fury-titanium-muzzle-brake",
+    "name": "Fury Titanium Muzzle Brake",
+    "category": "muzzleDevice",
+    "statModifiers": { "muzzleDeviceEfficiency": 10 },
+    "weight": 0.09,
+    "vendor": "Unknown", "vendorRank": 0, "price": 0,
+    "notes": "Exact stats missing from wiki — needs verification",
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "socom556-rc1-suppressor",
+    "name": "SOCOM556 RC1 Suppressor",
+    "category": "muzzleDevice",
+    "statModifiers": { "muzzleDeviceEfficiency": 7, "weaponHandling": -4, "accuracy": -4, "loudnessReduction": 20, "horizontalRecoil": -1 },
+    "weight": 0.453,
+    "vendor": "Gunny R.3", "vendorRank": 3, "price": 0,
+    "notes": "Requires SOCOM 3 Prong Flash Hider to attach",
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "qdss-nt4-suppressor",
+    "name": "QDSS NT4 Suppressor",
+    "category": "muzzleDevice",
+    "statModifiers": { "muzzleDeviceEfficiency": 5, "weaponHandling": -4, "accuracy": -3, "loudnessReduction": 17 },
+    "weight": 0.62,
+    "vendor": "Gunny R.2", "vendorRank": 2, "price": 0,
+    "notes": "Requires M4QD Flash Hider to attach",
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "m4qd-flash-hider",
+    "name": "M4QD Flash Hider",
+    "category": "muzzleDevice",
+    "statModifiers": { "muzzleDeviceEfficiency": 6 },
+    "weight": 0.07,
+    "vendor": "Gunny", "vendorRank": 2, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "socom-3-prong-flash-hider",
+    "name": "SOCOM 3 Prong Flash Hider",
+    "category": "muzzleDevice",
+    "statModifiers": { "muzzleDeviceEfficiency": 7 },
+    "weight": 0.075,
+    "vendor": "Gunny", "vendorRank": 2, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "vlc-556-mark1-suppressor",
+    "name": "VLC 556 MARK 1 Suppressor",
+    "category": "muzzleDevice",
+    "statModifiers": { "loudnessReduction": 15, "muzzleDeviceEfficiency": 4, "weaponHandling": -3 },
+    "weight": 0.5,
+    "vendor": "Unknown", "vendorRank": 0, "price": 0,
+    "patchVersion": "0.4.0.3"
+  }
+]

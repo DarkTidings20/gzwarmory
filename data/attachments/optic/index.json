@@ -1,0 +1,57 @@
+[
+  {
+    "id": "510c-reflex-sight",
+    "name": "510C Reflex Sight",
+    "category": "optic",
+    "statModifiers": {},
+    "weight": 0.14,
+    "magnification": "1x",
+    "sightRange": 300,
+    "vendor": "Gunny R.4", "vendorRank": 4, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "hws-exps3-circle-1dot",
+    "name": "HWS EXPS3 Holographic (Circle 1-Dot)",
+    "category": "optic",
+    "statModifiers": {},
+    "weight": 0.318,
+    "magnification": "1x",
+    "sightRange": 300,
+    "vendor": "Gunny R.3", "vendorRank": 3, "price": 1043,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "okp7-red-dot",
+    "name": "OKP7 Red Dot Sight",
+    "category": "optic",
+    "statModifiers": {},
+    "weight": 0.34,
+    "magnification": "1x",
+    "sightRange": 300,
+    "vendor": "Artisan R.2", "vendorRank": 2, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "hws-exps2-1dot",
+    "name": "HWS EXPS2 Holographic (1-Dot)",
+    "category": "optic",
+    "statModifiers": {},
+    "weight": 0.3,
+    "magnification": "1x",
+    "sightRange": 300,
+    "vendor": "Gunny", "vendorRank": 3, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "specterdr-1-4x",
+    "name": "SpecterDR 1-4x Assault Scope",
+    "category": "optic",
+    "statModifiers": {},
+    "weight": 0.58,
+    "magnification": "1-4x",
+    "sightRange": 600,
+    "vendor": "Unknown", "vendorRank": 0, "price": 0,
+    "patchVersion": "0.4.0.3"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "afg-2",
+    "name": "AFG-2",
+    "category": "foregrip",
+    "statModifiers": { "recoilControl": 18, "weaponHandling": 4 },
+    "weight": 0.072,
+    "vendor": "Gunny R.4", "vendorRank": 4, "price": 80,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "afg-2-fde",
+    "name": "AFG-2 (FDE)",
+    "category": "foregrip",
+    "statModifiers": { "recoilControl": 18, "weaponHandling": 4 },
+    "weight": 0.072,
+    "vendor": "Gunny R.4", "vendorRank": 4, "price": 80,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "dd-vertical-foregrip",
+    "name": "DD Vertical Foregrip",
+    "category": "foregrip",
+    "statModifiers": { "recoilControl": 10, "ergonomics": 10, "weaponHandling": 12 },
+    "weight": 0.15,
+    "vendor": "Unknown", "vendorRank": 0, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "rvg",
+    "name": "RVG (Rail Vertical Grip)",
+    "category": "foregrip",
+    "statModifiers": { "recoilControl": 12, "ergonomics": -6, "weaponHandling": -6 },
+    "weight": 0.073,
+    "vendor": "Gunny R.3", "vendorRank": 3, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "mlok-afg",
+    "name": "M-LOK AFG",
+    "category": "foregrip",
+    "statModifiers": { "recoilControl": 14, "weaponHandling": 3 },
+    "weight": 0.065,
+    "vendor": "Gunny", "vendorRank": 3, "price": 0,
+    "patchVersion": "0.4.0.3"
+  }
+]

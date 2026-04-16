@@ -19,7 +19,8 @@ async function getAllData() {
 
   // Load all attachments
   const attachmentDir = path.join(dataDir, "attachments");
-  const allAttachments: Record<string, object> = {};
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const allAttachments: Record<string, any> = {};
   try {
     const categories = await fs.readdir(attachmentDir);
     for (const cat of categories) {

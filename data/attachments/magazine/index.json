@@ -1,0 +1,62 @@
+[
+  {
+    "id": "stanag-556-20rd",
+    "name": "STANAG 5.56 20rd Magazine",
+    "category": "magazine",
+    "statModifiers": { "ergonomics": 2, "weaponHandling": 2, "reloadSpeed": 0.2 },
+    "weight": 0.12,
+    "capacity": 20,
+    "vendor": "Gunny", "vendorRank": 1,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "stanag-556-30rd",
+    "name": "STANAG 5.56 30rd Magazine",
+    "category": "magazine",
+    "statModifiers": { "ergonomics": 0, "weaponHandling": 0 },
+    "weight": 0.44,
+    "capacity": 30,
+    "vendor": "Gunny", "vendorRank": 1,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "pmag-556-30rd",
+    "name": "PMAG 5.56 30rd",
+    "category": "magazine",
+    "statModifiers": { "ergonomics": 1, "weaponHandling": 1 },
+    "weight": 0.13,
+    "capacity": 30,
+    "vendor": "Gunny", "vendorRank": 1,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "pmag-556-30rd-fde",
+    "name": "PMAG 5.56 30rd (FDE)",
+    "category": "magazine",
+    "statModifiers": { "ergonomics": 1, "weaponHandling": 1 },
+    "weight": 0.13,
+    "capacity": 30,
+    "vendor": "Gunny", "vendorRank": 1,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "dd-556-32rd",
+    "name": "DD 5.56 32rd Magazine",
+    "category": "magazine",
+    "statModifiers": { "ergonomics": 1, "weaponHandling": 1 },
+    "weight": 0.15,
+    "capacity": 32,
+    "vendor": "Artisan", "vendorRank": 2,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "ati-s60-556-60rd",
+    "name": "ATI Schmeisser S60 5.56 60rd",
+    "category": "magazine",
+    "statModifiers": { "ergonomics": -3, "weaponHandling": -2 },
+    "weight": 0.49,
+    "capacity": 60,
+    "vendor": "Artisan", "vendorRank": 4,
+    "patchVersion": "0.4.0.2"
+  }
+]

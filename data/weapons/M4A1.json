@@ -1,0 +1,123 @@
+{
+  "id": "m4a1",
+  "name": "M4A1",
+  "type": "Assault Rifle",
+  "slot": "Primary",
+  "caliber": "5.56x45mm NATO",
+  "vendor": "Gunny",
+  "vendorRank": 2,
+  "baseStats": {
+    "accuracy": 2.15,
+    "recoilControl": 0,
+    "ergonomics": 0,
+    "weaponHandling": 0,
+    "reloadSpeed": 3.2,
+    "muzzleVelocity": 0,
+    "loudnessReduction": 0,
+    "muzzleDeviceEfficiency": 0,
+    "weight": 3.299,
+    "rateOfFire": 800
+  },
+  "compatibleAmmo": [
+    "5.56x45mm SP",
+    "5.56x45mm FMJ",
+    "5.56x45mm HPBT",
+    "5.56x45mm M193",
+    "5.56x45mm AP (M855)",
+    "5.56x45mm AP (M855A1)",
+    "5.56x45mm Tracer (M856)",
+    "5.56x45mm Tracer (M856A1)"
+  ],
+  "slots": {
+    "pistolGrip": {
+      "label": "Pistol Grip",
+      "required": false,
+      "compatible": [
+        "norinco-cqa1-pistol-grip",
+        "miad-pistol-grip",
+        "torque-pistol-grip",
+        "moe-pistol-grip",
+        "moe-pistol-grip-fde",
+        "dd-enhanced-ar-pistol-grip-milspec",
+        "dd-enhanced-ar-pistol-grip",
+        "dd-enhanced-ar-pistol-grip-black"
+      ]
+    },
+    "receiver": {
+      "label": "Receiver",
+      "required": false,
+      "compatible": [
+        "m16a1-upper-receiver",
+        "m4-upper-receiver",
+        "cq-a1-upper-receiver"
+      ]
+    },
+    "bufferTube": {
+      "label": "Buffer Tube",
+      "required": false,
+      "compatible": [
+        "cq-a1-buffer-tube",
+        "m4-buffer-tube",
+        "m4-buffer-tube-fde"
+      ]
+    },
+    "chargingHandle": {
+      "label": "Charging Handle",
+      "required": false,
+      "compatible": [
+        "cq-a1-charging-handle",
+        "standard-gi-charging-handle",
+        "f1-charging-handle",
+        "ar15-grip-n-rip-charging-handle",
+        "sch-556-charging-handle",
+        "sch-556-charging-handle-ddc",
+        "ar15-supreme-charging-handle"
+      ]
+    },
+    "magazine": {
+      "label": "Magazine",
+      "required": true,
+      "compatible": [
+        "stanag-556-20rd",
+        "stanag-556-30rd",
+        "pmag-556-30rd",
+        "pmag-556-30rd-fde",
+        "dd-556-32rd",
+        "ati-s60-556-60rd"
+      ]
+    },
+    "handguard": {
+      "label": "Handguard",
+      "required": false,
+      "compatible": []
+    },
+    "barrel": {
+      "label": "Barrel",
+      "required": false,
+      "compatible": []
+    },
+    "muzzleDevice": {
+      "label": "Muzzle Device",
+      "required": false,
+      "compatible": []
+    },
+    "optic": {
+      "label": "Optic",
+      "required": false,
+      "compatible": []
+    },
+    "stock": {
+      "label": "Stock",
+      "required": false,
+      "compatible": []
+    },
+    "underbarrel": {
+      "label": "Underbarrel",
+      "required": false,
+      "compatible": []
+    }
+  },
+  "notes": "Most popular AR platform in GZW. Wide attachment compatibility. Base data from Fandom wiki 0.4.",
+  "patchVersion": "0.4.0.2",
+  "lastUpdated": "2026-04-15"
+}

@@ -60,6 +60,16 @@ export default async function BuilderPage() {
       </nav>
 
       <div className="flex-1 px-6 py-8 max-w-6xl mx-auto w-full">
+        {/* Vendor data disclaimer */}
+        <div className="mb-6 flex items-start gap-3 bg-amber-950/40 border border-amber-800/50 rounded-lg px-4 py-3 text-sm text-amber-300/80">
+          <span className="text-amber-500 mt-0.5 shrink-0">⚠</span>
+          <span>
+            <strong className="text-amber-400">Vendor &amp; rank data may be outdated.</strong>{" "}
+            Attachment availability and vendor levels were overhauled in patch 0.4. Stats shown are best-effort — help us verify by{" "}
+            <a href="https://github.com/DarkTidings20/gzwarmory/issues" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-200">submitting a correction</a>.
+          </span>
+        </div>
+
         <WeaponBuilderShell weapons={sortedWeapons} allAttachments={allAttachments} />
 
         <p className="text-xs text-gray-700 mt-8 text-center">

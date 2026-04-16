@@ -33,7 +33,8 @@ export default function WeaponBuilderShell({
   weapons: Weapon[];
   allAttachments: Record<string, Attachment>;
 }) {
-  const [selectedId, setSelectedId] = useState(weapons[0]?.id ?? "");
+  const defaultId = weapons.find((w) => w.id === "m4a1")?.id ?? weapons[0]?.id ?? "";
+  const [selectedId, setSelectedId] = useState(defaultId);
   const weapon = weapons.find((w) => w.id === selectedId) ?? weapons[0];
 
   return (

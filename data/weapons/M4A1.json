@@ -9,7 +9,7 @@
   "vendorRank": 2,
   "baseStats": {
     "accuracy": 1.16,
-    "durability": 94.0,
+    "durability": 100.0,
     "fireRateBonus": 5.7,
     "recoilControl": 36.5,
     "muzzleDeviceEfficiency": 29.6,

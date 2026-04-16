@@ -1,0 +1,57 @@
+{
+  "id": "cq-a1",
+  "name": "CQ A1",
+  "type": "Assault Rifle",
+  "slot": "Primary",
+  "caliber": "5.56x45mm",
+  "manufacturer": "Norinco",
+  "vendor": "Gunny",
+  "vendorRank": 1,
+  "vendorPrice": 3600,
+  "baseStats": {
+    "durability": 100.0,
+    "accuracy": 4.18,
+    "recoilControl": 1.0,
+    "muzzleDeviceEfficiency": 10.0,
+    "ergonomics": -5.0,
+    "reloadSpeed": 4.0,
+    "weight": 3.242,
+    "rateOfFire": 800,
+    "firingMode": "Single"
+  },
+  "compatibleAmmo": [
+    "5.56x45mm SP",
+    "5.56x45mm FMJ",
+    "5.56x45mm HPBT",
+    "5.56x45mm M193",
+    "5.56x45mm AP (M855)",
+    "5.56x45mm AP (M855A1)",
+    "5.56x45mm Tracer (M856)",
+    "5.56x45mm Tracer (M856A1)"
+  ],
+  "slots": {
+    "bufferTube": { "label": "Buffer Tube", "required": false, "compatible": ["cq-a1-buffer-tube", "m4-buffer-tube", "m4-buffer-tube-fde"] },
+    "stock": { "label": "Stock", "required": false, "compatible": [] },
+    "handguard": { "label": "Handguard / Rail", "required": false, "compatible": [] },
+    "barrel": { "label": "Barrel", "required": false, "compatible": [] },
+    "muzzleDevice": { "label": "Muzzle Device", "required": false, "compatible": ["cq-a2-flash-hider", "a2-flash-hider"] },
+    "foregrip": { "label": "Foregrip / Underbarrel", "required": false, "compatible": [] },
+    "optic": { "label": "Optic", "required": false, "compatible": [] },
+    "pistolGrip": { "label": "Pistol Grip", "required": false, "compatible": [] },
+    "chargingHandle": { "label": "Charging Handle", "required": false, "compatible": [] },
+    "magazine": { "label": "Magazine", "required": true, "compatible": [
+      "stanag-5-56x45mm-300-blk-20-round-magazine",
+      "stanag-5-56x45mm-300-blk-30-round-magazine",
+      "pmag-5-56x45mm-300-blk-20-round-magazine",
+      "pmag-5-56x45mm-300-blk-30-round-magazine",
+      "pmag-5-56x45mm-300-blk-30-round-magazine-fde",
+      "dd-5-56x45mm-300-blk-32-round-magazine",
+      "ati-s60-5-56x45mm-300-blk-60-round-magazine"
+    ]}
+  },
+  "notes": "Norinco Chinese replica of the M4 carbine. Entry-level AR platform, available from Gunny at low rank. Semi-auto only (Single fire mode). Stats verified from in-game screenshot at 100% durability.",
+  "verified": true,
+  "verifiedSource": "in-game screenshot",
+  "patchVersion": "0.4.1.0",
+  "lastUpdated": "2026-04-16"
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ar15-barrel-10in",
+    "name": "AR-15 Barrel - 10.5\"",
+    "category": "barrel",
+    "statModifiers": { "accuracy": 0.3, "muzzleVelocity": -8 },
+    "weight": 0.595,
+    "vendor": "Loot only", "vendorRank": 0, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "ar15-barrel-14in",
+    "name": "AR-15 Barrel - 14.5\"",
+    "category": "barrel",
+    "statModifiers": { "accuracy": 0 },
+    "weight": 0.725,
+    "vendor": "Gunny", "vendorRank": 2, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "ar15-barrel-16in",
+    "name": "AR-15 Barrel - 16\"",
+    "category": "barrel",
+    "statModifiers": { "accuracy": -0.32 },
+    "weight": 0.793,
+    "vendor": "Gunny R.3", "vendorRank": 3, "price": 0,
+    "notes": "1.83 MOA base accuracy",
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "ar15-barrel-20in",
+    "name": "AR-15 Barrel - 20\"",
+    "category": "barrel",
+    "statModifiers": { "accuracy": -1.04, "muzzleVelocity": 20, "horizontalRecoil": -4 },
+    "weight": 0.97,
+    "vendor": "Loot only", "vendorRank": 0, "price": 0,
+    "notes": "1.11 MOA — best accuracy barrel. Loot only.",
+    "patchVersion": "0.4.0.3"
+  }
+]

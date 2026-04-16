@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ar15-moe-mlok-carbine-handguard",
+    "name": "AR-15 MOE M-LOK Carbine Handguard",
+    "category": "handguard",
+    "statModifiers": { "horizontalRecoil": -2 },
+    "weight": 0.184,
+    "vendor": "Gunny R.1", "vendorRank": 1, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "dd-ris-ii-12",
+    "name": "DD RIS II 12",
+    "category": "handguard",
+    "statModifiers": { "recoilControl": 12, "weaponHandling": -8, "horizontalRecoil": -2 },
+    "weight": 0.501,
+    "vendor": "Gunny R.3", "vendorRank": 3, "price": 504,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "x7m-15-handguard",
+    "name": "X7M-15 Handguard",
+    "category": "handguard",
+    "statModifiers": { "recoilControl": 10, "weaponHandling": -6, "horizontalRecoil": -2 },
+    "weight": 0.413,
+    "vendor": "Gunny R.4", "vendorRank": 4, "price": 508,
+    "patchVersion": "0.4.0.3"
+  }
+]

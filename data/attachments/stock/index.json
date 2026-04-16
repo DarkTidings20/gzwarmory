@@ -1,0 +1,31 @@
+[
+  {
+    "id": "ar15-sopmod-stock",
+    "name": "AR-15 SOPMOD Stock",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0.3,
+    "vendor": "Unknown", "vendorRank": 0, "price": 0,
+    "notes": "Stats missing from wiki — needs in-game verification",
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "dd-adjustable-buttstock",
+    "name": "DD Adjustable Buttstock",
+    "category": "stock",
+    "statModifiers": { "recoilControl": 10, "weaponHandling": 4, "ergonomics": 3 },
+    "weight": 0.227,
+    "vendor": "Loot only", "vendorRank": 0, "price": 0,
+    "patchVersion": "0.4.0.3"
+  },
+  {
+    "id": "ar15-moe-stock",
+    "name": "AR15 MOE Stock",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0.22,
+    "vendor": "Gunny", "vendorRank": 2, "price": 0,
+    "notes": "Stats need verification",
+    "patchVersion": "0.4.0.3"
+  }
+]

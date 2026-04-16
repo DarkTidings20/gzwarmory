@@ -17,7 +17,7 @@ async function getAllData() {
       })
   );
 
-  // Load all attachments
+  // Load all attachments dynamically from all category subdirectories
   const attachmentDir = path.join(dataDir, "attachments");
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const allAttachments: Record<string, any> = {};
@@ -31,9 +31,9 @@ async function getAllData() {
         for (const item of items) {
           allAttachments[item.id] = item;
         }
-      } catch { /* not yet populated */ }
+      } catch { /* category not yet populated */ }
     }
-  } catch { /* no attachments dir */ }
+  } catch { /* no attachments dir yet */ }
 
   return { weapons, allAttachments };
 }

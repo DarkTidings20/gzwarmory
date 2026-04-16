@@ -1,0 +1,311 @@
+[
+  {
+    "id": "hws_exps2_holographic_sight_1-dot",
+    "name": "HWS EXPS2 Holographic Sight (1-Dot)",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.318,
+    "type": "Collimator",
+    "manufacturer": "Eotech",
+    "sightingRange": 300.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "EXPS2 inspect.png"
+    }
+  },
+  {
+    "id": "503cu_micro_sight",
+    "name": "503CU Micro Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.085,
+    "type": "Collimator",
+    "manufacturer": "Holosun",
+    "sightingRange": 300.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "503CU inspect.png"
+    }
+  },
+  {
+    "id": "510c_reflex_sight",
+    "name": "510C Reflex Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.14,
+    "type": "Collimator",
+    "manufacturer": "Holosun",
+    "sightingRange": 300.0,
+    "magnification": 1.0,
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "510C inspect.png"
+    }
+  },
+  {
+    "id": "micro_t-1_red_dot_sight",
+    "name": "Micro T-1 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.086,
+    "type": "Collimator",
+    "manufacturer": "Aimpoint",
+    "sightingRange": 300.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "T-1 inspect.png"
+    }
+  },
+  {
+    "id": "aimpoint_acro_p-2",
+    "name": "Aimpoint ACRO P-2",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Collimator",
+    "manufacturer": "Aimpoint",
+    "sightingRange": 300.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "P-2 inspect.png"
+    }
+  },
+  {
+    "id": "aimpoint_micro_h-2",
+    "name": "Aimpoint Micro H-2",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.093,
+    "type": "Collimator",
+    "manufacturer": "Aimpoint",
+    "sightingRange": 300.0,
+    "magnification": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "H-2 inspect.png"
+    }
+  },
+  {
+    "id": "aimpoint_micro_t-2",
+    "name": "Aimpoint Micro T-2",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Collimator",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "T-2 inspect.png"
+    }
+  },
+  {
+    "id": "micro_t-2_red_dot_sight",
+    "name": "Micro T-2 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.084,
+    "type": "Collimator",
+    "manufacturer": "Aimpoint",
+    "sightingRange": 300.0,
+    "magnification": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "T-2(2) inspect.png"
+    }
+  },
+  {
+    "id": "kobra_ekp-8-18_red_dot_sight",
+    "name": "Kobra EKP-8-18 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.41,
+    "type": "Collimator",
+    "manufacturer": "Kobra Axion",
+    "sightingRange": 300.0,
+    "magnification": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "EKP-8-18 inspect.png"
+    }
+  },
+  {
+    "id": "pk-01_vs_red_dot_sight",
+    "name": "PK-01 VS Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.9,
+    "type": "Collimator",
+    "manufacturer": "Belomo",
+    "sightingRange": 300.0,
+    "magnification": 2.0,
+    "vendor": "Artisan R.2",
+    "buyPrice": 386.0,
+    "_raw": {
+      "image": "PK-01 inspect.png"
+    }
+  },
+  {
+    "id": "hws_exps2_holographic_sight_circle_1-dot",
+    "name": "HWS EXPS2 Holographic Sight (Circle 1-Dot)",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.318,
+    "type": "Collimator",
+    "manufacturer": "Eotech",
+    "sightingRange": 300.0,
+    "magnification": 1.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "EXPS2(2) inspect.png"
+    }
+  },
+  {
+    "id": "hws_exps2_holographic_sight_circle_2-dot_fde",
+    "name": "HWS EXPS2 Holographic Sight (Circle 2-Dot) (FDE)",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Collimator",
+    "manufacturer": "EOTECH",
+    "vendor": "???",
+    "_raw": {
+      "image": "EXPS2(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "hws_exps3_holographic_sight_circle_1-dot",
+    "name": "HWS EXPS3 Holographic Sight (Circle 1-Dot)",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.318,
+    "type": "Collimator",
+    "manufacturer": "EOTECH",
+    "sightingRange": 300.0,
+    "magnification": 1.0,
+    "vendor": "GunnyR.3",
+    "_raw": {
+      "image": "EXPS3 inspect.png"
+    }
+  },
+  {
+    "id": "hws_exps3_holographic_sight_circle_2-dot",
+    "name": "HWS EXPS3 Holographic Sight (Circle 2-Dot)",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.318,
+    "type": "Collimator",
+    "manufacturer": "Eotech",
+    "sightingRange": 300.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "EXPS3(2) inspect.png"
+    }
+  },
+  {
+    "id": "hs507c_x2_reflex_sight",
+    "name": "HS507C X2 Reflex Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.045,
+    "type": "Collimator",
+    "manufacturer": "Holosun",
+    "sightingRange": 100.0,
+    "magnification": 2.0,
+    "vendor": "Banshee R.3",
+    "buyPrice": 989.0,
+    "_raw": {
+      "image": "HS507C X2 inspect.png"
+    }
+  },
+  {
+    "id": "okp7_red_dot_sight",
+    "name": "OKP7 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.34,
+    "type": "Collimator",
+    "manufacturer": "General East",
+    "sightingRange": 300.0,
+    "vendor": "Artisan R.2",
+    "_raw": {
+      "image": "OKP7 inspect.png"
+    }
+  },
+  {
+    "id": "pilad_p1x42_red_dot_sight",
+    "name": "Pilad P1x42 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.16,
+    "type": "Collimator",
+    "manufacturer": "VOMZ",
+    "sightingRange": 300.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "Pilad P1X42 inspect.png"
+    }
+  },
+  {
+    "id": "pilad_р2.5х24l_brevis_assault_scope",
+    "name": "Pilad Р2.5х24L Brevis Assault Scope",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.29,
+    "type": "Collimator",
+    "manufacturer": "VOMZ",
+    "sightingRange": 600.0,
+    "vendor": "Turncoat R.2",
+    "buyPrice": 468.0,
+    "_raw": {
+      "image": "Pilad Р2.5х24 inspect.png"
+    }
+  },
+  {
+    "id": "viper_red_dot_sight",
+    "name": "Viper Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.031,
+    "type": "Collimator",
+    "manufacturer": "Vortex optics",
+    "sightingRange": 100.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 578.0,
+    "_raw": {
+      "image": "Viper RD inspect.png"
+    }
+  },
+  {
+    "id": "kobra_ekp-1s-03_red_dot_sight",
+    "name": "Kobra EKP-1S-03 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.41,
+    "type": "Collimator",
+    "manufacturer": "Kobra Axion",
+    "sightingRange": 300.0,
+    "vendor": "Turncoat R.2",
+    "buyPrice": 678.0,
+    "_raw": {
+      "image": "EKP-1S-03 inspect.png"
+    }
+  }
+]

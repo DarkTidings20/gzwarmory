@@ -1,0 +1,6082 @@
+[
+  {
+    "id": "hws_exps2_holographic_sight_1-dot",
+    "name": "HWS EXPS2 Holographic Sight (1-Dot)",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.318,
+    "type": "Collimator",
+    "manufacturer": "Eotech",
+    "sightingRange": 300.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "EXPS2 inspect.png"
+    }
+  },
+  {
+    "id": "503cu_micro_sight",
+    "name": "503CU Micro Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.085,
+    "type": "Collimator",
+    "manufacturer": "Holosun",
+    "sightingRange": 300.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "503CU inspect.png"
+    }
+  },
+  {
+    "id": "510c_reflex_sight",
+    "name": "510C Reflex Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.14,
+    "type": "Collimator",
+    "manufacturer": "Holosun",
+    "sightingRange": 300.0,
+    "magnification": 1.0,
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "510C inspect.png"
+    }
+  },
+  {
+    "id": "micro_t-1_red_dot_sight",
+    "name": "Micro T-1 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.086,
+    "type": "Collimator",
+    "manufacturer": "Aimpoint",
+    "sightingRange": 300.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "T-1 inspect.png"
+    }
+  },
+  {
+    "id": "aimpoint_acro_p-2",
+    "name": "Aimpoint ACRO P-2",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Collimator",
+    "manufacturer": "Aimpoint",
+    "sightingRange": 300.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "P-2 inspect.png"
+    }
+  },
+  {
+    "id": "aimpoint_micro_h-2",
+    "name": "Aimpoint Micro H-2",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.093,
+    "type": "Collimator",
+    "manufacturer": "Aimpoint",
+    "sightingRange": 300.0,
+    "magnification": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "H-2 inspect.png"
+    }
+  },
+  {
+    "id": "aimpoint_micro_t-2",
+    "name": "Aimpoint Micro T-2",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Collimator",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "T-2 inspect.png"
+    }
+  },
+  {
+    "id": "micro_t-2_red_dot_sight",
+    "name": "Micro T-2 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.084,
+    "type": "Collimator",
+    "manufacturer": "Aimpoint",
+    "sightingRange": 300.0,
+    "magnification": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "T-2(2) inspect.png"
+    }
+  },
+  {
+    "id": "kobra_ekp-8-18_red_dot_sight",
+    "name": "Kobra EKP-8-18 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.41,
+    "type": "Collimator",
+    "manufacturer": "Kobra Axion",
+    "sightingRange": 300.0,
+    "magnification": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "EKP-8-18 inspect.png"
+    }
+  },
+  {
+    "id": "pk-01_vs_red_dot_sight",
+    "name": "PK-01 VS Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.9,
+    "type": "Collimator",
+    "manufacturer": "Belomo",
+    "sightingRange": 300.0,
+    "magnification": 2.0,
+    "vendor": "Artisan R.2",
+    "buyPrice": 386.0,
+    "_raw": {
+      "image": "PK-01 inspect.png"
+    }
+  },
+  {
+    "id": "hws_exps2_holographic_sight_circle_1-dot",
+    "name": "HWS EXPS2 Holographic Sight (Circle 1-Dot)",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.318,
+    "type": "Collimator",
+    "manufacturer": "Eotech",
+    "sightingRange": 300.0,
+    "magnification": 1.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "EXPS2(2) inspect.png"
+    }
+  },
+  {
+    "id": "hws_exps2_holographic_sight_circle_2-dot_fde",
+    "name": "HWS EXPS2 Holographic Sight (Circle 2-Dot) (FDE)",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Collimator",
+    "manufacturer": "EOTECH",
+    "vendor": "???",
+    "_raw": {
+      "image": "EXPS2(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "hws_exps3_holographic_sight_circle_1-dot",
+    "name": "HWS EXPS3 Holographic Sight (Circle 1-Dot)",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.318,
+    "type": "Collimator",
+    "manufacturer": "EOTECH",
+    "sightingRange": 300.0,
+    "magnification": 1.0,
+    "vendor": "GunnyR.3",
+    "_raw": {
+      "image": "EXPS3 inspect.png"
+    }
+  },
+  {
+    "id": "hws_exps3_holographic_sight_circle_2-dot",
+    "name": "HWS EXPS3 Holographic Sight (Circle 2-Dot)",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.318,
+    "type": "Collimator",
+    "manufacturer": "Eotech",
+    "sightingRange": 300.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "EXPS3(2) inspect.png"
+    }
+  },
+  {
+    "id": "hs507c_x2_reflex_sight",
+    "name": "HS507C X2 Reflex Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.045,
+    "type": "Collimator",
+    "manufacturer": "Holosun",
+    "sightingRange": 100.0,
+    "magnification": 2.0,
+    "vendor": "Banshee R.3",
+    "buyPrice": 989.0,
+    "_raw": {
+      "image": "HS507C X2 inspect.png"
+    }
+  },
+  {
+    "id": "okp7_red_dot_sight",
+    "name": "OKP7 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.34,
+    "type": "Collimator",
+    "manufacturer": "General East",
+    "sightingRange": 300.0,
+    "vendor": "Artisan R.2",
+    "_raw": {
+      "image": "OKP7 inspect.png"
+    }
+  },
+  {
+    "id": "pilad_p1x42_red_dot_sight",
+    "name": "Pilad P1x42 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.16,
+    "type": "Collimator",
+    "manufacturer": "VOMZ",
+    "sightingRange": 300.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "Pilad P1X42 inspect.png"
+    }
+  },
+  {
+    "id": "pilad_р2.5х24l_brevis_assault_scope",
+    "name": "Pilad Р2.5х24L Brevis Assault Scope",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.29,
+    "type": "Collimator",
+    "manufacturer": "VOMZ",
+    "sightingRange": 600.0,
+    "vendor": "Turncoat R.2",
+    "buyPrice": 468.0,
+    "_raw": {
+      "image": "Pilad Р2.5х24 inspect.png"
+    }
+  },
+  {
+    "id": "viper_red_dot_sight",
+    "name": "Viper Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.031,
+    "type": "Collimator",
+    "manufacturer": "Vortex optics",
+    "sightingRange": 100.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 578.0,
+    "_raw": {
+      "image": "Viper RD inspect.png"
+    }
+  },
+  {
+    "id": "kobra_ekp-1s-03_red_dot_sight",
+    "name": "Kobra EKP-1S-03 Red Dot Sight",
+    "category": "Collimators",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.41,
+    "type": "Collimator",
+    "manufacturer": "Kobra Axion",
+    "sightingRange": 300.0,
+    "vendor": "Turncoat R.2",
+    "buyPrice": 678.0,
+    "_raw": {
+      "image": "EKP-1S-03 inspect.png"
+    }
+  },
+  {
+    "id": "viper_pst_gen_ii_5-25x50_rifle_scope",
+    "name": "Viper PST Gen II 5-25x50 Rifle Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.885,
+    "type": "Scope",
+    "manufacturer": "Vortex optics",
+    "sizeChangeY": 1.0,
+    "ergonomics": -12.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "Viper 5x25 inspect.png"
+    }
+  },
+  {
+    "id": "acog_ta01nsn_4x32_assault_scope",
+    "name": "ACOG TA01NSN 4x32 Assault Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.424,
+    "type": "Scope",
+    "manufacturer": "Trijicon",
+    "sightingRange": 600.0,
+    "magnification": 4.0,
+    "ergonomics": -8.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "ACOG 4x inspect.png"
+    }
+  },
+  {
+    "id": "specterdr_1-4x_assault_scope",
+    "name": "SpecterDR 1-4x Assault Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.45,
+    "type": "Scope",
+    "manufacturer": "ELCAN",
+    "sightingRange": 600.0,
+    "ergonomics": -8.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "SpecterDR inspect.png"
+    }
+  },
+  {
+    "id": "kaps_classic_4x36_oc",
+    "name": "Kaps Classic 4x36 OC",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.41,
+    "type": "Scope",
+    "manufacturer": "Kaps Optics",
+    "sightingRange": 250.0,
+    "magnification": 4.0,
+    "vendor": "Banshee R.1",
+    "_raw": {
+      "image": "Kaps 3x36 inspect.png"
+    }
+  },
+  {
+    "id": "razor_1-6x_rifle_scope",
+    "name": "RAZOR 1-6x Rifle Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.61,
+    "type": "Scope",
+    "manufacturer": "Vortex Optics",
+    "ergonomics": -8.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "Razor 1-6x inspect.png"
+    }
+  },
+  {
+    "id": "npz_pso_3-9x24",
+    "name": "NPZ PSO 3-9x24",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.997,
+    "type": "Scope",
+    "manufacturer": "General East",
+    "sightingRange": 900.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "PSO 3-9x inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_pu_3.5x22_scope",
+    "name": "Mosin-Nagant PU 3.5x22 Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.6,
+    "type": "Scope",
+    "manufacturer": "Kalashnikov Concern",
+    "magnification": 3.5,
+    "ergonomics": -8.0,
+    "vendor": "Artisan R.2",
+    "_raw": {
+      "image": "PU 3.5x inspect.png"
+    }
+  },
+  {
+    "id": "vudu_1-6x24_ffp_rifle_scope",
+    "name": "Vudu 1-6x24 FFP Rifle Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.57,
+    "type": "Scope",
+    "manufacturer": "Eotech",
+    "sightingRange": 1000.0,
+    "ergonomics": -8.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "Vudu 1-6x inspect.png"
+    }
+  },
+  {
+    "id": "vudu_3.5-18x50_ffp_rifle_scope",
+    "name": "Vudu 3.5-18x50 FFP Rifle Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.952,
+    "type": "Scope",
+    "manufacturer": "Eotech",
+    "sizeChangeX": 1.0,
+    "ergonomics": -12.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "Vudu 3.5-18x inspect.png"
+    }
+  },
+  {
+    "id": "pso-1_4x24",
+    "name": "PSO-1 4x24",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.616,
+    "type": "Scope",
+    "manufacturer": "General East",
+    "sightingRange": 500.0,
+    "magnification": 4.0,
+    "vendor": "Artisan R.4",
+    "_raw": {
+      "image": "PSO-1 inspect.png"
+    }
+  },
+  {
+    "id": "vortex_spitfire_hd_gen_ii_5x",
+    "name": "Vortex Spitfire HD Gen II 5x",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.292,
+    "type": "Scope",
+    "manufacturer": "Vortex Optics",
+    "sightingRange": 600.0,
+    "magnification": 5.0,
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "Spitfire 5x inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_barrel_-_14.5\"",
+    "name": "AR-15 Barrel - 14.5\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.725,
+    "type": "Barrel",
+    "manufacturer": "Colt",
+    "vendor": "Gunny R.??",
+    "_raw": {
+      "image": "AR-15 14.5' inspect.png"
+    }
+  },
+  {
+    "id": "glock_17_standard_barrel",
+    "name": "Glock 17 Standard Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.113,
+    "type": "Barrel",
+    "manufacturer": "Glock",
+    "vendor": "Gunny R.1Banshee R.1",
+    "_raw": {
+      "image": "G17 B inspect.png",
+      "accuracy": "11.70"
+    }
+  },
+  {
+    "id": "ar-15_barrel_-_20\"",
+    "name": "AR-15 Barrel - 20\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.97,
+    "type": "Barrel",
+    "velocity": 20.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "AR-15 20' inspect.png",
+      "accuracy": "1.11",
+      "rate": "| manufacturer       =Colt",
+      "muzzle_efficiency": "| horizontal         =+4"
+    }
+  },
+  {
+    "id": "ar-15_barrel_-_16\"",
+    "name": "AR-15 Barrel - 16\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.793,
+    "type": "Barrel",
+    "manufacturer": "Colt",
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "AR-15 16' inspect.png",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "sig_mcx_barrel_-_9\"",
+    "name": "SIG MCX Barrel - 9\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.45,
+    "type": "Barrel",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "muzzleVelocity": -11.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "SIG MCX 9' inspect.png",
+      "accuracy": "2.65"
+    }
+  },
+  {
+    "id": "ar-15_cqa1_barrel_-_14.5\"",
+    "name": "AR-15 CQA1 Barrel - 14.5\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.725,
+    "type": "Barrel",
+    "manufacturer": "Norinco",
+    "sizeChangeX": 2.0,
+    "muzzleVelocity": -4.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQA1 14.5' inspect.png",
+      "accuracy": "4.18"
+    }
+  },
+  {
+    "id": "m700_heavy_barrel_-_26\"",
+    "name": "M700 Heavy Barrel - 26\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 2.05,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "muzzleVelocity": 6.0,
+    "vendor": "????",
+    "_raw": {
+      "image": "M700 H 26' inspect.png",
+      "accuracy": "0.48",
+      "rate": "+???",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "ar-15_barrel_-_10.5\"",
+    "name": "AR-15 Barrel - 10.5\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.538,
+    "type": "Barrel",
+    "manufacturer": "COLT",
+    "sizeChangeX": 1.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "AR-15 10.5\" inspect.png",
+      "muzzle_efficiency": "-10",
+      "accuracy": "3.89"
+    }
+  },
+  {
+    "id": "m700_threaded_barrel_-_18\"",
+    "name": "M700 Threaded Barrel - 18\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.12,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 3.0,
+    "velocity": -8.0,
+    "vendor": "Banshee R.1",
+    "_raw": {
+      "image": "M700 18' inspect.png",
+      "accuracy": "1.02"
+    }
+  },
+  {
+    "id": "m700_suppressed_barrel_-_20\"",
+    "name": "M700 Suppressed Barrel - 20\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.8,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 3.0,
+    "velocity": -4.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "M700 Sup 20' inspect.png",
+      "accuracy": "1.10"
+    }
+  },
+  {
+    "id": "m700_barrel_-_22\"",
+    "name": "M700 Barrel - 22\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.0,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 3.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 614.0,
+    "_raw": {
+      "image": "M700 22' inspect.png",
+      "accuracy": "0.61"
+    }
+  },
+  {
+    "id": "m700_vtr_barrel_-_22\"",
+    "name": "M700 VTR Barrel - 22\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.5,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 3.0,
+    "velocity": 2.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "M700 VTR 22' inspect.png",
+      "accuracy": "0.55"
+    }
+  },
+  {
+    "id": "glock_17_match_grade_barrel",
+    "name": "Glock 17 Match Grade Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Barrel",
+    "manufacturer": "Zaffiri Precision",
+    "velocity": 4.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 204.0,
+    "_raw": {
+      "image": "G17 MG B inspect.png",
+      "accuracy": "10.82"
+    }
+  },
+  {
+    "id": "glock_17_match_grade_threaded_barrel_gold",
+    "name": "Glock 17 Match Grade Threaded Barrel (Gold)",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Barrel",
+    "manufacturer": "???",
+    "vendor": "????",
+    "_raw": {
+      "image": "G17 MGT B inspect.png",
+      "accuracy": "???",
+      "rate": "+???",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "optimized_glock_17_match_grade_threaded_barrel",
+    "name": "Optimized Glock 17 Match Grade Threaded Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.105,
+    "type": "Barrel",
+    "manufacturer": "ZEV Technologies",
+    "vendor": "Banshee R.3",
+    "buyPrice": 339.0,
+    "_raw": {
+      "image": "G17 OMGT B inspect.png",
+      "accuracy": "11.65"
+    }
+  },
+  {
+    "id": "m870_barrel_-_18.5\"",
+    "name": "M870 Barrel - 18.5\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.75,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 2.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M870 18.5' inspect.png",
+      "accuracy": "41.60"
+    }
+  },
+  {
+    "id": "m870_barrel_-_23\"",
+    "name": "M870 Barrel - 23\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.93,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 2.0,
+    "muzzleVelocity": 8.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "M870 23' inspect.png",
+      "accuracy": "29.60"
+    }
+  },
+  {
+    "id": "m870_barrel_-_26\"",
+    "name": "M870 Barrel - 26\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.1,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 3.0,
+    "muzzleVelocity": 12.0,
+    "vendor": "Gunny R.??",
+    "_raw": {
+      "image": "M870 26' inspect.png",
+      "accuracy": "24.50"
+    }
+  },
+  {
+    "id": "mosin-nagant_barrel_-_514mm",
+    "name": "Mosin-Nagant Barrel - 514mm",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.0,
+    "type": "Barrel",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 3.0,
+    "vendor": "Artisan R.1",
+    "buyPrice": 104.0,
+    "_raw": {
+      "image": "Mosin 514 inspect.png",
+      "accuracy": "3.00"
+    }
+  },
+  {
+    "id": "mosin-nagant_barrel_-_730mm",
+    "name": "Mosin-Nagant Barrel - 730mm",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Barrel",
+    "manufacturer": "???",
+    "vendor": "????",
+    "_raw": {
+      "image": "Mosin 730 inspect.png",
+      "accuracy": "???",
+      "rate": "+???",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "type_51_barrel",
+    "name": "Type 51 Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Barrel",
+    "manufacturer": "Norinco",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "T51 B inspect.png",
+      "accuracy": "12.23"
+    }
+  },
+  {
+    "id": "sig_mcx_barrel_-_16\"",
+    "name": "SIG MCX Barrel - 16\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.7,
+    "type": "Barrel",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 2.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "SIG MCX 16' inspect.png",
+      "accuracy": "1.95"
+    }
+  },
+  {
+    "id": "sig_mcx_barrel_-_6.75\"",
+    "name": "SIG MCX Barrel - 6.75\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.35,
+    "type": "Barrel",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "velocity": -24.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "SIG MCX 6.75' inspect.png",
+      "accuracy": "3.27"
+    }
+  },
+  {
+    "id": "svd_barrel_-_620mm",
+    "name": "SVD Barrel - 620mm",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.3,
+    "type": "Barrel",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 3.0,
+    "vendor": "Artisan R.4",
+    "_raw": {
+      "image": "SVD Barrel inspect.png",
+      "accuracy": "0.95"
+    }
+  },
+  {
+    "id": "type_51_threaded_barrel",
+    "name": "Type 51 Threaded Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.062,
+    "type": "Barrel",
+    "manufacturer": "Norinco",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "T51 T B inspect.png",
+      "accuracy": "12.23"
+    }
+  },
+  {
+    "id": "ar-15_barrel_-_18\"",
+    "name": "AR-15 Barrel - 18\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.27,
+    "type": "Barrel",
+    "manufacturer": "Colt",
+    "muzzleVelocity": 12.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 598.0,
+    "_raw": {
+      "image": "AR-15 18' inspect.png",
+      "accuracy": "1.44"
+    }
+  },
+  {
+    "id": "m9a1_standard_barrel",
+    "name": "M9A1 Standard Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.149,
+    "type": "Barrel",
+    "manufacturer": "Beretta",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M9A1 Barrel inspect.png",
+      "accuracy": "11.70"
+    }
+  },
+  {
+    "id": "m9a1_threaded_barrel",
+    "name": "M9A1 Threaded Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.207,
+    "type": "Barrel",
+    "manufacturer": "Beretta",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M9A1 Thr B inspect.png",
+      "accuracy": "11.70"
+    }
+  },
+  {
+    "id": "m4_buffer_tube",
+    "name": "M4 Buffer Tube",
+    "category": "Buffer Tubes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.108,
+    "type": "Buffer Tube",
+    "manufacturer": "Colt",
+    "sizeChangeX": 1.0,
+    "recoil": 2.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "M4 Buffer Tube inspect.png"
+    }
+  },
+  {
+    "id": "cq_a1_buffer_tube",
+    "name": "CQ A1 Buffer Tube",
+    "category": "Buffer Tubes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.108,
+    "type": "Buffer Tube",
+    "manufacturer": "Norinco",
+    "sizeChangeX": 1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQA1 BTube inspect.png"
+    }
+  },
+  {
+    "id": "m4_buffer_tube_fde",
+    "name": "M4 Buffer Tube (FDE)",
+    "category": "Buffer Tubes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.108,
+    "type": "Buffer Tube",
+    "manufacturer": "Colt",
+    "sizeChangeX": 1.0,
+    "recoil": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "M4 Buffer Tube(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "standard_gi_charging_handle",
+    "name": "Standard GI Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.028,
+    "type": "Charging Handle",
+    "manufacturer": "Colt",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "GI M4 Ch inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_grip-n-rip_charging_handle",
+    "name": "AR-15 GRIP-N-RIP Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.036,
+    "type": "Charging Handle",
+    "manufacturer": "Daniel Defense",
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "GripNRip Ch inspect.png",
+      "reload": "+4"
+    }
+  },
+  {
+    "id": "sig_mcx_charging_handle",
+    "name": "SIG MCX Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.031,
+    "type": "Charging Handle",
+    "manufacturer": "SIG Sauer",
+    "vendor": "Banshee R.3",
+    "buyPrice": 162.0,
+    "_raw": {
+      "image": "MCX Ch inspect.png"
+    }
+  },
+  {
+    "id": "cq_a1_charging_handle",
+    "name": "CQ A1 Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.028,
+    "type": "Charging Handle",
+    "manufacturer": "Norinco",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQ A1 Ch inspect.png",
+      "reload": "-2"
+    }
+  },
+  {
+    "id": "ak_rp-1_charging_handle",
+    "name": "AK RP-1 Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.017,
+    "type": "Charging Handle",
+    "manufacturer": "Zenitco",
+    "vendor": "Artisan R.3",
+    "_raw": {
+      "image": "RP1 Ch inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "ar-15_supreme_charging_handle",
+    "name": "AR-15 Supreme Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.03,
+    "type": "Charging Handle",
+    "manufacturer": "Antreg",
+    "vendor": "Gunny R.4",
+    "buyPrice": 166.0,
+    "_raw": {
+      "image": "Supreme Ch inspect.png",
+      "reload": "+6.0"
+    }
+  },
+  {
+    "id": "f1_charging_handle",
+    "name": "F1 Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.027,
+    "type": "Charging Handle",
+    "manufacturer": "F1-firearms",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "F1 Ch inspect.png",
+      "reload": "+2.0"
+    }
+  },
+  {
+    "id": "sch_5.56_charging_handle",
+    "name": "SCH 5.56 Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Charging Handle",
+    "manufacturer": "Geissele Automatics",
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "SCH Ch inspect.png",
+      "reload": "+4.0"
+    }
+  },
+  {
+    "id": "sch_5.56_charging_handle_ddc",
+    "name": "SCH 5.56 Charging Handle (DDC)",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Charging Handle",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "SCH Ch(DDC) inspect.png",
+      "reload": "+???"
+    }
+  },
+  {
+    "id": "hk_mp5_cocking_handle",
+    "name": "HK MP5 Cocking Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.12,
+    "type": "Charging Handle",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "MP5 C inspect.png"
+    }
+  },
+  {
+    "id": "vz._61_charging_knobs",
+    "name": "Vz. 61 Charging Knobs",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Charging Handle",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Vz. 61 Knobs Ch inspect.png",
+      "reload": "+???"
+    }
+  },
+  {
+    "id": "dd_vertical_foregrip",
+    "name": "DD Vertical Foregrip",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "Daniel Defense",
+    "ergonomics": 12.0,
+    "recoil": 10.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "DD FG inspect.png"
+    }
+  },
+  {
+    "id": "rvg",
+    "name": "RVG",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.073,
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "ergonomics": -6.0,
+    "recoil": 12.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "RVG inspect.png"
+    }
+  },
+  {
+    "id": "rvg_fde",
+    "name": "RVG (FDE)",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.073,
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "ergonomics": -6.0,
+    "recoil": 12.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "RVG(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "dd_vertical_foregrip_black",
+    "name": "DD Vertical Foregrip (Black)",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "Daniel Defense",
+    "ergonomics": 12.0,
+    "recoil": 10.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "DD FG B inspect.png"
+    }
+  },
+  {
+    "id": "dd_vertical_foregrip_milspec",
+    "name": "DD Vertical Foregrip (MILSPEC)",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "Daniel Defense",
+    "ergonomics": 12.0,
+    "recoil": 10.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "DD FG(Milspec) inspect.png"
+    }
+  },
+  {
+    "id": "afg-2",
+    "name": "AFG-2",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.072,
+    "type": "Foregrip",
+    "manufacturer": "Magpul",
+    "ergonomics": 4.0,
+    "recoil": 18.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 80.0,
+    "_raw": {
+      "image": "AFG-2 inspect.png"
+    }
+  },
+  {
+    "id": "afg-2_fde",
+    "name": "AFG-2 (FDE)",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.072,
+    "type": "Foregrip",
+    "manufacturer": "Magpul",
+    "recoil": 18.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "AFG-2(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "m-lok_afg",
+    "name": "M-LOK AFG",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.034,
+    "type": "Foregrip",
+    "manufacturer": "Magpul",
+    "ergonomics": 4.0,
+    "recoil": 18.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "AFG inspect.png"
+    }
+  },
+  {
+    "id": "m-lok_afg_fde",
+    "name": "M-LOK AFG (FDE)",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "AFG(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "shift_vertical_foregrip",
+    "name": "SHIFT Vertical Foregrip",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.096,
+    "type": "Foregrip",
+    "manufacturer": "Fortis",
+    "ergonomics": 2.0,
+    "recoil": 12.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 78.0,
+    "_raw": {
+      "image": "Shift inspect.png"
+    }
+  },
+  {
+    "id": "pro_m-lok_handstop",
+    "name": "Pro M-LOK Handstop",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.017,
+    "type": "Foregrip",
+    "manufacturer": "Leapers, Inc.",
+    "ergonomics": 5.0,
+    "recoil": 4.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "UTG HS inspect.png"
+    }
+  },
+  {
+    "id": "ultraslim_angled_foregrip",
+    "name": "UltraSlim Angled Foregrip",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.039,
+    "type": "Foregrip",
+    "manufacturer": "Leapers, Inc.",
+    "ergonomics": 3.0,
+    "recoil": 11.0,
+    "vendor": "Gunny  R.2",
+    "_raw": {
+      "image": "UTG inspect.png"
+    }
+  },
+  {
+    "id": "ultra_slim_m-lok_mt-fgm01x_foregrip",
+    "name": "Ultra Slim M-LOK MT-FGM01X Foregrip",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "UTG Slim inspect.png"
+    }
+  },
+  {
+    "id": "rk-0",
+    "name": "RK-0",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.138,
+    "type": "Foregrip",
+    "manufacturer": "Zenitco",
+    "ergonomics": -5.0,
+    "recoil": 9.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "RK-0 inspect.png"
+    }
+  },
+  {
+    "id": "rk-1",
+    "name": "RK-1",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.16,
+    "type": "Foregrip",
+    "manufacturer": "Zenitco",
+    "ergonomics": -6.0,
+    "recoil": 15.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 70.0,
+    "_raw": {
+      "image": "RK-1 inspect.png"
+    }
+  },
+  {
+    "id": "rk-2",
+    "name": "RK-2",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "RK-2 inspect.png"
+    }
+  },
+  {
+    "id": "rk-4",
+    "name": "RK-4",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "RK-4 inspect.png"
+    }
+  },
+  {
+    "id": "rk-5",
+    "name": "RK-5",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Foregrip",
+    "manufacturer": "Zenitco",
+    "ergonomics": -5.0,
+    "recoil": 12.0,
+    "vendor": "Turncoat R.2",
+    "buyPrice": 59.0,
+    "_raw": {
+      "image": "RK-5 inspect.png"
+    }
+  },
+  {
+    "id": "rk-6",
+    "name": "RK-6",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Foregrip",
+    "manufacturer": "Zenitco",
+    "ergonomics": 2.0,
+    "recoil": 13.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 55.0,
+    "_raw": {
+      "image": "RK-6 inspect.png"
+    }
+  },
+  {
+    "id": "glock_17_front_iron_sight",
+    "name": "Glock 17 Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.015,
+    "type": "Front Iron Sight",
+    "manufacturer": "Glock",
+    "sightingRange": 25.0,
+    "vendor": "Gunny R.1Banshee R.1",
+    "_raw": {
+      "image": "G17 Front inspect.png"
+    }
+  },
+  {
+    "id": "folding_micro_front_iron_sight",
+    "name": "Folding Micro Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.07,
+    "type": "Front Iron Sight",
+    "manufacturer": "KAC",
+    "sightingRange": 0.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "Micro Front inspect.png"
+    }
+  },
+  {
+    "id": "sig_sauer_flip_up_front_iron_sights",
+    "name": "Sig Sauer Flip Up Front Iron Sights",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.075,
+    "type": "Front Iron Sight",
+    "manufacturer": "Sig Sauer",
+    "sightingRange": 0.0,
+    "vendor": "Banshee R.3",
+    "buyPrice": 52.0,
+    "_raw": {
+      "image": "Sig Fl Front inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_tritium_front_sight",
+    "name": "Colt 1911 Tritium Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Front Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "1911 Tritium Front inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_front_sight",
+    "name": "Colt 1911 Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Front Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "1911 Front inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_commander_front_sight",
+    "name": "Colt 1911 Commander Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.006,
+    "type": "Front Iron Sight",
+    "manufacturer": "Novak",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "1911 Com Front inspect.png"
+    }
+  },
+  {
+    "id": "glock_17_oem_front_tritium_sight",
+    "name": "Glock 17 OEM Front Tritium Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.045,
+    "type": "Front Iron Sight",
+    "manufacturer": "GLOCK",
+    "sightingRange": 25.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 48.0,
+    "_raw": {
+      "image": "OEM Front inspect.png"
+    }
+  },
+  {
+    "id": "hk_mp5_front_sight",
+    "name": "HK MP5 Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.015,
+    "type": "Front Iron Sight",
+    "manufacturer": "Heckler & Koch",
+    "sightingRange": 25.0,
+    "magnification": 1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "MP5 Front inspect.png"
+    }
+  },
+  {
+    "id": "back-up_3_front_iron_sight",
+    "name": "Back-Up 3 Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.025,
+    "type": "Front Iron Sight",
+    "manufacturer": "Magpul",
+    "sightingRange": 600.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "MBUS Front inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_front_iron_sight",
+    "name": "Mosin-Nagant Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Front Iron Sight",
+    "manufacturer": "Kalashnikov concern",
+    "sightingRange": 25.0,
+    "magnification": 1.0,
+    "vendor": "Artisan R.1",
+    "_raw": {
+      "image": "Mosin Front inspect.png"
+    }
+  },
+  {
+    "id": "m590_front_ghost_ring_sight",
+    "name": "M590 Front Ghost Ring Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Front Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "GhostR Front inspect.png"
+    }
+  },
+  {
+    "id": "mp7_flip_front_sight",
+    "name": "MP7 Flip Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.04,
+    "type": "Front Iron Sight",
+    "manufacturer": "Heckler & Koch",
+    "sightingRange": 500.0,
+    "magnification": 1.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "MP7 Front inspect.png"
+    }
+  },
+  {
+    "id": "svd_front_sight",
+    "name": "SVD Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Front Iron Sight",
+    "manufacturer": "Kalashnikov concern",
+    "sightingRange": 0.0,
+    "magnification": 1.0,
+    "vendor": "Artisan R.4",
+    "buyPrice": 68.0,
+    "_raw": {
+      "image": "SVD Front inspect.png"
+    }
+  },
+  {
+    "id": "tt-33_front_iron_sight",
+    "name": "TT-33 Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Front Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "TT33 Front inspect.png"
+    }
+  },
+  {
+    "id": "type_51_front_iron_sight",
+    "name": "Type 51 Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Front Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "T51 Front inspect.png"
+    }
+  },
+  {
+    "id": "m870_bead",
+    "name": "M870 Bead",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.01,
+    "type": "Front Iron Sight",
+    "manufacturer": "General West",
+    "sightingRange": 25.0,
+    "magnification": 1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M870 Bead inspect.png"
+    }
+  },
+  {
+    "id": "sig_mcx_10\"_handguard",
+    "name": "SIG MCX 10\" Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.204,
+    "type": "Handguard",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "recoil": 1.0,
+    "vendor": "Banshee R.3",
+    "buyPrice": 434.0,
+    "_raw": {
+      "image": "MCX 10 HG inspect.png"
+    }
+  },
+  {
+    "id": "sig_mcx_16\"_handguard",
+    "name": "SIG MCX 16\" Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.312,
+    "type": "Handguard",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 2.0,
+    "recoil": 2.0,
+    "vendor": "Banshee R.4",
+    "buyPrice": 438.0,
+    "_raw": {
+      "image": "MCX 16 HG inspect.png"
+    }
+  },
+  {
+    "id": "sig_mcx_8\"_handguard",
+    "name": "SIG MCX 8\" Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.18,
+    "type": "Handguard",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "vendor": "Banshee R.3",
+    "buyPrice": 365.0,
+    "_raw": {
+      "image": "MCX 8 HG inspect.png"
+    }
+  },
+  {
+    "id": "cq_a1_carbine_handguard",
+    "name": "CQ A1 Carbine Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.323,
+    "type": "Handguard",
+    "manufacturer": "Norinco",
+    "sizeChangeX": 1.0,
+    "recoil": -1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQ A1 CAR HG inspect.png"
+    }
+  },
+  {
+    "id": "ak_ratnik_handguard",
+    "name": "AK Ratnik Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.12,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov Concern",
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Artisan R.3Turncoat R.2",
+    "buyPrice": 406.0,
+    "_raw": {
+      "image": "Ratnik Short inspect.png"
+    }
+  },
+  {
+    "id": "ak-74_polymer_handguard",
+    "name": "AK-74 Polymer Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.25,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov Concern",
+    "ergonomics": 6.0,
+    "recoil": 4.0,
+    "vendor": "Turncoat",
+    "_raw": {
+      "image": "AK Poly HG inspect.png"
+    }
+  },
+  {
+    "id": "ak-74_wooden_handguard",
+    "name": "AK-74 Wooden Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "AK74 Wood inspect.png"
+    }
+  },
+  {
+    "id": "akm_wooden_handguard",
+    "name": "AKM Wooden Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.221,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.1",
+    "buyPrice": 59.0,
+    "_raw": {
+      "image": "AKM Wood inspect.png"
+    }
+  },
+  {
+    "id": "ak_polymer_handguard_with_picatinny_rail",
+    "name": "AK Polymer Handguard with Picatinny Rail",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.2,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "ergonomics": -4.0,
+    "recoil": 2.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 89.0,
+    "_raw": {
+      "image": "AK RIS HG inspect.png"
+    }
+  },
+  {
+    "id": "ak_308_handguard",
+    "name": "AK 308 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.12,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov Concern",
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Ratnik 308 inspect.png"
+    }
+  },
+  {
+    "id": "ak_ratnik_handguard_long",
+    "name": "AK Ratnik Handguard Long",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.235,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "ergonomics": 4.0,
+    "recoil": 6.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Ratnik Long inspect.png"
+    }
+  },
+  {
+    "id": "ak_handguard_\"romanian_dong\"",
+    "name": "AK Handguard \"Romanian Dong\"",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.25,
+    "type": "Handguard",
+    "manufacturer": "General East",
+    "ergonomics": -2.0,
+    "recoil": 4.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "Dong HG inspect.png"
+    }
+  },
+  {
+    "id": "ak_handguard_\"romanian_shark\"",
+    "name": "AK Handguard \"Romanian Shark\"",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.245,
+    "type": "Handguard",
+    "manufacturer": "General East",
+    "ergonomics": -2.0,
+    "recoil": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Shark HG inspect.png"
+    }
+  },
+  {
+    "id": "aks-74u_mlok_handguard",
+    "name": "AKS-74U Mlok Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Handguard",
+    "manufacturer": "DLG Tactical",
+    "recoil": 4.0,
+    "vendor": "Turncoat R.2",
+    "buyPrice": 84.0,
+    "_raw": {
+      "image": "AKS-74U MLOK inspect.png"
+    }
+  },
+  {
+    "id": "aks-74u_quad-rail_handguard",
+    "name": "AKS-74U Quad-Rail Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.2,
+    "type": "Handguard",
+    "manufacturer": "F.A.B",
+    "ergonomics": -2.0,
+    "recoil": 2.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 50.0,
+    "_raw": {
+      "image": "AKS-74U Quad inspect.png"
+    }
+  },
+  {
+    "id": "aks-74u_wooden_handguard",
+    "name": "AKS-74U Wooden handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.15,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Turncoat R.1",
+    "buyPrice": 33.0,
+    "_raw": {
+      "image": "AKS-74U Wood inspect.png"
+    }
+  },
+  {
+    "id": "ak_b10m_+_b19_handguard",
+    "name": "AK B10M + B19 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.27,
+    "type": "Handguard",
+    "manufacturer": "Zenitco",
+    "ergonomics": -4.0,
+    "recoil": 6.0,
+    "vendor": "Turncoat R.2",
+    "buyPrice": 167.0,
+    "_raw": {
+      "image": "B10M B19 inspect.png"
+    }
+  },
+  {
+    "id": "ak_b30_+_b31s_handguard",
+    "name": "AK B30 + B31S Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.386,
+    "type": "Handguard",
+    "manufacturer": "Zenitco",
+    "ergonomics": -6.0,
+    "recoil": 6.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "B30 B31S inspect.png"
+    }
+  },
+  {
+    "id": "dd_ris_ii_12",
+    "name": "DD RIS II 12",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.501,
+    "type": "Handguard",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeX": 2.0,
+    "ergonomics": -8.0,
+    "recoil": 12.0,
+    "vendor": "Gunny R.3",
+    "buyPrice": 504.0,
+    "_raw": {
+      "image": "RIS II 12 inspect.png"
+    }
+  },
+  {
+    "id": "dd_ris_ii_12_fsp",
+    "name": "DD RIS II 12 FSP",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.485,
+    "type": "Handguard",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeX": 2.0,
+    "ergonomics": -8.0,
+    "recoil": 12.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "RIS II 12 FSP inspect.png"
+    }
+  },
+  {
+    "id": "dd_ris_ii_12_milspec",
+    "name": "DD RIS II 12 (MilSpec)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.501,
+    "type": "Handguard",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeX": 2.0,
+    "ergonomics": -8.0,
+    "recoil": 12.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "RIS II 12 FDE inspect.png"
+    }
+  },
+  {
+    "id": "dd_ris_ii_9.5",
+    "name": "DD RIS II 9.5",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.4,
+    "type": "Handguard",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeX": 1.0,
+    "ergonomics": -6.0,
+    "recoil": 8.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "RIS II 9.5 inspect.png"
+    }
+  },
+  {
+    "id": "dd_ris_ii_9.5_milspec",
+    "name": "DD RIS II 9.5 (MilSpec)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.4,
+    "type": "Handguard",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeX": 1.0,
+    "ergonomics": -6.0,
+    "recoil": 8.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "RIS II 9.5 FDE inspect.png"
+    }
+  },
+  {
+    "id": "vfr-svd_f.a.b._handguard",
+    "name": "VFR-SVD F.A.B. Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.454,
+    "type": "Handguard",
+    "manufacturer": "F.A.B.",
+    "recoil": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "VFR-SVD inspect.png"
+    }
+  },
+  {
+    "id": "mk16_13.5\"",
+    "name": "Mk16 13.5\"",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.379,
+    "type": "Handguard",
+    "manufacturer": "Geissele Automaics",
+    "sizeChangeX": 2.0,
+    "ergonomics": -4.0,
+    "recoil": 8.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MK16 13.5 inspect.png"
+    }
+  },
+  {
+    "id": "mk16_13.5\"_ddc",
+    "name": "Mk16 13.5\" (DDC)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.379,
+    "type": "Handguard",
+    "manufacturer": "Geissele Automatics",
+    "sizeChangeX": 2.0,
+    "ergonomics": -4.0,
+    "recoil": 8.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MK16 13.5 DDC inspect.png"
+    }
+  },
+  {
+    "id": "m4_ras",
+    "name": "M4 RAS",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.252,
+    "type": "Handguard",
+    "manufacturer": "KAC",
+    "sizeChangeX": 1.0,
+    "ergonomics": -4.0,
+    "recoil": 4.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "M4 RAS inspect.png"
+    }
+  },
+  {
+    "id": "m700_mod*x_handguard",
+    "name": "M700 MOD*X Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.369,
+    "type": "Handguard",
+    "manufacturer": "General West",
+    "sizeChangeX": 2.0,
+    "ergonomics": 8.0,
+    "recoil": 12.0,
+    "vendor": "Banshee R.4",
+    "buyPrice": 271.0,
+    "_raw": {
+      "image": "MODX HG inspect.png"
+    }
+  },
+  {
+    "id": "ak_moe_handguard",
+    "name": "AK MOE Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.221,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "ergonomics": 4.0,
+    "recoil": 4.0,
+    "vendor": "Artisan R.2",
+    "_raw": {
+      "image": "AK MOE inspect.png",
+      "bporice": "148"
+    }
+  },
+  {
+    "id": "ak_moe_handguard_fde",
+    "name": "AK MOE Handguard (FDE)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.221,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "ergonomics": 4.0,
+    "recoil": 4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "AK MOE(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_moe_m-lok_carbine_handguard",
+    "name": "AR-15 MOE M-LOK Carbine Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.184,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 2.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "Moe MLOK inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_moe_m-lok_carbine_handguard_fde",
+    "name": "AR-15 MOE M-LOK Carbine Handguard (FDE)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.184,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Moe MLOK(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_moe_m-lok_carbine_handguard_olive",
+    "name": "AR-15 MOE M-LOK Carbine Handguard (Olive)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.184,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Moe MLOK(Olive) inspect.png"
+    }
+  },
+  {
+    "id": "m590_forend",
+    "name": "M590 Forend",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M590 FA inspect.png"
+    }
+  },
+  {
+    "id": "m590_moe_forend",
+    "name": "M590 MOE Forend",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.171,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "ergonomics": 6.0,
+    "recoil": 4.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "M590 MOE inspect.png"
+    }
+  },
+  {
+    "id": "m590_tri-rail_forend",
+    "name": "M590 Tri-Rail Forend",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M590 TriRail inspect.png"
+    }
+  },
+  {
+    "id": "b&t_hk_mp5_tl-99a1_3_rail_handguard",
+    "name": "B&T HK MP5 TL-99A1 3 Rail Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.253,
+    "type": "Handguard",
+    "manufacturer": "B&T",
+    "ergonomics": -1.0,
+    "recoil": 1.0,
+    "vendor": "Gunny R.3",
+    "buyPrice": 345.0,
+    "_raw": {
+      "image": "TL-99A1 inspect.png"
+    }
+  },
+  {
+    "id": "ema_x5_aluminum_5-rail_mp5",
+    "name": "EMA X5 Aluminum 5-rail MP5",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.28,
+    "type": "Handguard",
+    "manufacturer": "General West",
+    "ergonomics": -2.0,
+    "recoil": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MP5 X5 inspect.png"
+    }
+  },
+  {
+    "id": "b&t_bt-21343_hk_mp5sd_tri-rail_handguard",
+    "name": "B&T BT-21343 HK MP5SD Tri-Rail Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.357,
+    "type": "Handguard",
+    "manufacturer": "B&T",
+    "ergonomics": -1.0,
+    "recoil": 1.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 481.0,
+    "_raw": {
+      "image": "BT-21343 inspect.png"
+    }
+  },
+  {
+    "id": "mp5sd_forearm",
+    "name": "MP5SD Forearm",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.17,
+    "type": "Handguard",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.3",
+    "buyPrice": 339.0,
+    "_raw": {
+      "image": "MP5SD(Handguard) inspect.png"
+    }
+  },
+  {
+    "id": "mp5_wide_forearm",
+    "name": "MP5 Wide Forearm",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.14,
+    "type": "Handguard",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "MP5 Wide inspect.png"
+    }
+  },
+  {
+    "id": "m870_forend_od_green",
+    "name": "M870 Forend (OD Green)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.254,
+    "type": "Handguard",
+    "manufacturer": "Hogue Inc.",
+    "ergonomics": 2.0,
+    "recoil": 2.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "M870 OD inspect.png"
+    }
+  },
+  {
+    "id": "m870_moe_handguard",
+    "name": "M870 MOE Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.179,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "ergonomics": 6.0,
+    "recoil": 4.0,
+    "vendor": "Gunny R.3",
+    "buyPrice": 83.0,
+    "_raw": {
+      "image": "M870 MOE inspect.png"
+    }
+  },
+  {
+    "id": "m870_moe_handguard_fde",
+    "name": "M870 MOE Handguard (FDE)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.179,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "ergonomics": 6.0,
+    "recoil": 4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "M870 MOE(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "m870_voa_handguard",
+    "name": "M870 VOA Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.289,
+    "type": "Handguard",
+    "manufacturer": "General West",
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 100.0,
+    "_raw": {
+      "image": "M870 VOA inspect.png"
+    }
+  },
+  {
+    "id": "m870_walnut_forend",
+    "name": "M870 Walnut Forend",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.31,
+    "type": "Handguard",
+    "manufacturer": "Remington",
+    "vendor": "Gunny R.1",
+    "buyPrice": 33.0,
+    "_raw": {
+      "image": "M870 Walnut inspect.png"
+    }
+  },
+  {
+    "id": "svd_chassis_mk1_handguard",
+    "name": "SVD Chassis MK1 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.8,
+    "type": "Handguard",
+    "vendor": "| manufacturer       =Sureshot Armament",
+    "_raw": {
+      "image": "SVD MK1 HG inspect.png"
+    }
+  },
+  {
+    "id": "sig_mcx_12\"_sd_handguard",
+    "name": "SIG MCX 12\" SD Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.247,
+    "type": "Handguard",
+    "manufacturer": "SIG Sauer",
+    "recoil": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MCX 12 SD inspect.png"
+    }
+  },
+  {
+    "id": "svd_polymer_handguard",
+    "name": "SVD Polymer Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.3,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.4",
+    "buyPrice": 555.0,
+    "_raw": {
+      "image": "SVD Poly HG inspect.png"
+    }
+  },
+  {
+    "id": "svd_wooden_handguard",
+    "name": "SVD Wooden Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.35,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "SVD Wood HG inspect.png"
+    }
+  },
+  {
+    "id": "x7m-13_handguard",
+    "name": "X7M-13 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.379,
+    "type": "Handguard",
+    "manufacturer": "F1-Firearms",
+    "sizeChangeX": 2.0,
+    "ergonomics": -4.0,
+    "recoil": 8.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 508.0,
+    "_raw": {
+      "image": "X7M-13 inspect.png"
+    }
+  },
+  {
+    "id": "x7m-13_handguard_gray",
+    "name": "X7M-13 Handguard (Gray)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "X7M-13(Gray) inspect.png"
+    }
+  },
+  {
+    "id": "x7m-15_handguard",
+    "name": "X7M-15 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.413,
+    "type": "Handguard",
+    "manufacturer": "F1-Firearms",
+    "sizeChangeX": 2.0,
+    "ergonomics": -6.0,
+    "recoil": 10.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 508.0,
+    "_raw": {
+      "image": "X7M-15 inspect.png"
+    }
+  },
+  {
+    "id": "x7m-15_handguard_gray",
+    "name": "X7M-15 Handguard (Gray)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "X7M-15(Gray) inspect.png"
+    }
+  },
+  {
+    "id": "x7m-7_handguard",
+    "name": "X7M-7 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.295,
+    "type": "Handguard",
+    "manufacturer": "F1-Firearms",
+    "sizeChangeX": 2.0,
+    "ergonomics": -2.0,
+    "recoil": 6.0,
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "X7M-7 inspect.png"
+    }
+  },
+  {
+    "id": "x7m-7_handguard_gray",
+    "name": "X7M-7 Handguard (Gray)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "X7M-7(Gray) inspect.png"
+    }
+  },
+  {
+    "id": "glock_17_9x19mm_17-round_magazine",
+    "name": "Glock 17 9x19mm 17-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.048,
+    "type": "Magazine",
+    "manufacturer": "Glock",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.1",
+    "caliber": "9x19mm",
+    "_raw": {
+      "image": "G17 Mag(17 rnds) inspect.png",
+      "reload": "+0"
+    }
+  },
+  {
+    "id": "dd_5.56x45mm_.300_blk_32-round_magazine",
+    "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Magazine",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.3",
+    "caliber": ".300 BLK / 5.56x45mm\n* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "DD 5.56-.300 BLK Mag(32 rnds) inspect.png",
+      "reload": "-5"
+    }
+  },
+  {
+    "id": "pmag_5.56x45mm_.300_blk_30-round_magazine",
+    "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.141,
+    "type": "Magazine",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.2Banshee R.3",
+    "buyPrice": 94.0,
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "PMAG 5.56-.300 BLK Mag(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "m590_12ga_10-round_magazine",
+    "name": "M590 12GA 10-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.94,
+    "type": "Magazine",
+    "manufacturer": "Nordic Components",
+    "vendor": "???",
+    "_raw": {
+      "image": "M590 Mag(10 rnds) inspect.png",
+      "reload": "???",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "stanag_5.56x45mm_.300_blk_20-round_magazine",
+    "name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.068,
+    "type": "Magazine",
+    "manufacturer": "General West",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.1",
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "STANAG 5.56-.300 BLK Mag(20 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "ak15_7.62x39mm_30-round_magazine",
+    "name": "AK15 7.62x39mm 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.67,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov Concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.3",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag AK15(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "ak_7.62x39mm_30-round_pmag_magazine",
+    "name": "AK 7.62x39mm 30-Round PMAG Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.725,
+    "type": "Magazine",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "vendor": "???",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag PMAG(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "ak12_5.45x39mm_30-round_magazine",
+    "name": "AK12 5.45x39mm 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.496,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov Concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 102.0,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "image": "AK12 Mag(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "pmag_5.56x45mm_.300_blk_30-round_magazine_fde",
+    "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.441,
+    "type": "Magazine",
+    "manufacturer": "Magpull",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot only",
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "PMAG 5.56-.300 BLK Mag(30 rnds FDE) inspect.png",
+      "reload": "+5"
+    }
+  },
+  {
+    "id": "ati_s60_5.56x45mm_.300_blk_60-round_magazine",
+    "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.263,
+    "type": "Magazine",
+    "manufacturer": "Schmeisser",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.4",
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "ATI 5.56-.300 BLK Mag(60 rnds) inspect.png",
+      "reload": "-16"
+    }
+  },
+  {
+    "id": "m870_12ga_10-round_magazine",
+    "name": "M870 12ga 10-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M870 Mag(10 rnds) inspect.png",
+      "reload": "???",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "m870_12ga_4-round_cap",
+    "name": "M870 12ga 4-Round Cap",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.1,
+    "type": "Magazine",
+    "manufacturer": "General West",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M870 Mag(4 rnds) inspect.png",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "m870_12ga_6-round_magazine",
+    "name": "M870 12ga 6-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.25,
+    "type": "Magazine",
+    "manufacturer": "Remington",
+    "sizeChangeX": 2.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "M870 Mag(6 rnds) inspect.png",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "m590_12ga_6-round_cap",
+    "name": "M590 12ga 6-Round Cap",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M590 Mag(6 rnds) inspect.png",
+      "reload": "???",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "vz._61_7.65_browning_10-round_magazine",
+    "name": "Vz. 61 7.65 Browning 10-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "caliber": "7.65mm Browning",
+    "_raw": {
+      "image": "Vz. 61 Mag(10 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "vz._61_7.65_browning_20-round_magazine",
+    "name": "Vz. 61 7.65 Browning 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "caliber": "7.65mm Browning",
+    "_raw": {
+      "image": "Vz. 61 Mag(20 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "glock_17_9x19mm_27-round_magazine",
+    "name": "Glock 17 9x19mm 27-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.056,
+    "type": "Magazine",
+    "manufacturer": "Promag Industries",
+    "sizeChangeY": 1.0,
+    "vendor": "Banshee R.3",
+    "caliber": "9x19mm",
+    "_raw": {
+      "image": "G17 Mag(27 rnds) inspect.png",
+      "reload": "-10"
+    }
+  },
+  {
+    "id": "mp5_standard_30-round_magazine",
+    "name": "MP5 Standard 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.14,
+    "type": "Magazine",
+    "manufacturer": "Heckler & Koch",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.1",
+    "caliber": "9x19mm",
+    "_raw": {
+      "image": "MP5 Mag(30 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "m9a1_9x19mm_15-round_magazine",
+    "name": "M9A1 9x19mm 15-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.065,
+    "type": "Magazine",
+    "manufacturer": "Beretta",
+    "vendor": "Gunny R.1",
+    "caliber": "9x19mm",
+    "_raw": {
+      "image": "M9A1 Mag(15 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "m9a1_9x19mm_30-round_magazine",
+    "name": "M9A1 9x19mm 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "caliber": "9x19mm",
+    "_raw": {
+      "image": "M9A1 Mag(30 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "colt_1911_.45acp_7-round_magazine",
+    "name": "Colt 1911 .45ACP 7-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.215,
+    "type": "Magazine",
+    "manufacturer": "Colt",
+    "vendor": "Loot only",
+    "caliber": ".45 ACP",
+    "_raw": {
+      "image": "1911 Mag(7 rnds) inspect.png",
+      "reload": "| vertical           ="
+    }
+  },
+  {
+    "id": "1911_.45acp_15-round_extended_magazine",
+    "name": "1911 .45ACP 15-Round Extended Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "caliber": ".45 ACP",
+    "_raw": {
+      "image": "1911 Mag(15 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "mp7_20-round_magazine",
+    "name": "MP7 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.1,
+    "type": "Magazine",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Banshee R.2",
+    "buyPrice": 178.0,
+    "caliber": "4.6x30mm",
+    "_raw": {
+      "image": "MP7 Mag(20 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "mp7_30-round_magazine",
+    "name": "MP7 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.15,
+    "type": "Magazine",
+    "manufacturer": "Heckler & Koch",
+    "sizeChangeY": 1.0,
+    "vendor": "Banshee R.2",
+    "caliber": "4.6x30mm",
+    "_raw": {
+      "image": "MP7 Mag(30 rnds) inspect.png",
+      "reload": "-5"
+    }
+  },
+  {
+    "id": "mp7_40-round_magazine",
+    "name": "MP7 40-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.2,
+    "type": "Magazine",
+    "manufacturer": "Heckler & Koch",
+    "sizeChangeY": 1.0,
+    "vendor": "Banshee R.4",
+    "buyPrice": 234.0,
+    "caliber": "4.6x30mm",
+    "_raw": {
+      "image": "MP7 Mag(40 rnds) inspect.png",
+      "reload": "-10"
+    }
+  },
+  {
+    "id": "ak74_5.45x39mm_60-round_magazine",
+    "name": "AK74 5.45x39mm 60-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.3,
+    "type": "Magazine",
+    "manufacturer": "Pufgun",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.4",
+    "buyPrice": 165.0,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "image": "AK 5.45 Mag(60 rnds) inspect.png",
+      "reload": "-16"
+    }
+  },
+  {
+    "id": "ak_5.45×39mm_30-round_bakelite_magazine",
+    "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.22,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov Concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 76.0,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "image": "AK 5.45 Mag Bakelite(30 rnds) inspect.png",
+      "reload": "2"
+    }
+  },
+  {
+    "id": "ak_5.45×39mm_30-round_black_magazine",
+    "name": "AK 5.45×39mm 30-Round Black Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov Concern",
+    "vendor": "???",
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "image": "AK 5.45 Mag Black(30 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "ak19_5.56x45mm_30-round_magazine",
+    "name": "AK19 5.56x45mm 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.181,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 68.0,
+    "caliber": "5.56x45mm NATO",
+    "_raw": {
+      "image": "AK 5.56 Mag(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "pmag_5.56x45mm_.300_blk_20-round_magazine",
+    "name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "sizeChangeY": 1.0,
+    "vendor": "???",
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "PMAG 5.56-.300 BLK Mag(20 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "stanag_5.56x45mm_.300_blk_30-round_magazine",
+    "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.32,
+    "type": "Magazine",
+    "manufacturer": "Colt",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.1",
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "STANAG 5.56-.300 BLK Mag(30 rnds) inspect.png",
+      "reload": "+4"
+    }
+  },
+  {
+    "id": "type_51_7.62x25mm_8-round_magazine",
+    "name": "Type 51 7.62x25mm 8-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "T51 Mag(8 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "ak_7.62x39mm_10-round_steel_magazine",
+    "name": "AK 7.62x39mm 10-Round Steel Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.1",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag(10 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "ak_7.62x39mm_30-round_bakelite_magazine",
+    "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.24,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.2",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag Bakelite(30 rnds) inspect.png",
+      "reload": "+2"
+    }
+  },
+  {
+    "id": "ak_7.62x39mm_30-round_stamped_magazine",
+    "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.37,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.1",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag Stamped(30 rnds) inspect.png",
+      "reload": "+2"
+    }
+  },
+  {
+    "id": "sks_7.62x39mm_10-round_internal_magazine",
+    "name": "SKS 7.62x39mm 10-Round Internal Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.185,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.1",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "SKS Mag(10 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "sks_7.62x39mm_35-round_archangel_magazine",
+    "name": "SKS 7.62x39mm 35-Round Archangel Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "SKS ProMag Mag(35 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "sks_7.62x39mm_20-round_archangel_lvx_magazine",
+    "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.295,
+    "type": "Magazine",
+    "manufacturer": "Promag Industries",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.2",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "SKS ProMag Mag(20 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "m700_7.62x51mm_5-round_magazine",
+    "name": "M700 7.62x51mm 5-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.17,
+    "type": "Magazine",
+    "manufacturer": "Accuracy International",
+    "vendor": "Banshee R.1",
+    "caliber": "7.62x51mm NATO",
+    "_raw": {
+      "image": "M700 Mag(5 rnds) inspect.png",
+      "reload": "| vertical           ="
+    }
+  },
+  {
+    "id": "m700_7.62x51mm_10-round_magazine",
+    "name": "M700 7.62x51mm 10-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.25,
+    "type": "Magazine",
+    "manufacturer": "Accuracy International",
+    "sizeChangeY": 1.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 110.0,
+    "caliber": "7.62x51mm NATO",
+    "_raw": {
+      "image": "M700 Mag(10 rnds) inspect.png",
+      "reload": "-6"
+    }
+  },
+  {
+    "id": "ak308_7.62x51mm_20-round_magazine",
+    "name": "AK308 7.62x51mm 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.181,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 55.0,
+    "caliber": "7.62x51mm NATO",
+    "_raw": {
+      "image": "AK 7.62 Mag AK308(20 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_7.62x54r_10-round_archangel_magazine",
+    "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.227,
+    "type": "Magazine",
+    "manufacturer": "Program Industries",
+    "vendor": "Artisan R.3",
+    "buyPrice": 67.0,
+    "caliber": "7.62x54mm R",
+    "_raw": {
+      "image": "Mosin Mag(10 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_7.62x54r_5-round_internal_magazine",
+    "name": "Mosin-Nagant 7.62x54R 5-Round Internal Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.2,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.1",
+    "caliber": "7.62x54mm R",
+    "_raw": {
+      "image": "Mosin Mag(5 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "svd_dragunov_10-round_magazine",
+    "name": "SVD Dragunov 10-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.216,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.4",
+    "buyPrice": 208.0,
+    "caliber": "7.62x54mm R",
+    "_raw": {
+      "image": "SVD Mag(10 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "svd_dragunov_20-round_magazine",
+    "name": "SVD Dragunov 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "sizeChangeY": 1.0,
+    "vendor": "???",
+    "caliber": "7.62x54mm R",
+    "_raw": {
+      "image": "SVD Mag(20 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "m700_7.62x51mm_10-round_pmag_ac_magazine",
+    "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.124,
+    "type": "Magazine",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot Only",
+    "caliber": "7.62x51mm NATO",
+    "_raw": {
+      "image": "thumb",
+      "reload": "-4.0"
+    }
+  },
+  {
+    "id": "schmeisser_ak_7.62x39_60-round_magazine",
+    "name": "Schmeisser AK 7.62x39 60-round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.3,
+    "type": "Magazine",
+    "manufacturer": "Schmeisser",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.4",
+    "buyPrice": 156.0,
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag(60 rnds) inspect.png",
+      "reload": "-4"
+    }
+  },
+  {
+    "id": "ak_5.45x39mm_30-round_pmag_magazine",
+    "name": "AK 5.45x39mm 30-Round PMAG Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.17,
+    "type": "Magazine",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 101.0,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "image": "AK 5.45 Mag PMAG(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "a2_flash_hider",
+    "name": "A2 Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.066,
+    "type": "Muzzle Device",
+    "manufacturer": "Colt",
+    "vendor": "Gunny R.??",
+    "_raw": {
+      "image": "A2 FH inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "x-factor_choke",
+    "name": "X-Factor Choke",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.101,
+    "type": "Muzzle Device",
+    "manufacturer": "Mossberg",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "XF Choke inspect.png",
+      "accuracy_modifier": "+20"
+    }
+  },
+  {
+    "id": "dd_extended_flash_suppressor",
+    "name": "DD Extended Flash Suppressor",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.095,
+    "type": "Muzzle Device",
+    "manufacturer": "Daniel Defense",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DD FH Ext. inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "3_prong_flash_hider",
+    "name": "3 Prong Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.12,
+    "type": "Muzzle Device",
+    "manufacturer": "Sig Sauer",
+    "vendor": "Banshee R.4",
+    "buyPrice": 146.0,
+    "_raw": {
+      "image": "3 Prong FH inspect.png",
+      "muzzle_efficiency": "+3"
+    }
+  },
+  {
+    "id": "cq_a2_flash_hider",
+    "name": "CQ A2 Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.066,
+    "type": "Muzzle Device",
+    "manufacturer": "Norinco",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQA2 FH inspect.png",
+      "muzzle_efficiency": "+5"
+    }
+  },
+  {
+    "id": "socom_3_prong_flash_hider",
+    "name": "SOCOM 3 Prong Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Muzzle Device",
+    "manufacturer": "Surefire",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "SF3P inspect.png",
+      "muzzle_efficiency": "+3"
+    }
+  },
+  {
+    "id": "ak-100_series_muzzle_brake",
+    "name": "AK-100 Series Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.1,
+    "type": "Muzzle Device",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.2",
+    "buyPrice": 70.0,
+    "_raw": {
+      "image": "AK100 Brake inspect.png",
+      "muzzle_efficiency": "+25"
+    }
+  },
+  {
+    "id": "ak_adapter_14-1lh_to_24-1.5",
+    "name": "AK Adapter 14-1LH to 24-1.5",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.044,
+    "type": "Muzzle Device",
+    "manufacturer": "General East",
+    "vendor": "Artisan R.4",
+    "buyPrice": 41.0,
+    "_raw": {
+      "image": "AK14-24 Brake inspect.png"
+    }
+  },
+  {
+    "id": "ak_bulgarian_flash_hider",
+    "name": "AK Bulgarian Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "AK B FH inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "akm_muzzle_brake",
+    "name": "AKM Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "AKM Brake inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "akm_slant_brake",
+    "name": "AKM Slant Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.03,
+    "type": "Muzzle Device",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.1",
+    "buyPrice": 13.0,
+    "_raw": {
+      "image": "AKM Slant inspect.png",
+      "muzzle_efficiency": "+20"
+    }
+  },
+  {
+    "id": "aks-74u_muzzle_brake",
+    "name": "AKS-74U Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.19,
+    "type": "Muzzle Device",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Turncoat R.1",
+    "buyPrice": 13.0,
+    "_raw": {
+      "image": "AKS-74U Brake inspect.png",
+      "muzzle_efficiency": "+10"
+    }
+  },
+  {
+    "id": "vulcan_f1",
+    "name": "Vulcan F1",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.105,
+    "type": "Muzzle Device",
+    "manufacturer": "Antreg",
+    "vendor": "Gunny R.4",
+    "buyPrice": 146.0,
+    "_raw": {
+      "image": "Vulcan F1 inspect.png",
+      "muzzle_efficiency": "+5"
+    }
+  },
+  {
+    "id": "vulcan_m1",
+    "name": "Vulcan M1",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.105,
+    "type": "Muzzle Device",
+    "manufacturer": "Antreg",
+    "vendor": "Gunny R.4",
+    "buyPrice": 284.0,
+    "_raw": {
+      "image": "Vulcan M1 inspect.png",
+      "muzzle_efficiency": "+20"
+    }
+  },
+  {
+    "id": "tanker_muzzle_break",
+    "name": "Tanker Muzzle Break",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.162,
+    "type": "Muzzle Device",
+    "manufacturer": "General West",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Tanker inspect.png",
+      "muzzle_efficiency": "+45"
+    }
+  },
+  {
+    "id": "b&t_mp5_flash_hider",
+    "name": "B&T MP5 Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.195,
+    "type": "Muzzle Device",
+    "manufacturer": "B&T",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "B&T FH inspect.png",
+      "muzzle_efficiency": "+3"
+    }
+  },
+  {
+    "id": "3-lug_threaded_hk_mp5",
+    "name": "3-Lug threaded HK MP5",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Muzzle Device",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "3 Lug adapt. inspect.png"
+    }
+  },
+  {
+    "id": "tactical_muzzle_brake",
+    "name": "Tactical Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Carlson MB inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "colt_1911_muzzle_brake",
+    "name": "Colt 1911 Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "1911 Brake inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "xm177e2_moderator_flash_hider",
+    "name": "XM177E2 Moderator Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.12,
+    "type": "Muzzle Device",
+    "manufacturer": "COLT",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "XM177E2 FH inspect.png",
+      "muzzle_efficiency": "+4"
+    }
+  },
+  {
+    "id": "glock_17_comp_weight_compensator",
+    "name": "Glock 17 Comp Weight Compensator",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "G17 Comp inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "tactical_muzzle_break",
+    "name": "Tactical Muzzle Break",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "TMB inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "fury_titanium_muzzle_brake",
+    "name": "Fury Titanium Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Fury Brake inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "hypertap_muzzle_brake_5.56x45",
+    "name": "Hypertap Muzzle Brake 5.56x45",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Hypertap Brake(556) inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "hypertap_muzzle_brake_7.62x51",
+    "name": "Hypertap Muzzle Brake 7.62x51",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.85,
+    "type": "Muzzle Device",
+    "manufacturer": "Precision Armaments",
+    "vendor": "Open World Loot only",
+    "_raw": {
+      "image": "Hypertap Brake(762) inspect.png",
+      "muzzle_efficiency": "+45"
+    }
+  },
+  {
+    "id": "m4qd_flash_hider",
+    "name": "M4QD Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.068,
+    "type": "Muzzle Device",
+    "manufacturer": "KAC",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "thumb",
+      "muzzle_efficiency": "+7"
+    }
+  },
+  {
+    "id": "glock_17_velocity_muzzle_brake",
+    "name": "Glock 17 Velocity Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Muzzle Device",
+    "manufacturer": "General West",
+    "vendor": "Banshee R.2",
+    "buyPrice": 150.0,
+    "_raw": {
+      "image": "Velocity MB inspect.png",
+      "muzzle_efficiency": "+10"
+    }
+  },
+  {
+    "id": "m700_thread_cap",
+    "name": "M700 Thread Cap",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "700 cap inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "mosin-nagant_howling_raven_muzzle_brake",
+    "name": "Mosin-Nagant Howling Raven Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Raven inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "mosin-nagant_tanker_muzzle_brake",
+    "name": "Mosin-Nagant Tanker Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.257,
+    "type": "Muzzle Device",
+    "manufacturer": "General West",
+    "vendor": "Artisan R.3",
+    "buyPrice": 130.0,
+    "_raw": {
+      "image": "Tanker2 inspect.png",
+      "muzzle_efficiency": "+40"
+    }
+  },
+  {
+    "id": "mp5_3_lug_adapter",
+    "name": "MP5 3 Lug Adapter",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Muzzle Device",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "3 Lug inspect.png"
+    }
+  },
+  {
+    "id": "mp5_threaded_3_lug_adapter",
+    "name": "MP5 Threaded 3 Lug Adapter",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Muzzle Device",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "3 Lug Ad inspect.png"
+    }
+  },
+  {
+    "id": "mp5_muzzle_cap",
+    "name": "MP5 Muzzle Cap",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "MP5 Cap inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "mp7_flash_hider",
+    "name": "MP7 Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.04,
+    "type": "Muzzle Device",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "???",
+    "_raw": {
+      "image": "MP7 FH inspect.png",
+      "muzzle_efficiency": "+5"
+    }
+  },
+  {
+    "id": "pcam4-72",
+    "name": "PCAM4-72",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.09,
+    "type": "Muzzle Device",
+    "manufacturer": "Precision Armament",
+    "vendor": "Banshee R.3",
+    "buyPrice": 126.0,
+    "_raw": {
+      "image": "PCAM4-72 inspect.png",
+      "muzzle_efficiency": "+35"
+    }
+  },
+  {
+    "id": "remington_salvo_12_choke_adapter",
+    "name": "Remington Salvo 12 Choke Adapter",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.075,
+    "type": "Muzzle Device",
+    "manufacturer": "SilencerCo",
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "Salvo Rem inspect.png",
+      "accuracy_modifier": "+50"
+    }
+  },
+  {
+    "id": "mossberg_salvo_12_choke_adapter",
+    "name": "Mossberg Salvo 12 Choke Adapter",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Salvo Mos inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "mcx_3_prong_flash_hider",
+    "name": "MCX 3 Prong Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "MCX 3Prong inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "sks_muzzle_brake_adapter",
+    "name": "SKS Muzzle Brake Adapter",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.055,
+    "type": "Muzzle Device",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "SKS Adapt inspect.png"
+    }
+  },
+  {
+    "id": "slot_muzzle_brake",
+    "name": "Slot Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Slot Brake inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "srd762-qd_muzzle_brake",
+    "name": "SRD762-QD Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.095,
+    "type": "Muzzle Device",
+    "manufacturer": "SIG Sauer",
+    "vendor": "Banshee R.4",
+    "buyPrice": 150.0,
+    "_raw": {
+      "image": "SRD762 MB inspect.png",
+      "muzzle_efficiency": "+10"
+    }
+  },
+  {
+    "id": "srd762-qd_flash_hider",
+    "name": "SRD762-QD Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.07,
+    "type": "Muzzle Device",
+    "manufacturer": "SIG Sauer",
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "SRD762 FH inspect.png",
+      "muzzle_efficiency": "+4"
+    }
+  },
+  {
+    "id": "srd762-qd_taper-lok_muzzle_brake",
+    "name": "SRD762-QD Taper-Lok Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "SRD Taper inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "dtk-1_muzzle_brake",
+    "name": "DTK-1 Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "DTK-1 inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "dtk-2_muzzle_brake",
+    "name": "DTK-2 Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.105,
+    "type": "Muzzle Device",
+    "manufacturer": "Zenitco",
+    "vendor": "Artisan R.3",
+    "buyPrice": 117.0,
+    "_raw": {
+      "image": "DTK-2 inspect.png",
+      "muzzle_efficiency": "+40"
+    }
+  },
+  {
+    "id": "a2_pistol_grip",
+    "name": "A2 Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.093,
+    "type": "Pistol Grip",
+    "manufacturer": "COLT",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "A2 Grip_inspect.png"
+    }
+  },
+  {
+    "id": "dd_enhanced_ar_pistol_grip_milspec",
+    "name": "DD Enhanced AR Pistol Grip (MILSPEC)",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.099,
+    "type": "Pistol Grip",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeY": 1.0,
+    "ergonomics": 10.0,
+    "recoil": 10.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DD Grip(MilSpec) inspect.png"
+    }
+  },
+  {
+    "id": "ak_polymer_pistol_grip",
+    "name": "AK Polymer Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.065,
+    "type": "Pistol Grip",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.1",
+    "buyPrice": 27.0,
+    "_raw": {
+      "image": "AK Poly Grip inspect.png"
+    }
+  },
+  {
+    "id": "ak_bakelite_pistol_grip",
+    "name": "AK Bakelite Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.065,
+    "type": "Pistol Grip",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "AK Bak. Grip inspect.png"
+    }
+  },
+  {
+    "id": "moe_ak_pistol_grip",
+    "name": "MOE AK Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.088,
+    "type": "Pistol Grip",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "ergonomics": 4.0,
+    "recoil": 4.0,
+    "vendor": "Artisan R.2",
+    "buyPrice": 41.0,
+    "_raw": {
+      "image": "MOE AK inspect.png"
+    }
+  },
+  {
+    "id": "ak_ratnik_grip",
+    "name": "AK Ratnik Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.17,
+    "type": "Pistol Grip",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "* Artisan R.3\n* Turncoat R.2",
+    "buyPrice": 130.0,
+    "_raw": {
+      "image": "Ratnik Grip inspect.png"
+    }
+  },
+  {
+    "id": "miad_pistol_grip",
+    "name": "MIAD Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Pistol Grip",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MIAD Grip inspect.png"
+    }
+  },
+  {
+    "id": "moe_pistol_grip",
+    "name": "MOE Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Pistol Grip",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Gunny R.2",
+    "buyPrice": 44.0,
+    "_raw": {
+      "image": "MOE Grip(Black) inspect.png"
+    }
+  },
+  {
+    "id": "moe_pistol_grip_fde",
+    "name": "MOE Pistol Grip (FDE)",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Pistol Grip",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MOE Grip(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "torque_pistol_grip",
+    "name": "Torque Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.156,
+    "type": "Pistol Grip",
+    "manufacturer": "General West",
+    "sizeChangeY": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "Gunny R.3",
+    "buyPrice": 74.0,
+    "_raw": {
+      "image": "Torque Grip inspect.png"
+    }
+  },
+  {
+    "id": "rk-3_pistol_grip",
+    "name": "RK-3 Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.187,
+    "type": "Pistol Grip",
+    "manufacturer": "Zenitco",
+    "sizeChangeY": 1.0,
+    "ergonomics": 10.0,
+    "recoil": 10.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "RK-3 Grip inspect.png"
+    }
+  },
+  {
+    "id": "mod_pistol_grip_fde",
+    "name": "MOD Pistol Grip (FDE)",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Pistol Grip",
+    "manufacturer": "????",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MOD Grip inspect.png"
+    }
+  },
+  {
+    "id": "norinco_cqa1_pistol_grip",
+    "name": "Norinco CQA1 Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.093,
+    "type": "Pistol Grip",
+    "manufacturer": "Norinco",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.1",
+    "buyPrice": 29.0,
+    "_raw": {
+      "image": "CQA1 Grip inspect.png"
+    }
+  },
+  {
+    "id": "type_51_grip",
+    "name": "Type 51 Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Pistol Grip",
+    "manufacturer": "????",
+    "vendor": "???",
+    "_raw": {
+      "image": "Shortname inspect.png",
+      "slot": "Pistol Grip",
+      "size": "???"
+    }
+  },
+  {
+    "id": "vz._61_polymer_pistol_grip",
+    "name": "Vz. 61 Polymer Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.1,
+    "type": "Pistol Grip",
+    "manufacturer": "CZ",
+    "ergonomics": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Vz. 61 Poly Grip inspect.png",
+      "slot": "Pistol Grip",
+      "size": "???"
+    }
+  },
+  {
+    "id": "vz._61_wooden_pistol_grip",
+    "name": "Vz. 61 Wooden Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.1,
+    "type": "Pistol Grip",
+    "_raw": {
+      "image": "Vz. 61 Wood Grip inspect.png",
+      "slot": "Pistol Grip",
+      "size": "| vendor        =Loot Only"
+    }
+  },
+  {
+    "id": "rk-9_pistol_grip",
+    "name": "RK-9 Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.14,
+    "type": "Pistol Grip",
+    "manufacturer": "Zenitco",
+    "sizeChangeY": 1.0,
+    "ergonomics": 8.0,
+    "recoil": 8.0,
+    "vendor": "Artisan R.4",
+    "buyPrice": 94.0,
+    "_raw": {
+      "image": "RK-9 Grip inspect.png"
+    }
+  },
+  {
+    "id": "moe_ak_pistol_grip_fde",
+    "name": "MOE AK Pistol Grip (FDE)",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.088,
+    "type": "Pistol Grip",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "ergonomics": 4.0,
+    "recoil": 4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MOE AK(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "m9a1_wooden_grip",
+    "name": "M9A1 Wooden Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.055,
+    "type": "Pistol Grip",
+    "manufacturer": "Beretta",
+    "ergonomics": 2.0,
+    "vendor": "Gunny R.1",
+    "buyPrice": 50.0,
+    "_raw": {
+      "image": "M9A1 Wooden Grip inspect.png"
+    }
+  },
+  {
+    "id": "m9a1_rubber_grip",
+    "name": "M9A1 Rubber Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.055,
+    "type": "Pistol Grip",
+    "manufacturer": "Beretta",
+    "ergonomics": 2.0,
+    "vendor": "Gunny R.2",
+    "buyPrice": 31.0,
+    "_raw": {
+      "image": "M9A1 Rub Grip inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_\"the_hive\"_grip",
+    "name": "Colt 1911 \"The Hive\" Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.066,
+    "type": "Pistol Grip",
+    "manufacturer": "Valkyrie Dynamics",
+    "ergonomics": 2.0,
+    "recoil": 2.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "File:1911 Hive inspect.PNG"
+    }
+  },
+  {
+    "id": "archangel_ak-series_pistol_grip",
+    "name": "Archangel AK-Series Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Pistol Grip",
+    "manufacturer": "Promag Industries",
+    "sizeChangeY": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "Artisan R.3",
+    "buyPrice": 70.0,
+    "_raw": {
+      "image": "Arch AK Grip inspect.png"
+    }
+  },
+  {
+    "id": "mod_pistol_grip",
+    "name": "MOD Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Pistol Grip",
+    "manufacturer": "????",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MOD Grip( inspect.png"
+    }
+  },
+  {
+    "id": "dd_enhanced_ar_pistol_grip",
+    "name": "DD Enhanced AR Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.099,
+    "type": "Pistol Grip",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeY": 1.0,
+    "ergonomics": 10.0,
+    "recoil": 10.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DD Grip inspect.png"
+    }
+  },
+  {
+    "id": "dd_enhanced_ar_pistol_grip_black",
+    "name": "DD Enhanced AR Pistol Grip (Black)",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.099,
+    "type": "Pistol Grip",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeY": 1.0,
+    "ergonomics": 10.0,
+    "recoil": 10.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DD Grip(Black) inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_carrying_handle",
+    "name": "AR-15 Carrying Handle",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.255,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Colt",
+    "sightingRange": 600.0,
+    "magnification": 1.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "Carry inspect.png"
+    }
+  },
+  {
+    "id": "glock_17_rear_iron_sight",
+    "name": "Glock 17 Rear Iron Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.021,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Glock",
+    "sightingRange": 25.0,
+    "magnification": 1.0,
+    "vendor": "Gunny R.1Banshee R.1",
+    "_raw": {
+      "image": "G17 Rear inspect.png"
+    }
+  },
+  {
+    "id": "folding_micro_rear_iron_sight",
+    "name": "Folding Micro Rear Iron Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.07,
+    "type": "Rear Iron Sight",
+    "manufacturer": "KAC",
+    "sightingRange": 600.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "Micro Rear inspect.png"
+    }
+  },
+  {
+    "id": "sig_sauer_flip_up_rear_iron_sights",
+    "name": "Sig Sauer Flip Up Rear Iron Sights",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.075,
+    "type": "Rear Iron Sight",
+    "manufacturer": "KAC",
+    "sightingRange": 0.0,
+    "vendor": "Banshee R.3",
+    "buyPrice": 52.0,
+    "_raw": {
+      "image": "Sig Fl Rear inspect.png"
+    }
+  },
+  {
+    "id": "back-up_3_rear_iron_sight",
+    "name": "Back-Up 3 Rear Iron Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.03,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Magpul",
+    "sightingRange": 0.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "MBUS Rear inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_tritium_rear_sight",
+    "name": "Colt 1911 Tritium Rear Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.045,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Trijicon",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "1911 Tritium Rear inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_rear_sight_lpa",
+    "name": "Colt 1911 Rear Sight LPA",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Rear Iron Sight",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "1911LPA Rear inspect.png"
+    }
+  },
+  {
+    "id": "ak-12_rear_sight",
+    "name": "AK-12 Rear sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Kalashnikov concern",
+    "sightingRange": 800.0,
+    "vendor": "Artisan R.3Turncoat R.2",
+    "buyPrice": 41.0,
+    "_raw": {
+      "image": "AK12 Rear inspect.png"
+    }
+  },
+  {
+    "id": "ak_rear_iron_sight",
+    "name": "AK Rear Iron Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Kalashnikov concern",
+    "magnification": 1.0,
+    "vendor": "Artisan R.1",
+    "buyPrice": 26.0,
+    "_raw": {
+      "image": "AK Rear inspect.png"
+    }
+  },
+  {
+    "id": "aks-74u_rear_sight",
+    "name": "AKS-74U Rear sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.04,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Kalashnikov concern",
+    "sightingRange": 500.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 22.0,
+    "_raw": {
+      "image": "AKS74U Rear inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_commander_rear_sight",
+    "name": "Colt 1911 Commander Rear Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.023,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Novak",
+    "sightingRange": 25.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "1911 Com Rear inspect.png"
+    }
+  },
+  {
+    "id": "glock_17_oem_rear_tritium_sight",
+    "name": "Glock 17 OEM Rear Tritium Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.045,
+    "type": "Rear Iron Sight",
+    "manufacturer": "GLOCK",
+    "sightingRange": 25.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 48.0,
+    "_raw": {
+      "image": "OEM Rear inspect.png"
+    }
+  },
+  {
+    "id": "hk_mp5_rear_sight",
+    "name": "HK MP5 Rear Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.025,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Heckler & Koch",
+    "sightingRange": 100.0,
+    "magnification": 1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "MP5 Rear inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_rear_iron_sight",
+    "name": "Mosin-Nagant Rear Iron Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Kalashnikov concern",
+    "sightingRange": 25.0,
+    "magnification": 1.0,
+    "vendor": "Artisan R.1",
+    "buyPrice": 26.0,
+    "_raw": {
+      "image": "Mosin Rear inspect.png"
+    }
+  },
+  {
+    "id": "m590_rear_ghost_ring_sight",
+    "name": "M590 Rear Ghost Ring Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Rear Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "GhostR Rear inspect.png"
+    }
+  },
+  {
+    "id": "mp7_flip_rear_sight",
+    "name": "MP7 Flip Rear Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.045,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Heckler & Koch",
+    "sightingRange": 500.0,
+    "magnification": 1.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "MP7 Rear inspect.png"
+    }
+  },
+  {
+    "id": "sks_rear_iron_sight",
+    "name": "SKS Rear Iron Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.09,
+    "type": "Rear Iron Sight",
+    "manufacturer": "Kalashnikov concern",
+    "sightingRange": 25.0,
+    "magnification": 1.0,
+    "vendor": "Artisan R.1",
+    "buyPrice": 23.0,
+    "_raw": {
+      "image": "SKS Rear inspect.png"
+    }
+  },
+  {
+    "id": "svd_rear_sight",
+    "name": "SVD Rear Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Rear Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "SVD Rear inspect.png"
+    }
+  },
+  {
+    "id": "tt-33_rear_iron_sight",
+    "name": "TT-33 Rear Iron Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Rear Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "TT33 Rear inspect.png"
+    }
+  },
+  {
+    "id": "type_51_rear_iron_sight",
+    "name": "Type 51 Rear Iron Sight",
+    "category": "Rear Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Rear Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "T51 Rear inspect.png"
+    }
+  },
+  {
+    "id": "ak_pt-1_stock",
+    "name": "AK PT-1 Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.48,
+    "type": "Stock",
+    "manufacturer": "Zenitco",
+    "sizeChangeX": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 15.0,
+    "vendor": "Turncoat R.4",
+    "buyPrice": 423.0,
+    "_raw": {
+      "image": "PT-1 inspect.png"
+    }
+  },
+  {
+    "id": "ak-74n_wooden_stock",
+    "name": "AK-74N Wooden Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.45,
+    "type": "Stock",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 1.0,
+    "ergonomics": 1.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 52.0,
+    "_raw": {
+      "image": "AK-74N Wood Stock inspect.png"
+    }
+  },
+  {
+    "id": "ak-47_akm_wooden_stock",
+    "name": "AK-47/AKM Wooden Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.45,
+    "type": "Stock",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 1.0,
+    "ergonomics": 1.0,
+    "vendor": "Artisan R.1",
+    "_raw": {
+      "image": "AKM Wood Stock inspect.png"
+    }
+  },
+  {
+    "id": "ak-74m_polymer_stock",
+    "name": "AK-74M Polymer Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "Kalashnikov Concern",
+    "sizeChangeX": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "AK-74M Stock inspect.png"
+    }
+  },
+  {
+    "id": "akmsn_foldable_stock",
+    "name": "AKMSN Foldable Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.372,
+    "type": "Stock",
+    "manufacturer": "Kalashnikov Concern",
+    "sizeChangeX": 1.0,
+    "ergonomics": 4.0,
+    "recoil": -6.0,
+    "vendor": "Artisan R.2",
+    "buyPrice": 91.0,
+    "_raw": {
+      "image": "AKMSN Folding inspect.png"
+    }
+  },
+  {
+    "id": "ak_moe_stock",
+    "name": "AK MOE Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.354,
+    "type": "Stock",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "Artisan R.2",
+    "buyPrice": 211.0,
+    "_raw": {
+      "image": "MOE AK Stock inspect.png"
+    }
+  },
+  {
+    "id": "dd_adjustable_buttstock",
+    "name": "DD Adjustable Buttstock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.227,
+    "type": "Stock",
+    "manufacturer": "Daniel Defense",
+    "ergonomics": 4.0,
+    "recoil": 10.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DD Buttstock inspect.png"
+    }
+  },
+  {
+    "id": "mcx_mpx_standard_folding_stock",
+    "name": "MCX/MPX Standard Folding Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.385,
+    "type": "Stock",
+    "manufacturer": "SIG Sauer",
+    "recoil": 6.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MCX Stock inspect.png"
+    }
+  },
+  {
+    "id": "cq_a1_buttstock",
+    "name": "CQ A1 Buttstock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.361,
+    "type": "Stock",
+    "manufacturer": "Norinco",
+    "ergonomics": 1.0,
+    "recoil": -4.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQA1 Stock inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_sopmod_stock_fde",
+    "name": "AR-15 SOPMOD Stock (FDE)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.352,
+    "type": "Stock",
+    "manufacturer": "General West",
+    "ergonomics": 2.0,
+    "recoil": 6.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "SOPMOD Stock(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_archangel_low-profile_buttstock",
+    "name": "AR-15 Archangel Low-Profile Buttstock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.27,
+    "type": "Stock",
+    "manufacturer": "Promag Industries",
+    "ergonomics": 6.0,
+    "recoil": 4.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "Arch Low Stock inspect.png"
+    }
+  },
+  {
+    "id": "ctr_cheek_riser",
+    "name": "CTR Cheek Riser",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Cheek Riser inspect.png"
+    }
+  },
+  {
+    "id": "mcx_mpx_minimalist_folding_stock",
+    "name": "MCX/MPX Minimalist Folding Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.311,
+    "type": "Stock",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Banshee R.4",
+    "buyPrice": 405.0,
+    "_raw": {
+      "image": "MCX Min inspect.png"
+    }
+  },
+  {
+    "id": "ak_moe_stock_fde",
+    "name": "AK MOE Stock (FDE)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.354,
+    "type": "Stock",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MOE AK Stock(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "aks-74u_foldable_stock",
+    "name": "AKS-74U Foldable Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.226,
+    "type": "Stock",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 163.0,
+    "_raw": {
+      "image": "AKS-74U Folding inspect.png"
+    }
+  },
+  {
+    "id": "aks-74u_m4_foldable_stock",
+    "name": "AKS-74U M4 Foldable Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.29,
+    "type": "Stock",
+    "manufacturer": "F.A.B.",
+    "sizeChangeX": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 6.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 271.0,
+    "_raw": {
+      "image": "AKS-74U M4 Folding inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_m401_nylon_stock",
+    "name": "AR-15 M401 Nylon Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.6,
+    "type": "Stock",
+    "manufacturer": "General West",
+    "ergonomics": 2.0,
+    "recoil": 6.0,
+    "vendor": "Gunny R.2",
+    "buyPrice": 89.0,
+    "_raw": {
+      "image": "Nylon Stock inspect.png"
+    }
+  },
+  {
+    "id": "dd_adjustable_buttstock_black",
+    "name": "DD Adjustable Buttstock (Black)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "Daniel Defense",
+    "vendor": "???",
+    "_raw": {
+      "image": "DD Buttstock(Black) inspect.png"
+    }
+  },
+  {
+    "id": "extended_rubber_butt-pad",
+    "name": "Extended Rubber Butt-Pad",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.087,
+    "type": "Stock",
+    "manufacturer": "Magpul",
+    "recoil": 5.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "Butt-Pad inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_sopmod_stock",
+    "name": "AR-15 SOPMOD Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "SOPMOD Stock inspect.png"
+    }
+  },
+  {
+    "id": "h-s_precision_pro-series_2000",
+    "name": "H-S Precision Pro-Series 2000",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M700 HS 2000 inspect.png"
+    }
+  },
+  {
+    "id": "m700_mod*x_stock",
+    "name": "M700 MOD*X Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.45,
+    "type": "Stock",
+    "manufacturer": "General West",
+    "sizeChangeX": 1.0,
+    "ergonomics": 10.0,
+    "recoil": 9.0,
+    "vendor": "Banshee R.4",
+    "buyPrice": 852.0,
+    "_raw": {
+      "image": "M700 MOD*X inspect.png"
+    }
+  },
+  {
+    "id": "m700_stock",
+    "name": "M700 Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.171,
+    "type": "Stock",
+    "manufacturer": "Remington",
+    "sizeChangeX": 2.0,
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Banshee R.1",
+    "_raw": {
+      "image": "M700 Stock inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_ctr_stock",
+    "name": "AR-15 CTR Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.249,
+    "type": "Stock",
+    "manufacturer": "Magpul",
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "CTR Stock inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_ctr_stock_fde",
+    "name": "AR-15 CTR Stock (FDE)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.249,
+    "type": "Stock",
+    "manufacturer": "Magpul",
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "CTR Stock(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "ar15_moe_stock",
+    "name": "AR15 MOE Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.226,
+    "type": "Stock",
+    "manufacturer": "Magpul",
+    "ergonomics": 6.0,
+    "recoil": 15.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 167.0,
+    "_raw": {
+      "image": "MOE Stock inspect.png"
+    }
+  },
+  {
+    "id": "m590_sga_stock",
+    "name": "M590 SGA Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M590 SGA inspect.png"
+    }
+  },
+  {
+    "id": "mcx_mpx_skel_folding_stock",
+    "name": "MCX/MPX Skel Folding Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "SIG Sauer",
+    "vendor": "???",
+    "_raw": {
+      "image": "MCX Skel inspect.png"
+    }
+  },
+  {
+    "id": "mcx_mpx_folding_visor_stock",
+    "name": "MCX/MPX Folding Visor Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.35,
+    "type": "Stock",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 9.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MCX Visor inspect.png"
+    }
+  },
+  {
+    "id": "mcx_mpx_telescoping_stock",
+    "name": "MCX/MPX Telescoping Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.385,
+    "type": "Stock",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "ergonomics": 3.0,
+    "recoil": 8.0,
+    "vendor": "Banshee R.3",
+    "buyPrice": 455.0,
+    "_raw": {
+      "image": "MCX Tel inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_wooden_stock_carbine",
+    "name": "Mosin-Nagant Wooden Stock (Carbine)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.2,
+    "type": "Stock",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 1.0,
+    "ergonomics": 1.0,
+    "vendor": "Artisan R.1",
+    "buyPrice": 114.0,
+    "_raw": {
+      "image": "Mosin Stock C inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_folding_stock",
+    "name": "Mosin-Nagant Folding Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.076,
+    "type": "Stock",
+    "manufacturer": "Kalashnikov Concern",
+    "ergonomics": 4.0,
+    "recoil": -8.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Mosin Stock F inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_archangel_stock",
+    "name": "Mosin-Nagant Archangel Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.62,
+    "type": "Stock",
+    "manufacturer": "Promag Industries",
+    "sizeChangeX": 2.0,
+    "ergonomics": 4.0,
+    "recoil": 12.0,
+    "vendor": "Artisan R.3",
+    "buyPrice": 284.0,
+    "_raw": {
+      "image": "Mosin Archangel inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_wooden_stock_rifle",
+    "name": "Mosin-Nagant Wooden Stock (Rifle)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Mosin Stock R inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_wooden_stock_sniper",
+    "name": "Mosin-Nagant Wooden Stock (Sniper)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Mosin Stock S inspect.png"
+    }
+  },
+  {
+    "id": "m590_stock",
+    "name": "M590 Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M590 Stock inspect.png"
+    }
+  },
+  {
+    "id": "mp5_a2_stock",
+    "name": "MP5 A2 Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.453,
+    "type": "Stock",
+    "manufacturer": "Heckler & Koch",
+    "sizeChangeX": 1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "MP5 A2 inspect.png"
+    }
+  },
+  {
+    "id": "mp5_a3_stock",
+    "name": "MP5 A3 Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.307,
+    "type": "Stock",
+    "manufacturer": "Heckler & Koch",
+    "sizeChangeX": 1.0,
+    "ergonomics": 2.0,
+    "recoil": -2.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "MP5 A3 inspect.png"
+    }
+  },
+  {
+    "id": "mp7a1_retractable_stock",
+    "name": "MP7A1 Retractable Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.2,
+    "type": "Stock",
+    "manufacturer": "Heckler & Koch",
+    "sizeChangeX": 1.0,
+    "ergonomics": 3.0,
+    "recoil": 4.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 432.0,
+    "_raw": {
+      "image": "MP7A1 Stock inspect.png"
+    }
+  },
+  {
+    "id": "mp7a2_retractable_stock",
+    "name": "MP7A2 Retractable Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.2,
+    "type": "Stock",
+    "manufacturer": "Heckler & Koch",
+    "sizeChangeX": 1.0,
+    "ergonomics": 3.0,
+    "recoil": 4.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "MP7A2 Stock inspect.png"
+    }
+  },
+  {
+    "id": "m700_hunter_stock",
+    "name": "M700 Hunter Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.45,
+    "type": "Stock",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 2.0,
+    "ergonomics": 6.0,
+    "recoil": 12.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "M700 Hunter inspect.png"
+    }
+  },
+  {
+    "id": "m700_hunter_stock_fde",
+    "name": "M700 Hunter Stock (FDE)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M700 Hunter(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "m870_express_stock",
+    "name": "M870 Express Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.476,
+    "type": "Stock",
+    "manufacturer": "Remington",
+    "sizeChangeX": 1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M870 Express inspect.png"
+    }
+  },
+  {
+    "id": "m870_stock_od_green",
+    "name": "M870 Stock (OD Green)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.64,
+    "type": "Stock",
+    "manufacturer": "Hogue Inc.",
+    "sizeChangeX": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 2.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "M870 OD inspect.png"
+    }
+  },
+  {
+    "id": "m870_sga_stock",
+    "name": "M870 SGA Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.68,
+    "type": "Stock",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "M870 SGA inspect.png"
+    }
+  },
+  {
+    "id": "m870_sga_stock_fde",
+    "name": "M870 SGA Stock (FDE)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M870 SGA(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "mp5_hk33_53_stock",
+    "name": "MP5/HK33/53 Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.455,
+    "type": "Stock",
+    "manufacturer": "Spuhr",
+    "sizeChangeX": 1.0,
+    "ergonomics": 1.0,
+    "recoil": 14.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 448.0,
+    "_raw": {
+      "image": "MP5 Spuhr inspect.png"
+    }
+  },
+  {
+    "id": "ak_pt-3_stock",
+    "name": "AK PT-3 Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.55,
+    "type": "Stock",
+    "manufacturer": "Zenitco",
+    "sizeChangeX": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 17.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "PT-3 inspect.png"
+    }
+  },
+  {
+    "id": "ak_zhukov_stock",
+    "name": "AK Zhukov Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.425,
+    "type": "Stock",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 1.0,
+    "ergonomics": 8.0,
+    "recoil": 8.0,
+    "vendor": "Artisan R.3",
+    "buyPrice": 226.0,
+    "_raw": {
+      "image": "Zhukov Stock inspect.png"
+    }
+  },
+  {
+    "id": "ak_zhukov_stock_fde",
+    "name": "AK Zhukov Stock (FDE)",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.425,
+    "type": "Stock",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 1.0,
+    "ergonomics": 8.0,
+    "recoil": 8.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Zhukov Stock(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "recoil_reducing_pad",
+    "name": "Recoil Reducing Pad",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.164,
+    "type": "Stock",
+    "manufacturer": "Kalashnikov concern",
+    "ergonomics": 2.0,
+    "recoil": 2.0,
+    "vendor": "Artisan R.1",
+    "buyPrice": 141.0,
+    "_raw": {
+      "image": "RR Pad inspect.png"
+    }
+  },
+  {
+    "id": "ratnik_foldable_stock",
+    "name": "Ratnik Foldable Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.4,
+    "type": "Stock",
+    "manufacturer": "Kalashnikov Concern",
+    "sizeChangeX": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 10.0,
+    "vendor": "Artisan R.3",
+    "_raw": {
+      "image": "Ratnik Folding inspect.png"
+    }
+  },
+  {
+    "id": "sks_strikeforce_tactlite_stock",
+    "name": "SKS Strikeforce TactLite Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.26,
+    "type": "Stock",
+    "manufacturer": "ATI outdoors",
+    "sizeChangeX": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Artisan R.2",
+    "buyPrice": 206.0,
+    "_raw": {
+      "image": "Strikeforce Stock inspect.png"
+    }
+  },
+  {
+    "id": "sks_sabertooth_mkii_stock",
+    "name": "SKS Sabertooth MKII Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.997,
+    "type": "Stock",
+    "manufacturer": "Matador Arms",
+    "ergonomics": 5.0,
+    "recoil": 8.0,
+    "vendor": "Artisan R.3",
+    "_raw": {
+      "image": "MKII SKS Stock inspect.png"
+    }
+  },
+  {
+    "id": "sks_stock",
+    "name": "SKS Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.76,
+    "type": "Stock",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 1.0,
+    "ergonomics": 1.0,
+    "vendor": "Artisan R.1",
+    "_raw": {
+      "image": "SKS Stock inspect.png"
+    }
+  },
+  {
+    "id": "svd_polymer_stock_with_grip",
+    "name": "SVD Polymer Stock with Grip",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.56,
+    "type": "Stock",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "sizeChangeX": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 17.0,
+    "vendor": "Artisan R.4",
+    "buyPrice": 591.0,
+    "_raw": {
+      "image": "SVD Poly Stock inspect.png"
+    }
+  },
+  {
+    "id": "svd_wooden_stock_with_grip",
+    "name": "SVD Wooden Stock with Grip",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "SVD Wood Stock inspect.png"
+    }
+  },
+  {
+    "id": "vz._61_wire_stock",
+    "name": "Vz. 61 Wire Stock",
+    "category": "Stocks",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Stock",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Vz. 61 Stock inspect.png"
+    }
+  },
+  {
+    "id": "dtss_suppressor",
+    "name": "DTSS Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.45,
+    "type": "Suppressor",
+    "manufacturer": "Desert Tech",
+    "ergonomics": -5.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DTSS inspect.png",
+      "muzzle_efficiency": "+7.0",
+      "loudness": "+22"
+    }
+  },
+  {
+    "id": "socom556_rc1_suppressor",
+    "name": "SOCOM556 RC1 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.453,
+    "type": "Suppressor",
+    "manufacturer": "Surefire",
+    "sizeChangeX": 1.0,
+    "ergonomics": -4.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "RC1 inspect.png",
+      "muzzle_efficiency": "+7",
+      "accuracy": "+4",
+      "loudness": "+20"
+    }
+  },
+  {
+    "id": "slh300ti-qd_suppressor",
+    "name": "SLH300TI-QD Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.453,
+    "type": "Suppressor",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "SLH300 QD inspect.png",
+      "muzzle_efficiency": "+7",
+      "loudness": "+28"
+    }
+  },
+  {
+    "id": "ak-12_suppressor",
+    "name": "AK-12 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.62,
+    "type": "Suppressor",
+    "manufacturer": "Rotor 43",
+    "sizeChangeX": 1.0,
+    "ergonomics": -2.0,
+    "vendor": "Turncoat R.3",
+    "_raw": {
+      "image": "AK12 Sup inspect.png",
+      "muzzle_efficiency": "+5",
+      "loudness": "+18",
+      "accuracy_modifier": "+3"
+    }
+  },
+  {
+    "id": "ak-15_suppressor",
+    "name": "AK-15 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.62,
+    "type": "Suppressor",
+    "manufacturer": "Rotor 43",
+    "ergonomics": -2.0,
+    "vendor": "Artisan R.3",
+    "_raw": {
+      "image": "AK15 Sup inspect.png",
+      "muzzle_efficiency": "+5",
+      "accuracy_modifier": "+3",
+      "loudness": "+17"
+    }
+  },
+  {
+    "id": "banish_45_suppressor",
+    "name": "BANISH 45 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.272,
+    "type": "Suppressor",
+    "manufacturer": "Silencer Central",
+    "sizeChangeX": 1.0,
+    "ergonomics": -5.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "Banish inspect.png",
+      "muzzle_efficiency": "+5.0",
+      "loudness": "+23",
+      "accuracy_modifier": "+2"
+    }
+  },
+  {
+    "id": "hk_mp5sd_9mm_suppressor",
+    "name": "HK MP5SD 9mm Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.476,
+    "type": "Suppressor",
+    "manufacturer": "Heckler & Koch",
+    "ergonomics": -3.0,
+    "vendor": "Gunny L3",
+    "_raw": {
+      "image": "MP5SD Sup inspect.png",
+      "muzzle_efficiency": "+5.0",
+      "loudness": "+57",
+      "accuracy_modifier": "+2.0|horizontal=+1"
+    }
+  },
+  {
+    "id": "qdss_nt4_suppressor",
+    "name": "QDSS NT4 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.62,
+    "type": "Suppressor",
+    "manufacturer": "KAC",
+    "ergonomics": -4.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "thumb",
+      "muzzle_efficiency": "+5",
+      "accuracy_modifier": "+3",
+      "loudness": "+17"
+    }
+  },
+  {
+    "id": "qdss_nt4_suppressor_fde",
+    "name": "QDSS NT4 Suppressor (FDE)",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.62,
+    "type": "Suppressor",
+    "manufacturer": "KAC",
+    "ergonomics": -4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "QDSS NT4(FDE) inspect.png",
+      "muzzle_efficiency": "+5",
+      "accuracy_modifier": "+3",
+      "loudness": "+17"
+    }
+  },
+  {
+    "id": "mosin-nagant_bramit_suppressor",
+    "name": "Mosin-Nagant Bramit Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.765,
+    "type": "Suppressor",
+    "manufacturer": "General East",
+    "ergonomics": -4.0,
+    "vendor": "Artisan R.3",
+    "buyPrice": 880.0,
+    "_raw": {
+      "image": "Bramit inspect.png",
+      "muzzle_efficiency": "+5",
+      "accuracy_modifier": "+3",
+      "loudness": "+21"
+    }
+  },
+  {
+    "id": "pbs-01_suppressor",
+    "name": "PBS-01 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.7,
+    "type": "Suppressor",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 1.0,
+    "ergonomics": -4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "PBS-01 Suppressor.png",
+      "muzzle_efficiency": "+3",
+      "accuracy_modifier": "+2",
+      "loudness": "+9"
+    }
+  },
+  {
+    "id": "pbs-04_suppressor",
+    "name": "PBS-04 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.86,
+    "type": "Suppressor",
+    "manufacturer": "Kalashnikov concern",
+    "ergonomics": -5.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "PBS-04 Suppressor.png",
+      "muzzle_efficiency": "+3",
+      "accuracy_modifier": "+2",
+      "loudness": "+16"
+    }
+  },
+  {
+    "id": "mp7_rotex_suppressor",
+    "name": "MP7 Rotex Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.607,
+    "type": "Suppressor",
+    "manufacturer": "B&T",
+    "sizeChangeX": 1.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "MP7 Rotex inspect.png",
+      "muzzle_efficiency": "+7",
+      "loudness": "+21"
+    }
+  },
+  {
+    "id": "salvo_12_suppressor",
+    "name": "Salvo 12 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.555,
+    "type": "Suppressor",
+    "manufacturer": "SilencerCo",
+    "sizeChangeX": 2.0,
+    "ergonomics": -10.0,
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "Salvo 12 inspect.png",
+      "muzzle_efficiency": "+7",
+      "loudness": "+15",
+      "accuracy_modifier": "+5"
+    }
+  },
+  {
+    "id": "slh762-qd_suppressor",
+    "name": "SLH762-QD Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.598,
+    "type": "Suppressor",
+    "manufacturer": "SIG Sauer",
+    "ergonomics": -7.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "SLH762 inspect.png",
+      "muzzle_efficiency": "+7",
+      "accuracy_modifier": "+6",
+      "loudness": "+18"
+    }
+  },
+  {
+    "id": "sig_suppressor_srd556",
+    "name": "SIG Suppressor SRD556",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Suppressor",
+    "manufacturer": "SIG Sauer",
+    "ergonomics": -4.0,
+    "vendor": "N/A",
+    "_raw": {
+      "image": "SRD 556 inspect.png",
+      "muzzle_efficiency": "+7.0",
+      "loudness": "-18",
+      "title": "SIG Suppressor SRD556|accuracy_modifier=+5.0"
+    }
+  },
+  {
+    "id": "762-sd_suppressor",
+    "name": "762-SD Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.652,
+    "type": "Suppressor",
+    "manufacturer": "Advanced Armament Company",
+    "ergonomics": -6.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "762-SD inspect.png",
+      "muzzle_efficiency": "+5",
+      "loudness": "+20",
+      "accuracy_modifier": "+5"
+    }
+  },
+  {
+    "id": "socom556_rc1_suppressor_fde",
+    "name": "SOCOM556 RC1 Suppressor (FDE)",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.453,
+    "type": "Suppressor",
+    "manufacturer": "Surefire",
+    "sizeChangeX": 1.0,
+    "ergonomics": -4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "RC1(FDE) inspect.png",
+      "muzzle_efficiency": "+7",
+      "accuracy": "+4",
+      "loudness": "+20"
+    }
+  },
+  {
+    "id": "svd_rotor_43_suppressor_7.62х54_r",
+    "name": "SVD Rotor 43 Suppressor 7.62х54 R",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.9,
+    "type": "Suppressor",
+    "manufacturer": "General East",
+    "sizeChangeX": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "SVD Rotor 43 inspect.png",
+      "muzzle_efficiency": "+7",
+      "loudness": "+17"
+    }
+  },
+  {
+    "id": "type_51_suppressor",
+    "name": "Type 51 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Suppressor",
+    "manufacturer": "???",
+    "sizeChangeX": 1.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "T51 S inspect.png",
+      "muzzle_efficiency": "+????",
+      "loudness": "+????"
+    }
+  },
+  {
+    "id": "ultima_suppressor",
+    "name": "Ultima Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Suppressor",
+    "manufacturer": "Coastal Guns Inc.",
+    "sizeChangeX": 1.0,
+    "vendor": "Banshee",
+    "_raw": {
+      "image": "Ultima inspect.png",
+      "muzzle_efficiency": "+6,0",
+      "title": "Ultima Suppressor|slot=9x19 Muzzle|grid=1x2|accuracy=+6,0%|ergonomics=-10,0|accuracy_modifier=+3,0|bprice=935"
+    }
+  },
+  {
+    "id": "vlc_556_mark_1_suppressor",
+    "name": "VLC 556 MARK 1 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.68,
+    "type": "Suppressor",
+    "manufacturer": "Antreg",
+    "sizeChangeX": 1.0,
+    "ergonomics": -4.0,
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "MARK 1 inspect.png",
+      "muzzle_efficiency": "+4",
+      "loudness": "+15",
+      "accuracy_modifier": "+2"
+    }
+  },
+  {
+    "id": "vz._61_tos_suppressor",
+    "name": "Vz. 61 TOS Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Suppressor",
+    "manufacturer": "???",
+    "sizeChangeX": 1.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "Vz. 61 TOS inspect.png",
+      "muzzle_efficiency": "+????",
+      "loudness": "+????"
+    }
+  }
+]

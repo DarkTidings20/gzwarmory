@@ -1,29 +1,808 @@
 [
   {
-    "id": "ar15-moe-mlok-carbine-handguard",
-    "name": "AR-15 MOE M-LOK Carbine Handguard",
+    "id": "sig-mcx-10-handguard",
+    "name": "SIG MCX 10\" Handguard",
     "category": "handguard",
-    "statModifiers": { "horizontalRecoil": -2 },
-    "weight": 0.184,
-    "vendor": "Gunny R.1", "vendorRank": 1, "price": 0,
-    "patchVersion": "0.4.0.3"
+    "statModifiers": {
+      "recoil": 1.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.204,
+    "vendor": "Banshee",
+    "vendorRank": 3,
+    "price": 434,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "sig-mcx-16-handguard",
+    "name": "SIG MCX 16\" Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "recoil": 2.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.312,
+    "vendor": "Banshee",
+    "vendorRank": 4,
+    "price": 438,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "sig-mcx-8-handguard",
+    "name": "SIG MCX 8\" Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.18,
+    "vendor": "Banshee",
+    "vendorRank": 3,
+    "price": 365,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "cq-a1-carbine-handguard",
+    "name": "CQ A1 Carbine Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "recoil": -1.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.323,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-ratnik-handguard",
+    "name": "AK Ratnik Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 4.0
+    },
+    "weight": 0.12,
+    "vendor": "ArtisanTurncoat",
+    "vendorRank": 3,
+    "price": 406,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-74-polymer-handguard",
+    "name": "AK-74 Polymer Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 4.0
+    },
+    "weight": 0.25,
+    "vendor": "Turncoat",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-74-wooden-handguard",
+    "name": "AK-74 Wooden Handguard",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "akm-wooden-handguard",
+    "name": "AKM Wooden Handguard",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0.221,
+    "vendor": "Artisan",
+    "vendorRank": 1,
+    "price": 59,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-polymer-handguard-with-picatinny-rail",
+    "name": "AK Polymer Handguard with Picatinny Rail",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -4.0,
+      "recoil": 2.0
+    },
+    "weight": 0.2,
+    "vendor": "Turncoat",
+    "vendorRank": 1,
+    "price": 89,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-308-handguard",
+    "name": "AK 308 Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 4.0
+    },
+    "weight": 0.12,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-ratnik-handguard-long",
+    "name": "AK Ratnik Handguard Long",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 4.0,
+      "recoil": 6.0
+    },
+    "weight": 0.235,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-handguard-romanian-dong",
+    "name": "AK Handguard \"Romanian Dong\"",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -2.0,
+      "recoil": 4.0
+    },
+    "weight": 0.25,
+    "vendor": "Loot Only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-handguard-romanian-shark",
+    "name": "AK Handguard \"Romanian Shark\"",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -2.0,
+      "recoil": 2.0
+    },
+    "weight": 0.245,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "aks-74u-mlok-handguard",
+    "name": "AKS-74U Mlok Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "recoil": 4.0
+    },
+    "weight": 0.11,
+    "vendor": "Turncoat",
+    "vendorRank": 2,
+    "price": 84,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "aks-74u-quad-rail-handguard",
+    "name": "AKS-74U Quad-Rail Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -2.0,
+      "recoil": 2.0
+    },
+    "weight": 0.2,
+    "vendor": "Turncoat",
+    "vendorRank": 1,
+    "price": 50,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "aks-74u-wooden-handguard",
+    "name": "AKS-74U Wooden handguard",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0.15,
+    "vendor": "Turncoat",
+    "vendorRank": 1,
+    "price": 33,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-b10m-b19-handguard",
+    "name": "AK B10M + B19 Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -4.0,
+      "recoil": 6.0
+    },
+    "weight": 0.27,
+    "vendor": "Turncoat",
+    "vendorRank": 2,
+    "price": 167,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-b30-b31s-handguard",
+    "name": "AK B30 + B31S Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -6.0,
+      "recoil": 6.0
+    },
+    "weight": 0.386,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
   },
   {
     "id": "dd-ris-ii-12",
     "name": "DD RIS II 12",
     "category": "handguard",
-    "statModifiers": { "recoilControl": 12, "weaponHandling": -8, "horizontalRecoil": -2 },
+    "statModifiers": {
+      "ergonomics": -8.0,
+      "recoil": 12.0,
+      "sizeChangeX": 2.0
+    },
     "weight": 0.501,
-    "vendor": "Gunny R.3", "vendorRank": 3, "price": 504,
-    "patchVersion": "0.4.0.3"
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 504,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "dd-ris-ii-12-fsp",
+    "name": "DD RIS II 12 FSP",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -8.0,
+      "recoil": 12.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.485,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "dd-ris-ii-12-milspec",
+    "name": "DD RIS II 12 (MilSpec)",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -8.0,
+      "recoil": 12.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.501,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "dd-ris-ii-9-5",
+    "name": "DD RIS II 9.5",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -6.0,
+      "recoil": 8.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.4,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "dd-ris-ii-9-5-milspec",
+    "name": "DD RIS II 9.5 (MilSpec)",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -6.0,
+      "recoil": 8.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.4,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "vfr-svd-f-a-b-handguard",
+    "name": "VFR-SVD F.A.B. Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "recoil": 1.0
+    },
+    "weight": 0.454,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mk16-13-5",
+    "name": "Mk16 13.5\"",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -4.0,
+      "recoil": 8.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.379,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mk16-13-5-ddc",
+    "name": "Mk16 13.5\" (DDC)",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -4.0,
+      "recoil": 8.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.379,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m4-ras",
+    "name": "M4 RAS",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -4.0,
+      "recoil": 4.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.252,
+    "vendor": "Gunny",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m700-mod-x-handguard",
+    "name": "M700 MOD*X Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 8.0,
+      "recoil": 12.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.369,
+    "vendor": "Banshee",
+    "vendorRank": 4,
+    "price": 271,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-moe-handguard",
+    "name": "AK MOE Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 4.0,
+      "recoil": 4.0
+    },
+    "weight": 0.221,
+    "vendor": "Artisan",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "_raw": {
+      "bporice": "148"
+    }
+  },
+  {
+    "id": "ak-moe-handguard-fde",
+    "name": "AK MOE Handguard (FDE)",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 4.0,
+      "recoil": 4.0
+    },
+    "weight": 0.221,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ar-15-moe-m-lok-carbine-handguard",
+    "name": "AR-15 MOE M-LOK Carbine Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.184,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ar-15-moe-m-lok-carbine-handguard-fde",
+    "name": "AR-15 MOE M-LOK Carbine Handguard (FDE)",
+    "category": "handguard",
+    "statModifiers": {
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.184,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ar-15-moe-m-lok-carbine-handguard-olive",
+    "name": "AR-15 MOE M-LOK Carbine Handguard (Olive)",
+    "category": "handguard",
+    "statModifiers": {
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.184,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m590-forend",
+    "name": "M590 Forend",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m590-moe-forend",
+    "name": "M590 MOE Forend",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 4.0
+    },
+    "weight": 0.171,
+    "vendor": "Loot Only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m590-tri-rail-forend",
+    "name": "M590 Tri-Rail Forend",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "b-t-hk-mp5-tl-99a1-3-rail-handguard",
+    "name": "B&T HK MP5 TL-99A1 3 Rail Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -1.0,
+      "recoil": 1.0
+    },
+    "weight": 0.253,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 345,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ema-x5-aluminum-5-rail-mp5",
+    "name": "EMA X5 Aluminum 5-rail MP5",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -2.0,
+      "recoil": 2.0
+    },
+    "weight": 0.28,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "b-t-bt-21343-hk-mp5sd-tri-rail-handguard",
+    "name": "B&T BT-21343 HK MP5SD Tri-Rail Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -1.0,
+      "recoil": 1.0
+    },
+    "weight": 0.357,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 481,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mp5sd-forearm",
+    "name": "MP5SD Forearm",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0.17,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 339,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mp5-wide-forearm",
+    "name": "MP5 Wide Forearm",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0.14,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m870-forend-od-green",
+    "name": "M870 Forend (OD Green)",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 2.0
+    },
+    "weight": 0.254,
+    "vendor": "Gunny",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m870-moe-handguard",
+    "name": "M870 MOE Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 4.0
+    },
+    "weight": 0.179,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 83,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m870-moe-handguard-fde",
+    "name": "M870 MOE Handguard (FDE)",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 4.0
+    },
+    "weight": 0.179,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m870-voa-handguard",
+    "name": "M870 VOA Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 6.0
+    },
+    "weight": 0.289,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 100,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m870-walnut-forend",
+    "name": "M870 Walnut Forend",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0.31,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 33,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "svd-chassis-mk1-handguard",
+    "name": "SVD Chassis MK1 Handguard",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0.8,
+    "vendor": "| manufacturer       =Sureshot Armament",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "sig-mcx-12-sd-handguard",
+    "name": "SIG MCX 12\" SD Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "recoil": 1.0
+    },
+    "weight": 0.247,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "svd-polymer-handguard",
+    "name": "SVD Polymer Handguard",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0.3,
+    "vendor": "Artisan",
+    "vendorRank": 4,
+    "price": 555,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "svd-wooden-handguard",
+    "name": "SVD Wooden Handguard",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0.35,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "x7m-13-handguard",
+    "name": "X7M-13 Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -4.0,
+      "recoil": 8.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.379,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 508,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "x7m-13-handguard-gray",
+    "name": "X7M-13 Handguard (Gray)",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
   },
   {
     "id": "x7m-15-handguard",
     "name": "X7M-15 Handguard",
     "category": "handguard",
-    "statModifiers": { "recoilControl": 10, "weaponHandling": -6, "horizontalRecoil": -2 },
+    "statModifiers": {
+      "ergonomics": -6.0,
+      "recoil": 10.0,
+      "sizeChangeX": 2.0
+    },
     "weight": 0.413,
-    "vendor": "Gunny R.4", "vendorRank": 4, "price": 508,
-    "patchVersion": "0.4.0.3"
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 508,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "x7m-15-handguard-gray",
+    "name": "X7M-15 Handguard (Gray)",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "x7m-7-handguard",
+    "name": "X7M-7 Handguard",
+    "category": "handguard",
+    "statModifiers": {
+      "ergonomics": -2.0,
+      "recoil": 6.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.295,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "x7m-7-handguard-gray",
+    "name": "X7M-7 Handguard (Gray)",
+    "category": "handguard",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
   }
 ]

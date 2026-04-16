@@ -1,62 +1,847 @@
 [
   {
-    "id": "stanag-556-20rd",
-    "name": "STANAG 5.56 20rd Magazine",
+    "id": "glock-17-9x19mm-17-round-magazine",
+    "name": "Glock 17 9x19mm 17-Round Magazine",
     "category": "magazine",
-    "statModifiers": { "ergonomics": 2, "weaponHandling": 2, "reloadSpeed": 0.2 },
-    "weight": 0.12,
-    "capacity": 20,
-    "vendor": "Gunny", "vendorRank": 1,
-    "patchVersion": "0.4.0.2"
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.048,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 17,
+    "caliber": "9x19mm",
+    "_raw": {
+      "reload": "+0"
+    }
   },
   {
-    "id": "stanag-556-30rd",
-    "name": "STANAG 5.56 30rd Magazine",
+    "id": "dd-5-56x45mm-300-blk-32-round-magazine",
+    "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
     "category": "magazine",
-    "statModifiers": { "ergonomics": 0, "weaponHandling": 0 },
-    "weight": 0.44,
-    "capacity": 30,
-    "vendor": "Gunny", "vendorRank": 1,
-    "patchVersion": "0.4.0.2"
-  },
-  {
-    "id": "pmag-556-30rd",
-    "name": "PMAG 5.56 30rd",
-    "category": "magazine",
-    "statModifiers": { "ergonomics": 1, "weaponHandling": 1 },
-    "weight": 0.13,
-    "capacity": 30,
-    "vendor": "Gunny", "vendorRank": 1,
-    "patchVersion": "0.4.0.2"
-  },
-  {
-    "id": "pmag-556-30rd-fde",
-    "name": "PMAG 5.56 30rd (FDE)",
-    "category": "magazine",
-    "statModifiers": { "ergonomics": 1, "weaponHandling": 1 },
-    "weight": 0.13,
-    "capacity": 30,
-    "vendor": "Gunny", "vendorRank": 1,
-    "patchVersion": "0.4.0.2"
-  },
-  {
-    "id": "dd-556-32rd",
-    "name": "DD 5.56 32rd Magazine",
-    "category": "magazine",
-    "statModifiers": { "ergonomics": 1, "weaponHandling": 1 },
-    "weight": 0.15,
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.11,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
     "capacity": 32,
-    "vendor": "Artisan", "vendorRank": 2,
-    "patchVersion": "0.4.0.2"
+    "caliber": "5.56x45mm",
+    "_raw": {
+      "reload": "-5"
+    }
   },
   {
-    "id": "ati-s60-556-60rd",
-    "name": "ATI Schmeisser S60 5.56 60rd",
+    "id": "pmag-5-56x45mm-300-blk-30-round-magazine",
+    "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
     "category": "magazine",
-    "statModifiers": { "ergonomics": -3, "weaponHandling": -2 },
-    "weight": 0.49,
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.141,
+    "vendor": "GunnyBanshee",
+    "vendorRank": 2,
+    "price": 94,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "5.56x45mm",
+    "_raw": {
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "m590-12ga-10-round-magazine",
+    "name": "M590 12GA 10-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.94,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 10,
+    "caliber": "Unknown",
+    "_raw": {
+      "reload": "???",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "stanag-5-56x45mm-300-blk-20-round-magazine",
+    "name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.068,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 20,
+    "caliber": "5.56x45mm"
+  },
+  {
+    "id": "ak15-7-62x39mm-30-round-magazine",
+    "name": "AK15 7.62x39mm 30-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.67,
+    "vendor": "Artisan",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "ak-7-62x39mm-30-round-pmag-magazine",
+    "name": "AK 7.62x39mm 30-Round PMAG Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.725,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "ak12-5-45x39mm-30-round-magazine",
+    "name": "AK12 5.45x39mm 30-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.496,
+    "vendor": "Turncoat",
+    "vendorRank": 3,
+    "price": 102,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "pmag-5-56x45mm-300-blk-30-round-magazine-fde",
+    "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.441,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "5.56x45mm",
+    "_raw": {
+      "reload": "+5"
+    }
+  },
+  {
+    "id": "ati-s60-5-56x45mm-300-blk-60-round-magazine",
+    "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.263,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
     "capacity": 60,
-    "vendor": "Artisan", "vendorRank": 4,
-    "patchVersion": "0.4.0.2"
+    "caliber": "5.56x45mm",
+    "_raw": {
+      "reload": "-16"
+    }
+  },
+  {
+    "id": "m870-12ga-10-round-magazine",
+    "name": "M870 12ga 10-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 10,
+    "caliber": "Unknown",
+    "_raw": {
+      "reload": "???",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "m870-12ga-4-round-cap",
+    "name": "M870 12ga 4-Round Cap",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.1,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 4,
+    "caliber": "Unknown",
+    "_raw": {
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "m870-12ga-6-round-magazine",
+    "name": "M870 12ga 6-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.25,
+    "vendor": "Gunny",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 6,
+    "caliber": "Unknown",
+    "_raw": {
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "m590-12ga-6-round-cap",
+    "name": "M590 12ga 6-Round Cap",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 6,
+    "caliber": "Unknown",
+    "_raw": {
+      "reload": "???",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "vz-61-7-65-browning-10-round-magazine",
+    "name": "Vz. 61 7.65 Browning 10-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 10,
+    "caliber": ".65",
+    "_raw": {
+      "reload": "???"
+    }
+  },
+  {
+    "id": "vz-61-7-65-browning-20-round-magazine",
+    "name": "Vz. 61 7.65 Browning 20-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 20,
+    "caliber": ".65",
+    "_raw": {
+      "reload": "???"
+    }
+  },
+  {
+    "id": "glock-17-9x19mm-27-round-magazine",
+    "name": "Glock 17 9x19mm 27-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.056,
+    "vendor": "Banshee",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 27,
+    "caliber": "9x19mm",
+    "_raw": {
+      "reload": "-10"
+    }
+  },
+  {
+    "id": "mp5-standard-30-round-magazine",
+    "name": "MP5 Standard 30-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.14,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "9x19mm"
+  },
+  {
+    "id": "m9a1-9x19mm-15-round-magazine",
+    "name": "M9A1 9x19mm 15-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.065,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 15,
+    "caliber": "9x19mm",
+    "_raw": {
+      "reload": "???"
+    }
+  },
+  {
+    "id": "m9a1-9x19mm-30-round-magazine",
+    "name": "M9A1 9x19mm 30-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "9x19mm",
+    "_raw": {
+      "reload": "???"
+    }
+  },
+  {
+    "id": "colt-1911-45acp-7-round-magazine",
+    "name": "Colt 1911 .45ACP 7-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.215,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 7,
+    "caliber": ".45ACP",
+    "_raw": {
+      "reload": "| vertical           ="
+    }
+  },
+  {
+    "id": "1911-45acp-15-round-extended-magazine",
+    "name": "1911 .45ACP 15-Round Extended Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 15,
+    "caliber": ".45ACP",
+    "_raw": {
+      "reload": "???"
+    }
+  },
+  {
+    "id": "mp7-20-round-magazine",
+    "name": "MP7 20-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.1,
+    "vendor": "Banshee",
+    "vendorRank": 2,
+    "price": 178,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 20,
+    "caliber": "4.6x30mm"
+  },
+  {
+    "id": "mp7-30-round-magazine",
+    "name": "MP7 30-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.15,
+    "vendor": "Banshee",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "4.6x30mm",
+    "_raw": {
+      "reload": "-5"
+    }
+  },
+  {
+    "id": "mp7-40-round-magazine",
+    "name": "MP7 40-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.2,
+    "vendor": "Banshee",
+    "vendorRank": 4,
+    "price": 234,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 40,
+    "caliber": "4.6x30mm",
+    "_raw": {
+      "reload": "-10"
+    }
+  },
+  {
+    "id": "ak74-5-45x39mm-60-round-magazine",
+    "name": "AK74 5.45x39mm 60-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.3,
+    "vendor": "Turncoat",
+    "vendorRank": 4,
+    "price": 165,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 60,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "reload": "-16"
+    }
+  },
+  {
+    "id": "ak-5-45-39mm-30-round-bakelite-magazine",
+    "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.22,
+    "vendor": "Turncoat",
+    "vendorRank": 1,
+    "price": 76,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": ".45",
+    "_raw": {
+      "reload": "2"
+    }
+  },
+  {
+    "id": "ak-5-45-39mm-30-round-black-magazine",
+    "name": "AK 5.45×39mm 30-Round Black Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": ".45",
+    "_raw": {
+      "reload": "???"
+    }
+  },
+  {
+    "id": "ak19-5-56x45mm-30-round-magazine",
+    "name": "AK19 5.56x45mm 30-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.181,
+    "vendor": "Turncoat",
+    "vendorRank": 3,
+    "price": 68,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "5.56x45mm",
+    "_raw": {
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "pmag-5-56x45mm-300-blk-20-round-magazine",
+    "name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 20,
+    "caliber": "5.56x45mm",
+    "_raw": {
+      "reload": "???"
+    }
+  },
+  {
+    "id": "stanag-5-56x45mm-300-blk-30-round-magazine",
+    "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.32,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "5.56x45mm",
+    "_raw": {
+      "reload": "+4"
+    }
+  },
+  {
+    "id": "type-51-7-62x25mm-8-round-magazine",
+    "name": "Type 51 7.62x25mm 8-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 8,
+    "caliber": "7.62x25mm",
+    "_raw": {
+      "reload": "???"
+    }
+  },
+  {
+    "id": "ak-7-62x39mm-10-round-steel-magazine",
+    "name": "AK 7.62x39mm 10-Round Steel Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.08,
+    "vendor": "Artisan",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 10,
+    "caliber": "7.62x39mm"
+  },
+  {
+    "id": "ak-7-62x39mm-30-round-bakelite-magazine",
+    "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.24,
+    "vendor": "Artisan",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "reload": "+2"
+    }
+  },
+  {
+    "id": "ak-7-62x39mm-30-round-stamped-magazine",
+    "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.37,
+    "vendor": "Artisan",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "reload": "+2"
+    }
+  },
+  {
+    "id": "sks-7-62x39mm-10-round-internal-magazine",
+    "name": "SKS 7.62x39mm 10-Round Internal Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.185,
+    "vendor": "Artisan",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 10,
+    "caliber": "7.62x39mm"
+  },
+  {
+    "id": "sks-7-62x39mm-35-round-archangel-magazine",
+    "name": "SKS 7.62x39mm 35-Round Archangel Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 35,
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "reload": "???"
+    }
+  },
+  {
+    "id": "sks-7-62x39mm-20-round-archangel-lvx-magazine",
+    "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.295,
+    "vendor": "Artisan",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 20,
+    "caliber": "7.62x39mm"
+  },
+  {
+    "id": "m700-7-62x51mm-5-round-magazine",
+    "name": "M700 7.62x51mm 5-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.17,
+    "vendor": "Banshee",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 5,
+    "caliber": "7.62x51mm",
+    "_raw": {
+      "reload": "| vertical           ="
+    }
+  },
+  {
+    "id": "m700-7-62x51mm-10-round-magazine",
+    "name": "M700 7.62x51mm 10-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.25,
+    "vendor": "Banshee",
+    "vendorRank": 2,
+    "price": 110,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 10,
+    "caliber": "7.62x51mm",
+    "_raw": {
+      "reload": "-6"
+    }
+  },
+  {
+    "id": "ak308-7-62x51mm-20-round-magazine",
+    "name": "AK308 7.62x51mm 20-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.181,
+    "vendor": "Turncoat",
+    "vendorRank": 3,
+    "price": 55,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 20,
+    "caliber": "7.62x51mm"
+  },
+  {
+    "id": "mosin-nagant-7-62x54r-10-round-archangel-magazine",
+    "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.227,
+    "vendor": "Artisan",
+    "vendorRank": 3,
+    "price": 67,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 10,
+    "caliber": "7.62x54R"
+  },
+  {
+    "id": "mosin-nagant-7-62x54r-5-round-internal-magazine",
+    "name": "Mosin-Nagant 7.62x54R 5-Round Internal Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.2,
+    "vendor": "Artisan",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 5,
+    "caliber": "7.62x54R"
+  },
+  {
+    "id": "svd-dragunov-10-round-magazine",
+    "name": "SVD Dragunov 10-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {},
+    "weight": 0.216,
+    "vendor": "Artisan",
+    "vendorRank": 4,
+    "price": 208,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 10,
+    "caliber": "7.62x54mm R"
+  },
+  {
+    "id": "svd-dragunov-20-round-magazine",
+    "name": "SVD Dragunov 20-Round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 20,
+    "caliber": "7.62x54mm R",
+    "_raw": {
+      "reload": "???"
+    }
+  },
+  {
+    "id": "m700-7-62x51mm-10-round-pmag-ac-magazine",
+    "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.124,
+    "vendor": "Loot Only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 10,
+    "caliber": "7.62x51mm",
+    "_raw": {
+      "reload": "-4.0"
+    }
+  },
+  {
+    "id": "schmeisser-ak-7-62x39-60-round-magazine",
+    "name": "Schmeisser AK 7.62x39 60-round Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.3,
+    "vendor": "Artisan",
+    "vendorRank": 4,
+    "price": 156,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "7.62x39",
+    "_raw": {
+      "reload": "-4"
+    }
+  },
+  {
+    "id": "ak-5-45x39mm-30-round-pmag-magazine",
+    "name": "AK 5.45x39mm 30-Round PMAG Magazine",
+    "category": "magazine",
+    "statModifiers": {
+      "sizeChangeY": 1.0
+    },
+    "weight": 0.17,
+    "vendor": "Turncoat",
+    "vendorRank": 3,
+    "price": 101,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "capacity": 30,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "reload": "+6"
+    }
   }
 ]

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "standard_gi_charging_handle",
+    "name": "Standard GI Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.028,
+    "type": "Charging Handle",
+    "manufacturer": "Colt",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "GI M4 Ch inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_grip-n-rip_charging_handle",
+    "name": "AR-15 GRIP-N-RIP Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.036,
+    "type": "Charging Handle",
+    "manufacturer": "Daniel Defense",
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "GripNRip Ch inspect.png",
+      "reload": "+4"
+    }
+  },
+  {
+    "id": "sig_mcx_charging_handle",
+    "name": "SIG MCX Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.031,
+    "type": "Charging Handle",
+    "manufacturer": "SIG Sauer",
+    "vendor": "Banshee R.3",
+    "buyPrice": 162.0,
+    "_raw": {
+      "image": "MCX Ch inspect.png"
+    }
+  },
+  {
+    "id": "cq_a1_charging_handle",
+    "name": "CQ A1 Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.028,
+    "type": "Charging Handle",
+    "manufacturer": "Norinco",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQ A1 Ch inspect.png",
+      "reload": "-2"
+    }
+  },
+  {
+    "id": "ak_rp-1_charging_handle",
+    "name": "AK RP-1 Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.017,
+    "type": "Charging Handle",
+    "manufacturer": "Zenitco",
+    "vendor": "Artisan R.3",
+    "_raw": {
+      "image": "RP1 Ch inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "ar-15_supreme_charging_handle",
+    "name": "AR-15 Supreme Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.03,
+    "type": "Charging Handle",
+    "manufacturer": "Antreg",
+    "vendor": "Gunny R.4",
+    "buyPrice": 166.0,
+    "_raw": {
+      "image": "Supreme Ch inspect.png",
+      "reload": "+6.0"
+    }
+  },
+  {
+    "id": "f1_charging_handle",
+    "name": "F1 Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.027,
+    "type": "Charging Handle",
+    "manufacturer": "F1-firearms",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "F1 Ch inspect.png",
+      "reload": "+2.0"
+    }
+  },
+  {
+    "id": "sch_5.56_charging_handle",
+    "name": "SCH 5.56 Charging Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Charging Handle",
+    "manufacturer": "Geissele Automatics",
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "SCH Ch inspect.png",
+      "reload": "+4.0"
+    }
+  },
+  {
+    "id": "sch_5.56_charging_handle_ddc",
+    "name": "SCH 5.56 Charging Handle (DDC)",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Charging Handle",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "SCH Ch(DDC) inspect.png",
+      "reload": "+???"
+    }
+  },
+  {
+    "id": "hk_mp5_cocking_handle",
+    "name": "HK MP5 Cocking Handle",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.12,
+    "type": "Charging Handle",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "MP5 C inspect.png"
+    }
+  },
+  {
+    "id": "vz._61_charging_knobs",
+    "name": "Vz. 61 Charging Knobs",
+    "category": "Charging Handle",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Charging Handle",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Vz. 61 Knobs Ch inspect.png",
+      "reload": "+???"
+    }
+  }
+]

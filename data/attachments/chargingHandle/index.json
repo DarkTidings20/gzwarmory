@@ -1,65 +1,158 @@
 [
   {
-    "id": "cq-a1-charging-handle",
-    "name": "CQ A1 Charging Handle",
-    "category": "chargingHandle",
-    "statModifiers": {},
-    "weight": 0.028,
-    "vendor": "Loot only", "vendorRank": 0, "price": 0,
-    "patchVersion": "0.4.0.3"
-  },
-  {
     "id": "standard-gi-charging-handle",
     "name": "Standard GI Charging Handle",
     "category": "chargingHandle",
     "statModifiers": {},
     "weight": 0.028,
-    "vendor": "Loot only", "vendorRank": 0, "price": 0,
-    "patchVersion": "0.4.0.3"
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ar-15-grip-n-rip-charging-handle",
+    "name": "AR-15 GRIP-N-RIP Charging Handle",
+    "category": "chargingHandle",
+    "statModifiers": {},
+    "weight": 0.036,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "_raw": {
+      "reload": "+4"
+    }
+  },
+  {
+    "id": "sig-mcx-charging-handle",
+    "name": "SIG MCX Charging Handle",
+    "category": "chargingHandle",
+    "statModifiers": {},
+    "weight": 0.031,
+    "vendor": "Banshee",
+    "vendorRank": 3,
+    "price": 162,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "cq-a1-charging-handle",
+    "name": "CQ A1 Charging Handle",
+    "category": "chargingHandle",
+    "statModifiers": {},
+    "weight": 0.028,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "_raw": {
+      "reload": "-2"
+    }
+  },
+  {
+    "id": "ak-rp-1-charging-handle",
+    "name": "AK RP-1 Charging Handle",
+    "category": "chargingHandle",
+    "statModifiers": {},
+    "weight": 0.017,
+    "vendor": "Artisan",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "_raw": {
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "ar-15-supreme-charging-handle",
+    "name": "AR-15 Supreme Charging Handle",
+    "category": "chargingHandle",
+    "statModifiers": {},
+    "weight": 0.03,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 166,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "_raw": {
+      "reload": "+6.0"
+    }
   },
   {
     "id": "f1-charging-handle",
     "name": "F1 Charging Handle",
     "category": "chargingHandle",
-    "statModifiers": { "reloadSpeed": 2.0 },
-    "weight": 0.027,
-    "vendor": "Gunny R.2", "vendorRank": 2, "price": 0,
-    "patchVersion": "0.4.0.3"
-  },
-  {
-    "id": "ar15-grip-n-rip-charging-handle",
-    "name": "AR-15 GRIP-N-RIP Charging Handle",
-    "category": "chargingHandle",
     "statModifiers": {},
-    "weight": 0.03,
-    "vendor": "Unknown", "vendorRank": 0, "price": 0,
-    "patchVersion": "0.4.0.3"
+    "weight": 0.027,
+    "vendor": "Gunny",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "_raw": {
+      "reload": "+2.0"
+    }
   },
   {
-    "id": "sch-556-charging-handle",
+    "id": "sch-5-56-charging-handle",
     "name": "SCH 5.56 Charging Handle",
     "category": "chargingHandle",
     "statModifiers": {},
-    "weight": 0.03,
-    "vendor": "Unknown", "vendorRank": 0, "price": 0,
-    "patchVersion": "0.4.0.3"
+    "weight": 0.08,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "_raw": {
+      "reload": "+4.0"
+    }
   },
   {
-    "id": "sch-556-charging-handle-ddc",
+    "id": "sch-5-56-charging-handle-ddc",
     "name": "SCH 5.56 Charging Handle (DDC)",
     "category": "chargingHandle",
     "statModifiers": {},
-    "weight": 0.03,
-    "vendor": "Unknown", "vendorRank": 0, "price": 0,
-    "patchVersion": "0.4.0.3"
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "_raw": {
+      "reload": "+???"
+    }
   },
   {
-    "id": "ar15-supreme-charging-handle",
-    "name": "AR-15 Supreme Charging Handle",
+    "id": "hk-mp5-cocking-handle",
+    "name": "HK MP5 Cocking Handle",
     "category": "chargingHandle",
-    "statModifiers": { "reloadSpeed": 6.0 },
-    "weight": 0.03,
-    "vendor": "Gunny R.4", "vendorRank": 4, "price": 166,
-    "patchVersion": "0.4.0.3"
+    "statModifiers": {},
+    "weight": 0.12,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "vz-61-charging-knobs",
+    "name": "Vz. 61 Charging Knobs",
+    "category": "chargingHandle",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "_raw": {
+      "reload": "+???"
+    }
   }
 ]

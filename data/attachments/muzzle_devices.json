@@ -1,0 +1,668 @@
+[
+  {
+    "id": "a2_flash_hider",
+    "name": "A2 Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.066,
+    "type": "Muzzle Device",
+    "manufacturer": "Colt",
+    "vendor": "Gunny R.??",
+    "_raw": {
+      "image": "A2 FH inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "x-factor_choke",
+    "name": "X-Factor Choke",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.101,
+    "type": "Muzzle Device",
+    "manufacturer": "Mossberg",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "XF Choke inspect.png",
+      "accuracy_modifier": "+20"
+    }
+  },
+  {
+    "id": "dd_extended_flash_suppressor",
+    "name": "DD Extended Flash Suppressor",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.095,
+    "type": "Muzzle Device",
+    "manufacturer": "Daniel Defense",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DD FH Ext. inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "3_prong_flash_hider",
+    "name": "3 Prong Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.12,
+    "type": "Muzzle Device",
+    "manufacturer": "Sig Sauer",
+    "vendor": "Banshee R.4",
+    "buyPrice": 146.0,
+    "_raw": {
+      "image": "3 Prong FH inspect.png",
+      "muzzle_efficiency": "+3"
+    }
+  },
+  {
+    "id": "cq_a2_flash_hider",
+    "name": "CQ A2 Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.066,
+    "type": "Muzzle Device",
+    "manufacturer": "Norinco",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQA2 FH inspect.png",
+      "muzzle_efficiency": "+5"
+    }
+  },
+  {
+    "id": "socom_3_prong_flash_hider",
+    "name": "SOCOM 3 Prong Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Muzzle Device",
+    "manufacturer": "Surefire",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "SF3P inspect.png",
+      "muzzle_efficiency": "+3"
+    }
+  },
+  {
+    "id": "ak-100_series_muzzle_brake",
+    "name": "AK-100 Series Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.1,
+    "type": "Muzzle Device",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.2",
+    "buyPrice": 70.0,
+    "_raw": {
+      "image": "AK100 Brake inspect.png",
+      "muzzle_efficiency": "+25"
+    }
+  },
+  {
+    "id": "ak_adapter_14-1lh_to_24-1.5",
+    "name": "AK Adapter 14-1LH to 24-1.5",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.044,
+    "type": "Muzzle Device",
+    "manufacturer": "General East",
+    "vendor": "Artisan R.4",
+    "buyPrice": 41.0,
+    "_raw": {
+      "image": "AK14-24 Brake inspect.png"
+    }
+  },
+  {
+    "id": "ak_bulgarian_flash_hider",
+    "name": "AK Bulgarian Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "AK B FH inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "akm_muzzle_brake",
+    "name": "AKM Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "AKM Brake inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "akm_slant_brake",
+    "name": "AKM Slant Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.03,
+    "type": "Muzzle Device",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.1",
+    "buyPrice": 13.0,
+    "_raw": {
+      "image": "AKM Slant inspect.png",
+      "muzzle_efficiency": "+20"
+    }
+  },
+  {
+    "id": "aks-74u_muzzle_brake",
+    "name": "AKS-74U Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.19,
+    "type": "Muzzle Device",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Turncoat R.1",
+    "buyPrice": 13.0,
+    "_raw": {
+      "image": "AKS-74U Brake inspect.png",
+      "muzzle_efficiency": "+10"
+    }
+  },
+  {
+    "id": "vulcan_f1",
+    "name": "Vulcan F1",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.105,
+    "type": "Muzzle Device",
+    "manufacturer": "Antreg",
+    "vendor": "Gunny R.4",
+    "buyPrice": 146.0,
+    "_raw": {
+      "image": "Vulcan F1 inspect.png",
+      "muzzle_efficiency": "+5"
+    }
+  },
+  {
+    "id": "vulcan_m1",
+    "name": "Vulcan M1",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.105,
+    "type": "Muzzle Device",
+    "manufacturer": "Antreg",
+    "vendor": "Gunny R.4",
+    "buyPrice": 284.0,
+    "_raw": {
+      "image": "Vulcan M1 inspect.png",
+      "muzzle_efficiency": "+20"
+    }
+  },
+  {
+    "id": "tanker_muzzle_break",
+    "name": "Tanker Muzzle Break",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.162,
+    "type": "Muzzle Device",
+    "manufacturer": "General West",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Tanker inspect.png",
+      "muzzle_efficiency": "+45"
+    }
+  },
+  {
+    "id": "b&t_mp5_flash_hider",
+    "name": "B&T MP5 Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.195,
+    "type": "Muzzle Device",
+    "manufacturer": "B&T",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "B&T FH inspect.png",
+      "muzzle_efficiency": "+3"
+    }
+  },
+  {
+    "id": "3-lug_threaded_hk_mp5",
+    "name": "3-Lug threaded HK MP5",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Muzzle Device",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "3 Lug adapt. inspect.png"
+    }
+  },
+  {
+    "id": "tactical_muzzle_brake",
+    "name": "Tactical Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Carlson MB inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "colt_1911_muzzle_brake",
+    "name": "Colt 1911 Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "1911 Brake inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "xm177e2_moderator_flash_hider",
+    "name": "XM177E2 Moderator Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.12,
+    "type": "Muzzle Device",
+    "manufacturer": "COLT",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "XM177E2 FH inspect.png",
+      "muzzle_efficiency": "+4"
+    }
+  },
+  {
+    "id": "glock_17_comp_weight_compensator",
+    "name": "Glock 17 Comp Weight Compensator",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "G17 Comp inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "tactical_muzzle_break",
+    "name": "Tactical Muzzle Break",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "TMB inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "fury_titanium_muzzle_brake",
+    "name": "Fury Titanium Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Fury Brake inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "hypertap_muzzle_brake_5.56x45",
+    "name": "Hypertap Muzzle Brake 5.56x45",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Hypertap Brake(556) inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "hypertap_muzzle_brake_7.62x51",
+    "name": "Hypertap Muzzle Brake 7.62x51",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.85,
+    "type": "Muzzle Device",
+    "manufacturer": "Precision Armaments",
+    "vendor": "Open World Loot only",
+    "_raw": {
+      "image": "Hypertap Brake(762) inspect.png",
+      "muzzle_efficiency": "+45"
+    }
+  },
+  {
+    "id": "m4qd_flash_hider",
+    "name": "M4QD Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.068,
+    "type": "Muzzle Device",
+    "manufacturer": "KAC",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "thumb",
+      "muzzle_efficiency": "+7"
+    }
+  },
+  {
+    "id": "glock_17_velocity_muzzle_brake",
+    "name": "Glock 17 Velocity Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Muzzle Device",
+    "manufacturer": "General West",
+    "vendor": "Banshee R.2",
+    "buyPrice": 150.0,
+    "_raw": {
+      "image": "Velocity MB inspect.png",
+      "muzzle_efficiency": "+10"
+    }
+  },
+  {
+    "id": "m700_thread_cap",
+    "name": "M700 Thread Cap",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "700 cap inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "mosin-nagant_howling_raven_muzzle_brake",
+    "name": "Mosin-Nagant Howling Raven Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Raven inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "mosin-nagant_tanker_muzzle_brake",
+    "name": "Mosin-Nagant Tanker Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.257,
+    "type": "Muzzle Device",
+    "manufacturer": "General West",
+    "vendor": "Artisan R.3",
+    "buyPrice": 130.0,
+    "_raw": {
+      "image": "Tanker2 inspect.png",
+      "muzzle_efficiency": "+40"
+    }
+  },
+  {
+    "id": "mp5_3_lug_adapter",
+    "name": "MP5 3 Lug Adapter",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Muzzle Device",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "3 Lug inspect.png"
+    }
+  },
+  {
+    "id": "mp5_threaded_3_lug_adapter",
+    "name": "MP5 Threaded 3 Lug Adapter",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Muzzle Device",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "3 Lug Ad inspect.png"
+    }
+  },
+  {
+    "id": "mp5_muzzle_cap",
+    "name": "MP5 Muzzle Cap",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "MP5 Cap inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "mp7_flash_hider",
+    "name": "MP7 Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.04,
+    "type": "Muzzle Device",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "???",
+    "_raw": {
+      "image": "MP7 FH inspect.png",
+      "muzzle_efficiency": "+5"
+    }
+  },
+  {
+    "id": "pcam4-72",
+    "name": "PCAM4-72",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.09,
+    "type": "Muzzle Device",
+    "manufacturer": "Precision Armament",
+    "vendor": "Banshee R.3",
+    "buyPrice": 126.0,
+    "_raw": {
+      "image": "PCAM4-72 inspect.png",
+      "muzzle_efficiency": "+35"
+    }
+  },
+  {
+    "id": "remington_salvo_12_choke_adapter",
+    "name": "Remington Salvo 12 Choke Adapter",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.075,
+    "type": "Muzzle Device",
+    "manufacturer": "SilencerCo",
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "Salvo Rem inspect.png",
+      "accuracy_modifier": "+50"
+    }
+  },
+  {
+    "id": "mossberg_salvo_12_choke_adapter",
+    "name": "Mossberg Salvo 12 Choke Adapter",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Salvo Mos inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "mcx_3_prong_flash_hider",
+    "name": "MCX 3 Prong Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "MCX 3Prong inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "sks_muzzle_brake_adapter",
+    "name": "SKS Muzzle Brake Adapter",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.055,
+    "type": "Muzzle Device",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "SKS Adapt inspect.png"
+    }
+  },
+  {
+    "id": "slot_muzzle_brake",
+    "name": "Slot Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "Slot Brake inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "srd762-qd_muzzle_brake",
+    "name": "SRD762-QD Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.095,
+    "type": "Muzzle Device",
+    "manufacturer": "SIG Sauer",
+    "vendor": "Banshee R.4",
+    "buyPrice": 150.0,
+    "_raw": {
+      "image": "SRD762 MB inspect.png",
+      "muzzle_efficiency": "+10"
+    }
+  },
+  {
+    "id": "srd762-qd_flash_hider",
+    "name": "SRD762-QD Flash Hider",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.07,
+    "type": "Muzzle Device",
+    "manufacturer": "SIG Sauer",
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "SRD762 FH inspect.png",
+      "muzzle_efficiency": "+4"
+    }
+  },
+  {
+    "id": "srd762-qd_taper-lok_muzzle_brake",
+    "name": "SRD762-QD Taper-Lok Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "SRD Taper inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "dtk-1_muzzle_brake",
+    "name": "DTK-1 Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Muzzle Device",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "DTK-1 inspect.png",
+      "muzzle_efficiency": "+????"
+    }
+  },
+  {
+    "id": "dtk-2_muzzle_brake",
+    "name": "DTK-2 Muzzle Brake",
+    "category": "Muzzle Devices",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.105,
+    "type": "Muzzle Device",
+    "manufacturer": "Zenitco",
+    "vendor": "Artisan R.3",
+    "buyPrice": 117.0,
+    "_raw": {
+      "image": "DTK-2 inspect.png",
+      "muzzle_efficiency": "+40"
+    }
+  }
+]

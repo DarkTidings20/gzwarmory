@@ -3,16 +3,22 @@
     "id": "ar-15-barrel-14-5",
     "name": "AR-15 Barrel - 14.5\"",
     "category": "barrel",
-    "statModifiers": {},
+    "statModifiers": {
+      "ergonomics": -1.0,
+      "sizeChangeX": 2.0
+    },
     "weight": 0.725,
     "vendor": "Gunny R.??",
     "vendorRank": 0,
     "price": 0,
     "patchVersion": "0.4.0.3",
     "wikiSource": true,
-    "muzzleVelocityMod": 0,
+    "muzzleVelocityMod": 4.0,
     "length": null,
-    "threaded": false
+    "threaded": false,
+    "accuracy": 2.1,
+    "manufacturer": "Colt",
+    "verified": false
   },
   {
     "id": "glock-17-standard-barrel",
@@ -36,39 +42,46 @@
     "id": "ar-15-barrel-20",
     "name": "AR-15 Barrel - 20\"",
     "category": "barrel",
-    "statModifiers": {},
+    "statModifiers": {
+      "ergonomics": -18.0,
+      "sizeChangeX": 4.0
+    },
     "weight": 0.97,
     "vendor": "Loot only",
     "vendorRank": 0,
     "price": 0,
     "patchVersion": "0.4.0.3",
     "wikiSource": true,
-    "muzzleVelocityMod": 0,
+    "muzzleVelocityMod": 20.0,
     "length": null,
     "threaded": false,
     "_raw": {
-      "accuracy": "1.11",
-      "rate": "| manufacturer       =Colt",
-      "muzzle_efficiency": "| horizontal         =+4"
-    }
+      "rate": "| manufacturer       =Colt"
+    },
+    "accuracy": 1.11,
+    "manufacturer": "Colt",
+    "verified": true
   },
   {
     "id": "ar-15-barrel-16",
     "name": "AR-15 Barrel - 16\"",
     "category": "barrel",
-    "statModifiers": {},
+    "statModifiers": {
+      "ergonomics": -2.0,
+      "sizeChangeX": 2.0
+    },
     "weight": 0.793,
     "vendor": "Gunny",
     "vendorRank": 3,
     "price": 0,
     "patchVersion": "0.4.0.3",
     "wikiSource": true,
-    "muzzleVelocityMod": 0,
+    "muzzleVelocityMod": 8.0,
     "length": null,
     "threaded": false,
-    "_raw": {
-      "muzzle_efficiency": "????"
-    }
+    "accuracy": 1.83,
+    "manufacturer": "Colt",
+    "verified": true
   },
   {
     "id": "sig-mcx-barrel-9",
@@ -95,6 +108,7 @@
     "name": "AR-15 CQA1 Barrel - 14.5\"",
     "category": "barrel",
     "statModifiers": {
+      "ergonomics": 2.0,
       "sizeChangeX": 2.0
     },
     "weight": 0.725,
@@ -103,12 +117,12 @@
     "price": 0,
     "patchVersion": "0.4.0.3",
     "wikiSource": true,
-    "muzzleVelocityMod": -4.0,
+    "muzzleVelocityMod": 0.0,
     "length": null,
     "threaded": false,
-    "_raw": {
-      "accuracy": "4.18"
-    }
+    "accuracy": 4.18,
+    "manufacturer": "Norinco",
+    "verified": true
   },
   {
     "id": "m700-heavy-barrel-26",
@@ -135,6 +149,7 @@
     "name": "AR-15 Barrel - 10.5\"",
     "category": "barrel",
     "statModifiers": {
+      "ergonomics": 4.0,
       "sizeChangeX": 1.0
     },
     "weight": 0.538,
@@ -143,13 +158,12 @@
     "price": 0,
     "patchVersion": "0.4.0.3",
     "wikiSource": true,
-    "muzzleVelocityMod": 0,
+    "muzzleVelocityMod": -4.0,
     "length": null,
     "threaded": false,
-    "_raw": {
-      "muzzle_efficiency": "-10",
-      "accuracy": "3.89"
-    }
+    "accuracy": 3.5,
+    "manufacturer": "Colt",
+    "verified": false
   },
   {
     "id": "m700-threaded-barrel-18",
@@ -487,7 +501,10 @@
     "id": "ar-15-barrel-18",
     "name": "AR-15 Barrel - 18\"",
     "category": "barrel",
-    "statModifiers": {},
+    "statModifiers": {
+      "ergonomics": -8.0,
+      "sizeChangeX": 3.0
+    },
     "weight": 1.27,
     "vendor": "Gunny",
     "vendorRank": 4,
@@ -497,9 +514,9 @@
     "muzzleVelocityMod": 12.0,
     "length": null,
     "threaded": false,
-    "_raw": {
-      "accuracy": "1.44"
-    }
+    "accuracy": 1.44,
+    "manufacturer": "Colt",
+    "verified": true
   },
   {
     "id": "m9a1-standard-barrel",
@@ -536,5 +553,26 @@
     "_raw": {
       "accuracy": "11.70"
     }
+  },
+  {
+    "id": "m16a1-barrel-20",
+    "name": "M16A1 Barrel - 20\"",
+    "category": "barrel",
+    "statModifiers": {
+      "ergonomics": -18.0,
+      "sizeChangeX": 4.0
+    },
+    "weight": 0.97,
+    "muzzleVelocityMod": 20.0,
+    "accuracy": 1.22,
+    "manufacturer": "Colt",
+    "vendor": "Unknown",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": false,
+    "verified": true,
+    "threaded": false,
+    "length": null
   }
 ]

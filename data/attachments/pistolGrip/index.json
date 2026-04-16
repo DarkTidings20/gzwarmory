@@ -1,0 +1,74 @@
+[
+  {
+    "id": "norinco-cqa1-pistol-grip",
+    "name": "Norinco CQA1 Pistol Grip",
+    "category": "pistolGrip",
+    "statModifiers": { "ergonomics": 2, "weaponHandling": 1 },
+    "weight": 0.08,
+    "vendor": "Gunny", "vendorRank": 1,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "miad-pistol-grip",
+    "name": "MIAD Pistol Grip",
+    "category": "pistolGrip",
+    "statModifiers": { "ergonomics": 3, "weaponHandling": 2 },
+    "weight": 0.09,
+    "vendor": "Gunny", "vendorRank": 2,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "torque-pistol-grip",
+    "name": "Torque Pistol Grip",
+    "category": "pistolGrip",
+    "statModifiers": { "ergonomics": 4, "weaponHandling": 2, "recoilControl": 1 },
+    "weight": 0.1,
+    "vendor": "Gunny", "vendorRank": 3,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "moe-pistol-grip",
+    "name": "MOE Pistol Grip",
+    "category": "pistolGrip",
+    "statModifiers": { "ergonomics": 3, "weaponHandling": 1 },
+    "weight": 0.08,
+    "vendor": "Gunny", "vendorRank": 1,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "moe-pistol-grip-fde",
+    "name": "MOE Pistol Grip (FDE)",
+    "category": "pistolGrip",
+    "statModifiers": { "ergonomics": 3, "weaponHandling": 1 },
+    "weight": 0.08,
+    "vendor": "Gunny", "vendorRank": 1,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "dd-enhanced-ar-pistol-grip-milspec",
+    "name": "DD Enhanced AR Pistol Grip (MILSPEC)",
+    "category": "pistolGrip",
+    "statModifiers": { "ergonomics": 5, "weaponHandling": 3, "recoilControl": 2 },
+    "weight": 0.11,
+    "vendor": "Artisan", "vendorRank": 3,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "dd-enhanced-ar-pistol-grip",
+    "name": "DD Enhanced AR Pistol Grip",
+    "category": "pistolGrip",
+    "statModifiers": { "ergonomics": 5, "weaponHandling": 3, "recoilControl": 2 },
+    "weight": 0.11,
+    "vendor": "Artisan", "vendorRank": 3,
+    "patchVersion": "0.4.0.2"
+  },
+  {
+    "id": "dd-enhanced-ar-pistol-grip-black",
+    "name": "DD Enhanced AR Pistol Grip (Black)",
+    "category": "pistolGrip",
+    "statModifiers": { "ergonomics": 5, "weaponHandling": 3, "recoilControl": 2 },
+    "weight": 0.11,
+    "vendor": "Artisan", "vendorRank": 3,
+    "patchVersion": "0.4.0.2"
+  }
+]

@@ -6,18 +6,17 @@
   "caliber": "5.56x45mm NATO",
   "manufacturer": "Colt",
   "vendor": "Gunny",
-  "vendorRank": 2,
+  "vendorRank": 3,
+  "vendorPrice": 6400,
   "baseStats": {
-    "accuracy": 1.16,
     "durability": 100.0,
-    "fireRateBonus": 5.7,
-    "recoilControl": 36.5,
-    "muzzleDeviceEfficiency": 29.6,
-    "muzzleVelocity": 19.2,
-    "loudnessReduction": 55.0,
-    "ergonomics": -0.4,
-    "reloadSpeed": -5.4,
-    "weight": 4.684,
+    "accuracy": 3.89,
+    "fireRateBonus": 6.0,
+    "recoilControl": 23.0,
+    "muzzleDeviceEfficiency": 12.0,
+    "ergonomics": 48.0,
+    "reloadSpeed": -2.0,
+    "weight": 3.174,
     "rateOfFire": 800
   },
   "compatibleAmmo": [
@@ -45,7 +44,24 @@
     "chargingHandle": { "label": "Charging Handle", "required": false, "compatible": ["standard-gi-charging-handle", "ar-15-grip-n-rip-charging-handle", "ar-15-supreme-charging-handle", "f1-charging-handle", "sch-5-56-charging-handle", "sch-5-56-charging-handle-ddc"] },
     "magazine": { "label": "Magazine", "required": true, "compatible": ["stanag-5-56x45mm-300-blk-20-round-magazine", "stanag-5-56x45mm-300-blk-30-round-magazine", "pmag-5-56x45mm-300-blk-20-round-magazine", "pmag-5-56x45mm-300-blk-30-round-magazine", "pmag-5-56x45mm-300-blk-30-round-magazine-fde", "dd-5-56x45mm-300-blk-32-round-magazine", "ati-s60-5-56x45mm-300-blk-60-round-magazine"] }
   },
-  "notes": "Most popular AR platform in GZW. Stats from in-game screenshot 0.4.0.3.",
-  "patchVersion": "0.4.0.3",
-  "lastUpdated": "2026-04-15"
+  "vendorConfig": {
+    "barrel": "ar-15-cqa1-14-5",
+    "muzzleDevice": "slot-muzzle-brake",
+    "chargingHandle": "f1-charging-handle",
+    "pistolGrip": "miad-pistol-grip",
+    "optic": "micro-t-2-red-dot-sight",
+    "sightMount": "high-sight-mount",
+    "foregrip": "ultra-slim-m-lok-mt-fgm01x-foregrip",
+    "gasBlock": "m16a1-standard-gas-block",
+    "magazine": "stanag-5-56x45mm-300-blk-30-round-magazine",
+    "handguard": "ar-15-moe-m-lok-carbine-handguard",
+    "receiver": "m4-upper-receiver",
+    "stock": "ar15-moe-stock",
+    "bufferTube": "cq-a1-buffer-tube"
+  },
+  "notes": "Most popular AR platform in GZW. $6.4K Gunny vendor config. Stats verified from in-game screenshot at 100% durability. baseStats reflect bare weapon with NO attachments.",
+  "verified": true,
+  "verifiedSource": "in-game screenshot",
+  "patchVersion": "0.4.1.0",
+  "lastUpdated": "2026-04-16"
 }

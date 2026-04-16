@@ -1,40 +1,540 @@
 [
   {
-    "id": "ar15-barrel-10in",
-    "name": "AR-15 Barrel - 10.5\"",
-    "category": "barrel",
-    "statModifiers": { "accuracy": 0.3, "muzzleVelocity": -8 },
-    "weight": 0.595,
-    "vendor": "Loot only", "vendorRank": 0, "price": 0,
-    "patchVersion": "0.4.0.3"
-  },
-  {
-    "id": "ar15-barrel-14in",
+    "id": "ar-15-barrel-14-5",
     "name": "AR-15 Barrel - 14.5\"",
     "category": "barrel",
-    "statModifiers": { "accuracy": 0 },
+    "statModifiers": {},
     "weight": 0.725,
-    "vendor": "Gunny", "vendorRank": 2, "price": 0,
-    "patchVersion": "0.4.0.3"
+    "vendor": "Gunny R.??",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false
   },
   {
-    "id": "ar15-barrel-16in",
-    "name": "AR-15 Barrel - 16\"",
+    "id": "glock-17-standard-barrel",
+    "name": "Glock 17 Standard Barrel",
     "category": "barrel",
-    "statModifiers": { "accuracy": -0.32 },
-    "weight": 0.793,
-    "vendor": "Gunny R.3", "vendorRank": 3, "price": 0,
-    "notes": "1.83 MOA base accuracy",
-    "patchVersion": "0.4.0.3"
+    "statModifiers": {},
+    "weight": 0.113,
+    "vendor": "GunnyBanshee",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "11.70"
+    }
   },
   {
-    "id": "ar15-barrel-20in",
+    "id": "ar-15-barrel-20",
     "name": "AR-15 Barrel - 20\"",
     "category": "barrel",
-    "statModifiers": { "accuracy": -1.04, "muzzleVelocity": 20, "horizontalRecoil": -4 },
+    "statModifiers": {},
     "weight": 0.97,
-    "vendor": "Loot only", "vendorRank": 0, "price": 0,
-    "notes": "1.11 MOA — best accuracy barrel. Loot only.",
-    "patchVersion": "0.4.0.3"
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "1.11",
+      "rate": "| manufacturer       =Colt",
+      "muzzle_efficiency": "| horizontal         =+4"
+    }
+  },
+  {
+    "id": "ar-15-barrel-16",
+    "name": "AR-15 Barrel - 16\"",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 0.793,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "sig-mcx-barrel-9",
+    "name": "SIG MCX Barrel - 9\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.45,
+    "vendor": "Banshee",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": -11.0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "2.65"
+    }
+  },
+  {
+    "id": "ar-15-cqa1-barrel-14-5",
+    "name": "AR-15 CQA1 Barrel - 14.5\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.725,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": -4.0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "4.18"
+    }
+  },
+  {
+    "id": "m700-heavy-barrel-26",
+    "name": "M700 Heavy Barrel - 26\"",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 2.05,
+    "vendor": "????",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 6.0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "0.48",
+      "rate": "+???",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "ar-15-barrel-10-5",
+    "name": "AR-15 Barrel - 10.5\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.538,
+    "vendor": "Gunny",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "muzzle_efficiency": "-10",
+      "accuracy": "3.89"
+    }
+  },
+  {
+    "id": "m700-threaded-barrel-18",
+    "name": "M700 Threaded Barrel - 18\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 3.0
+    },
+    "weight": 1.12,
+    "vendor": "Banshee",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": true,
+    "_raw": {
+      "accuracy": "1.02"
+    }
+  },
+  {
+    "id": "m700-suppressed-barrel-20",
+    "name": "M700 Suppressed Barrel - 20\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 3.0
+    },
+    "weight": 1.8,
+    "vendor": "Banshee",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": true,
+    "_raw": {
+      "accuracy": "1.10"
+    }
+  },
+  {
+    "id": "m700-barrel-22",
+    "name": "M700 Barrel - 22\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 3.0
+    },
+    "weight": 1.0,
+    "vendor": "Banshee",
+    "vendorRank": 2,
+    "price": 614,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "0.61"
+    }
+  },
+  {
+    "id": "m700-vtr-barrel-22",
+    "name": "M700 VTR Barrel - 22\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 3.0
+    },
+    "weight": 1.5,
+    "vendor": "Banshee",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "0.55"
+    }
+  },
+  {
+    "id": "glock-17-match-grade-barrel",
+    "name": "Glock 17 Match Grade Barrel",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 0.11,
+    "vendor": "Banshee",
+    "vendorRank": 2,
+    "price": 204,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "10.82"
+    }
+  },
+  {
+    "id": "glock-17-match-grade-threaded-barrel-gold",
+    "name": "Glock 17 Match Grade Threaded Barrel (Gold)",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "????",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": true,
+    "_raw": {
+      "accuracy": "???",
+      "rate": "+???",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "optimized-glock-17-match-grade-threaded-barrel",
+    "name": "Optimized Glock 17 Match Grade Threaded Barrel",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 0.105,
+    "vendor": "Banshee",
+    "vendorRank": 3,
+    "price": 339,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": true,
+    "_raw": {
+      "accuracy": "11.65"
+    }
+  },
+  {
+    "id": "m870-barrel-18-5",
+    "name": "M870 Barrel - 18.5\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.75,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "41.60"
+    }
+  },
+  {
+    "id": "m870-barrel-23",
+    "name": "M870 Barrel - 23\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.93,
+    "vendor": "Gunny",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 8.0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "29.60"
+    }
+  },
+  {
+    "id": "m870-barrel-26",
+    "name": "M870 Barrel - 26\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 3.0
+    },
+    "weight": 1.1,
+    "vendor": "Gunny R.??",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 12.0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "24.50"
+    }
+  },
+  {
+    "id": "mosin-nagant-barrel-514mm",
+    "name": "Mosin-Nagant Barrel - 514mm",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 3.0
+    },
+    "weight": 1.0,
+    "vendor": "Artisan",
+    "vendorRank": 1,
+    "price": 104,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "3.00"
+    }
+  },
+  {
+    "id": "mosin-nagant-barrel-730mm",
+    "name": "Mosin-Nagant Barrel - 730mm",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "????",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "???",
+      "rate": "+???",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "type-51-barrel",
+    "name": "Type 51 Barrel",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 0.06,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "12.23"
+    }
+  },
+  {
+    "id": "sig-mcx-barrel-16",
+    "name": "SIG MCX Barrel - 16\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 2.0
+    },
+    "weight": 0.7,
+    "vendor": "Banshee",
+    "vendorRank": 4,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "1.95"
+    }
+  },
+  {
+    "id": "sig-mcx-barrel-6-75",
+    "name": "SIG MCX Barrel - 6.75\"",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.35,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "3.27"
+    }
+  },
+  {
+    "id": "svd-barrel-620mm",
+    "name": "SVD Barrel - 620mm",
+    "category": "barrel",
+    "statModifiers": {
+      "sizeChangeX": 3.0
+    },
+    "weight": 1.3,
+    "vendor": "Artisan",
+    "vendorRank": 4,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "0.95"
+    }
+  },
+  {
+    "id": "type-51-threaded-barrel",
+    "name": "Type 51 Threaded Barrel",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 0.062,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": true,
+    "_raw": {
+      "accuracy": "12.23"
+    }
+  },
+  {
+    "id": "ar-15-barrel-18",
+    "name": "AR-15 Barrel - 18\"",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 1.27,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 598,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 12.0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "1.44"
+    }
+  },
+  {
+    "id": "m9a1-standard-barrel",
+    "name": "M9A1 Standard Barrel",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 0.149,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": false,
+    "_raw": {
+      "accuracy": "11.70"
+    }
+  },
+  {
+    "id": "m9a1-threaded-barrel",
+    "name": "M9A1 Threaded Barrel",
+    "category": "barrel",
+    "statModifiers": {},
+    "weight": 0.207,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true,
+    "muzzleVelocityMod": 0,
+    "length": null,
+    "threaded": true,
+    "_raw": {
+      "accuracy": "11.70"
+    }
   }
 ]

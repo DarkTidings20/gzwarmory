@@ -1,31 +1,856 @@
 [
   {
-    "id": "ar15-sopmod-stock",
-    "name": "AR-15 SOPMOD Stock",
+    "id": "ak-pt-1-stock",
+    "name": "AK PT-1 Stock",
     "category": "stock",
-    "statModifiers": {},
-    "weight": 0.3,
-    "vendor": "Unknown", "vendorRank": 0, "price": 0,
-    "notes": "Stats missing from wiki — needs in-game verification",
-    "patchVersion": "0.4.0.3"
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 15.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.48,
+    "vendor": "Turncoat",
+    "vendorRank": 4,
+    "price": 423,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-74n-wooden-stock",
+    "name": "AK-74N Wooden Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 1.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.45,
+    "vendor": "Turncoat",
+    "vendorRank": 1,
+    "price": 52,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-47-akm-wooden-stock",
+    "name": "AK-47/AKM Wooden Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 1.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.45,
+    "vendor": "Artisan",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-74m-polymer-stock",
+    "name": "AK-74M Polymer Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 4.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "akmsn-foldable-stock",
+    "name": "AKMSN Foldable Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 4.0,
+      "recoil": -6.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.372,
+    "vendor": "Artisan",
+    "vendorRank": 2,
+    "price": 91,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-moe-stock",
+    "name": "AK MOE Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 6.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.354,
+    "vendor": "Artisan",
+    "vendorRank": 2,
+    "price": 211,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
   },
   {
     "id": "dd-adjustable-buttstock",
     "name": "DD Adjustable Buttstock",
     "category": "stock",
-    "statModifiers": { "recoilControl": 10, "weaponHandling": 4, "ergonomics": 3 },
+    "statModifiers": {
+      "ergonomics": 4.0,
+      "recoil": 10.0
+    },
     "weight": 0.227,
-    "vendor": "Loot only", "vendorRank": 0, "price": 0,
-    "patchVersion": "0.4.0.3"
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mcx-mpx-standard-folding-stock",
+    "name": "MCX/MPX Standard Folding Stock",
+    "category": "stock",
+    "statModifiers": {
+      "recoil": 6.0
+    },
+    "weight": 0.385,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "cq-a1-buttstock",
+    "name": "CQ A1 Buttstock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 1.0,
+      "recoil": -4.0
+    },
+    "weight": 0.361,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ar-15-sopmod-stock-fde",
+    "name": "AR-15 SOPMOD Stock (FDE)",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 6.0
+    },
+    "weight": 0.352,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ar-15-archangel-low-profile-buttstock",
+    "name": "AR-15 Archangel Low-Profile Buttstock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 4.0
+    },
+    "weight": 0.27,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ctr-cheek-riser",
+    "name": "CTR Cheek Riser",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mcx-mpx-minimalist-folding-stock",
+    "name": "MCX/MPX Minimalist Folding Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 4.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.311,
+    "vendor": "Banshee",
+    "vendorRank": 4,
+    "price": 405,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-moe-stock-fde",
+    "name": "AK MOE Stock (FDE)",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 6.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.354,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "aks-74u-foldable-stock",
+    "name": "AKS-74U Foldable Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 4.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.226,
+    "vendor": "Turncoat",
+    "vendorRank": 1,
+    "price": 163,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "aks-74u-m4-foldable-stock",
+    "name": "AKS-74U M4 Foldable Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 6.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.29,
+    "vendor": "Turncoat",
+    "vendorRank": 3,
+    "price": 271,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ar-15-m401-nylon-stock",
+    "name": "AR-15 M401 Nylon Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 6.0
+    },
+    "weight": 0.6,
+    "vendor": "Gunny",
+    "vendorRank": 2,
+    "price": 89,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "dd-adjustable-buttstock-black",
+    "name": "DD Adjustable Buttstock (Black)",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "extended-rubber-butt-pad",
+    "name": "Extended Rubber Butt-Pad",
+    "category": "stock",
+    "statModifiers": {
+      "recoil": 5.0
+    },
+    "weight": 0.087,
+    "vendor": "Loot Only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ar-15-sopmod-stock",
+    "name": "AR-15 SOPMOD Stock",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "h-s-precision-pro-series-2000",
+    "name": "H-S Precision Pro-Series 2000",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m700-mod-x-stock",
+    "name": "M700 MOD*X Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 10.0,
+      "recoil": 9.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 1.45,
+    "vendor": "Banshee",
+    "vendorRank": 4,
+    "price": 852,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m700-stock",
+    "name": "M700 Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 4.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 1.171,
+    "vendor": "Banshee",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ar-15-ctr-stock",
+    "name": "AR-15 CTR Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 6.0
+    },
+    "weight": 0.249,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ar-15-ctr-stock-fde",
+    "name": "AR-15 CTR Stock (FDE)",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 6.0
+    },
+    "weight": 0.249,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
   },
   {
     "id": "ar15-moe-stock",
     "name": "AR15 MOE Stock",
     "category": "stock",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 15.0
+    },
+    "weight": 0.226,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 167,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m590-sga-stock",
+    "name": "M590 SGA Stock",
+    "category": "stock",
     "statModifiers": {},
-    "weight": 0.22,
-    "vendor": "Gunny", "vendorRank": 2, "price": 0,
-    "notes": "Stats need verification",
-    "patchVersion": "0.4.0.3"
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mcx-mpx-skel-folding-stock",
+    "name": "MCX/MPX Skel Folding Stock",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mcx-mpx-folding-visor-stock",
+    "name": "MCX/MPX Folding Visor Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 9.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.35,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mcx-mpx-telescoping-stock",
+    "name": "MCX/MPX Telescoping Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 3.0,
+      "recoil": 8.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.385,
+    "vendor": "Banshee",
+    "vendorRank": 3,
+    "price": 455,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mosin-nagant-wooden-stock-carbine",
+    "name": "Mosin-Nagant Wooden Stock (Carbine)",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 1.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 1.2,
+    "vendor": "Artisan",
+    "vendorRank": 1,
+    "price": 114,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mosin-nagant-folding-stock",
+    "name": "Mosin-Nagant Folding Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 4.0,
+      "recoil": -8.0
+    },
+    "weight": 1.076,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mosin-nagant-archangel-stock",
+    "name": "Mosin-Nagant Archangel Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 4.0,
+      "recoil": 12.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 1.62,
+    "vendor": "Artisan",
+    "vendorRank": 3,
+    "price": 284,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mosin-nagant-wooden-stock-rifle",
+    "name": "Mosin-Nagant Wooden Stock (Rifle)",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mosin-nagant-wooden-stock-sniper",
+    "name": "Mosin-Nagant Wooden Stock (Sniper)",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m590-stock",
+    "name": "M590 Stock",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mp5-a2-stock",
+    "name": "MP5 A2 Stock",
+    "category": "stock",
+    "statModifiers": {
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.453,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mp5-a3-stock",
+    "name": "MP5 A3 Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": -2.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.307,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mp7a1-retractable-stock",
+    "name": "MP7A1 Retractable Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 3.0,
+      "recoil": 4.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.2,
+    "vendor": "Banshee",
+    "vendorRank": 2,
+    "price": 432,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mp7a2-retractable-stock",
+    "name": "MP7A2 Retractable Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 3.0,
+      "recoil": 4.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.2,
+    "vendor": "Loot Only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m700-hunter-stock",
+    "name": "M700 Hunter Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 12.0,
+      "sizeChangeX": 2.0
+    },
+    "weight": 1.45,
+    "vendor": "Banshee",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m700-hunter-stock-fde",
+    "name": "M700 Hunter Stock (FDE)",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m870-express-stock",
+    "name": "M870 Express Stock",
+    "category": "stock",
+    "statModifiers": {
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.476,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m870-stock-od-green",
+    "name": "M870 Stock (OD Green)",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 2.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.64,
+    "vendor": "Gunny",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m870-sga-stock",
+    "name": "M870 SGA Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 6.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.68,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m870-sga-stock-fde",
+    "name": "M870 SGA Stock (FDE)",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "mp5-hk33-53-stock",
+    "name": "MP5/HK33/53 Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 1.0,
+      "recoil": 14.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.455,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 448,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-pt-3-stock",
+    "name": "AK PT-3 Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 6.0,
+      "recoil": 17.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.55,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-zhukov-stock",
+    "name": "AK Zhukov Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 8.0,
+      "recoil": 8.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.425,
+    "vendor": "Artisan",
+    "vendorRank": 3,
+    "price": 226,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ak-zhukov-stock-fde",
+    "name": "AK Zhukov Stock (FDE)",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 8.0,
+      "recoil": 8.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.425,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "recoil-reducing-pad",
+    "name": "Recoil Reducing Pad",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 2.0
+    },
+    "weight": 0.164,
+    "vendor": "Artisan",
+    "vendorRank": 1,
+    "price": 141,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ratnik-foldable-stock",
+    "name": "Ratnik Foldable Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 10.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.4,
+    "vendor": "Artisan",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "sks-strikeforce-tactlite-stock",
+    "name": "SKS Strikeforce TactLite Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 4.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 1.26,
+    "vendor": "Artisan",
+    "vendorRank": 2,
+    "price": 206,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "sks-sabertooth-mkii-stock",
+    "name": "SKS Sabertooth MKII Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 5.0,
+      "recoil": 8.0
+    },
+    "weight": 0.997,
+    "vendor": "Artisan",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "sks-stock",
+    "name": "SKS Stock",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 1.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.76,
+    "vendor": "Artisan",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "svd-polymer-stock-with-grip",
+    "name": "SVD Polymer Stock with Grip",
+    "category": "stock",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 17.0,
+      "sizeChangeY": 1.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.56,
+    "vendor": "Artisan",
+    "vendorRank": 4,
+    "price": 591,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "svd-wooden-stock-with-grip",
+    "name": "SVD Wooden Stock with Grip",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "vz-61-wire-stock",
+    "name": "Vz. 61 Wire Stock",
+    "category": "stock",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
   }
 ]

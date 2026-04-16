@@ -1,0 +1,295 @@
+[
+  {
+    "id": "dd_vertical_foregrip",
+    "name": "DD Vertical Foregrip",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "Daniel Defense",
+    "ergonomics": 12.0,
+    "recoil": 10.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "DD FG inspect.png"
+    }
+  },
+  {
+    "id": "rvg",
+    "name": "RVG",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.073,
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "ergonomics": -6.0,
+    "recoil": 12.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "RVG inspect.png"
+    }
+  },
+  {
+    "id": "rvg_fde",
+    "name": "RVG (FDE)",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.073,
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "ergonomics": -6.0,
+    "recoil": 12.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "RVG(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "dd_vertical_foregrip_black",
+    "name": "DD Vertical Foregrip (Black)",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "Daniel Defense",
+    "ergonomics": 12.0,
+    "recoil": 10.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "DD FG B inspect.png"
+    }
+  },
+  {
+    "id": "dd_vertical_foregrip_milspec",
+    "name": "DD Vertical Foregrip (MILSPEC)",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "Daniel Defense",
+    "ergonomics": 12.0,
+    "recoil": 10.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "DD FG(Milspec) inspect.png"
+    }
+  },
+  {
+    "id": "afg-2",
+    "name": "AFG-2",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.072,
+    "type": "Foregrip",
+    "manufacturer": "Magpul",
+    "ergonomics": 4.0,
+    "recoil": 18.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 80.0,
+    "_raw": {
+      "image": "AFG-2 inspect.png"
+    }
+  },
+  {
+    "id": "afg-2_fde",
+    "name": "AFG-2 (FDE)",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.072,
+    "type": "Foregrip",
+    "manufacturer": "Magpul",
+    "recoil": 18.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "AFG-2(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "m-lok_afg",
+    "name": "M-LOK AFG",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.034,
+    "type": "Foregrip",
+    "manufacturer": "Magpul",
+    "ergonomics": 4.0,
+    "recoil": 18.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "AFG inspect.png"
+    }
+  },
+  {
+    "id": "m-lok_afg_fde",
+    "name": "M-LOK AFG (FDE)",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "AFG(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "shift_vertical_foregrip",
+    "name": "SHIFT Vertical Foregrip",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.096,
+    "type": "Foregrip",
+    "manufacturer": "Fortis",
+    "ergonomics": 2.0,
+    "recoil": 12.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 78.0,
+    "_raw": {
+      "image": "Shift inspect.png"
+    }
+  },
+  {
+    "id": "pro_m-lok_handstop",
+    "name": "Pro M-LOK Handstop",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.017,
+    "type": "Foregrip",
+    "manufacturer": "Leapers, Inc.",
+    "ergonomics": 5.0,
+    "recoil": 4.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "UTG HS inspect.png"
+    }
+  },
+  {
+    "id": "ultraslim_angled_foregrip",
+    "name": "UltraSlim Angled Foregrip",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.039,
+    "type": "Foregrip",
+    "manufacturer": "Leapers, Inc.",
+    "ergonomics": 3.0,
+    "recoil": 11.0,
+    "vendor": "Gunny  R.2",
+    "_raw": {
+      "image": "UTG inspect.png"
+    }
+  },
+  {
+    "id": "ultra_slim_m-lok_mt-fgm01x_foregrip",
+    "name": "Ultra Slim M-LOK MT-FGM01X Foregrip",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "UTG Slim inspect.png"
+    }
+  },
+  {
+    "id": "rk-0",
+    "name": "RK-0",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.138,
+    "type": "Foregrip",
+    "manufacturer": "Zenitco",
+    "ergonomics": -5.0,
+    "recoil": 9.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "RK-0 inspect.png"
+    }
+  },
+  {
+    "id": "rk-1",
+    "name": "RK-1",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.16,
+    "type": "Foregrip",
+    "manufacturer": "Zenitco",
+    "ergonomics": -6.0,
+    "recoil": 15.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 70.0,
+    "_raw": {
+      "image": "RK-1 inspect.png"
+    }
+  },
+  {
+    "id": "rk-2",
+    "name": "RK-2",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "RK-2 inspect.png"
+    }
+  },
+  {
+    "id": "rk-4",
+    "name": "RK-4",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Foregrip",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "RK-4 inspect.png"
+    }
+  },
+  {
+    "id": "rk-5",
+    "name": "RK-5",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Foregrip",
+    "manufacturer": "Zenitco",
+    "ergonomics": -5.0,
+    "recoil": 12.0,
+    "vendor": "Turncoat R.2",
+    "buyPrice": 59.0,
+    "_raw": {
+      "image": "RK-5 inspect.png"
+    }
+  },
+  {
+    "id": "rk-6",
+    "name": "RK-6",
+    "category": "Foregrips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Foregrip",
+    "manufacturer": "Zenitco",
+    "ergonomics": 2.0,
+    "recoil": 13.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 55.0,
+    "_raw": {
+      "image": "RK-6 inspect.png"
+    }
+  }
+]

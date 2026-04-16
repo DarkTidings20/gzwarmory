@@ -1,0 +1,177 @@
+[
+  {
+    "id": "viper_pst_gen_ii_5-25x50_rifle_scope",
+    "name": "Viper PST Gen II 5-25x50 Rifle Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.885,
+    "type": "Scope",
+    "manufacturer": "Vortex optics",
+    "sizeChangeY": 1.0,
+    "ergonomics": -12.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "Viper 5x25 inspect.png"
+    }
+  },
+  {
+    "id": "acog_ta01nsn_4x32_assault_scope",
+    "name": "ACOG TA01NSN 4x32 Assault Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.424,
+    "type": "Scope",
+    "manufacturer": "Trijicon",
+    "sightingRange": 600.0,
+    "magnification": 4.0,
+    "ergonomics": -8.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "ACOG 4x inspect.png"
+    }
+  },
+  {
+    "id": "specterdr_1-4x_assault_scope",
+    "name": "SpecterDR 1-4x Assault Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.45,
+    "type": "Scope",
+    "manufacturer": "ELCAN",
+    "sightingRange": 600.0,
+    "ergonomics": -8.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "SpecterDR inspect.png"
+    }
+  },
+  {
+    "id": "kaps_classic_4x36_oc",
+    "name": "Kaps Classic 4x36 OC",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.41,
+    "type": "Scope",
+    "manufacturer": "Kaps Optics",
+    "sightingRange": 250.0,
+    "magnification": 4.0,
+    "vendor": "Banshee R.1",
+    "_raw": {
+      "image": "Kaps 3x36 inspect.png"
+    }
+  },
+  {
+    "id": "razor_1-6x_rifle_scope",
+    "name": "RAZOR 1-6x Rifle Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.61,
+    "type": "Scope",
+    "manufacturer": "Vortex Optics",
+    "ergonomics": -8.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "Razor 1-6x inspect.png"
+    }
+  },
+  {
+    "id": "npz_pso_3-9x24",
+    "name": "NPZ PSO 3-9x24",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.997,
+    "type": "Scope",
+    "manufacturer": "General East",
+    "sightingRange": 900.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "PSO 3-9x inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_pu_3.5x22_scope",
+    "name": "Mosin-Nagant PU 3.5x22 Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.6,
+    "type": "Scope",
+    "manufacturer": "Kalashnikov Concern",
+    "magnification": 3.5,
+    "ergonomics": -8.0,
+    "vendor": "Artisan R.2",
+    "_raw": {
+      "image": "PU 3.5x inspect.png"
+    }
+  },
+  {
+    "id": "vudu_1-6x24_ffp_rifle_scope",
+    "name": "Vudu 1-6x24 FFP Rifle Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.57,
+    "type": "Scope",
+    "manufacturer": "Eotech",
+    "sightingRange": 1000.0,
+    "ergonomics": -8.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "Vudu 1-6x inspect.png"
+    }
+  },
+  {
+    "id": "vudu_3.5-18x50_ffp_rifle_scope",
+    "name": "Vudu 3.5-18x50 FFP Rifle Scope",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.952,
+    "type": "Scope",
+    "manufacturer": "Eotech",
+    "sizeChangeX": 1.0,
+    "ergonomics": -12.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "Vudu 3.5-18x inspect.png"
+    }
+  },
+  {
+    "id": "pso-1_4x24",
+    "name": "PSO-1 4x24",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.616,
+    "type": "Scope",
+    "manufacturer": "General East",
+    "sightingRange": 500.0,
+    "magnification": 4.0,
+    "vendor": "Artisan R.4",
+    "_raw": {
+      "image": "PSO-1 inspect.png"
+    }
+  },
+  {
+    "id": "vortex_spitfire_hd_gen_ii_5x",
+    "name": "Vortex Spitfire HD Gen II 5x",
+    "category": "Scopes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.292,
+    "type": "Scope",
+    "manufacturer": "Vortex Optics",
+    "sightingRange": 600.0,
+    "magnification": 5.0,
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "Spitfire 5x inspect.png"
+    }
+  }
+]

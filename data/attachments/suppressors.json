@@ -1,0 +1,413 @@
+[
+  {
+    "id": "dtss_suppressor",
+    "name": "DTSS Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.45,
+    "type": "Suppressor",
+    "manufacturer": "Desert Tech",
+    "ergonomics": -5.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DTSS inspect.png",
+      "muzzle_efficiency": "+7.0",
+      "loudness": "+22"
+    }
+  },
+  {
+    "id": "socom556_rc1_suppressor",
+    "name": "SOCOM556 RC1 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.453,
+    "type": "Suppressor",
+    "manufacturer": "Surefire",
+    "sizeChangeX": 1.0,
+    "ergonomics": -4.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "RC1 inspect.png",
+      "muzzle_efficiency": "+7",
+      "accuracy": "+4",
+      "loudness": "+20"
+    }
+  },
+  {
+    "id": "slh300ti-qd_suppressor",
+    "name": "SLH300TI-QD Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.453,
+    "type": "Suppressor",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "SLH300 QD inspect.png",
+      "muzzle_efficiency": "+7",
+      "loudness": "+28"
+    }
+  },
+  {
+    "id": "ak-12_suppressor",
+    "name": "AK-12 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.62,
+    "type": "Suppressor",
+    "manufacturer": "Rotor 43",
+    "sizeChangeX": 1.0,
+    "ergonomics": -2.0,
+    "vendor": "Turncoat R.3",
+    "_raw": {
+      "image": "AK12 Sup inspect.png",
+      "muzzle_efficiency": "+5",
+      "loudness": "+18",
+      "accuracy_modifier": "+3"
+    }
+  },
+  {
+    "id": "ak-15_suppressor",
+    "name": "AK-15 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.62,
+    "type": "Suppressor",
+    "manufacturer": "Rotor 43",
+    "ergonomics": -2.0,
+    "vendor": "Artisan R.3",
+    "_raw": {
+      "image": "AK15 Sup inspect.png",
+      "muzzle_efficiency": "+5",
+      "accuracy_modifier": "+3",
+      "loudness": "+17"
+    }
+  },
+  {
+    "id": "banish_45_suppressor",
+    "name": "BANISH 45 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.272,
+    "type": "Suppressor",
+    "manufacturer": "Silencer Central",
+    "sizeChangeX": 1.0,
+    "ergonomics": -5.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "Banish inspect.png",
+      "muzzle_efficiency": "+5.0",
+      "loudness": "+23",
+      "accuracy_modifier": "+2"
+    }
+  },
+  {
+    "id": "hk_mp5sd_9mm_suppressor",
+    "name": "HK MP5SD 9mm Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.476,
+    "type": "Suppressor",
+    "manufacturer": "Heckler & Koch",
+    "ergonomics": -3.0,
+    "vendor": "Gunny L3",
+    "_raw": {
+      "image": "MP5SD Sup inspect.png",
+      "muzzle_efficiency": "+5.0",
+      "loudness": "+57",
+      "accuracy_modifier": "+2.0|horizontal=+1"
+    }
+  },
+  {
+    "id": "qdss_nt4_suppressor",
+    "name": "QDSS NT4 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.62,
+    "type": "Suppressor",
+    "manufacturer": "KAC",
+    "ergonomics": -4.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "thumb",
+      "muzzle_efficiency": "+5",
+      "accuracy_modifier": "+3",
+      "loudness": "+17"
+    }
+  },
+  {
+    "id": "qdss_nt4_suppressor_fde",
+    "name": "QDSS NT4 Suppressor (FDE)",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.62,
+    "type": "Suppressor",
+    "manufacturer": "KAC",
+    "ergonomics": -4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "QDSS NT4(FDE) inspect.png",
+      "muzzle_efficiency": "+5",
+      "accuracy_modifier": "+3",
+      "loudness": "+17"
+    }
+  },
+  {
+    "id": "mosin-nagant_bramit_suppressor",
+    "name": "Mosin-Nagant Bramit Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.765,
+    "type": "Suppressor",
+    "manufacturer": "General East",
+    "ergonomics": -4.0,
+    "vendor": "Artisan R.3",
+    "buyPrice": 880.0,
+    "_raw": {
+      "image": "Bramit inspect.png",
+      "muzzle_efficiency": "+5",
+      "accuracy_modifier": "+3",
+      "loudness": "+21"
+    }
+  },
+  {
+    "id": "pbs-01_suppressor",
+    "name": "PBS-01 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.7,
+    "type": "Suppressor",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 1.0,
+    "ergonomics": -4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "PBS-01 Suppressor.png",
+      "muzzle_efficiency": "+3",
+      "accuracy_modifier": "+2",
+      "loudness": "+9"
+    }
+  },
+  {
+    "id": "pbs-04_suppressor",
+    "name": "PBS-04 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.86,
+    "type": "Suppressor",
+    "manufacturer": "Kalashnikov concern",
+    "ergonomics": -5.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "PBS-04 Suppressor.png",
+      "muzzle_efficiency": "+3",
+      "accuracy_modifier": "+2",
+      "loudness": "+16"
+    }
+  },
+  {
+    "id": "mp7_rotex_suppressor",
+    "name": "MP7 Rotex Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.607,
+    "type": "Suppressor",
+    "manufacturer": "B&T",
+    "sizeChangeX": 1.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "MP7 Rotex inspect.png",
+      "muzzle_efficiency": "+7",
+      "loudness": "+21"
+    }
+  },
+  {
+    "id": "salvo_12_suppressor",
+    "name": "Salvo 12 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.555,
+    "type": "Suppressor",
+    "manufacturer": "SilencerCo",
+    "sizeChangeX": 2.0,
+    "ergonomics": -10.0,
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "Salvo 12 inspect.png",
+      "muzzle_efficiency": "+7",
+      "loudness": "+15",
+      "accuracy_modifier": "+5"
+    }
+  },
+  {
+    "id": "slh762-qd_suppressor",
+    "name": "SLH762-QD Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.598,
+    "type": "Suppressor",
+    "manufacturer": "SIG Sauer",
+    "ergonomics": -7.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "SLH762 inspect.png",
+      "muzzle_efficiency": "+7",
+      "accuracy_modifier": "+6",
+      "loudness": "+18"
+    }
+  },
+  {
+    "id": "sig_suppressor_srd556",
+    "name": "SIG Suppressor SRD556",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Suppressor",
+    "manufacturer": "SIG Sauer",
+    "ergonomics": -4.0,
+    "vendor": "N/A",
+    "_raw": {
+      "image": "SRD 556 inspect.png",
+      "muzzle_efficiency": "+7.0",
+      "loudness": "-18",
+      "title": "SIG Suppressor SRD556|accuracy_modifier=+5.0"
+    }
+  },
+  {
+    "id": "762-sd_suppressor",
+    "name": "762-SD Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.652,
+    "type": "Suppressor",
+    "manufacturer": "Advanced Armament Company",
+    "ergonomics": -6.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "762-SD inspect.png",
+      "muzzle_efficiency": "+5",
+      "loudness": "+20",
+      "accuracy_modifier": "+5"
+    }
+  },
+  {
+    "id": "socom556_rc1_suppressor_fde",
+    "name": "SOCOM556 RC1 Suppressor (FDE)",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.453,
+    "type": "Suppressor",
+    "manufacturer": "Surefire",
+    "sizeChangeX": 1.0,
+    "ergonomics": -4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "RC1(FDE) inspect.png",
+      "muzzle_efficiency": "+7",
+      "accuracy": "+4",
+      "loudness": "+20"
+    }
+  },
+  {
+    "id": "svd_rotor_43_suppressor_7.62х54_r",
+    "name": "SVD Rotor 43 Suppressor 7.62х54 R",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.9,
+    "type": "Suppressor",
+    "manufacturer": "General East",
+    "sizeChangeX": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "SVD Rotor 43 inspect.png",
+      "muzzle_efficiency": "+7",
+      "loudness": "+17"
+    }
+  },
+  {
+    "id": "type_51_suppressor",
+    "name": "Type 51 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Suppressor",
+    "manufacturer": "???",
+    "sizeChangeX": 1.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "T51 S inspect.png",
+      "muzzle_efficiency": "+????",
+      "loudness": "+????"
+    }
+  },
+  {
+    "id": "ultima_suppressor",
+    "name": "Ultima Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Suppressor",
+    "manufacturer": "Coastal Guns Inc.",
+    "sizeChangeX": 1.0,
+    "vendor": "Banshee",
+    "_raw": {
+      "image": "Ultima inspect.png",
+      "muzzle_efficiency": "+6,0",
+      "title": "Ultima Suppressor|slot=9x19 Muzzle|grid=1x2|accuracy=+6,0%|ergonomics=-10,0|accuracy_modifier=+3,0|bprice=935"
+    }
+  },
+  {
+    "id": "vlc_556_mark_1_suppressor",
+    "name": "VLC 556 MARK 1 Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.68,
+    "type": "Suppressor",
+    "manufacturer": "Antreg",
+    "sizeChangeX": 1.0,
+    "ergonomics": -4.0,
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "MARK 1 inspect.png",
+      "muzzle_efficiency": "+4",
+      "loudness": "+15",
+      "accuracy_modifier": "+2"
+    }
+  },
+  {
+    "id": "vz._61_tos_suppressor",
+    "name": "Vz. 61 TOS Suppressor",
+    "category": "Suppressors",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Suppressor",
+    "manufacturer": "???",
+    "sizeChangeX": 1.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "Vz. 61 TOS inspect.png",
+      "muzzle_efficiency": "+????",
+      "loudness": "+????"
+    }
+  }
+]

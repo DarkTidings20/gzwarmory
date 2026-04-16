@@ -1,0 +1,786 @@
+[
+  {
+    "id": "glock_17_9x19mm_17-round_magazine",
+    "name": "Glock 17 9x19mm 17-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.048,
+    "type": "Magazine",
+    "manufacturer": "Glock",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.1",
+    "caliber": "9x19mm",
+    "_raw": {
+      "image": "G17 Mag(17 rnds) inspect.png",
+      "reload": "+0"
+    }
+  },
+  {
+    "id": "dd_5.56x45mm_.300_blk_32-round_magazine",
+    "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Magazine",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.3",
+    "caliber": ".300 BLK / 5.56x45mm\n* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "DD 5.56-.300 BLK Mag(32 rnds) inspect.png",
+      "reload": "-5"
+    }
+  },
+  {
+    "id": "pmag_5.56x45mm_.300_blk_30-round_magazine",
+    "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.141,
+    "type": "Magazine",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.2Banshee R.3",
+    "buyPrice": 94.0,
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "PMAG 5.56-.300 BLK Mag(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "m590_12ga_10-round_magazine",
+    "name": "M590 12GA 10-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.94,
+    "type": "Magazine",
+    "manufacturer": "Nordic Components",
+    "vendor": "???",
+    "_raw": {
+      "image": "M590 Mag(10 rnds) inspect.png",
+      "reload": "???",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "stanag_5.56x45mm_.300_blk_20-round_magazine",
+    "name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.068,
+    "type": "Magazine",
+    "manufacturer": "General West",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.1",
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "STANAG 5.56-.300 BLK Mag(20 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "ak15_7.62x39mm_30-round_magazine",
+    "name": "AK15 7.62x39mm 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.67,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov Concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.3",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag AK15(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "ak_7.62x39mm_30-round_pmag_magazine",
+    "name": "AK 7.62x39mm 30-Round PMAG Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.725,
+    "type": "Magazine",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "vendor": "???",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag PMAG(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "ak12_5.45x39mm_30-round_magazine",
+    "name": "AK12 5.45x39mm 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.496,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov Concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 102.0,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "image": "AK12 Mag(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "pmag_5.56x45mm_.300_blk_30-round_magazine_fde",
+    "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.441,
+    "type": "Magazine",
+    "manufacturer": "Magpull",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot only",
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "PMAG 5.56-.300 BLK Mag(30 rnds FDE) inspect.png",
+      "reload": "+5"
+    }
+  },
+  {
+    "id": "ati_s60_5.56x45mm_.300_blk_60-round_magazine",
+    "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.263,
+    "type": "Magazine",
+    "manufacturer": "Schmeisser",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.4",
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "ATI 5.56-.300 BLK Mag(60 rnds) inspect.png",
+      "reload": "-16"
+    }
+  },
+  {
+    "id": "m870_12ga_10-round_magazine",
+    "name": "M870 12ga 10-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M870 Mag(10 rnds) inspect.png",
+      "reload": "???",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "m870_12ga_4-round_cap",
+    "name": "M870 12ga 4-Round Cap",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.1,
+    "type": "Magazine",
+    "manufacturer": "General West",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M870 Mag(4 rnds) inspect.png",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "m870_12ga_6-round_magazine",
+    "name": "M870 12ga 6-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.25,
+    "type": "Magazine",
+    "manufacturer": "Remington",
+    "sizeChangeX": 2.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "M870 Mag(6 rnds) inspect.png",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "m590_12ga_6-round_cap",
+    "name": "M590 12ga 6-Round Cap",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M590 Mag(6 rnds) inspect.png",
+      "reload": "???",
+      "ammolist": "* 12GA FC 00 Buckshot\n* 12GA 00 Buckshot\n* 12GA Slug\n* 12GA SST Sabot Slug"
+    }
+  },
+  {
+    "id": "vz._61_7.65_browning_10-round_magazine",
+    "name": "Vz. 61 7.65 Browning 10-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "caliber": "7.65mm Browning",
+    "_raw": {
+      "image": "Vz. 61 Mag(10 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "vz._61_7.65_browning_20-round_magazine",
+    "name": "Vz. 61 7.65 Browning 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "caliber": "7.65mm Browning",
+    "_raw": {
+      "image": "Vz. 61 Mag(20 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "glock_17_9x19mm_27-round_magazine",
+    "name": "Glock 17 9x19mm 27-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.056,
+    "type": "Magazine",
+    "manufacturer": "Promag Industries",
+    "sizeChangeY": 1.0,
+    "vendor": "Banshee R.3",
+    "caliber": "9x19mm",
+    "_raw": {
+      "image": "G17 Mag(27 rnds) inspect.png",
+      "reload": "-10"
+    }
+  },
+  {
+    "id": "mp5_standard_30-round_magazine",
+    "name": "MP5 Standard 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.14,
+    "type": "Magazine",
+    "manufacturer": "Heckler & Koch",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.1",
+    "caliber": "9x19mm",
+    "_raw": {
+      "image": "MP5 Mag(30 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "m9a1_9x19mm_15-round_magazine",
+    "name": "M9A1 9x19mm 15-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.065,
+    "type": "Magazine",
+    "manufacturer": "Beretta",
+    "vendor": "Gunny R.1",
+    "caliber": "9x19mm",
+    "_raw": {
+      "image": "M9A1 Mag(15 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "m9a1_9x19mm_30-round_magazine",
+    "name": "M9A1 9x19mm 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "caliber": "9x19mm",
+    "_raw": {
+      "image": "M9A1 Mag(30 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "colt_1911_.45acp_7-round_magazine",
+    "name": "Colt 1911 .45ACP 7-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.215,
+    "type": "Magazine",
+    "manufacturer": "Colt",
+    "vendor": "Loot only",
+    "caliber": ".45 ACP",
+    "_raw": {
+      "image": "1911 Mag(7 rnds) inspect.png",
+      "reload": "| vertical           ="
+    }
+  },
+  {
+    "id": "1911_.45acp_15-round_extended_magazine",
+    "name": "1911 .45ACP 15-Round Extended Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "caliber": ".45 ACP",
+    "_raw": {
+      "image": "1911 Mag(15 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "mp7_20-round_magazine",
+    "name": "MP7 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.1,
+    "type": "Magazine",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Banshee R.2",
+    "buyPrice": 178.0,
+    "caliber": "4.6x30mm",
+    "_raw": {
+      "image": "MP7 Mag(20 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "mp7_30-round_magazine",
+    "name": "MP7 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.15,
+    "type": "Magazine",
+    "manufacturer": "Heckler & Koch",
+    "sizeChangeY": 1.0,
+    "vendor": "Banshee R.2",
+    "caliber": "4.6x30mm",
+    "_raw": {
+      "image": "MP7 Mag(30 rnds) inspect.png",
+      "reload": "-5"
+    }
+  },
+  {
+    "id": "mp7_40-round_magazine",
+    "name": "MP7 40-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.2,
+    "type": "Magazine",
+    "manufacturer": "Heckler & Koch",
+    "sizeChangeY": 1.0,
+    "vendor": "Banshee R.4",
+    "buyPrice": 234.0,
+    "caliber": "4.6x30mm",
+    "_raw": {
+      "image": "MP7 Mag(40 rnds) inspect.png",
+      "reload": "-10"
+    }
+  },
+  {
+    "id": "ak74_5.45x39mm_60-round_magazine",
+    "name": "AK74 5.45x39mm 60-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.3,
+    "type": "Magazine",
+    "manufacturer": "Pufgun",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.4",
+    "buyPrice": 165.0,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "image": "AK 5.45 Mag(60 rnds) inspect.png",
+      "reload": "-16"
+    }
+  },
+  {
+    "id": "ak_5.45×39mm_30-round_bakelite_magazine",
+    "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.22,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov Concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 76.0,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "image": "AK 5.45 Mag Bakelite(30 rnds) inspect.png",
+      "reload": "2"
+    }
+  },
+  {
+    "id": "ak_5.45×39mm_30-round_black_magazine",
+    "name": "AK 5.45×39mm 30-Round Black Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov Concern",
+    "vendor": "???",
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "image": "AK 5.45 Mag Black(30 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "ak19_5.56x45mm_30-round_magazine",
+    "name": "AK19 5.56x45mm 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.181,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 68.0,
+    "caliber": "5.56x45mm NATO",
+    "_raw": {
+      "image": "AK 5.56 Mag(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  },
+  {
+    "id": "pmag_5.56x45mm_.300_blk_20-round_magazine",
+    "name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "sizeChangeY": 1.0,
+    "vendor": "???",
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "PMAG 5.56-.300 BLK Mag(20 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "stanag_5.56x45mm_.300_blk_30-round_magazine",
+    "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.32,
+    "type": "Magazine",
+    "manufacturer": "Colt",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.1",
+    "caliber": "* 5.56x45mm NATO\n* .300 AAC Blackout",
+    "_raw": {
+      "image": "STANAG 5.56-.300 BLK Mag(30 rnds) inspect.png",
+      "reload": "+4"
+    }
+  },
+  {
+    "id": "type_51_7.62x25mm_8-round_magazine",
+    "name": "Type 51 7.62x25mm 8-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "T51 Mag(8 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "ak_7.62x39mm_10-round_steel_magazine",
+    "name": "AK 7.62x39mm 10-Round Steel Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.1",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag(10 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "ak_7.62x39mm_30-round_bakelite_magazine",
+    "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.24,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.2",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag Bakelite(30 rnds) inspect.png",
+      "reload": "+2"
+    }
+  },
+  {
+    "id": "ak_7.62x39mm_30-round_stamped_magazine",
+    "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.37,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.1",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag Stamped(30 rnds) inspect.png",
+      "reload": "+2"
+    }
+  },
+  {
+    "id": "sks_7.62x39mm_10-round_internal_magazine",
+    "name": "SKS 7.62x39mm 10-Round Internal Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.185,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.1",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "SKS Mag(10 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "sks_7.62x39mm_35-round_archangel_magazine",
+    "name": "SKS 7.62x39mm 35-Round Archangel Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "SKS ProMag Mag(35 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "sks_7.62x39mm_20-round_archangel_lvx_magazine",
+    "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.295,
+    "type": "Magazine",
+    "manufacturer": "Promag Industries",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.2",
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "SKS ProMag Mag(20 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "m700_7.62x51mm_5-round_magazine",
+    "name": "M700 7.62x51mm 5-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.17,
+    "type": "Magazine",
+    "manufacturer": "Accuracy International",
+    "vendor": "Banshee R.1",
+    "caliber": "7.62x51mm NATO",
+    "_raw": {
+      "image": "M700 Mag(5 rnds) inspect.png",
+      "reload": "| vertical           ="
+    }
+  },
+  {
+    "id": "m700_7.62x51mm_10-round_magazine",
+    "name": "M700 7.62x51mm 10-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.25,
+    "type": "Magazine",
+    "manufacturer": "Accuracy International",
+    "sizeChangeY": 1.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 110.0,
+    "caliber": "7.62x51mm NATO",
+    "_raw": {
+      "image": "M700 Mag(10 rnds) inspect.png",
+      "reload": "-6"
+    }
+  },
+  {
+    "id": "ak308_7.62x51mm_20-round_magazine",
+    "name": "AK308 7.62x51mm 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.181,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 55.0,
+    "caliber": "7.62x51mm NATO",
+    "_raw": {
+      "image": "AK 7.62 Mag AK308(20 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_7.62x54r_10-round_archangel_magazine",
+    "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.227,
+    "type": "Magazine",
+    "manufacturer": "Program Industries",
+    "vendor": "Artisan R.3",
+    "buyPrice": 67.0,
+    "caliber": "7.62x54mm R",
+    "_raw": {
+      "image": "Mosin Mag(10 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_7.62x54r_5-round_internal_magazine",
+    "name": "Mosin-Nagant 7.62x54R 5-Round Internal Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.2,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.1",
+    "caliber": "7.62x54mm R",
+    "_raw": {
+      "image": "Mosin Mag(5 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "svd_dragunov_10-round_magazine",
+    "name": "SVD Dragunov 10-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.216,
+    "type": "Magazine",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.4",
+    "buyPrice": 208.0,
+    "caliber": "7.62x54mm R",
+    "_raw": {
+      "image": "SVD Mag(10 rnds) inspect.png"
+    }
+  },
+  {
+    "id": "svd_dragunov_20-round_magazine",
+    "name": "SVD Dragunov 20-Round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Magazine",
+    "manufacturer": "???",
+    "sizeChangeY": 1.0,
+    "vendor": "???",
+    "caliber": "7.62x54mm R",
+    "_raw": {
+      "image": "SVD Mag(20 rnds) inspect.png",
+      "reload": "???"
+    }
+  },
+  {
+    "id": "m700_7.62x51mm_10-round_pmag_ac_magazine",
+    "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.124,
+    "type": "Magazine",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot Only",
+    "caliber": "7.62x51mm NATO",
+    "_raw": {
+      "image": "thumb",
+      "reload": "-4.0"
+    }
+  },
+  {
+    "id": "schmeisser_ak_7.62x39_60-round_magazine",
+    "name": "Schmeisser AK 7.62x39 60-round Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.3,
+    "type": "Magazine",
+    "manufacturer": "Schmeisser",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.4",
+    "buyPrice": 156.0,
+    "caliber": "7.62x39mm",
+    "_raw": {
+      "image": "AK 7.62 Mag(60 rnds) inspect.png",
+      "reload": "-4"
+    }
+  },
+  {
+    "id": "ak_5.45x39mm_30-round_pmag_magazine",
+    "name": "AK 5.45x39mm 30-Round PMAG Magazine",
+    "category": "Magazines",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.17,
+    "type": "Magazine",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "vendor": "Turncoat R.3",
+    "buyPrice": 101.0,
+    "caliber": "5.45x39mm",
+    "_raw": {
+      "image": "AK 5.45 Mag PMAG(30 rnds) inspect.png",
+      "reload": "+6"
+    }
+  }
+]

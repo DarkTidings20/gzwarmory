@@ -1,0 +1,458 @@
+[
+  {
+    "id": "ar-15_barrel_-_14.5\"",
+    "name": "AR-15 Barrel - 14.5\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.725,
+    "type": "Barrel",
+    "manufacturer": "Colt",
+    "vendor": "Gunny R.??",
+    "_raw": {
+      "image": "AR-15 14.5' inspect.png"
+    }
+  },
+  {
+    "id": "glock_17_standard_barrel",
+    "name": "Glock 17 Standard Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.113,
+    "type": "Barrel",
+    "manufacturer": "Glock",
+    "vendor": "Gunny R.1Banshee R.1",
+    "_raw": {
+      "image": "G17 B inspect.png",
+      "accuracy": "11.70"
+    }
+  },
+  {
+    "id": "ar-15_barrel_-_20\"",
+    "name": "AR-15 Barrel - 20\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.97,
+    "type": "Barrel",
+    "velocity": 20.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "AR-15 20' inspect.png",
+      "accuracy": "1.11",
+      "rate": "| manufacturer       =Colt",
+      "muzzle_efficiency": "| horizontal         =+4"
+    }
+  },
+  {
+    "id": "ar-15_barrel_-_16\"",
+    "name": "AR-15 Barrel - 16\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.793,
+    "type": "Barrel",
+    "manufacturer": "Colt",
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "AR-15 16' inspect.png",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "sig_mcx_barrel_-_9\"",
+    "name": "SIG MCX Barrel - 9\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.45,
+    "type": "Barrel",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "muzzleVelocity": -11.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "SIG MCX 9' inspect.png",
+      "accuracy": "2.65"
+    }
+  },
+  {
+    "id": "ar-15_cqa1_barrel_-_14.5\"",
+    "name": "AR-15 CQA1 Barrel - 14.5\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.725,
+    "type": "Barrel",
+    "manufacturer": "Norinco",
+    "sizeChangeX": 2.0,
+    "muzzleVelocity": -4.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQA1 14.5' inspect.png",
+      "accuracy": "4.18"
+    }
+  },
+  {
+    "id": "m700_heavy_barrel_-_26\"",
+    "name": "M700 Heavy Barrel - 26\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 2.05,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "muzzleVelocity": 6.0,
+    "vendor": "????",
+    "_raw": {
+      "image": "M700 H 26' inspect.png",
+      "accuracy": "0.48",
+      "rate": "+???",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "ar-15_barrel_-_10.5\"",
+    "name": "AR-15 Barrel - 10.5\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.538,
+    "type": "Barrel",
+    "manufacturer": "COLT",
+    "sizeChangeX": 1.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "AR-15 10.5\" inspect.png",
+      "muzzle_efficiency": "-10",
+      "accuracy": "3.89"
+    }
+  },
+  {
+    "id": "m700_threaded_barrel_-_18\"",
+    "name": "M700 Threaded Barrel - 18\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.12,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 3.0,
+    "velocity": -8.0,
+    "vendor": "Banshee R.1",
+    "_raw": {
+      "image": "M700 18' inspect.png",
+      "accuracy": "1.02"
+    }
+  },
+  {
+    "id": "m700_suppressed_barrel_-_20\"",
+    "name": "M700 Suppressed Barrel - 20\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.8,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 3.0,
+    "velocity": -4.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "M700 Sup 20' inspect.png",
+      "accuracy": "1.10"
+    }
+  },
+  {
+    "id": "m700_barrel_-_22\"",
+    "name": "M700 Barrel - 22\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.0,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 3.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 614.0,
+    "_raw": {
+      "image": "M700 22' inspect.png",
+      "accuracy": "0.61"
+    }
+  },
+  {
+    "id": "m700_vtr_barrel_-_22\"",
+    "name": "M700 VTR Barrel - 22\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.5,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 3.0,
+    "velocity": 2.0,
+    "vendor": "Banshee R.3",
+    "_raw": {
+      "image": "M700 VTR 22' inspect.png",
+      "accuracy": "0.55"
+    }
+  },
+  {
+    "id": "glock_17_match_grade_barrel",
+    "name": "Glock 17 Match Grade Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Barrel",
+    "manufacturer": "Zaffiri Precision",
+    "velocity": 4.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 204.0,
+    "_raw": {
+      "image": "G17 MG B inspect.png",
+      "accuracy": "10.82"
+    }
+  },
+  {
+    "id": "glock_17_match_grade_threaded_barrel_gold",
+    "name": "Glock 17 Match Grade Threaded Barrel (Gold)",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Barrel",
+    "manufacturer": "???",
+    "vendor": "????",
+    "_raw": {
+      "image": "G17 MGT B inspect.png",
+      "accuracy": "???",
+      "rate": "+???",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "optimized_glock_17_match_grade_threaded_barrel",
+    "name": "Optimized Glock 17 Match Grade Threaded Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.105,
+    "type": "Barrel",
+    "manufacturer": "ZEV Technologies",
+    "vendor": "Banshee R.3",
+    "buyPrice": 339.0,
+    "_raw": {
+      "image": "G17 OMGT B inspect.png",
+      "accuracy": "11.65"
+    }
+  },
+  {
+    "id": "m870_barrel_-_18.5\"",
+    "name": "M870 Barrel - 18.5\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.75,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 2.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M870 18.5' inspect.png",
+      "accuracy": "41.60"
+    }
+  },
+  {
+    "id": "m870_barrel_-_23\"",
+    "name": "M870 Barrel - 23\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.93,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 2.0,
+    "muzzleVelocity": 8.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "M870 23' inspect.png",
+      "accuracy": "29.60"
+    }
+  },
+  {
+    "id": "m870_barrel_-_26\"",
+    "name": "M870 Barrel - 26\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.1,
+    "type": "Barrel",
+    "manufacturer": "Remington",
+    "sizeChangeX": 3.0,
+    "muzzleVelocity": 12.0,
+    "vendor": "Gunny R.??",
+    "_raw": {
+      "image": "M870 26' inspect.png",
+      "accuracy": "24.50"
+    }
+  },
+  {
+    "id": "mosin-nagant_barrel_-_514mm",
+    "name": "Mosin-Nagant Barrel - 514mm",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.0,
+    "type": "Barrel",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 3.0,
+    "vendor": "Artisan R.1",
+    "buyPrice": 104.0,
+    "_raw": {
+      "image": "Mosin 514 inspect.png",
+      "accuracy": "3.00"
+    }
+  },
+  {
+    "id": "mosin-nagant_barrel_-_730mm",
+    "name": "Mosin-Nagant Barrel - 730mm",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Barrel",
+    "manufacturer": "???",
+    "vendor": "????",
+    "_raw": {
+      "image": "Mosin 730 inspect.png",
+      "accuracy": "???",
+      "rate": "+???",
+      "muzzle_efficiency": "????"
+    }
+  },
+  {
+    "id": "type_51_barrel",
+    "name": "Type 51 Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Barrel",
+    "manufacturer": "Norinco",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "T51 B inspect.png",
+      "accuracy": "12.23"
+    }
+  },
+  {
+    "id": "sig_mcx_barrel_-_16\"",
+    "name": "SIG MCX Barrel - 16\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.7,
+    "type": "Barrel",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 2.0,
+    "vendor": "Banshee R.4",
+    "_raw": {
+      "image": "SIG MCX 16' inspect.png",
+      "accuracy": "1.95"
+    }
+  },
+  {
+    "id": "sig_mcx_barrel_-_6.75\"",
+    "name": "SIG MCX Barrel - 6.75\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.35,
+    "type": "Barrel",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "velocity": -24.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "SIG MCX 6.75' inspect.png",
+      "accuracy": "3.27"
+    }
+  },
+  {
+    "id": "svd_barrel_-_620mm",
+    "name": "SVD Barrel - 620mm",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.3,
+    "type": "Barrel",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeX": 3.0,
+    "vendor": "Artisan R.4",
+    "_raw": {
+      "image": "SVD Barrel inspect.png",
+      "accuracy": "0.95"
+    }
+  },
+  {
+    "id": "type_51_threaded_barrel",
+    "name": "Type 51 Threaded Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.062,
+    "type": "Barrel",
+    "manufacturer": "Norinco",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "T51 T B inspect.png",
+      "accuracy": "12.23"
+    }
+  },
+  {
+    "id": "ar-15_barrel_-_18\"",
+    "name": "AR-15 Barrel - 18\"",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 1.27,
+    "type": "Barrel",
+    "manufacturer": "Colt",
+    "muzzleVelocity": 12.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 598.0,
+    "_raw": {
+      "image": "AR-15 18' inspect.png",
+      "accuracy": "1.44"
+    }
+  },
+  {
+    "id": "m9a1_standard_barrel",
+    "name": "M9A1 Standard Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.149,
+    "type": "Barrel",
+    "manufacturer": "Beretta",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M9A1 Barrel inspect.png",
+      "accuracy": "11.70"
+    }
+  },
+  {
+    "id": "m9a1_threaded_barrel",
+    "name": "M9A1 Threaded Barrel",
+    "category": "Barrels",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.207,
+    "type": "Barrel",
+    "manufacturer": "Beretta",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M9A1 Thr B inspect.png",
+      "accuracy": "11.70"
+    }
+  }
+]

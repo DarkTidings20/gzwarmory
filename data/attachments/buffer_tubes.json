@@ -1,0 +1,49 @@
+[
+  {
+    "id": "m4_buffer_tube",
+    "name": "M4 Buffer Tube",
+    "category": "Buffer Tubes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.108,
+    "type": "Buffer Tube",
+    "manufacturer": "Colt",
+    "sizeChangeX": 1.0,
+    "recoil": 2.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "M4 Buffer Tube inspect.png"
+    }
+  },
+  {
+    "id": "cq_a1_buffer_tube",
+    "name": "CQ A1 Buffer Tube",
+    "category": "Buffer Tubes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.108,
+    "type": "Buffer Tube",
+    "manufacturer": "Norinco",
+    "sizeChangeX": 1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQA1 BTube inspect.png"
+    }
+  },
+  {
+    "id": "m4_buffer_tube_fde",
+    "name": "M4 Buffer Tube (FDE)",
+    "category": "Buffer Tubes",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.108,
+    "type": "Buffer Tube",
+    "manufacturer": "Colt",
+    "sizeChangeX": 1.0,
+    "recoil": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "M4 Buffer Tube(FDE) inspect.png"
+    }
+  }
+]

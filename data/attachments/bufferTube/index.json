@@ -1,0 +1,46 @@
+[
+  {
+    "id": "m4-buffer-tube",
+    "name": "M4 Buffer Tube",
+    "category": "bufferTube",
+    "statModifiers": {
+      "recoil": 2.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.108,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "cq-a1-buffer-tube",
+    "name": "CQ A1 Buffer Tube",
+    "category": "bufferTube",
+    "statModifiers": {
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.108,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m4-buffer-tube-fde",
+    "name": "M4 Buffer Tube (FDE)",
+    "category": "bufferTube",
+    "statModifiers": {
+      "recoil": 2.0,
+      "sizeChangeX": 1.0
+    },
+    "weight": 0.108,
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  }
+]

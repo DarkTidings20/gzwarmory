@@ -1,0 +1,890 @@
+[
+  {
+    "id": "sig_mcx_10\"_handguard",
+    "name": "SIG MCX 10\" Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.204,
+    "type": "Handguard",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "recoil": 1.0,
+    "vendor": "Banshee R.3",
+    "buyPrice": 434.0,
+    "_raw": {
+      "image": "MCX 10 HG inspect.png"
+    }
+  },
+  {
+    "id": "sig_mcx_16\"_handguard",
+    "name": "SIG MCX 16\" Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.312,
+    "type": "Handguard",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 2.0,
+    "recoil": 2.0,
+    "vendor": "Banshee R.4",
+    "buyPrice": 438.0,
+    "_raw": {
+      "image": "MCX 16 HG inspect.png"
+    }
+  },
+  {
+    "id": "sig_mcx_8\"_handguard",
+    "name": "SIG MCX 8\" Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.18,
+    "type": "Handguard",
+    "manufacturer": "SIG Sauer",
+    "sizeChangeX": 1.0,
+    "vendor": "Banshee R.3",
+    "buyPrice": 365.0,
+    "_raw": {
+      "image": "MCX 8 HG inspect.png"
+    }
+  },
+  {
+    "id": "cq_a1_carbine_handguard",
+    "name": "CQ A1 Carbine Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.323,
+    "type": "Handguard",
+    "manufacturer": "Norinco",
+    "sizeChangeX": 1.0,
+    "recoil": -1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "CQ A1 CAR HG inspect.png"
+    }
+  },
+  {
+    "id": "ak_ratnik_handguard",
+    "name": "AK Ratnik Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.12,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov Concern",
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Artisan R.3Turncoat R.2",
+    "buyPrice": 406.0,
+    "_raw": {
+      "image": "Ratnik Short inspect.png"
+    }
+  },
+  {
+    "id": "ak-74_polymer_handguard",
+    "name": "AK-74 Polymer Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.25,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov Concern",
+    "ergonomics": 6.0,
+    "recoil": 4.0,
+    "vendor": "Turncoat",
+    "_raw": {
+      "image": "AK Poly HG inspect.png"
+    }
+  },
+  {
+    "id": "ak-74_wooden_handguard",
+    "name": "AK-74 Wooden Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "AK74 Wood inspect.png"
+    }
+  },
+  {
+    "id": "akm_wooden_handguard",
+    "name": "AKM Wooden Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.221,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.1",
+    "buyPrice": 59.0,
+    "_raw": {
+      "image": "AKM Wood inspect.png"
+    }
+  },
+  {
+    "id": "ak_polymer_handguard_with_picatinny_rail",
+    "name": "AK Polymer Handguard with Picatinny Rail",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.2,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "ergonomics": -4.0,
+    "recoil": 2.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 89.0,
+    "_raw": {
+      "image": "AK RIS HG inspect.png"
+    }
+  },
+  {
+    "id": "ak_308_handguard",
+    "name": "AK 308 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.12,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov Concern",
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Ratnik 308 inspect.png"
+    }
+  },
+  {
+    "id": "ak_ratnik_handguard_long",
+    "name": "AK Ratnik Handguard Long",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.235,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "ergonomics": 4.0,
+    "recoil": 6.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Ratnik Long inspect.png"
+    }
+  },
+  {
+    "id": "ak_handguard_\"romanian_dong\"",
+    "name": "AK Handguard \"Romanian Dong\"",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.25,
+    "type": "Handguard",
+    "manufacturer": "General East",
+    "ergonomics": -2.0,
+    "recoil": 4.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "Dong HG inspect.png"
+    }
+  },
+  {
+    "id": "ak_handguard_\"romanian_shark\"",
+    "name": "AK Handguard \"Romanian Shark\"",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.245,
+    "type": "Handguard",
+    "manufacturer": "General East",
+    "ergonomics": -2.0,
+    "recoil": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Shark HG inspect.png"
+    }
+  },
+  {
+    "id": "aks-74u_mlok_handguard",
+    "name": "AKS-74U Mlok Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.11,
+    "type": "Handguard",
+    "manufacturer": "DLG Tactical",
+    "recoil": 4.0,
+    "vendor": "Turncoat R.2",
+    "buyPrice": 84.0,
+    "_raw": {
+      "image": "AKS-74U MLOK inspect.png"
+    }
+  },
+  {
+    "id": "aks-74u_quad-rail_handguard",
+    "name": "AKS-74U Quad-Rail Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.2,
+    "type": "Handguard",
+    "manufacturer": "F.A.B",
+    "ergonomics": -2.0,
+    "recoil": 2.0,
+    "vendor": "Turncoat R.1",
+    "buyPrice": 50.0,
+    "_raw": {
+      "image": "AKS-74U Quad inspect.png"
+    }
+  },
+  {
+    "id": "aks-74u_wooden_handguard",
+    "name": "AKS-74U Wooden handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.15,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Turncoat R.1",
+    "buyPrice": 33.0,
+    "_raw": {
+      "image": "AKS-74U Wood inspect.png"
+    }
+  },
+  {
+    "id": "ak_b10m_+_b19_handguard",
+    "name": "AK B10M + B19 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.27,
+    "type": "Handguard",
+    "manufacturer": "Zenitco",
+    "ergonomics": -4.0,
+    "recoil": 6.0,
+    "vendor": "Turncoat R.2",
+    "buyPrice": 167.0,
+    "_raw": {
+      "image": "B10M B19 inspect.png"
+    }
+  },
+  {
+    "id": "ak_b30_+_b31s_handguard",
+    "name": "AK B30 + B31S Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.386,
+    "type": "Handguard",
+    "manufacturer": "Zenitco",
+    "ergonomics": -6.0,
+    "recoil": 6.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "B30 B31S inspect.png"
+    }
+  },
+  {
+    "id": "dd_ris_ii_12",
+    "name": "DD RIS II 12",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.501,
+    "type": "Handguard",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeX": 2.0,
+    "ergonomics": -8.0,
+    "recoil": 12.0,
+    "vendor": "Gunny R.3",
+    "buyPrice": 504.0,
+    "_raw": {
+      "image": "RIS II 12 inspect.png"
+    }
+  },
+  {
+    "id": "dd_ris_ii_12_fsp",
+    "name": "DD RIS II 12 FSP",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.485,
+    "type": "Handguard",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeX": 2.0,
+    "ergonomics": -8.0,
+    "recoil": 12.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "RIS II 12 FSP inspect.png"
+    }
+  },
+  {
+    "id": "dd_ris_ii_12_milspec",
+    "name": "DD RIS II 12 (MilSpec)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.501,
+    "type": "Handguard",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeX": 2.0,
+    "ergonomics": -8.0,
+    "recoil": 12.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "RIS II 12 FDE inspect.png"
+    }
+  },
+  {
+    "id": "dd_ris_ii_9.5",
+    "name": "DD RIS II 9.5",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.4,
+    "type": "Handguard",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeX": 1.0,
+    "ergonomics": -6.0,
+    "recoil": 8.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "RIS II 9.5 inspect.png"
+    }
+  },
+  {
+    "id": "dd_ris_ii_9.5_milspec",
+    "name": "DD RIS II 9.5 (MilSpec)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.4,
+    "type": "Handguard",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeX": 1.0,
+    "ergonomics": -6.0,
+    "recoil": 8.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "RIS II 9.5 FDE inspect.png"
+    }
+  },
+  {
+    "id": "vfr-svd_f.a.b._handguard",
+    "name": "VFR-SVD F.A.B. Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.454,
+    "type": "Handguard",
+    "manufacturer": "F.A.B.",
+    "recoil": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "VFR-SVD inspect.png"
+    }
+  },
+  {
+    "id": "mk16_13.5\"",
+    "name": "Mk16 13.5\"",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.379,
+    "type": "Handguard",
+    "manufacturer": "Geissele Automaics",
+    "sizeChangeX": 2.0,
+    "ergonomics": -4.0,
+    "recoil": 8.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MK16 13.5 inspect.png"
+    }
+  },
+  {
+    "id": "mk16_13.5\"_ddc",
+    "name": "Mk16 13.5\" (DDC)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.379,
+    "type": "Handguard",
+    "manufacturer": "Geissele Automatics",
+    "sizeChangeX": 2.0,
+    "ergonomics": -4.0,
+    "recoil": 8.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MK16 13.5 DDC inspect.png"
+    }
+  },
+  {
+    "id": "m4_ras",
+    "name": "M4 RAS",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.252,
+    "type": "Handguard",
+    "manufacturer": "KAC",
+    "sizeChangeX": 1.0,
+    "ergonomics": -4.0,
+    "recoil": 4.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "M4 RAS inspect.png"
+    }
+  },
+  {
+    "id": "m700_mod*x_handguard",
+    "name": "M700 MOD*X Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.369,
+    "type": "Handguard",
+    "manufacturer": "General West",
+    "sizeChangeX": 2.0,
+    "ergonomics": 8.0,
+    "recoil": 12.0,
+    "vendor": "Banshee R.4",
+    "buyPrice": 271.0,
+    "_raw": {
+      "image": "MODX HG inspect.png"
+    }
+  },
+  {
+    "id": "ak_moe_handguard",
+    "name": "AK MOE Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.221,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "ergonomics": 4.0,
+    "recoil": 4.0,
+    "vendor": "Artisan R.2",
+    "_raw": {
+      "image": "AK MOE inspect.png",
+      "bporice": "148"
+    }
+  },
+  {
+    "id": "ak_moe_handguard_fde",
+    "name": "AK MOE Handguard (FDE)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.221,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "ergonomics": 4.0,
+    "recoil": 4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "AK MOE(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_moe_m-lok_carbine_handguard",
+    "name": "AR-15 MOE M-LOK Carbine Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.184,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 2.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "Moe MLOK inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_moe_m-lok_carbine_handguard_fde",
+    "name": "AR-15 MOE M-LOK Carbine Handguard (FDE)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.184,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Moe MLOK(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "ar-15_moe_m-lok_carbine_handguard_olive",
+    "name": "AR-15 MOE M-LOK Carbine Handguard (Olive)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.184,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "sizeChangeX": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Moe MLOK(Olive) inspect.png"
+    }
+  },
+  {
+    "id": "m590_forend",
+    "name": "M590 Forend",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M590 FA inspect.png"
+    }
+  },
+  {
+    "id": "m590_moe_forend",
+    "name": "M590 MOE Forend",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.171,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "ergonomics": 6.0,
+    "recoil": 4.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "M590 MOE inspect.png"
+    }
+  },
+  {
+    "id": "m590_tri-rail_forend",
+    "name": "M590 Tri-Rail Forend",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "M590 TriRail inspect.png"
+    }
+  },
+  {
+    "id": "b&t_hk_mp5_tl-99a1_3_rail_handguard",
+    "name": "B&T HK MP5 TL-99A1 3 Rail Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.253,
+    "type": "Handguard",
+    "manufacturer": "B&T",
+    "ergonomics": -1.0,
+    "recoil": 1.0,
+    "vendor": "Gunny R.3",
+    "buyPrice": 345.0,
+    "_raw": {
+      "image": "TL-99A1 inspect.png"
+    }
+  },
+  {
+    "id": "ema_x5_aluminum_5-rail_mp5",
+    "name": "EMA X5 Aluminum 5-rail MP5",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.28,
+    "type": "Handguard",
+    "manufacturer": "General West",
+    "ergonomics": -2.0,
+    "recoil": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MP5 X5 inspect.png"
+    }
+  },
+  {
+    "id": "b&t_bt-21343_hk_mp5sd_tri-rail_handguard",
+    "name": "B&T BT-21343 HK MP5SD Tri-Rail Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.357,
+    "type": "Handguard",
+    "manufacturer": "B&T",
+    "ergonomics": -1.0,
+    "recoil": 1.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 481.0,
+    "_raw": {
+      "image": "BT-21343 inspect.png"
+    }
+  },
+  {
+    "id": "mp5sd_forearm",
+    "name": "MP5SD Forearm",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.17,
+    "type": "Handguard",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.3",
+    "buyPrice": 339.0,
+    "_raw": {
+      "image": "MP5SD(Handguard) inspect.png"
+    }
+  },
+  {
+    "id": "mp5_wide_forearm",
+    "name": "MP5 Wide Forearm",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.14,
+    "type": "Handguard",
+    "manufacturer": "Heckler & Koch",
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "MP5 Wide inspect.png"
+    }
+  },
+  {
+    "id": "m870_forend_od_green",
+    "name": "M870 Forend (OD Green)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.254,
+    "type": "Handguard",
+    "manufacturer": "Hogue Inc.",
+    "ergonomics": 2.0,
+    "recoil": 2.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "M870 OD inspect.png"
+    }
+  },
+  {
+    "id": "m870_moe_handguard",
+    "name": "M870 MOE Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.179,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "ergonomics": 6.0,
+    "recoil": 4.0,
+    "vendor": "Gunny R.3",
+    "buyPrice": 83.0,
+    "_raw": {
+      "image": "M870 MOE inspect.png"
+    }
+  },
+  {
+    "id": "m870_moe_handguard_fde",
+    "name": "M870 MOE Handguard (FDE)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.179,
+    "type": "Handguard",
+    "manufacturer": "Magpul",
+    "ergonomics": 6.0,
+    "recoil": 4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "M870 MOE(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "m870_voa_handguard",
+    "name": "M870 VOA Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.289,
+    "type": "Handguard",
+    "manufacturer": "General West",
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 100.0,
+    "_raw": {
+      "image": "M870 VOA inspect.png"
+    }
+  },
+  {
+    "id": "m870_walnut_forend",
+    "name": "M870 Walnut Forend",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.31,
+    "type": "Handguard",
+    "manufacturer": "Remington",
+    "vendor": "Gunny R.1",
+    "buyPrice": 33.0,
+    "_raw": {
+      "image": "M870 Walnut inspect.png"
+    }
+  },
+  {
+    "id": "svd_chassis_mk1_handguard",
+    "name": "SVD Chassis MK1 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.8,
+    "type": "Handguard",
+    "vendor": "| manufacturer       =Sureshot Armament",
+    "_raw": {
+      "image": "SVD MK1 HG inspect.png"
+    }
+  },
+  {
+    "id": "sig_mcx_12\"_sd_handguard",
+    "name": "SIG MCX 12\" SD Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.247,
+    "type": "Handguard",
+    "manufacturer": "SIG Sauer",
+    "recoil": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MCX 12 SD inspect.png"
+    }
+  },
+  {
+    "id": "svd_polymer_handguard",
+    "name": "SVD Polymer Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.3,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Artisan R.4",
+    "buyPrice": 555.0,
+    "_raw": {
+      "image": "SVD Poly HG inspect.png"
+    }
+  },
+  {
+    "id": "svd_wooden_handguard",
+    "name": "SVD Wooden Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.35,
+    "type": "Handguard",
+    "manufacturer": "Kalashnikov concern",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "SVD Wood HG inspect.png"
+    }
+  },
+  {
+    "id": "x7m-13_handguard",
+    "name": "X7M-13 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.379,
+    "type": "Handguard",
+    "manufacturer": "F1-Firearms",
+    "sizeChangeX": 2.0,
+    "ergonomics": -4.0,
+    "recoil": 8.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 508.0,
+    "_raw": {
+      "image": "X7M-13 inspect.png"
+    }
+  },
+  {
+    "id": "x7m-13_handguard_gray",
+    "name": "X7M-13 Handguard (Gray)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "X7M-13(Gray) inspect.png"
+    }
+  },
+  {
+    "id": "x7m-15_handguard",
+    "name": "X7M-15 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.413,
+    "type": "Handguard",
+    "manufacturer": "F1-Firearms",
+    "sizeChangeX": 2.0,
+    "ergonomics": -6.0,
+    "recoil": 10.0,
+    "vendor": "Gunny R.4",
+    "buyPrice": 508.0,
+    "_raw": {
+      "image": "X7M-15 inspect.png"
+    }
+  },
+  {
+    "id": "x7m-15_handguard_gray",
+    "name": "X7M-15 Handguard (Gray)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "X7M-15(Gray) inspect.png"
+    }
+  },
+  {
+    "id": "x7m-7_handguard",
+    "name": "X7M-7 Handguard",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.295,
+    "type": "Handguard",
+    "manufacturer": "F1-Firearms",
+    "sizeChangeX": 2.0,
+    "ergonomics": -2.0,
+    "recoil": 6.0,
+    "vendor": "Gunny R.4",
+    "_raw": {
+      "image": "X7M-7 inspect.png"
+    }
+  },
+  {
+    "id": "x7m-7_handguard_gray",
+    "name": "X7M-7 Handguard (Gray)",
+    "category": "Handguards",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Handguard",
+    "manufacturer": "???",
+    "vendor": "???",
+    "_raw": {
+      "image": "X7M-7(Gray) inspect.png"
+    }
+  }
+]

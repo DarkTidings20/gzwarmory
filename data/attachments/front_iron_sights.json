@@ -1,0 +1,244 @@
+[
+  {
+    "id": "glock_17_front_iron_sight",
+    "name": "Glock 17 Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.015,
+    "type": "Front Iron Sight",
+    "manufacturer": "Glock",
+    "sightingRange": 25.0,
+    "vendor": "Gunny R.1Banshee R.1",
+    "_raw": {
+      "image": "G17 Front inspect.png"
+    }
+  },
+  {
+    "id": "folding_micro_front_iron_sight",
+    "name": "Folding Micro Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.07,
+    "type": "Front Iron Sight",
+    "manufacturer": "KAC",
+    "sightingRange": 0.0,
+    "vendor": "Gunny R.3",
+    "_raw": {
+      "image": "Micro Front inspect.png"
+    }
+  },
+  {
+    "id": "sig_sauer_flip_up_front_iron_sights",
+    "name": "Sig Sauer Flip Up Front Iron Sights",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.075,
+    "type": "Front Iron Sight",
+    "manufacturer": "Sig Sauer",
+    "sightingRange": 0.0,
+    "vendor": "Banshee R.3",
+    "buyPrice": 52.0,
+    "_raw": {
+      "image": "Sig Fl Front inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_tritium_front_sight",
+    "name": "Colt 1911 Tritium Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Front Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "1911 Tritium Front inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_front_sight",
+    "name": "Colt 1911 Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Front Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "1911 Front inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_commander_front_sight",
+    "name": "Colt 1911 Commander Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.006,
+    "type": "Front Iron Sight",
+    "manufacturer": "Novak",
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "1911 Com Front inspect.png"
+    }
+  },
+  {
+    "id": "glock_17_oem_front_tritium_sight",
+    "name": "Glock 17 OEM Front Tritium Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.045,
+    "type": "Front Iron Sight",
+    "manufacturer": "GLOCK",
+    "sightingRange": 25.0,
+    "vendor": "Banshee R.2",
+    "buyPrice": 48.0,
+    "_raw": {
+      "image": "OEM Front inspect.png"
+    }
+  },
+  {
+    "id": "hk_mp5_front_sight",
+    "name": "HK MP5 Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.015,
+    "type": "Front Iron Sight",
+    "manufacturer": "Heckler & Koch",
+    "sightingRange": 25.0,
+    "magnification": 1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "MP5 Front inspect.png"
+    }
+  },
+  {
+    "id": "back-up_3_front_iron_sight",
+    "name": "Back-Up 3 Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.025,
+    "type": "Front Iron Sight",
+    "manufacturer": "Magpul",
+    "sightingRange": 600.0,
+    "vendor": "Gunny R.2",
+    "_raw": {
+      "image": "MBUS Front inspect.png"
+    }
+  },
+  {
+    "id": "mosin-nagant_front_iron_sight",
+    "name": "Mosin-Nagant Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Front Iron Sight",
+    "manufacturer": "Kalashnikov concern",
+    "sightingRange": 25.0,
+    "magnification": 1.0,
+    "vendor": "Artisan R.1",
+    "_raw": {
+      "image": "Mosin Front inspect.png"
+    }
+  },
+  {
+    "id": "m590_front_ghost_ring_sight",
+    "name": "M590 Front Ghost Ring Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Front Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "GhostR Front inspect.png"
+    }
+  },
+  {
+    "id": "mp7_flip_front_sight",
+    "name": "MP7 Flip Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.04,
+    "type": "Front Iron Sight",
+    "manufacturer": "Heckler & Koch",
+    "sightingRange": 500.0,
+    "magnification": 1.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "MP7 Front inspect.png"
+    }
+  },
+  {
+    "id": "svd_front_sight",
+    "name": "SVD Front Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.06,
+    "type": "Front Iron Sight",
+    "manufacturer": "Kalashnikov concern",
+    "sightingRange": 0.0,
+    "magnification": 1.0,
+    "vendor": "Artisan R.4",
+    "buyPrice": 68.0,
+    "_raw": {
+      "image": "SVD Front inspect.png"
+    }
+  },
+  {
+    "id": "tt-33_front_iron_sight",
+    "name": "TT-33 Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Front Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "TT33 Front inspect.png"
+    }
+  },
+  {
+    "id": "type_51_front_iron_sight",
+    "name": "Type 51 Front Iron Sight",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Front Iron Sight",
+    "manufacturer": "???",
+    "sightingRange": 25.0,
+    "vendor": "???",
+    "_raw": {
+      "image": "T51 Front inspect.png"
+    }
+  },
+  {
+    "id": "m870_bead",
+    "name": "M870 Bead",
+    "category": "Front Iron Sights",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.01,
+    "type": "Front Iron Sight",
+    "manufacturer": "General West",
+    "sightingRange": 25.0,
+    "magnification": 1.0,
+    "vendor": "Gunny R.1",
+    "_raw": {
+      "image": "M870 Bead inspect.png"
+    }
+  }
+]

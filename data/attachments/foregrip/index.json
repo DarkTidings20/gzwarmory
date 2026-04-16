@@ -1,47 +1,274 @@
 [
   {
+    "id": "dd-vertical-foregrip",
+    "name": "DD Vertical Foregrip",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": 12.0,
+      "recoil": 10.0
+    },
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "rvg",
+    "name": "RVG",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": -6.0,
+      "recoil": 12.0
+    },
+    "weight": 0.073,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "rvg-fde",
+    "name": "RVG (FDE)",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": -6.0,
+      "recoil": 12.0
+    },
+    "weight": 0.073,
+    "vendor": "Gunny",
+    "vendorRank": 3,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "dd-vertical-foregrip-black",
+    "name": "DD Vertical Foregrip (Black)",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": 12.0,
+      "recoil": 10.0
+    },
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "dd-vertical-foregrip-milspec",
+    "name": "DD Vertical Foregrip (MILSPEC)",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": 12.0,
+      "recoil": 10.0
+    },
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
     "id": "afg-2",
     "name": "AFG-2",
     "category": "foregrip",
-    "statModifiers": { "recoilControl": 18, "weaponHandling": 4 },
+    "statModifiers": {
+      "ergonomics": 4.0,
+      "recoil": 18.0
+    },
     "weight": 0.072,
-    "vendor": "Gunny R.4", "vendorRank": 4, "price": 80,
-    "patchVersion": "0.4.0.3"
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 80,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
   },
   {
     "id": "afg-2-fde",
     "name": "AFG-2 (FDE)",
     "category": "foregrip",
-    "statModifiers": { "recoilControl": 18, "weaponHandling": 4 },
+    "statModifiers": {
+      "recoil": 18.0
+    },
     "weight": 0.072,
-    "vendor": "Gunny R.4", "vendorRank": 4, "price": 80,
-    "patchVersion": "0.4.0.3"
+    "vendor": "Loot only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
   },
   {
-    "id": "dd-vertical-foregrip",
-    "name": "DD Vertical Foregrip",
-    "category": "foregrip",
-    "statModifiers": { "recoilControl": 10, "ergonomics": 10, "weaponHandling": 12 },
-    "weight": 0.15,
-    "vendor": "Unknown", "vendorRank": 0, "price": 0,
-    "patchVersion": "0.4.0.3"
-  },
-  {
-    "id": "rvg",
-    "name": "RVG (Rail Vertical Grip)",
-    "category": "foregrip",
-    "statModifiers": { "recoilControl": 12, "ergonomics": -6, "weaponHandling": -6 },
-    "weight": 0.073,
-    "vendor": "Gunny R.3", "vendorRank": 3, "price": 0,
-    "patchVersion": "0.4.0.3"
-  },
-  {
-    "id": "mlok-afg",
+    "id": "m-lok-afg",
     "name": "M-LOK AFG",
     "category": "foregrip",
-    "statModifiers": { "recoilControl": 14, "weaponHandling": 3 },
-    "weight": 0.065,
-    "vendor": "Gunny", "vendorRank": 3, "price": 0,
-    "patchVersion": "0.4.0.3"
+    "statModifiers": {
+      "ergonomics": 4.0,
+      "recoil": 18.0
+    },
+    "weight": 0.034,
+    "vendor": "Loot Only",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "m-lok-afg-fde",
+    "name": "M-LOK AFG (FDE)",
+    "category": "foregrip",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "shift-vertical-foregrip",
+    "name": "SHIFT Vertical Foregrip",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 12.0
+    },
+    "weight": 0.096,
+    "vendor": "Banshee",
+    "vendorRank": 2,
+    "price": 78,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "pro-m-lok-handstop",
+    "name": "Pro M-LOK Handstop",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": 5.0,
+      "recoil": 4.0
+    },
+    "weight": 0.017,
+    "vendor": "Gunny",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ultraslim-angled-foregrip",
+    "name": "UltraSlim Angled Foregrip",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": 3.0,
+      "recoil": 11.0
+    },
+    "weight": 0.039,
+    "vendor": "Gunny",
+    "vendorRank": 2,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "ultra-slim-m-lok-mt-fgm01x-foregrip",
+    "name": "Ultra Slim M-LOK MT-FGM01X Foregrip",
+    "category": "foregrip",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "rk-0",
+    "name": "RK-0",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": -5.0,
+      "recoil": 9.0
+    },
+    "weight": 0.138,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "rk-1",
+    "name": "RK-1",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": -6.0,
+      "recoil": 15.0
+    },
+    "weight": 0.16,
+    "vendor": "Turncoat",
+    "vendorRank": 3,
+    "price": 70,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "rk-2",
+    "name": "RK-2",
+    "category": "foregrip",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "rk-4",
+    "name": "RK-4",
+    "category": "foregrip",
+    "statModifiers": {},
+    "weight": 0,
+    "vendor": "???",
+    "vendorRank": 0,
+    "price": 0,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "rk-5",
+    "name": "RK-5",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": -5.0,
+      "recoil": 12.0
+    },
+    "weight": 0.11,
+    "vendor": "Turncoat",
+    "vendorRank": 2,
+    "price": 59,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
+  },
+  {
+    "id": "rk-6",
+    "name": "RK-6",
+    "category": "foregrip",
+    "statModifiers": {
+      "ergonomics": 2.0,
+      "recoil": 13.0
+    },
+    "weight": 0.11,
+    "vendor": "Turncoat",
+    "vendorRank": 1,
+    "price": 55,
+    "patchVersion": "0.4.0.3",
+    "wikiSource": true
   }
 ]

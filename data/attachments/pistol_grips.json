@@ -1,0 +1,412 @@
+[
+  {
+    "id": "a2_pistol_grip",
+    "name": "A2 Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.093,
+    "type": "Pistol Grip",
+    "manufacturer": "COLT",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "A2 Grip_inspect.png"
+    }
+  },
+  {
+    "id": "dd_enhanced_ar_pistol_grip_milspec",
+    "name": "DD Enhanced AR Pistol Grip (MILSPEC)",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.099,
+    "type": "Pistol Grip",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeY": 1.0,
+    "ergonomics": 10.0,
+    "recoil": 10.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DD Grip(MilSpec) inspect.png"
+    }
+  },
+  {
+    "id": "ak_polymer_pistol_grip",
+    "name": "AK Polymer Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.065,
+    "type": "Pistol Grip",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "vendor": "Artisan R.1",
+    "buyPrice": 27.0,
+    "_raw": {
+      "image": "AK Poly Grip inspect.png"
+    }
+  },
+  {
+    "id": "ak_bakelite_pistol_grip",
+    "name": "AK Bakelite Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.065,
+    "type": "Pistol Grip",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "AK Bak. Grip inspect.png"
+    }
+  },
+  {
+    "id": "moe_ak_pistol_grip",
+    "name": "MOE AK Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.088,
+    "type": "Pistol Grip",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "ergonomics": 4.0,
+    "recoil": 4.0,
+    "vendor": "Artisan R.2",
+    "buyPrice": 41.0,
+    "_raw": {
+      "image": "MOE AK inspect.png"
+    }
+  },
+  {
+    "id": "ak_ratnik_grip",
+    "name": "AK Ratnik Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.17,
+    "type": "Pistol Grip",
+    "manufacturer": "Kalashnikov concern",
+    "sizeChangeY": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "* Artisan R.3\n* Turncoat R.2",
+    "buyPrice": 130.0,
+    "_raw": {
+      "image": "Ratnik Grip inspect.png"
+    }
+  },
+  {
+    "id": "miad_pistol_grip",
+    "name": "MIAD Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Pistol Grip",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MIAD Grip inspect.png"
+    }
+  },
+  {
+    "id": "moe_pistol_grip",
+    "name": "MOE Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Pistol Grip",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Gunny R.2",
+    "buyPrice": 44.0,
+    "_raw": {
+      "image": "MOE Grip(Black) inspect.png"
+    }
+  },
+  {
+    "id": "moe_pistol_grip_fde",
+    "name": "MOE Pistol Grip (FDE)",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Pistol Grip",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "ergonomics": 2.0,
+    "recoil": 4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MOE Grip(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "torque_pistol_grip",
+    "name": "Torque Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.156,
+    "type": "Pistol Grip",
+    "manufacturer": "General West",
+    "sizeChangeY": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "Gunny R.3",
+    "buyPrice": 74.0,
+    "_raw": {
+      "image": "Torque Grip inspect.png"
+    }
+  },
+  {
+    "id": "rk-3_pistol_grip",
+    "name": "RK-3 Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.187,
+    "type": "Pistol Grip",
+    "manufacturer": "Zenitco",
+    "sizeChangeY": 1.0,
+    "ergonomics": 10.0,
+    "recoil": 10.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "RK-3 Grip inspect.png"
+    }
+  },
+  {
+    "id": "mod_pistol_grip_fde",
+    "name": "MOD Pistol Grip (FDE)",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Pistol Grip",
+    "manufacturer": "????",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MOD Grip inspect.png"
+    }
+  },
+  {
+    "id": "norinco_cqa1_pistol_grip",
+    "name": "Norinco CQA1 Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.093,
+    "type": "Pistol Grip",
+    "manufacturer": "Norinco",
+    "sizeChangeY": 1.0,
+    "vendor": "Gunny R.1",
+    "buyPrice": 29.0,
+    "_raw": {
+      "image": "CQA1 Grip inspect.png"
+    }
+  },
+  {
+    "id": "type_51_grip",
+    "name": "Type 51 Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Pistol Grip",
+    "manufacturer": "????",
+    "vendor": "???",
+    "_raw": {
+      "image": "Shortname inspect.png",
+      "slot": "Pistol Grip",
+      "size": "???"
+    }
+  },
+  {
+    "id": "vz._61_polymer_pistol_grip",
+    "name": "Vz. 61 Polymer Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.1,
+    "type": "Pistol Grip",
+    "manufacturer": "CZ",
+    "ergonomics": 2.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "Vz. 61 Poly Grip inspect.png",
+      "slot": "Pistol Grip",
+      "size": "???"
+    }
+  },
+  {
+    "id": "vz._61_wooden_pistol_grip",
+    "name": "Vz. 61 Wooden Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.1,
+    "type": "Pistol Grip",
+    "_raw": {
+      "image": "Vz. 61 Wood Grip inspect.png",
+      "slot": "Pistol Grip",
+      "size": "| vendor        =Loot Only"
+    }
+  },
+  {
+    "id": "rk-9_pistol_grip",
+    "name": "RK-9 Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.14,
+    "type": "Pistol Grip",
+    "manufacturer": "Zenitco",
+    "sizeChangeY": 1.0,
+    "ergonomics": 8.0,
+    "recoil": 8.0,
+    "vendor": "Artisan R.4",
+    "buyPrice": 94.0,
+    "_raw": {
+      "image": "RK-9 Grip inspect.png"
+    }
+  },
+  {
+    "id": "moe_ak_pistol_grip_fde",
+    "name": "MOE AK Pistol Grip (FDE)",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.088,
+    "type": "Pistol Grip",
+    "manufacturer": "Magpul",
+    "sizeChangeY": 1.0,
+    "ergonomics": 4.0,
+    "recoil": 4.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MOE AK(FDE) inspect.png"
+    }
+  },
+  {
+    "id": "m9a1_wooden_grip",
+    "name": "M9A1 Wooden Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.055,
+    "type": "Pistol Grip",
+    "manufacturer": "Beretta",
+    "ergonomics": 2.0,
+    "vendor": "Gunny R.1",
+    "buyPrice": 50.0,
+    "_raw": {
+      "image": "M9A1 Wooden Grip inspect.png"
+    }
+  },
+  {
+    "id": "m9a1_rubber_grip",
+    "name": "M9A1 Rubber Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.055,
+    "type": "Pistol Grip",
+    "manufacturer": "Beretta",
+    "ergonomics": 2.0,
+    "vendor": "Gunny R.2",
+    "buyPrice": 31.0,
+    "_raw": {
+      "image": "M9A1 Rub Grip inspect.png"
+    }
+  },
+  {
+    "id": "colt_1911_\"the_hive\"_grip",
+    "name": "Colt 1911 \"The Hive\" Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.066,
+    "type": "Pistol Grip",
+    "manufacturer": "Valkyrie Dynamics",
+    "ergonomics": 2.0,
+    "recoil": 2.0,
+    "vendor": "Loot Only",
+    "_raw": {
+      "image": "File:1911 Hive inspect.PNG"
+    }
+  },
+  {
+    "id": "archangel_ak-series_pistol_grip",
+    "name": "Archangel AK-Series Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.08,
+    "type": "Pistol Grip",
+    "manufacturer": "Promag Industries",
+    "sizeChangeY": 1.0,
+    "ergonomics": 6.0,
+    "recoil": 6.0,
+    "vendor": "Artisan R.3",
+    "buyPrice": 70.0,
+    "_raw": {
+      "image": "Arch AK Grip inspect.png"
+    }
+  },
+  {
+    "id": "mod_pistol_grip",
+    "name": "MOD Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "type": "Pistol Grip",
+    "manufacturer": "????",
+    "sizeChangeY": 1.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "MOD Grip( inspect.png"
+    }
+  },
+  {
+    "id": "dd_enhanced_ar_pistol_grip",
+    "name": "DD Enhanced AR Pistol Grip",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.099,
+    "type": "Pistol Grip",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeY": 1.0,
+    "ergonomics": 10.0,
+    "recoil": 10.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DD Grip inspect.png"
+    }
+  },
+  {
+    "id": "dd_enhanced_ar_pistol_grip_black",
+    "name": "DD Enhanced AR Pistol Grip (Black)",
+    "category": "Pistol Grips",
+    "verified": true,
+    "source": "fandom_wiki",
+    "weight": 0.099,
+    "type": "Pistol Grip",
+    "manufacturer": "Daniel Defense",
+    "sizeChangeY": 1.0,
+    "ergonomics": 10.0,
+    "recoil": 10.0,
+    "vendor": "Loot only",
+    "_raw": {
+      "image": "DD Grip(Black) inspect.png"
+    }
+  }
+]

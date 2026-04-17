@@ -60,7 +60,7 @@ function StatBar({ label, base, delta, isAccuracy = false, unit = "%" }: {
   isAccuracy?: boolean;
   unit?: string;
 }) {
-  // For accuracy, lower is better — invert the delta color logic
+  // For accuracy, lower is better - invert the delta color logic
   const effectiveDelta = isAccuracy ? -delta : delta;
   const isPositive = effectiveDelta > 0;
   const isNegative = effectiveDelta < 0;
@@ -95,16 +95,26 @@ function SlotSelector({
   allAttachments,
   selected,
   onSelect,
+  vendorRanks,
 }: {
   slotKey: string;
   slot: SlotDef;
   allAttachments: Record<string, Attachment>;
   selected: string | null;
   onSelect: (slotKey: string, attachmentId: string | null) => void;
+  vendorRanks: Record<string, number>;
 }) {
-  const compatible = slot.compatible
+  const allCompatible = slot.compatible
     .map((id) => allAttachments[id])
     .filter(Boolean);
+
+  // Split into available (within rank) and locked (above rank)
+  const compatible = allCompatible.filter(
+    (att) => !att.vendor || !att.vendorRank || (vendorRanks[att.vendor] ?? 0) >= att.vendorRank
+  );
+  const locked = allCompatible.filter(
+    (att) => att.vendor && att.vendorRank && (vendorRanks[att.vendor] ?? 0) < att.vendorRank
+  );
 
   const selectedAttachment = selected ? allAttachments[selected] : null;
 
@@ -125,21 +135,39 @@ function SlotSelector({
         )}
       </div>
 
-      {compatible.length === 0 ? (
-        <div className="text-gray-600 text-xs italic">No data yet — help us fill this in!</div>
+      {allCompatible.length === 0 ? (
+        <div className="text-gray-600 text-xs italic">No data yet - help us fill this in!</div>
       ) : (
-        <select
-          className="w-full bg-gray-800 border border-gray-700 rounded px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-amber-500"
-          value={selected ?? ""}
-          onChange={(e) => onSelect(slotKey, e.target.value || null)}
-        >
-          <option value="">— {slot.required ? "Select required" : "None"} —</option>
-          {compatible.map((att) => (
-            <option key={att.id} value={att.id}>
-              {att.name} {att.capacity ? `(${att.capacity}rd)` : ""} · {att.vendor} R{att.vendorRank}
-            </option>
-          ))}
-        </select>
+        <>
+          <select
+            className="w-full bg-gray-800 border border-gray-700 rounded px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-amber-500"
+            value={selected ?? ""}
+            onChange={(e) => onSelect(slotKey, e.target.value || null)}
+          >
+            <option value="">- {slot.required ? "Select required" : "None"} -</option>
+            {compatible.length > 0 && (
+              <optgroup label="Available">
+                {compatible.map((att) => (
+                  <option key={att.id} value={att.id}>
+                    {att.name} {att.capacity ? `(${att.capacity}rd)` : ""} · {att.vendor} R{att.vendorRank}
+                  </option>
+                ))}
+              </optgroup>
+            )}
+            {locked.length > 0 && (
+              <optgroup label="🔒 Locked (rank too low)">
+                {locked.map((att) => (
+                  <option key={att.id} value={att.id} disabled>
+                    🔒 {att.name} · {att.vendor} R{att.vendorRank}
+                  </option>
+                ))}
+              </optgroup>
+            )}
+          </select>
+          {compatible.length === 0 && locked.length > 0 && (
+            <p className="text-xs text-amber-600/80 mt-1">No parts available at your current rank - raise {locked[0]?.vendor} rank to unlock.</p>
+          )}
+        </>
       )}
 
       {selectedAttachment && Object.keys(selectedAttachment.statModifiers).length > 0 && (
@@ -169,11 +197,13 @@ function SlotSelector({
 export default function WeaponBuilder({
   weapon,
   allAttachments,
+  vendorRanks,
 }: {
   weapon: Weapon;
   allAttachments: Record<string, Attachment>;
+  vendorRanks: Record<string, number>;
 }) {
-  const [selectedSlots, setSelectedSlots] = useState<Record<string, string | null>>({});
+  const [selectedSlots, setSelectedSlots] = useState<Record<string, string | null>>({}); 
 
   const handleSelect = (slotKey: string, id: string | null) => {
     setSelectedSlots((prev) => ({ ...prev, [slotKey]: id }));
@@ -208,6 +238,7 @@ export default function WeaponBuilder({
               allAttachments={allAttachments}
               selected={selectedSlots[key] ?? null}
               onSelect={handleSelect}
+              vendorRanks={vendorRanks}
             />
           ))}
         </div>
@@ -252,8 +283,8 @@ export default function WeaponBuilder({
           <div className="grid grid-cols-2 gap-2 text-gray-400">
             <span>Type</span><span className="text-gray-200">{weapon.type}</span>
             <span>Caliber</span><span className="text-gray-200">{weapon.caliber}</span>
-            <span>ROF</span><span className="text-gray-200">{weapon.baseStats.rateOfFire ?? "—"} RPM</span>
-            <span>Durability</span><span className="text-gray-200">{weapon.baseStats.durability ?? "—"}%</span>
+            <span>ROF</span><span className="text-gray-200">{weapon.baseStats.rateOfFire ?? "-"} RPM</span>
+            <span>Durability</span><span className="text-gray-200">{weapon.baseStats.durability ?? "-"}%</span>
             <span>Vendor</span><span className="text-gray-200">{weapon.vendor} R{weapon.vendorRank}</span>
           </div>
         </div>

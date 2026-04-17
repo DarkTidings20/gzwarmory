@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { promises as fs } from "fs";
 import path from "path";
 import WeaponBuilderShell from "../components/WeaponBuilderShell";
@@ -46,6 +47,7 @@ export default async function BuilderPage() {
     <main className="flex flex-col min-h-screen">
       <nav className="border-b border-gray-800 px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
+          <Image src="/raven-sigil.png" alt="GZW Armory" width={36} height={36} className="object-contain" />
           <span className="text-2xl font-bold tracking-tight text-white">
             GZW <span className="text-amber-500">Armory</span>
           </span>

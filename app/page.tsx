@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       {/* Nav */}
       <nav className="border-b border-gray-800 px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
+          <Image src="/raven-sigil.png" alt="GZW Armory" width={36} height={36} className="object-contain" />
           <span className="text-2xl font-bold tracking-tight text-white">
             GZW <span className="text-amber-500">Armory</span>
           </span>
@@ -34,6 +36,9 @@ export default function Home() {
       {/* Hero */}
       <section className="flex flex-col items-center justify-center flex-1 px-6 py-24 text-center">
         <div className="max-w-2xl">
+          <div className="flex justify-center mb-8">
+            <Image src="/raven-sigil.png" alt="The Raven" width={180} height={180} className="object-contain drop-shadow-[0_0_20px_rgba(245,158,11,0.3)]" />
+          </div>
           <h1 className="text-5xl font-bold tracking-tight mb-4">
             Build smarter.<br />
             <span className="text-amber-500">Die less.</span>

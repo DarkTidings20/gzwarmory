@@ -87,7 +87,7 @@ export default function Home() {
             <div className="text-amber-500 text-2xl mb-3">⚖️</div>
             <h3 className="font-semibold text-white mb-2">The Numbers Don't Lie</h3>
             <p className="text-gray-400 text-sm">
-              Every gram is a trade. Optimal (&lt;33kg), degraded (&lt;54kg), or overweight — the Armory shows you exactly where you stand.
+              Community-verified stats sourced from in-game screenshots. No guesswork, no spreadsheet hearsay — just confirmed data from operators in the field.
             </p>
           </div>
         </div>

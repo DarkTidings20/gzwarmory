@@ -26,7 +26,7 @@ interface Attachment {
   vendorRank: number;
 }
 
-const VENDORS = ["Gunny", "Handshake", "Lab Rat", "Artisan", "Turncoat", "Banshee", "Vulture"] as const;
+const VENDORS = ["Gunny", "Artisan", "Turncoat", "Banshee", "Vulture"] as const;
 const MAX_RANK = 4;
 
 export default function WeaponBuilderShell({
@@ -40,8 +40,6 @@ export default function WeaponBuilderShell({
   const [selectedId, setSelectedId] = useState(defaultId);
   const [vendorRanks, setVendorRanks] = useState<Record<string, number>>({
     Gunny: 1,
-    Handshake: 1,
-    "Lab Rat": 1,
     Artisan: 1,
     Turncoat: 1,
     Banshee: 1,

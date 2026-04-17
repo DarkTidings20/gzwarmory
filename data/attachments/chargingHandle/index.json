@@ -3,13 +3,17 @@
     "id": "standard-gi-charging-handle",
     "name": "Standard GI Charging Handle",
     "category": "chargingHandle",
-    "statModifiers": {},
+    "statModifiers": {
+      "reloadSpeed": 2.0
+    },
     "weight": 0.028,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "price": 117,
     "patchVersion": "0.4.0.3",
-    "wikiSource": true
+    "wikiSource": true,
+    "manufacturer": "Colt",
+    "verified": true
   },
   {
     "id": "ar-15-grip-n-rip-charging-handle",
@@ -42,16 +46,20 @@
     "id": "cq-a1-charging-handle",
     "name": "CQ A1 Charging Handle",
     "category": "chargingHandle",
-    "statModifiers": {},
+    "statModifiers": {
+      "reloadSpeed": 2.0
+    },
     "weight": 0.028,
     "vendor": "Gunny",
     "vendorRank": 1,
-    "price": 0,
+    "price": 117,
     "patchVersion": "0.4.0.3",
     "wikiSource": true,
     "_raw": {
       "reload": "-2"
-    }
+    },
+    "manufacturer": "Norinco",
+    "verified": true
   },
   {
     "id": "ak-rp-1-charging-handle",
@@ -154,5 +162,22 @@
     "_raw": {
       "reload": "+???"
     }
+  },
+  {
+    "id": "m16a1-charging-handle",
+    "name": "M16A1 Charging Handle",
+    "category": "chargingHandle",
+    "weight": 0.028,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 117,
+    "statModifiers": {
+      "reloadSpeed": 2.0
+    },
+    "manufacturer": "Colt",
+    "attachmentInterface": "AR15 Handle",
+    "patchVersion": "0.4",
+    "wikiSource": false,
+    "verified": true
   }
 ]

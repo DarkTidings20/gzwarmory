@@ -48,15 +48,16 @@
     "name": "CQ A1 Carbine Handguard",
     "category": "handguard",
     "statModifiers": {
-      "recoil": -1.0,
       "sizeChangeX": 1.0
     },
     "weight": 0.323,
     "vendor": "Gunny",
     "vendorRank": 1,
-    "price": 0,
+    "price": 170,
     "patchVersion": "0.4.0.3",
-    "wikiSource": true
+    "wikiSource": true,
+    "manufacturer": "Norinco",
+    "verified": true
   },
   {
     "id": "ak-ratnik-handguard",
@@ -458,10 +459,12 @@
     },
     "weight": 0.184,
     "vendor": "Gunny",
-    "vendorRank": 1,
+    "vendorRank": 3,
     "price": 0,
     "patchVersion": "0.4.0.3",
-    "wikiSource": true
+    "wikiSource": true,
+    "vendorNote": "Was rank 1 in scrape — Aaron confirmed no other AR15 parts at rank 1 Gunny",
+    "verified": true
   },
   {
     "id": "ar-15-moe-m-lok-carbine-handguard-fde",
@@ -804,5 +807,24 @@
     "price": 0,
     "patchVersion": "0.4.0.3",
     "wikiSource": true
+  },
+  {
+    "id": "m16a1-handguard",
+    "name": "M16A1 Handguard",
+    "category": "handguard",
+    "weight": 0.453,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 306,
+    "statModifiers": {
+      "recoilControl": 2.0,
+      "ergonomics": 2.0,
+      "sizeChangeX": 1.0
+    },
+    "manufacturer": "Colt",
+    "attachmentInterface": "AR15 HG",
+    "patchVersion": "0.4",
+    "wikiSource": false,
+    "verified": true
   }
 ]

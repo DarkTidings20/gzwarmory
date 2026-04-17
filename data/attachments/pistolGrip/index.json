@@ -193,9 +193,11 @@
     "weight": 0.093,
     "vendor": "Gunny",
     "vendorRank": 1,
-    "price": 29,
+    "price": 102,
     "patchVersion": "0.4.0.3",
-    "wikiSource": true
+    "wikiSource": true,
+    "manufacturer": "Norinco",
+    "verified": true
   },
   {
     "id": "type-51-grip",
@@ -383,5 +385,24 @@
     "price": 0,
     "patchVersion": "0.4.0.3",
     "wikiSource": true
+  },
+  {
+    "id": "m16a1-pistol-grip",
+    "name": "M16A1 Pistol Grip",
+    "category": "pistolGrip",
+    "weight": 0.093,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 136,
+    "statModifiers": {
+      "recoilControl": 2.0,
+      "ergonomics": 2.0,
+      "sizeChangeY": 1.0
+    },
+    "manufacturer": "Norinco",
+    "attachmentInterface": "AR15 Grip",
+    "patchVersion": "0.4",
+    "wikiSource": false,
+    "verified": true
   }
 ]

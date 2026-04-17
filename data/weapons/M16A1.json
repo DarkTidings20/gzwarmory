@@ -1,0 +1,49 @@
+{
+  "id": "M16A1",
+  "name": "M16A1",
+  "caliber": "5.56x45mm",
+  "weaponType": "Assault Rifle",
+  "firingModes": ["Single", "Auto"],
+  "fireRate": 800,
+  "manufacturer": "General West",
+  "weight": 3.594,
+  "magazine": 20,
+  "durability": 100.0,
+  "baseStats": {
+    "accuracy": 1.22,
+    "recoilControl": 9.0,
+    "muzzleDeviceEfficiency": 10.0,
+    "muzzleVelocity": 20.0,
+    "ergonomics": -7.0,
+    "reloadSpeed": 4.0
+  },
+  "vendor": "Gunny",
+  "vendorRank": 4,
+  "price": 4000,
+  "verified": true,
+  "patchVersion": "0.4",
+  "notes": "Verified from in-game Gunny vendor screenshot at 100% durability. Fixed stock, barrel, handguard.",
+  "vendorConfig": {
+    "barrel": "m16a1-barrel-20",
+    "gasBlock": "m16a1-standard-gas-block",
+    "handguard": "m16a1-handguard",
+    "chargingHandle": "m16a1-charging-handle",
+    "pistolGrip": "m16a1-pistol-grip",
+    "upperReceiver": "m16a1-upper-receiver",
+    "bufferTube": "m16a1-buffer-tube",
+    "stock": "m16a1-stock",
+    "magazine": "pmag-556-20rnd"
+  },
+  "compatibleSlots": {
+    "barrel": "AR15 Barrel",
+    "bufferTube": "M16A1 Buffer Tube",
+    "stock": "M16A1 Stock",
+    "upperReceiver": "AR15 Receiver",
+    "handguard": "AR15 HG",
+    "chargingHandle": "AR15 Handle",
+    "pistolGrip": "AR15 Grip",
+    "magazine": "AR15 Mag",
+    "muzzleDevice": "5.56x45 Muzzle",
+    "gasBlock": "AR15 Gas"
+  }
+}

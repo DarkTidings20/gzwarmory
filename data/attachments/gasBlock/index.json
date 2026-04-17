@@ -1,0 +1,34 @@
+[
+  {
+    "id": "m16a1-standard-gas-block",
+    "name": "M16A1 Standard Gas Block",
+    "category": "gasBlock",
+    "weight": 0.05,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "vendorPrice": 125,
+    "statModifiers": {
+      "muzzleDeviceEfficiency": 5
+    },
+    "notes": "Has bayonet mount. Verified from Gunny rank 1 screenshot.",
+    "verified": true,
+    "verifiedSource": "in-game screenshot",
+    "patchVersion": "0.4"
+  },
+  {
+    "id": "cq-a1-standard-gas-block",
+    "name": "CQA1 Standard Gas Block",
+    "category": "gasBlock",
+    "weight": 0.05,
+    "vendor": "Gunny",
+    "vendorRank": 1,
+    "vendorPrice": 125,
+    "statModifiers": {
+      "muzzleDeviceEfficiency": 5
+    },
+    "notes": "Verified from Gunny rank 1 screenshot.",
+    "verified": true,
+    "verifiedSource": "in-game screenshot",
+    "patchVersion": "0.4"
+  }
+]

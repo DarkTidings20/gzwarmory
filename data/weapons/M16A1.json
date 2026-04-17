@@ -6,7 +6,7 @@
   "caliber": "5.56x45mm NATO",
   "manufacturer": "Colt",
   "vendor": "Gunny",
-  "vendorRank": 4,
+  "vendorRank": 1,
   "vendorPrice": 4000,
   "baseStats": {
     "durability": 100.0,

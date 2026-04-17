@@ -1,408 +1,412 @@
 [
-  {
-    "id": "a2-pistol-grip",
-    "name": "A2 Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "sizeChangeY": 1.0
+    {
+        "id":  "a2-pistol-grip",
+        "name":  "A2 Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.093,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.093,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "dd-enhanced-ar-pistol-grip-milspec",
-    "name": "DD Enhanced AR Pistol Grip (MILSPEC)",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 10.0,
-      "recoil": 10.0,
-      "sizeChangeY": 1.0
+    {
+        "id":  "dd-enhanced-ar-pistol-grip-milspec",
+        "name":  "DD Enhanced AR Pistol Grip (MILSPEC)",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  10.0,
+                              "recoil":  10.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.099,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.099,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "ak-polymer-pistol-grip",
-    "name": "AK Polymer Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "sizeChangeY": 1.0
+    {
+        "id":  "ak-polymer-pistol-grip",
+        "name":  "AK Polymer Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.065,
+        "vendor":  "Artisan",
+        "vendorRank":  1,
+        "price":  27,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.065,
-    "vendor": "Artisan",
-    "vendorRank": 1,
-    "price": 27,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "ak-bakelite-pistol-grip",
-    "name": "AK Bakelite Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "sizeChangeY": 1.0
+    {
+        "id":  "ak-bakelite-pistol-grip",
+        "name":  "AK Bakelite Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.065,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.065,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "moe-ak-pistol-grip",
-    "name": "MOE AK Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 4.0,
-      "recoil": 4.0,
-      "sizeChangeY": 1.0
+    {
+        "id":  "moe-ak-pistol-grip",
+        "name":  "MOE AK Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  4.0,
+                              "recoil":  4.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.088,
+        "vendor":  "Artisan",
+        "vendorRank":  2,
+        "price":  41,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.088,
-    "vendor": "Artisan",
-    "vendorRank": 2,
-    "price": 41,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "ak-ratnik-grip",
-    "name": "AK Ratnik Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 6.0,
-      "recoil": 6.0,
-      "sizeChangeY": 1.0
+    {
+        "id":  "ak-ratnik-grip",
+        "name":  "AK Ratnik Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  6.0,
+                              "recoil":  6.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.17,
+        "vendor":  "* Artisan\n* Turncoat",
+        "vendorRank":  3,
+        "price":  130,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.17,
-    "vendor": "* Artisan\n* Turncoat",
-    "vendorRank": 3,
-    "price": 130,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "miad-pistol-grip",
-    "name": "MIAD Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 2.0,
-      "recoil": 2.0,
-      "sizeChangeY": 1.0
+    {
+        "id":  "miad-pistol-grip",
+        "name":  "MIAD Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  2.0,
+                              "recoil":  2.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.08,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.08,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "moe-pistol-grip",
-    "name": "MOE Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 2.0,
-      "recoil": 4.0,
-      "sizeChangeY": 1.0
+    {
+        "id":  "moe-pistol-grip",
+        "name":  "MOE Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  2.0,
+                              "recoil":  4.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.08,
+        "vendor":  "Gunny",
+        "vendorRank":  2,
+        "price":  44,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.08,
-    "vendor": "Gunny",
-    "vendorRank": 2,
-    "price": 44,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "moe-pistol-grip-fde",
-    "name": "MOE Pistol Grip (FDE)",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 2.0,
-      "recoil": 4.0,
-      "sizeChangeY": 1.0
+    {
+        "id":  "moe-pistol-grip-fde",
+        "name":  "MOE Pistol Grip (FDE)",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  2.0,
+                              "recoil":  4.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.08,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.08,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "torque-pistol-grip",
-    "name": "Torque Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 6.0,
-      "recoil": 6.0,
-      "sizeChangeY": 1.0
+    {
+        "id":  "torque-pistol-grip",
+        "name":  "Torque Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  6.0,
+                              "recoil":  6.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.156,
+        "vendor":  "Gunny",
+        "vendorRank":  3,
+        "price":  74,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.156,
-    "vendor": "Gunny",
-    "vendorRank": 3,
-    "price": 74,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "rk-3-pistol-grip",
-    "name": "RK-3 Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 10.0,
-      "recoil": 10.0,
-      "sizeChangeY": 1.0
+    {
+        "id":  "rk-3-pistol-grip",
+        "name":  "RK-3 Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  10.0,
+                              "recoil":  10.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.187,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0.187,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "mod-pistol-grip-fde",
-    "name": "MOD Pistol Grip (FDE)",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "sizeChangeY": 1.0
+    {
+        "id":  "mod-pistol-grip-fde",
+        "name":  "MOD Pistol Grip (FDE)",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
     },
-    "weight": 0,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "norinco-cqa1-pistol-grip",
-    "name": "Norinco CQA1 Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "sizeChangeY": 1.0
+    {
+        "id":  "norinco-cqa1-pistol-grip",
+        "name":  "Norinco CQA1 Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.093,
+        "vendor":  "Gunny",
+        "vendorRank":  1,
+        "price":  102,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "manufacturer":  "Norinco",
+        "verified":  true
     },
-    "weight": 0.093,
-    "vendor": "Gunny",
-    "vendorRank": 1,
-    "price": 102,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "manufacturer": "Norinco",
-    "verified": true
-  },
-  {
-    "id": "type-51-grip",
-    "name": "Type 51 Grip",
-    "category": "pistolGrip",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "_raw": {
-      "slot": "Pistol Grip",
-      "size": "???"
+    {
+        "id":  "type-51-grip",
+        "name":  "Type 51 Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "_raw":  {
+                     "slot":  "Pistol Grip",
+                     "size":  "???"
+                 }
+    },
+    {
+        "id":  "vz-61-polymer-pistol-grip",
+        "name":  "Vz. 61 Polymer Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  2.0
+                          },
+        "weight":  0.1,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "_raw":  {
+                     "slot":  "Pistol Grip",
+                     "size":  "???"
+                 }
+    },
+    {
+        "id":  "vz-61-wooden-pistol-grip",
+        "name":  "Vz. 61 Wooden Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.1,
+        "vendor":  "Unknown",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "_raw":  {
+                     "slot":  "Pistol Grip",
+                     "size":  "| vendor        =Loot Only"
+                 }
+    },
+    {
+        "id":  "rk-9-pistol-grip",
+        "name":  "RK-9 Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  8.0,
+                              "recoil":  8.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.14,
+        "vendor":  "Artisan",
+        "vendorRank":  4,
+        "price":  94,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
+    },
+    {
+        "id":  "moe-ak-pistol-grip-fde",
+        "name":  "MOE AK Pistol Grip (FDE)",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  4.0,
+                              "recoil":  4.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.088,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
+    },
+    {
+        "id":  "m9a1-wooden-grip",
+        "name":  "M9A1 Wooden Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  2.0
+                          },
+        "weight":  0.055,
+        "vendor":  "Gunny",
+        "vendorRank":  1,
+        "price":  50,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
+    },
+    {
+        "id":  "m9a1-rubber-grip",
+        "name":  "M9A1 Rubber Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  2.0
+                          },
+        "weight":  0.055,
+        "vendor":  "Gunny",
+        "vendorRank":  2,
+        "price":  31,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
+    },
+    {
+        "id":  "colt-1911-the-hive-grip",
+        "name":  "Colt 1911 \"The Hive\" Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  2.0,
+                              "recoil":  2.0
+                          },
+        "weight":  0.066,
+        "vendor":  "Loot Only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
+    },
+    {
+        "id":  "archangel-ak-series-pistol-grip",
+        "name":  "Archangel AK-Series Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  6.0,
+                              "recoil":  6.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.08,
+        "vendor":  "Artisan",
+        "vendorRank":  3,
+        "price":  70,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
+    },
+    {
+        "id":  "mod-pistol-grip",
+        "name":  "MOD Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
+    },
+    {
+        "id":  "dd-enhanced-ar-pistol-grip",
+        "name":  "DD Enhanced AR Pistol Grip",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  10.0,
+                              "recoil":  10.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.099,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
+    },
+    {
+        "id":  "dd-enhanced-ar-pistol-grip-black",
+        "name":  "DD Enhanced AR Pistol Grip (Black)",
+        "category":  "pistolGrip",
+        "statModifiers":  {
+                              "ergonomics":  10.0,
+                              "recoil":  10.0,
+                              "sizeChangeY":  1.0
+                          },
+        "weight":  0.099,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true
+    },
+    {
+        "id":  "m16a1-pistol-grip",
+        "name":  "M16A1 Pistol Grip",
+        "category":  "pistolGrip",
+        "weight":  0.093,
+        "vendor":  "Gunny",
+        "vendorRank":  1,
+        "price":  136,
+        "statModifiers":  {
+                              "recoilControl":  2.0,
+                              "ergonomics":  2.0,
+                              "sizeChangeY":  1.0
+                          },
+        "manufacturer":  "Norinco",
+        "attachmentInterface":  "AR15 Grip",
+        "patchVersion":  "0.4",
+        "wikiSource":  false,
+        "verified":  true
     }
-  },
-  {
-    "id": "vz-61-polymer-pistol-grip",
-    "name": "Vz. 61 Polymer Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 2.0
-    },
-    "weight": 0.1,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "_raw": {
-      "slot": "Pistol Grip",
-      "size": "???"
-    }
-  },
-  {
-    "id": "vz-61-wooden-pistol-grip",
-    "name": "Vz. 61 Wooden Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {},
-    "weight": 0.1,
-    "vendor": "Unknown",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "_raw": {
-      "slot": "Pistol Grip",
-      "size": "| vendor        =Loot Only"
-    }
-  },
-  {
-    "id": "rk-9-pistol-grip",
-    "name": "RK-9 Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 8.0,
-      "recoil": 8.0,
-      "sizeChangeY": 1.0
-    },
-    "weight": 0.14,
-    "vendor": "Artisan",
-    "vendorRank": 4,
-    "price": 94,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "moe-ak-pistol-grip-fde",
-    "name": "MOE AK Pistol Grip (FDE)",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 4.0,
-      "recoil": 4.0,
-      "sizeChangeY": 1.0
-    },
-    "weight": 0.088,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "m9a1-wooden-grip",
-    "name": "M9A1 Wooden Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 2.0
-    },
-    "weight": 0.055,
-    "vendor": "Gunny",
-    "vendorRank": 1,
-    "price": 50,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "m9a1-rubber-grip",
-    "name": "M9A1 Rubber Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 2.0
-    },
-    "weight": 0.055,
-    "vendor": "Gunny",
-    "vendorRank": 2,
-    "price": 31,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "colt-1911-the-hive-grip",
-    "name": "Colt 1911 \"The Hive\" Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 2.0,
-      "recoil": 2.0
-    },
-    "weight": 0.066,
-    "vendor": "Loot Only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "archangel-ak-series-pistol-grip",
-    "name": "Archangel AK-Series Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 6.0,
-      "recoil": 6.0,
-      "sizeChangeY": 1.0
-    },
-    "weight": 0.08,
-    "vendor": "Artisan",
-    "vendorRank": 3,
-    "price": 70,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "mod-pistol-grip",
-    "name": "MOD Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "sizeChangeY": 1.0
-    },
-    "weight": 0,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "dd-enhanced-ar-pistol-grip",
-    "name": "DD Enhanced AR Pistol Grip",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 10.0,
-      "recoil": 10.0,
-      "sizeChangeY": 1.0
-    },
-    "weight": 0.099,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "dd-enhanced-ar-pistol-grip-black",
-    "name": "DD Enhanced AR Pistol Grip (Black)",
-    "category": "pistolGrip",
-    "statModifiers": {
-      "ergonomics": 10.0,
-      "recoil": 10.0,
-      "sizeChangeY": 1.0
-    },
-    "weight": 0.099,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true
-  },
-  {
-    "id": "m16a1-pistol-grip",
-    "name": "M16A1 Pistol Grip",
-    "category": "pistolGrip",
-    "weight": 0.093,
-    "vendor": "Gunny",
-    "vendorRank": 4,
-    "price": 136,
-    "statModifiers": {
-      "recoilControl": 2.0,
-      "ergonomics": 2.0,
-      "sizeChangeY": 1.0
-    },
-    "manufacturer": "Norinco",
-    "attachmentInterface": "AR15 Grip",
-    "patchVersion": "0.4",
-    "wikiSource": false,
-    "verified": true
-  }
 ]

@@ -1,40 +1,46 @@
 [
-  {
-    "id": "m4-upper-receiver",
-    "name": "M4 Upper Receiver",
-    "category": "receiver",
-    "statModifiers": {},
-    "weight": 0.24,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "notes": "Standard M4 upper. Accepts most AR-15 handguards, barrels, and optics.",
-    "patchVersion": "0.4.0.3"
-  },
-  {
-    "id": "m16a1-upper-receiver",
-    "name": "M16A1 Upper Receiver",
-    "category": "receiver",
-    "statModifiers": {},
-    "weight": 0.363,
-    "vendor": "Gunny",
-    "vendorRank": 4,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "manufacturer": "Colt",
-    "verified": true
-  },
-  {
-    "id": "cq-a1-upper-receiver",
-    "name": "CQ A1 Upper Receiver",
-    "category": "receiver",
-    "statModifiers": {},
-    "weight": 0.24,
-    "vendor": "Gunny",
-    "vendorRank": 1,
-    "price": 425,
-    "patchVersion": "0.4.0.3",
-    "manufacturer": "Norinco",
-    "verified": true
-  }
+    {
+        "id":  "m4-upper-receiver",
+        "name":  "M4 Upper Receiver",
+        "category":  "receiver",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.24,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "notes":  "Standard M4 upper. Accepts most AR-15 handguards, barrels, and optics.",
+        "patchVersion":  "0.4.0.3"
+    },
+    {
+        "id":  "m16a1-upper-receiver",
+        "name":  "M16A1 Upper Receiver",
+        "category":  "receiver",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.363,
+        "vendor":  "Gunny",
+        "vendorRank":  1,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "manufacturer":  "Colt",
+        "verified":  true
+    },
+    {
+        "id":  "cq-a1-upper-receiver",
+        "name":  "CQ A1 Upper Receiver",
+        "category":  "receiver",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.24,
+        "vendor":  "Gunny",
+        "vendorRank":  1,
+        "price":  425,
+        "patchVersion":  "0.4.0.3",
+        "manufacturer":  "Norinco",
+        "verified":  true
+    }
 ]

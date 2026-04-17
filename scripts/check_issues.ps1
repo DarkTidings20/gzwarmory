@@ -147,7 +147,7 @@ foreach ($issue in $issues) {
     $created = [datetime]$issue.created_at
     $agedays = ((Get-Date) - $created).TotalDays
 
-    Write-Host "`n--- Issue #$num: $title ---"
+    Write-Host ("`n--- Issue #" + $num + ": " + $title + " ---")
 
     # Fetch all comments
     $comments = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/issues/$num/comments?per_page=100" -Headers $readHeaders

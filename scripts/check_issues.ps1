@@ -91,7 +91,14 @@ function Analyze-Screenshot($imagePath, $issueClaim) {
     $ext = [System.IO.Path]::GetExtension($imagePath).TrimStart('.').ToLower()
     $mediaType = if ($ext -eq "jpg" -or $ext -eq "jpeg") { "image/jpeg" } else { "image/png" }
 
-    $prompt = "You are analyzing a Gray Zone Warfare in-game screenshot submitted as evidence for a data correction on GZW Armory (gzwarmory.com). The user claims: '$issueClaim'. Look at this screenshot carefully. Does it clearly confirm or contradict the claim? What exactly do you see (vendor name, rank requirement, item name, stats)? Be specific. End your response with one of: VERDICT: CONFIRMED, VERDICT: CONTRADICTED, or VERDICT: INCONCLUSIVE"
+    $prompt = "You are analyzing a Gray Zone Warfare in-game screenshot submitted as evidence for a data correction on GZW Armory (gzwarmory.com). The user claims: '$issueClaim'.
+
+KEY UI KNOWLEDGE (critical - do not confuse these):
+1. VENDOR RANK BADGE: The large number displayed next to the vendor's name (e.g. a large '3' next to 'GUNNY') is the PLAYER'S current reputation rank with that vendor. This is NOT the item unlock rank. IGNORE this number.
+2. RANK FILTER BUTTONS: On the LEFT EDGE of the screen (or right edge of the item list panel), there is a vertical strip of small icon buttons labeled 1, 2, 3, 4. The SELECTED/ACTIVE filter has a distinct highlighted background box (amber/gold outline or lighter background) around it. The other buttons are plain icons with no box. ONLY this highlighted button tells you which rank tier is currently being displayed. If a button number is not visible (e.g. no '4' button), the player has not yet unlocked that rank with the vendor.
+3. ITEM POPUP: When an item is selected, a detail panel shows its stats. This is the best source for verifying weapon stats like accuracy (MOA), fire rate, weight, etc.
+
+Look at this screenshot carefully with the above knowledge. Does it clearly confirm or contradict the claim? What rank filter button is highlighted? What item/stats are visible? Be specific. End your response with one of: VERDICT: CONFIRMED, VERDICT: CONTRADICTED, or VERDICT: INCONCLUSIVE"
 
     $aiHeaders = @{
         "Authorization" = "Bearer $openaiKey"

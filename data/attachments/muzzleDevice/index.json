@@ -1,1325 +1,1413 @@
 [
-  {
-    "id": "a2-flash-hider",
-    "name": "A2 Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.066,
-    "vendor": "Gunny R.??",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+????"
+    {
+        "id":  "a2-flash-hider",
+        "name":  "A2 Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.066,
+        "vendor":  "Gunny R.??",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 },
+        "vendorNote":  "Vendor/rank unconfirmed — not Gunny rank 1"
     },
-    "vendorNote": "Vendor/rank unconfirmed — not Gunny rank 1"
-  },
-  {
-    "id": "x-factor-choke",
-    "name": "X-Factor Choke",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.101,
-    "vendor": "Gunny",
-    "vendorRank": 2,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "accuracy_modifier": "+20"
-    }
-  },
-  {
-    "id": "dd-extended-flash-suppressor",
-    "name": "DD Extended Flash Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.095,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "3-prong-flash-hider",
-    "name": "3 Prong Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.12,
-    "vendor": "Banshee",
-    "vendorRank": 4,
-    "price": 146,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+3"
-    }
-  },
-  {
-    "id": "cq-a2-flash-hider",
-    "name": "CQ A2 Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "muzzleDeviceEfficiency": 5.0
+    {
+        "id":  "x-factor-choke",
+        "name":  "X-Factor Choke",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.101,
+        "vendor":  "Gunny",
+        "vendorRank":  2,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "accuracy_modifier":  "+20"
+                 }
     },
-    "weight": 0.066,
-    "vendor": "Gunny",
-    "vendorRank": 1,
-    "price": 170,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5"
+    {
+        "id":  "dd-extended-flash-suppressor",
+        "name":  "DD Extended Flash Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.095,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
     },
-    "manufacturer": "Norinco",
-    "verified": true
-  },
-  {
-    "id": "socom-3-prong-flash-hider",
-    "name": "SOCOM 3 Prong Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.11,
-    "vendor": "Gunny",
-    "vendorRank": 2,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+3"
-    }
-  },
-  {
-    "id": "ak-100-series-muzzle-brake",
-    "name": "AK-100 Series Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.1,
-    "vendor": "Artisan",
-    "vendorRank": 2,
-    "price": 70,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+25"
-    }
-  },
-  {
-    "id": "ak-adapter-14-1lh-to-24-1-5",
-    "name": "AK Adapter 14-1LH to 24-1.5",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.044,
-    "vendor": "Artisan",
-    "vendorRank": 4,
-    "price": 41,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false
-  },
-  {
-    "id": "ak-bulgarian-flash-hider",
-    "name": "AK Bulgarian Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "akm-muzzle-brake",
-    "name": "AKM Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "akm-slant-brake",
-    "name": "AKM Slant Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.03,
-    "vendor": "Artisan",
-    "vendorRank": 1,
-    "price": 13,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+20"
-    }
-  },
-  {
-    "id": "aks-74u-muzzle-brake",
-    "name": "AKS-74U Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.19,
-    "vendor": "Turncoat",
-    "vendorRank": 1,
-    "price": 13,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+10"
-    }
-  },
-  {
-    "id": "vulcan-f1",
-    "name": "Vulcan F1",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.105,
-    "vendor": "Gunny",
-    "vendorRank": 4,
-    "price": 146,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5"
-    }
-  },
-  {
-    "id": "vulcan-m1",
-    "name": "Vulcan M1",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.105,
-    "vendor": "Gunny",
-    "vendorRank": 4,
-    "price": 284,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+20"
-    }
-  },
-  {
-    "id": "tanker-muzzle-break",
-    "name": "Tanker Muzzle Break",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.162,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+45"
-    }
-  },
-  {
-    "id": "b-t-mp5-flash-hider",
-    "name": "B&T MP5 Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.195,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+3"
-    }
-  },
-  {
-    "id": "3-lug-threaded-hk-mp5",
-    "name": "3-Lug threaded HK MP5",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.08,
-    "vendor": "Gunny",
-    "vendorRank": 2,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false
-  },
-  {
-    "id": "tactical-muzzle-brake",
-    "name": "Tactical Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "colt-1911-muzzle-brake",
-    "name": "Colt 1911 Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "xm177e2-moderator-flash-hider",
-    "name": "XM177E2 Moderator Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.12,
-    "vendor": "Gunny",
-    "vendorRank": 2,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+4"
-    }
-  },
-  {
-    "id": "glock-17-comp-weight-compensator",
-    "name": "Glock 17 Comp Weight Compensator",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "tactical-muzzle-break",
-    "name": "Tactical Muzzle Break",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "fury-titanium-muzzle-brake",
-    "name": "Fury Titanium Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "hypertap-muzzle-brake-5-56x45",
-    "name": "Hypertap Muzzle Brake 5.56x45",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "hypertap-muzzle-brake-7-62x51",
-    "name": "Hypertap Muzzle Brake 7.62x51",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.85,
-    "vendor": "Open World Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+45"
-    }
-  },
-  {
-    "id": "m4qd-flash-hider",
-    "name": "M4QD Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.068,
-    "vendor": "Gunny",
-    "vendorRank": 2,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+7"
-    }
-  },
-  {
-    "id": "glock-17-velocity-muzzle-brake",
-    "name": "Glock 17 Velocity Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.06,
-    "vendor": "Banshee",
-    "vendorRank": 2,
-    "price": 150,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+10"
-    }
-  },
-  {
-    "id": "m700-thread-cap",
-    "name": "M700 Thread Cap",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "mosin-nagant-howling-raven-muzzle-brake",
-    "name": "Mosin-Nagant Howling Raven Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "mosin-nagant-tanker-muzzle-brake",
-    "name": "Mosin-Nagant Tanker Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.257,
-    "vendor": "Artisan",
-    "vendorRank": 3,
-    "price": 130,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+40"
-    }
-  },
-  {
-    "id": "mp5-3-lug-adapter",
-    "name": "MP5 3 Lug Adapter",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.08,
-    "vendor": "Gunny",
-    "vendorRank": 1,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false
-  },
-  {
-    "id": "mp5-threaded-3-lug-adapter",
-    "name": "MP5 Threaded 3 Lug Adapter",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.08,
-    "vendor": "Gunny",
-    "vendorRank": 2,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false
-  },
-  {
-    "id": "mp5-muzzle-cap",
-    "name": "MP5 Muzzle Cap",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "mp7-flash-hider",
-    "name": "MP7 Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.04,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5"
-    }
-  },
-  {
-    "id": "pcam4-72",
-    "name": "PCAM4-72",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.09,
-    "vendor": "Banshee",
-    "vendorRank": 3,
-    "price": 126,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+35"
-    }
-  },
-  {
-    "id": "remington-salvo-12-choke-adapter",
-    "name": "Remington Salvo 12 Choke Adapter",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.075,
-    "vendor": "Gunny",
-    "vendorRank": 4,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "accuracy_modifier": "+50"
-    }
-  },
-  {
-    "id": "mossberg-salvo-12-choke-adapter",
-    "name": "Mossberg Salvo 12 Choke Adapter",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "mcx-3-prong-flash-hider",
-    "name": "MCX 3 Prong Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "sks-muzzle-brake-adapter",
-    "name": "SKS Muzzle Brake Adapter",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.055,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true
-  },
-  {
-    "id": "slot-muzzle-brake",
-    "name": "Slot Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "srd762-qd-muzzle-brake",
-    "name": "SRD762-QD Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.095,
-    "vendor": "Banshee",
-    "vendorRank": 4,
-    "price": 150,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+10"
-    }
-  },
-  {
-    "id": "srd762-qd-flash-hider",
-    "name": "SRD762-QD Flash Hider",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.07,
-    "vendor": "Banshee",
-    "vendorRank": 3,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": true,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+4"
-    }
-  },
-  {
-    "id": "srd762-qd-taper-lok-muzzle-brake",
-    "name": "SRD762-QD Taper-Lok Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "dtk-1-muzzle-brake",
-    "name": "DTK-1 Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+????"
-    }
-  },
-  {
-    "id": "dtk-2-muzzle-brake",
-    "name": "DTK-2 Muzzle Brake",
-    "category": "muzzleDevice",
-    "statModifiers": {},
-    "weight": 0.105,
-    "vendor": "Artisan",
-    "vendorRank": 3,
-    "price": 117,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": false,
-    "isFlashHider": false,
-    "isMuzzleBrake": true,
-    "_raw": {
-      "muzzle_efficiency": "+40"
-    }
-  },
-  {
-    "id": "dtss-suppressor",
-    "name": "DTSS Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -5.0
+    {
+        "id":  "3-prong-flash-hider",
+        "name":  "3 Prong Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.12,
+        "vendor":  "Banshee",
+        "vendorRank":  4,
+        "price":  146,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+3"
+                 }
     },
-    "weight": 0.45,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+7.0",
-      "loudness": "+22"
-    }
-  },
-  {
-    "id": "socom556-rc1-suppressor",
-    "name": "SOCOM556 RC1 Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -4.0,
-      "sizeChangeX": 1.0
+    {
+        "id":  "cq-a2-flash-hider",
+        "name":  "CQ A2 Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "muzzleDeviceEfficiency":  5.0
+                          },
+        "weight":  0.066,
+        "vendor":  "Gunny",
+        "vendorRank":  1,
+        "price":  170,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5"
+                 },
+        "manufacturer":  "Norinco",
+        "verified":  true
     },
-    "weight": 0.453,
-    "vendor": "Gunny",
-    "vendorRank": 3,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+7",
-      "accuracy": "+4",
-      "loudness": "+20"
-    }
-  },
-  {
-    "id": "slh300ti-qd-suppressor",
-    "name": "SLH300TI-QD Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "sizeChangeX": 1.0
+    {
+        "id":  "socom-3-prong-flash-hider",
+        "name":  "SOCOM 3 Prong Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.11,
+        "vendor":  "Gunny",
+        "vendorRank":  2,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+3"
+                 }
     },
-    "weight": 0.453,
-    "vendor": "Banshee",
-    "vendorRank": 4,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+7",
-      "loudness": "+28"
-    }
-  },
-  {
-    "id": "ak-12-suppressor",
-    "name": "AK-12 Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -2.0,
-      "sizeChangeX": 1.0
+    {
+        "id":  "ak-100-series-muzzle-brake",
+        "name":  "AK-100 Series Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.1,
+        "vendor":  "Artisan",
+        "vendorRank":  2,
+        "price":  70,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+25"
+                 }
     },
-    "weight": 0.62,
-    "vendor": "Turncoat",
-    "vendorRank": 3,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5",
-      "loudness": "+18",
-      "accuracy_modifier": "+3"
-    }
-  },
-  {
-    "id": "ak-15-suppressor",
-    "name": "AK-15 Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -2.0
+    {
+        "id":  "ak-adapter-14-1lh-to-24-1-5",
+        "name":  "AK Adapter 14-1LH to 24-1.5",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.044,
+        "vendor":  "Artisan",
+        "vendorRank":  4,
+        "price":  41,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false
     },
-    "weight": 0.62,
-    "vendor": "Artisan",
-    "vendorRank": 3,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5",
-      "accuracy_modifier": "+3",
-      "loudness": "+17"
-    }
-  },
-  {
-    "id": "banish-45-suppressor",
-    "name": "BANISH 45 Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -5.0,
-      "sizeChangeX": 1.0
+    {
+        "id":  "ak-bulgarian-flash-hider",
+        "name":  "AK Bulgarian Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
     },
-    "weight": 0.272,
-    "vendor": "Banshee",
-    "vendorRank": 3,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5.0",
-      "loudness": "+23",
-      "accuracy_modifier": "+2"
-    }
-  },
-  {
-    "id": "hk-mp5sd-9mm-suppressor",
-    "name": "HK MP5SD 9mm Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -3.0
+    {
+        "id":  "akm-muzzle-brake",
+        "name":  "AKM Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
     },
-    "weight": 0.476,
-    "vendor": "Gunny L3",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5.0",
-      "loudness": "+57",
-      "accuracy_modifier": "+2.0|horizontal=+1"
-    }
-  },
-  {
-    "id": "qdss-nt4-suppressor",
-    "name": "QDSS NT4 Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -4.0
+    {
+        "id":  "akm-slant-brake",
+        "name":  "AKM Slant Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.03,
+        "vendor":  "Artisan",
+        "vendorRank":  1,
+        "price":  13,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+20"
+                 }
     },
-    "weight": 0.62,
-    "vendor": "Gunny",
-    "vendorRank": 2,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5",
-      "accuracy_modifier": "+3",
-      "loudness": "+17"
-    }
-  },
-  {
-    "id": "qdss-nt4-suppressor-fde",
-    "name": "QDSS NT4 Suppressor (FDE)",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -4.0
+    {
+        "id":  "aks-74u-muzzle-brake",
+        "name":  "AKS-74U Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.19,
+        "vendor":  "Turncoat",
+        "vendorRank":  1,
+        "price":  13,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+10"
+                 }
     },
-    "weight": 0.62,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5",
-      "accuracy_modifier": "+3",
-      "loudness": "+17"
-    }
-  },
-  {
-    "id": "mosin-nagant-bramit-suppressor",
-    "name": "Mosin-Nagant Bramit Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -4.0
+    {
+        "id":  "vulcan-f1",
+        "name":  "Vulcan F1",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.105,
+        "vendor":  "Gunny",
+        "vendorRank":  4,
+        "price":  146,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5"
+                 }
     },
-    "weight": 0.765,
-    "vendor": "Artisan",
-    "vendorRank": 3,
-    "price": 880,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5",
-      "accuracy_modifier": "+3",
-      "loudness": "+21"
-    }
-  },
-  {
-    "id": "pbs-01-suppressor",
-    "name": "PBS-01 Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -4.0,
-      "sizeChangeX": 1.0
+    {
+        "id":  "vulcan-m1",
+        "name":  "Vulcan M1",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.105,
+        "vendor":  "Gunny",
+        "vendorRank":  4,
+        "price":  284,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+20"
+                 }
     },
-    "weight": 0.7,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+3",
-      "accuracy_modifier": "+2",
-      "loudness": "+9"
-    }
-  },
-  {
-    "id": "pbs-04-suppressor",
-    "name": "PBS-04 Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -5.0
+    {
+        "id":  "tanker-muzzle-break",
+        "name":  "Tanker Muzzle Break",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.162,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+45"
+                 }
     },
-    "weight": 0.86,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+3",
-      "accuracy_modifier": "+2",
-      "loudness": "+16"
-    }
-  },
-  {
-    "id": "mp7-rotex-suppressor",
-    "name": "MP7 Rotex Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "sizeChangeX": 1.0
+    {
+        "id":  "b-t-mp5-flash-hider",
+        "name":  "B\u0026T MP5 Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.195,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+3"
+                 }
     },
-    "weight": 0.607,
-    "vendor": "Banshee",
-    "vendorRank": 4,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+7",
-      "loudness": "+21"
-    }
-  },
-  {
-    "id": "salvo-12-suppressor",
-    "name": "Salvo 12 Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -10.0,
-      "sizeChangeX": 2.0
+    {
+        "id":  "3-lug-threaded-hk-mp5",
+        "name":  "3-Lug threaded HK MP5",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.08,
+        "vendor":  "Gunny",
+        "vendorRank":  2,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false
     },
-    "weight": 0.555,
-    "vendor": "Gunny",
-    "vendorRank": 4,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+7",
-      "loudness": "+15",
-      "accuracy_modifier": "+5"
-    }
-  },
-  {
-    "id": "slh762-qd-suppressor",
-    "name": "SLH762-QD Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -7.0
+    {
+        "id":  "tactical-muzzle-brake",
+        "name":  "Tactical Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
     },
-    "weight": 0.598,
-    "vendor": "Banshee",
-    "vendorRank": 4,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+7",
-      "accuracy_modifier": "+6",
-      "loudness": "+18"
-    }
-  },
-  {
-    "id": "sig-suppressor-srd556",
-    "name": "SIG Suppressor SRD556",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -4.0
+    {
+        "id":  "colt-1911-muzzle-brake",
+        "name":  "Colt 1911 Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
     },
-    "weight": 0,
-    "vendor": "N/A",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+7.0",
-      "loudness": "-18",
-      "title": "SIG Suppressor SRD556|accuracy_modifier=+5.0"
-    }
-  },
-  {
-    "id": "762-sd-suppressor",
-    "name": "762-SD Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -6.0
+    {
+        "id":  "xm177e2-moderator-flash-hider",
+        "name":  "XM177E2 Moderator Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.12,
+        "vendor":  "Gunny",
+        "vendorRank":  2,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+4"
+                 }
     },
-    "weight": 0.652,
-    "vendor": "Banshee",
-    "vendorRank": 3,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+5",
-      "loudness": "+20",
-      "accuracy_modifier": "+5"
-    }
-  },
-  {
-    "id": "socom556-rc1-suppressor-fde",
-    "name": "SOCOM556 RC1 Suppressor (FDE)",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -4.0,
-      "sizeChangeX": 1.0
+    {
+        "id":  "glock-17-comp-weight-compensator",
+        "name":  "Glock 17 Comp Weight Compensator",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
     },
-    "weight": 0.453,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+7",
-      "accuracy": "+4",
-      "loudness": "+20"
-    }
-  },
-  {
-    "id": "svd-rotor-43-suppressor-7-62-54-r",
-    "name": "SVD Rotor 43 Suppressor 7.62х54 R",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "sizeChangeX": 1.0
+    {
+        "id":  "tactical-muzzle-break",
+        "name":  "Tactical Muzzle Break",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
     },
-    "weight": 0.9,
-    "vendor": "Loot only",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+7",
-      "loudness": "+17"
-    }
-  },
-  {
-    "id": "type-51-suppressor",
-    "name": "Type 51 Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "sizeChangeX": 1.0
+    {
+        "id":  "fury-titanium-muzzle-brake",
+        "name":  "Fury Titanium Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
     },
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+????",
-      "loudness": "+????"
-    }
-  },
-  {
-    "id": "ultima-suppressor",
-    "name": "Ultima Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "sizeChangeX": 1.0
+    {
+        "id":  "hypertap-muzzle-brake-5-56x45",
+        "name":  "Hypertap Muzzle Brake 5.56x45",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
     },
-    "weight": 0,
-    "vendor": "Banshee",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+6,0",
-      "title": "Ultima Suppressor|slot=9x19 Muzzle|grid=1x2|accuracy=+6,0%|ergonomics=-10,0|accuracy_modifier=+3,0|bprice=935"
-    }
-  },
-  {
-    "id": "vlc-556-mark-1-suppressor",
-    "name": "VLC 556 MARK 1 Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "ergonomics": -4.0,
-      "sizeChangeX": 1.0
+    {
+        "id":  "hypertap-muzzle-brake-7-62x51",
+        "name":  "Hypertap Muzzle Brake 7.62x51",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.85,
+        "vendor":  "Open World Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+45"
+                 }
     },
-    "weight": 0.68,
-    "vendor": "Gunny",
-    "vendorRank": 4,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+4",
-      "loudness": "+15",
-      "accuracy_modifier": "+2"
-    }
-  },
-  {
-    "id": "vz-61-tos-suppressor",
-    "name": "Vz. 61 TOS Suppressor",
-    "category": "muzzleDevice",
-    "statModifiers": {
-      "sizeChangeX": 1.0
+    {
+        "id":  "m4qd-flash-hider",
+        "name":  "M4QD Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.068,
+        "vendor":  "Gunny",
+        "vendorRank":  2,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+7"
+                 }
     },
-    "weight": 0,
-    "vendor": "???",
-    "vendorRank": 0,
-    "price": 0,
-    "patchVersion": "0.4.0.3",
-    "wikiSource": true,
-    "isSuppressor": true,
-    "isFlashHider": false,
-    "isMuzzleBrake": false,
-    "_raw": {
-      "muzzle_efficiency": "+????",
-      "loudness": "+????"
-    }
-  },
-  {
-    "id": "m16a1-flash-hider",
-    "name": "M16A1 Flash Hider",
-    "category": "muzzleDevice",
-    "weight": 0.066,
-    "vendor": "Gunny",
-    "vendorRank": 4,
-    "price": 187,
-    "statModifiers": {
-      "muzzleDeviceEfficiency": 5.0
+    {
+        "id":  "glock-17-velocity-muzzle-brake",
+        "name":  "Glock 17 Velocity Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.06,
+        "vendor":  "Banshee",
+        "vendorRank":  2,
+        "price":  150,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+10"
+                 }
     },
-    "manufacturer": "Colt",
-    "attachmentInterface": "5.56x45 Muzzle",
-    "patchVersion": "0.4",
-    "wikiSource": false,
-    "verified": true
-  }
+    {
+        "id":  "m700-thread-cap",
+        "name":  "M700 Thread Cap",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
+    },
+    {
+        "id":  "mosin-nagant-howling-raven-muzzle-brake",
+        "name":  "Mosin-Nagant Howling Raven Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
+    },
+    {
+        "id":  "mosin-nagant-tanker-muzzle-brake",
+        "name":  "Mosin-Nagant Tanker Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.257,
+        "vendor":  "Artisan",
+        "vendorRank":  3,
+        "price":  130,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+40"
+                 }
+    },
+    {
+        "id":  "mp5-3-lug-adapter",
+        "name":  "MP5 3 Lug Adapter",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.08,
+        "vendor":  "Gunny",
+        "vendorRank":  1,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false
+    },
+    {
+        "id":  "mp5-threaded-3-lug-adapter",
+        "name":  "MP5 Threaded 3 Lug Adapter",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.08,
+        "vendor":  "Gunny",
+        "vendorRank":  2,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false
+    },
+    {
+        "id":  "mp5-muzzle-cap",
+        "name":  "MP5 Muzzle Cap",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
+    },
+    {
+        "id":  "mp7-flash-hider",
+        "name":  "MP7 Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.04,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5"
+                 }
+    },
+    {
+        "id":  "pcam4-72",
+        "name":  "PCAM4-72",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.09,
+        "vendor":  "Banshee",
+        "vendorRank":  3,
+        "price":  126,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+35"
+                 }
+    },
+    {
+        "id":  "remington-salvo-12-choke-adapter",
+        "name":  "Remington Salvo 12 Choke Adapter",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.075,
+        "vendor":  "Gunny",
+        "vendorRank":  4,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "accuracy_modifier":  "+50"
+                 }
+    },
+    {
+        "id":  "mossberg-salvo-12-choke-adapter",
+        "name":  "Mossberg Salvo 12 Choke Adapter",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
+    },
+    {
+        "id":  "mcx-3-prong-flash-hider",
+        "name":  "MCX 3 Prong Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
+    },
+    {
+        "id":  "sks-muzzle-brake-adapter",
+        "name":  "SKS Muzzle Brake Adapter",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.055,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true
+    },
+    {
+        "id":  "slot-muzzle-brake",
+        "name":  "Slot Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
+    },
+    {
+        "id":  "srd762-qd-muzzle-brake",
+        "name":  "SRD762-QD Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.095,
+        "vendor":  "Banshee",
+        "vendorRank":  4,
+        "price":  150,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+10"
+                 }
+    },
+    {
+        "id":  "srd762-qd-flash-hider",
+        "name":  "SRD762-QD Flash Hider",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.07,
+        "vendor":  "Banshee",
+        "vendorRank":  3,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  true,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+4"
+                 }
+    },
+    {
+        "id":  "srd762-qd-taper-lok-muzzle-brake",
+        "name":  "SRD762-QD Taper-Lok Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
+    },
+    {
+        "id":  "dtk-1-muzzle-brake",
+        "name":  "DTK-1 Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????"
+                 }
+    },
+    {
+        "id":  "dtk-2-muzzle-brake",
+        "name":  "DTK-2 Muzzle Brake",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+
+                          },
+        "weight":  0.105,
+        "vendor":  "Artisan",
+        "vendorRank":  3,
+        "price":  117,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  false,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  true,
+        "_raw":  {
+                     "muzzle_efficiency":  "+40"
+                 }
+    },
+    {
+        "id":  "dtss-suppressor",
+        "name":  "DTSS Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -5.0
+                          },
+        "weight":  0.45,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+7.0",
+                     "loudness":  "+22"
+                 }
+    },
+    {
+        "id":  "socom556-rc1-suppressor",
+        "name":  "SOCOM556 RC1 Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -4.0,
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0.453,
+        "vendor":  "Gunny",
+        "vendorRank":  3,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+7",
+                     "accuracy":  "+4",
+                     "loudness":  "+20"
+                 }
+    },
+    {
+        "id":  "slh300ti-qd-suppressor",
+        "name":  "SLH300TI-QD Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0.453,
+        "vendor":  "Banshee",
+        "vendorRank":  4,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+7",
+                     "loudness":  "+28"
+                 }
+    },
+    {
+        "id":  "ak-12-suppressor",
+        "name":  "AK-12 Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -2.0,
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0.62,
+        "vendor":  "Turncoat",
+        "vendorRank":  3,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5",
+                     "loudness":  "+18",
+                     "accuracy_modifier":  "+3"
+                 }
+    },
+    {
+        "id":  "ak-15-suppressor",
+        "name":  "AK-15 Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -2.0
+                          },
+        "weight":  0.62,
+        "vendor":  "Artisan",
+        "vendorRank":  3,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5",
+                     "accuracy_modifier":  "+3",
+                     "loudness":  "+17"
+                 }
+    },
+    {
+        "id":  "banish-45-suppressor",
+        "name":  "BANISH 45 Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -5.0,
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0.272,
+        "vendor":  "Banshee",
+        "vendorRank":  3,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5.0",
+                     "loudness":  "+23",
+                     "accuracy_modifier":  "+2"
+                 }
+    },
+    {
+        "id":  "hk-mp5sd-9mm-suppressor",
+        "name":  "HK MP5SD 9mm Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -3.0
+                          },
+        "weight":  0.476,
+        "vendor":  "Gunny L3",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5.0",
+                     "loudness":  "+57",
+                     "accuracy_modifier":  "+2.0|horizontal=+1"
+                 }
+    },
+    {
+        "id":  "qdss-nt4-suppressor",
+        "name":  "QDSS NT4 Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -4.0
+                          },
+        "weight":  0.62,
+        "vendor":  "Gunny",
+        "vendorRank":  2,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5",
+                     "accuracy_modifier":  "+3",
+                     "loudness":  "+17"
+                 }
+    },
+    {
+        "id":  "qdss-nt4-suppressor-fde",
+        "name":  "QDSS NT4 Suppressor (FDE)",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -4.0
+                          },
+        "weight":  0.62,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5",
+                     "accuracy_modifier":  "+3",
+                     "loudness":  "+17"
+                 }
+    },
+    {
+        "id":  "mosin-nagant-bramit-suppressor",
+        "name":  "Mosin-Nagant Bramit Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -4.0
+                          },
+        "weight":  0.765,
+        "vendor":  "Artisan",
+        "vendorRank":  3,
+        "price":  880,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5",
+                     "accuracy_modifier":  "+3",
+                     "loudness":  "+21"
+                 }
+    },
+    {
+        "id":  "pbs-01-suppressor",
+        "name":  "PBS-01 Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -4.0,
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0.7,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+3",
+                     "accuracy_modifier":  "+2",
+                     "loudness":  "+9"
+                 }
+    },
+    {
+        "id":  "pbs-04-suppressor",
+        "name":  "PBS-04 Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -5.0
+                          },
+        "weight":  0.86,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+3",
+                     "accuracy_modifier":  "+2",
+                     "loudness":  "+16"
+                 }
+    },
+    {
+        "id":  "mp7-rotex-suppressor",
+        "name":  "MP7 Rotex Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0.607,
+        "vendor":  "Banshee",
+        "vendorRank":  4,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+7",
+                     "loudness":  "+21"
+                 }
+    },
+    {
+        "id":  "salvo-12-suppressor",
+        "name":  "Salvo 12 Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -10.0,
+                              "sizeChangeX":  2.0
+                          },
+        "weight":  0.555,
+        "vendor":  "Gunny",
+        "vendorRank":  4,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+7",
+                     "loudness":  "+15",
+                     "accuracy_modifier":  "+5"
+                 }
+    },
+    {
+        "id":  "slh762-qd-suppressor",
+        "name":  "SLH762-QD Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -7.0
+                          },
+        "weight":  0.598,
+        "vendor":  "Banshee",
+        "vendorRank":  4,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+7",
+                     "accuracy_modifier":  "+6",
+                     "loudness":  "+18"
+                 }
+    },
+    {
+        "id":  "sig-suppressor-srd556",
+        "name":  "SIG Suppressor SRD556",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -4.0
+                          },
+        "weight":  0,
+        "vendor":  "N/A",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+7.0",
+                     "loudness":  "-18",
+                     "title":  "SIG Suppressor SRD556|accuracy_modifier=+5.0"
+                 }
+    },
+    {
+        "id":  "762-sd-suppressor",
+        "name":  "762-SD Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -6.0
+                          },
+        "weight":  0.652,
+        "vendor":  "Banshee",
+        "vendorRank":  3,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+5",
+                     "loudness":  "+20",
+                     "accuracy_modifier":  "+5"
+                 }
+    },
+    {
+        "id":  "socom556-rc1-suppressor-fde",
+        "name":  "SOCOM556 RC1 Suppressor (FDE)",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -4.0,
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0.453,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+7",
+                     "accuracy":  "+4",
+                     "loudness":  "+20"
+                 }
+    },
+    {
+        "id":  "svd-rotor-43-suppressor-7-62-54-r",
+        "name":  "SVD Rotor 43 Suppressor 7.62х54 R",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0.9,
+        "vendor":  "Loot only",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+7",
+                     "loudness":  "+17"
+                 }
+    },
+    {
+        "id":  "type-51-suppressor",
+        "name":  "Type 51 Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????",
+                     "loudness":  "+????"
+                 }
+    },
+    {
+        "id":  "ultima-suppressor",
+        "name":  "Ultima Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0,
+        "vendor":  "Banshee",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+6,0",
+                     "title":  "Ultima Suppressor|slot=9x19 Muzzle|grid=1x2|accuracy=+6,0%|ergonomics=-10,0|accuracy_modifier=+3,0|bprice=935"
+                 }
+    },
+    {
+        "id":  "vlc-556-mark-1-suppressor",
+        "name":  "VLC 556 MARK 1 Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "ergonomics":  -4.0,
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0.68,
+        "vendor":  "Gunny",
+        "vendorRank":  4,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+4",
+                     "loudness":  "+15",
+                     "accuracy_modifier":  "+2"
+                 }
+    },
+    {
+        "id":  "vz-61-tos-suppressor",
+        "name":  "Vz. 61 TOS Suppressor",
+        "category":  "muzzleDevice",
+        "statModifiers":  {
+                              "sizeChangeX":  1.0
+                          },
+        "weight":  0,
+        "vendor":  "???",
+        "vendorRank":  0,
+        "price":  0,
+        "patchVersion":  "0.4.0.3",
+        "wikiSource":  true,
+        "isSuppressor":  true,
+        "isFlashHider":  false,
+        "isMuzzleBrake":  false,
+        "_raw":  {
+                     "muzzle_efficiency":  "+????",
+                     "loudness":  "+????"
+                 }
+    },
+    {
+        "id":  "m16a1-flash-hider",
+        "name":  "M16A1 Flash Hider",
+        "category":  "muzzleDevice",
+        "weight":  0.066,
+        "vendor":  "Gunny",
+        "vendorRank":  1,
+        "price":  187,
+        "statModifiers":  {
+                              "muzzleDeviceEfficiency":  5.0
+                          },
+        "manufacturer":  "Colt",
+        "attachmentInterface":  "5.56x45 Muzzle",
+        "patchVersion":  "0.4",
+        "wikiSource":  false,
+        "verified":  true
+    }
 ]

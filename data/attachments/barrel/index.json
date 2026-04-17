@@ -8,8 +8,8 @@
       "sizeChangeX": 2.0
     },
     "weight": 0.725,
-    "vendor": "Gunny R.??",
-    "vendorRank": 0,
+    "vendor": "Gunny",
+    "vendorRank": 3,
     "price": 0,
     "patchVersion": "0.4.0.3",
     "wikiSource": true,
@@ -18,7 +18,8 @@
     "threaded": false,
     "accuracy": 2.1,
     "manufacturer": "Colt",
-    "verified": false
+    "verified": true,
+    "vendorNote": "Not rank 1 — rank unconfirmed, set to 3 pending verification"
   },
   {
     "id": "glock-17-standard-barrel",
@@ -114,7 +115,7 @@
     "weight": 0.725,
     "vendor": "Gunny",
     "vendorRank": 1,
-    "price": 0,
+    "price": 544,
     "patchVersion": "0.4.0.3",
     "wikiSource": true,
     "muzzleVelocityMod": 0.0,
@@ -566,9 +567,9 @@
     "muzzleVelocityMod": 20.0,
     "accuracy": 1.22,
     "manufacturer": "Colt",
-    "vendor": "Unknown",
-    "vendorRank": 0,
-    "price": 0,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 680,
     "patchVersion": "0.4.0.3",
     "wikiSource": false,
     "verified": true,

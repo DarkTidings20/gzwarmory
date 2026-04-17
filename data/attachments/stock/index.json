@@ -127,15 +127,18 @@
     "name": "CQ A1 Buttstock",
     "category": "stock",
     "statModifiers": {
-      "ergonomics": 1.0,
-      "recoil": -4.0
+      "recoilControl": -3.0,
+      "ergonomics": -3.0
     },
     "weight": 0.361,
     "vendor": "Gunny",
     "vendorRank": 1,
-    "price": 0,
+    "price": 170,
     "patchVersion": "0.4.0.3",
-    "wikiSource": true
+    "wikiSource": true,
+    "manufacturer": "Norinco",
+    "attachmentInterface": "AR15 Stock",
+    "verified": true
   },
   {
     "id": "ar-15-sopmod-stock-fde",
@@ -852,5 +855,23 @@
     "price": 0,
     "patchVersion": "0.4.0.3",
     "wikiSource": true
+  },
+  {
+    "id": "m16a1-stock",
+    "name": "M16A1 Stock",
+    "category": "stock",
+    "weight": 0.375,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 187,
+    "statModifiers": {
+      "recoilControl": 3.0,
+      "ergonomics": 3.0
+    },
+    "manufacturer": "Colt",
+    "attachmentInterface": "M16A1 Stock",
+    "patchVersion": "0.4",
+    "wikiSource": false,
+    "verified": true
   }
 ]

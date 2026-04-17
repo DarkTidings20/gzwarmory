@@ -15,7 +15,8 @@
     "isMuzzleBrake": false,
     "_raw": {
       "muzzle_efficiency": "+????"
-    }
+    },
+    "vendorNote": "Vendor/rank unconfirmed — not Gunny rank 1"
   },
   {
     "id": "x-factor-choke",
@@ -75,11 +76,13 @@
     "id": "cq-a2-flash-hider",
     "name": "CQ A2 Flash Hider",
     "category": "muzzleDevice",
-    "statModifiers": {},
+    "statModifiers": {
+      "muzzleDeviceEfficiency": 5.0
+    },
     "weight": 0.066,
     "vendor": "Gunny",
     "vendorRank": 1,
-    "price": 0,
+    "price": 170,
     "patchVersion": "0.4.0.3",
     "wikiSource": true,
     "isSuppressor": false,
@@ -87,7 +90,9 @@
     "isMuzzleBrake": false,
     "_raw": {
       "muzzle_efficiency": "+5"
-    }
+    },
+    "manufacturer": "Norinco",
+    "verified": true
   },
   {
     "id": "socom-3-prong-flash-hider",
@@ -1299,5 +1304,22 @@
       "muzzle_efficiency": "+????",
       "loudness": "+????"
     }
+  },
+  {
+    "id": "m16a1-flash-hider",
+    "name": "M16A1 Flash Hider",
+    "category": "muzzleDevice",
+    "weight": 0.066,
+    "vendor": "Gunny",
+    "vendorRank": 4,
+    "price": 187,
+    "statModifiers": {
+      "muzzleDeviceEfficiency": 5.0
+    },
+    "manufacturer": "Colt",
+    "attachmentInterface": "5.56x45 Muzzle",
+    "patchVersion": "0.4",
+    "wikiSource": false,
+    "verified": true
   }
 ]

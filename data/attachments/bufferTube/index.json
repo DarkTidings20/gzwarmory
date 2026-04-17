@@ -19,14 +19,17 @@
     "name": "CQ A1 Buffer Tube",
     "category": "bufferTube",
     "statModifiers": {
-      "sizeChangeX": 1.0
+      "recoilControl": -3.0,
+      "ergonomics": -3.0
     },
     "weight": 0.108,
     "vendor": "Gunny",
     "vendorRank": 1,
-    "price": 0,
+    "price": 153,
     "patchVersion": "0.4.0.3",
-    "wikiSource": true
+    "wikiSource": true,
+    "manufacturer": "Norinco",
+    "verified": true
   },
   {
     "id": "m4-buffer-tube-fde",

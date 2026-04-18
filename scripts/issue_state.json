@@ -1,6 +1,14 @@
 {
-  "responded": [2],
-  "hostile_replied": [2],
-  "awaiting_image": [2],
-  "closed": []
+    "responded":  [
+                      2
+                  ],
+    "hostile_replied":  [
+                            2
+                        ],
+    "awaiting_image":  [
+                           2
+                       ],
+    "closed":  [
+
+               ]
 }

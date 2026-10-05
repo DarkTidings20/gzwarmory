@@ -22,21 +22,59 @@ function formatUnlock(value: string | number | "TBD" | undefined): string {
   return String(value);
 }
 
+function StatusHintBadge({ hint }: { hint?: GuideItem["statusHint"] }) {
+  if (hint === "confident") {
+    return (
+      <span className="inline-flex items-center rounded px-1.5 py-0.5 text-[10px] font-mono uppercase tracking-wide bg-sky-950 text-sky-400 border border-sky-800/60">
+        fairly confident
+      </span>
+    );
+  }
+  if (hint === "lastKnown04") {
+    return (
+      <span className="inline-flex items-center rounded px-1.5 py-0.5 text-[10px] font-mono uppercase tracking-wide bg-gray-900 text-gray-500 border border-gray-700/80">
+        last known (0.4)
+      </span>
+    );
+  }
+  if (hint === "pending05") {
+    return (
+      <span className="inline-flex items-center rounded px-1.5 py-0.5 text-[10px] font-mono uppercase tracking-wide bg-amber-950/50 text-amber-600/80 border border-amber-900/40">
+        pending 0.5
+      </span>
+    );
+  }
+  return null;
+}
+
 function ItemRow({ item }: { item: GuideItem }) {
+  const isHint = item.statusHint === "lastKnown04" || item.statusHint === "pending05";
+  const nameClass = isHint
+    ? "font-medium text-gray-500"
+    : "font-medium text-white";
+  const rowClass = isHint
+    ? "border-b border-gray-800/80 align-top opacity-70"
+    : "border-b border-gray-800/80 align-top";
+
   return (
-    <tr className="border-b border-gray-800/80 align-top">
+    <tr className={rowClass}>
       <td className="py-3 pr-3">
-        <div className="text-white font-medium">{item.name}</div>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className={nameClass}>{item.name}</span>
+          <StatusHintBadge hint={item.statusHint} />
+        </div>
         {item.notes ? (
-          <p className="text-xs text-gray-500 mt-1 max-w-md">{item.notes}</p>
+          <p className={`text-xs mt-1 max-w-md ${isHint ? "text-gray-600" : "text-gray-500"}`}>
+            {item.notes}
+          </p>
         ) : null}
         {item.source ? (
           <p className="text-[10px] font-mono text-gray-600 mt-1">{item.source}</p>
         ) : null}
       </td>
-      <td className="py-3 pr-3 text-gray-400">{item.role ?? "—"}</td>
-      <td className="py-3 pr-3 font-mono text-gray-300">{formatCost(item.cost)}</td>
-      <td className="py-3 pr-3 font-mono text-gray-300">
+      <td className="py-3 pr-3 text-gray-500">{item.role ?? "—"}</td>
+      <td className="py-3 pr-3 font-mono text-gray-500">{formatCost(item.cost)}</td>
+      <td className="py-3 pr-3 font-mono text-gray-500">
         {formatWeight(item.weight)}
       </td>
       <td className="py-3 pr-3">
@@ -128,10 +166,16 @@ function GunBody({ tier }: { tier: GuideTier }) {
         <p className="text-sm text-gray-400">{build.notes}</p>
       </div>
       <ItemTable title="Weapon" items={weaponItems} emptyLabel="Weapon: TBD" />
+      <div className="mb-3 rounded-lg border border-dashed border-gray-700 bg-gray-950/30 px-3 py-2">
+        <p className="text-[11px] font-mono text-gray-500">
+          Attachments: Pending 0.5 verification (Oct 19). Greyed names are last known (0.4) hints
+          only — availability may change.
+        </p>
+      </div>
       <ItemTable
-        title="Attachments"
+        title="Attachments (last known 0.4)"
         items={build.attachments}
-        emptyLabel="Attachments: TBD — placeholder slot"
+        emptyLabel="Attachments: Pending 0.5 verification (Oct 19)"
       />
       <div className="mb-2">
         <AmmoBlock ammo={build.ammo} />

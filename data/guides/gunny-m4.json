@@ -3,7 +3,7 @@
   "slug": "m4",
   "vendorId": "gunny",
   "title": "Gunny AR Ladder",
-  "subtitle": "Levels 1\u20134 skeleton. CQ A1 at L1; M4A1 buyable from L2. Detailed builds after 0.5 preview (Oct 19).",
+  "subtitle": "Starter vendor AR ladder. Weapons per level are fairly confident (CQ A1 \u2192 M4A1). All attachments Pending 0.5 verification (Oct 19).",
   "weaponId": "cq-a1",
   "pre05": true,
   "patchVersion": "Data: v0.4, unverified for 0.5",
@@ -12,41 +12,77 @@
     {
       "id": "level-1",
       "label": "Level 1",
+      "kind": "gun",
       "unlockLevel": 1,
       "unlockRank": 1,
       "unlockRep": 0,
       "unlockRepSource": "Fandom Gunny L1\u2013L3 cumulative rep 0 / 670 / 2,110 (pre-0.4 table)",
       "dataLabel": "Data: v0.4, unverified for 0.5",
-      "summary": "Buyable starter AR: CQ A1 (Gunny R1). Ammo at R1: SP / FMJ. Note: the M4 most players spawn with cannot be bought from Gunny until Level 2 \u2014 do not build early progression around purchasing an M4.",
+      "summary": "Gunny is a starter vendor. Starter AR build: CQ A1 (buyable at R1). Ammo at R1 was SP / FMJ in 0.4. Note: the M4 most players spawn with cannot be bought from Gunny until Level 2 \u2014 do not build early progression around purchasing an M4. Weapon choice is fairly confident; attachments are Pending 0.5 verification (Oct 19).",
       "suggestedBuild": {
         "weapon": {
           "name": "CQ A1",
           "role": "Primary",
-          "cost": null,
-          "weight": null,
-          "notes": "Buyable Gunny R1 AR. Detailed part list after 0.5 preview.",
+          "cost": 3600,
+          "weight": 3.242,
+          "notes": "Fairly confident: buyable starter AR at Gunny R1. Still mark unverified for 0.5 economy/wipe.",
           "verified": false,
           "source": "research/gzw-reference-sources.md (0.4-era)",
+          "statusHint": "confident",
           "itemId": "cq-a1"
         },
         "attachments": [
           {
-            "name": "CQ A1 platform parts (R1)",
-            "role": "Key parts",
+            "name": "CQ A1 Upper Receiver",
+            "role": "Last known (0.4)",
             "cost": null,
             "weight": null,
-            "notes": "Upper, barrel, handguard, stock, grip, STANAG 20 \u2014 fill in after 0.5.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)"
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04",
+            "itemId": "cq-a1-upper-receiver"
+          },
+          {
+            "name": "AR-15 CQA1 Barrel - 14.5\"",
+            "role": "Last known (0.4)",
+            "cost": null,
+            "weight": null,
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
+            "verified": false,
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04",
+            "itemId": "ar-15-cqa1-barrel-14-5"
+          },
+          {
+            "name": "CQ A1 Carbine Handguard",
+            "role": "Last known (0.4)",
+            "cost": null,
+            "weight": null,
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
+            "verified": false,
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04",
+            "itemId": "cq-a1-carbine-handguard"
+          },
+          {
+            "name": "STANAG 20",
+            "role": "Last known (0.4) mag",
+            "cost": null,
+            "weight": null,
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
+            "verified": false,
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04"
           }
         ],
         "ammo": {
           "name": "5.56x45mm SP / FMJ",
-          "notes": "R1 ammo only. Detail after 0.5.",
+          "notes": "Last known R1 ammo (0.4). Re-check after 0.5.",
           "verified": false,
           "source": "research/gzw-reference-sources.md (0.4-era)"
         },
-        "notes": "Data: v0.4, unverified for 0.5. Skeleton only \u2014 full suggested build after Oct 19 preview."
+        "notes": "Data: v0.4, unverified for 0.5. Weapon per level: fairly confident. ALL attachments: Pending 0.5 verification (Oct 19) \u2014 greyed names are last known (0.4) hints only."
       },
       "fiction": {
         "hook": null,
@@ -55,75 +91,80 @@
           "author": "Pending",
           "text": "[Vignette placeholder \u2014 fiction coming soon.]"
         }
-      },
-      "kind": "gun"
+      }
     },
     {
       "id": "level-2",
       "label": "Level 2",
+      "kind": "gun",
       "unlockLevel": 2,
       "unlockRank": 2,
       "unlockRep": 670,
       "unlockRepSource": "Fandom Gunny L1\u2013L3 cumulative rep 0 / 670 / 2,110 (pre-0.4 table)",
       "dataLabel": "Data: v0.4, unverified for 0.5",
-      "summary": "M4A1 becomes buyable at Gunny R2. Key unlocks: M4 upper / RAS or MOE, holo or ACOG, STANAG 30, M855. No 5.56 suppressor at R2. Detailed build after 0.5.",
+      "summary": "M4A1 becomes buyable at Gunny R2 (fairly confident across 0.4 sources). No 5.56 suppressor at R2 in 0.4 data. Attachments Pending 0.5 verification (Oct 19).",
       "suggestedBuild": {
         "weapon": {
           "name": "M4A1",
           "role": "Primary",
-          "cost": null,
-          "weight": null,
-          "notes": "Buyable from Gunny R2. Skeleton \u2014 full kit after 0.5.",
+          "cost": 6400,
+          "weight": 3.174,
+          "notes": "Fairly confident: buyable from Gunny R2. Unverified for 0.5.",
           "verified": false,
           "source": "research/gzw-reference-sources.md (0.4-era)",
+          "statusHint": "confident",
           "itemId": "m4a1"
         },
         "attachments": [
           {
             "name": "M4 Upper Receiver",
-            "role": "Key part",
+            "role": "Last known (0.4)",
             "cost": null,
             "weight": null,
-            "notes": "R2.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
             "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04",
             "itemId": "m4-upper-receiver"
           },
           {
             "name": "M4 RAS / MOE M-LOK",
-            "role": "Key part",
+            "role": "Last known (0.4) handguard",
             "cost": null,
             "weight": null,
-            "notes": "R2 handguard options.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)"
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04"
           },
           {
             "name": "HWS EXPS2 or ACOG TA01NSN",
-            "role": "Key part",
+            "role": "Last known (0.4) optic",
             "cost": null,
             "weight": null,
-            "notes": "R2 optic options.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)"
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04"
           },
           {
             "name": "STANAG 30",
-            "role": "Key part",
+            "role": "Last known (0.4) mag",
             "cost": null,
             "weight": null,
-            "notes": "R2 mag.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)"
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04"
           }
         ],
         "ammo": {
           "name": "5.56x45mm AP (M855)",
-          "notes": "Listed at R2. No 5.56 suppressor at this rank.",
+          "notes": "Last known R2 AP load (0.4). Re-check after 0.5.",
           "verified": false,
           "source": "research/gzw-reference-sources.md (0.4-era)"
         },
-        "notes": "Data: v0.4, unverified for 0.5. Skeleton only \u2014 full suggested build after Oct 19 preview."
+        "notes": "Data: v0.4, unverified for 0.5. Weapon per level: fairly confident. ALL attachments: Pending 0.5 verification (Oct 19) \u2014 greyed names are last known (0.4) hints only."
       },
       "fiction": {
         "hook": null,
@@ -132,65 +173,69 @@
           "author": "Pending",
           "text": "[Vignette placeholder \u2014 fiction coming soon.]"
         }
-      },
-      "kind": "gun"
+      }
     },
     {
       "id": "level-3",
       "label": "Level 3",
+      "kind": "gun",
       "unlockLevel": 3,
       "unlockRank": 3,
       "unlockRep": 2110,
       "unlockRepSource": "Fandom Gunny L1\u2013L3 cumulative rep 0 / 670 / 2,110 (pre-0.4 table)",
       "dataLabel": "Data: v0.4, unverified for 0.5",
-      "summary": "Suppressed tier skeleton. Key unlocks: QDSS NT4 / SRD556, SpecterDR or Micro H-2, M855A1. Oddity: M4 Buffer Tube listed at R3 while M4A1 unlocks at R2 \u2014 verify in-game. Detail after 0.5.",
+      "summary": "Suppressed AR tier skeleton on the M4A1 platform (fairly confident as the continuing starter line). 0.4 listed QDSS NT4 / SRD556 and SpecterDR / Micro H-2 \u2014 attachments Pending 0.5 verification (Oct 19). Oddity: M4 Buffer Tube listed at R3 while M4 unlocks at R2 \u2014 verify in-game.",
       "suggestedBuild": {
         "weapon": {
           "name": "M4A1",
           "role": "Primary",
-          "cost": null,
-          "weight": null,
-          "notes": "Continue M4 platform. Skeleton.",
+          "cost": 6400,
+          "weight": 3.174,
+          "notes": "Fairly confident: continue M4 platform at R3. Unverified for 0.5.",
           "verified": false,
           "source": "research/gzw-reference-sources.md (0.4-era)",
+          "statusHint": "confident",
           "itemId": "m4a1"
         },
         "attachments": [
           {
             "name": "QDSS NT4 or SIG SRD556",
-            "role": "Key part",
+            "role": "Last known (0.4) suppressor",
             "cost": null,
             "weight": null,
-            "notes": "R3 5.56 suppressors.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)"
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04"
           },
           {
             "name": "SpecterDR or Aimpoint Micro H-2",
-            "role": "Key part",
+            "role": "Last known (0.4) optic",
             "cost": null,
             "weight": null,
-            "notes": "R3 optic options.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)"
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04"
           },
           {
             "name": "M4 Buffer Tube",
-            "role": "Key part",
+            "role": "Last known (0.4) \u2014 R3 listing oddity",
             "cost": null,
             "weight": null,
-            "notes": "Listed R3 \u2014 needs in-game verification.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)"
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04"
           }
         ],
         "ammo": {
           "name": "5.56x45mm AP (M855A1)",
-          "notes": "Listed at R3.",
+          "notes": "Last known R3 AP load (0.4). Re-check after 0.5.",
           "verified": false,
           "source": "research/gzw-reference-sources.md (0.4-era)"
         },
-        "notes": "Data: v0.4, unverified for 0.5. Skeleton only \u2014 full suggested build after Oct 19 preview."
+        "notes": "Data: v0.4, unverified for 0.5. Weapon per level: fairly confident. ALL attachments: Pending 0.5 verification (Oct 19) \u2014 greyed names are last known (0.4) hints only."
       },
       "fiction": {
         "hook": null,
@@ -199,64 +244,68 @@
           "author": "Pending",
           "text": "[Vignette placeholder \u2014 fiction coming soon.]"
         }
-      },
-      "kind": "gun"
+      }
     },
     {
       "id": "level-4",
       "label": "Level 4",
+      "kind": "gun",
       "unlockLevel": 4,
       "unlockRank": 4,
       "unlockRep": "TBD",
       "unlockRepSource": "R4 rep threshold unknown (Fandom only lists L1\u2013L3).",
       "dataLabel": "Data: v0.4, unverified for 0.5",
-      "summary": "Endgame skeleton. Key names: L403A1, DD RIS II 12, SOCOM556 RC1 / KAC QDC, ATI S60, M995. R4 rep threshold unknown. Detail after 0.5.",
+      "summary": "Endgame AR skeleton. 0.4 sources listed L403A1 (and M4A1 L4 presets). Weapon name is a fairly confident 0.4 endgame pointer; attachments Pending 0.5 verification (Oct 19). R4 rep threshold unknown.",
       "suggestedBuild": {
         "weapon": {
           "name": "L403A1",
           "role": "Primary",
           "cost": null,
           "weight": null,
-          "notes": "R4 platform (also M4A1 L4 presets). Skeleton.",
+          "notes": "Fairly confident as 0.4 Gunny R4 AR platform pointer (M4A1 L4 presets also existed). Unverified for 0.5.",
           "verified": false,
-          "source": "research/gzw-reference-sources.md (0.4-era)"
+          "source": "research/gzw-reference-sources.md (0.4-era)",
+          "statusHint": "confident"
         },
         "attachments": [
           {
             "name": "DD RIS II 12",
-            "role": "Key part",
+            "role": "Last known (0.4) handguard",
             "cost": null,
             "weight": null,
-            "notes": "R4 handguard.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)"
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04"
           },
           {
             "name": "SOCOM556 RC1 or KAC QDC",
-            "role": "Key part",
+            "role": "Last known (0.4) suppressor",
             "cost": null,
             "weight": null,
-            "notes": "R4 suppressors.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)"
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04"
           },
           {
             "name": "ATI S60 60-round",
-            "role": "Key part",
+            "role": "Last known (0.4) mag",
             "cost": null,
             "weight": null,
-            "notes": "R4 mag.",
+            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
             "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)"
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "lastKnown04"
           }
         ],
         "ammo": {
           "name": "5.56x45mm AP (M995)",
-          "notes": "Listed at R4.",
+          "notes": "Last known R4 AP load (0.4). Re-check after 0.5.",
           "verified": false,
           "source": "research/gzw-reference-sources.md (0.4-era)"
         },
-        "notes": "Data: v0.4, unverified for 0.5. Skeleton only \u2014 full suggested build after Oct 19 preview. R4 rep TBD."
+        "notes": "Data: v0.4, unverified for 0.5. Weapon per level: fairly confident. ALL attachments: Pending 0.5 verification (Oct 19) \u2014 greyed names are last known (0.4) hints only."
       },
       "fiction": {
         "hook": null,
@@ -265,8 +314,7 @@
           "author": "Pending",
           "text": "[Vignette placeholder \u2014 fiction coming soon.]"
         }
-      },
-      "kind": "gun"
+      }
     }
   ],
   "kind": "gun"

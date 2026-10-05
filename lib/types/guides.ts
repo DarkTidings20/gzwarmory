@@ -17,6 +17,13 @@ export interface GuideItem {
   source?: string;
   /** Optional attachment/weapon id from existing data */
   itemId?: string;
+  /**
+   * Display confidence for skeleton UI:
+   * - confident: weapon/platform choice is fairly confident
+   * - lastKnown04: greyed 0.4 hint — Pending 0.5 verification (Oct 19)
+   * - pending05: empty/unspecified pending 0.5
+   */
+  statusHint?: "confident" | "lastKnown04" | "pending05";
 }
 
 export interface SuggestedAmmo {

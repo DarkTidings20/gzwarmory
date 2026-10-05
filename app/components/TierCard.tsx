@@ -2,6 +2,7 @@ import type {
   ArmorLoadoutRec,
   GuideItem,
   GuideTier,
+  GunBuildTrack,
   SuggestedAmmo,
 } from "@/lib/types/guides";
 import FictionSlot from "./FictionSlot";
@@ -149,7 +150,67 @@ function AmmoBlock({ ammo }: { ammo: SuggestedAmmo | null | undefined }) {
   );
 }
 
+function TrackCard({ track }: { track: GunBuildTrack }) {
+  const weaponItems = track.weapon ? [track.weapon] : [];
+  return (
+    <div className="rounded-xl border border-gray-800 bg-gray-950/40 p-4">
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+        <h4 className="text-sm font-semibold text-amber-400">{track.label}</h4>
+        <span className="text-[10px] font-mono uppercase text-gray-600">
+          {track.status}
+        </span>
+      </div>
+      <p className="text-xs text-gray-400 mb-2">
+        <span className="font-mono uppercase tracking-wider text-gray-500">When it&apos;s worth it · </span>
+        {track.whenWorthIt}
+      </p>
+      {track.notes ? (
+        <p className="text-xs text-gray-500 mb-3">{track.notes}</p>
+      ) : null}
+      <div className="mb-3 rounded-lg border border-dashed border-gray-700 px-3 py-2">
+        <p className="text-[11px] font-mono text-amber-600/80">{track.placeholderNote}</p>
+      </div>
+      <ItemTable
+        title="Weapon"
+        items={weaponItems}
+        emptyLabel="Weapon: empty — to be built after 0.5 (Oct 19)"
+      />
+      <ItemTable
+        title="Attachments"
+        items={track.attachments ?? []}
+        emptyLabel="Attachments: empty — to be built after 0.5 (Oct 19)"
+      />
+      {track.ammo ? (
+        <AmmoBlock ammo={track.ammo} />
+      ) : (
+        <p className="text-sm text-gray-600 italic">Ammo: empty — to be built after 0.5 (Oct 19)</p>
+      )}
+    </div>
+  );
+}
+
 function GunBody({ tier }: { tier: GuideTier }) {
+  if (tier.tracks && tier.tracks.length > 0) {
+    return (
+      <>
+        <div className="rounded-lg border border-amber-900/40 bg-amber-950/10 px-4 py-3 mb-5">
+          <p className="text-xs font-mono uppercase tracking-wider text-amber-500/90 mb-1">
+            Level 4 tracks
+          </p>
+          <p className="text-sm text-gray-400">
+            Three empty lanes — Vendor preset, Min-max (per gun model), and Drip — to be filled
+            after 0.5 (Oct 19). Not a live parts builder.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 gap-4 mb-2">
+          {tier.tracks.map((track) => (
+            <TrackCard key={track.id} track={track} />
+          ))}
+        </div>
+      </>
+    );
+  }
+
   const build = tier.suggestedBuild;
   if (!build) {
     return (

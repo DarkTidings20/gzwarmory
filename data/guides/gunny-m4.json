@@ -255,58 +255,7 @@
       "unlockRep": "TBD",
       "unlockRepSource": "R4 rep threshold unknown (Fandom only lists L1\u2013L3).",
       "dataLabel": "Data: v0.4, unverified for 0.5",
-      "summary": "Endgame AR skeleton. 0.4 sources listed L403A1 (and M4A1 L4 presets). Weapon name is a fairly confident 0.4 endgame pointer; attachments Pending 0.5 verification (Oct 19). R4 rep threshold unknown.",
-      "suggestedBuild": {
-        "weapon": {
-          "name": "L403A1",
-          "role": "Primary",
-          "cost": null,
-          "weight": null,
-          "notes": "Fairly confident as 0.4 Gunny R4 AR platform pointer (M4A1 L4 presets also existed). Unverified for 0.5.",
-          "verified": false,
-          "source": "research/gzw-reference-sources.md (0.4-era)",
-          "statusHint": "confident"
-        },
-        "attachments": [
-          {
-            "name": "DD RIS II 12",
-            "role": "Last known (0.4) handguard",
-            "cost": null,
-            "weight": null,
-            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
-            "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)",
-            "statusHint": "lastKnown04"
-          },
-          {
-            "name": "SOCOM556 RC1 or KAC QDC",
-            "role": "Last known (0.4) suppressor",
-            "cost": null,
-            "weight": null,
-            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
-            "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)",
-            "statusHint": "lastKnown04"
-          },
-          {
-            "name": "ATI S60 60-round",
-            "role": "Last known (0.4) mag",
-            "cost": null,
-            "weight": null,
-            "notes": "Last known (0.4) \u2014 Pending 0.5 verification (Oct 19). Attachment availability may change.",
-            "verified": false,
-            "source": "research/gzw-reference-sources.md (0.4-era)",
-            "statusHint": "lastKnown04"
-          }
-        ],
-        "ammo": {
-          "name": "5.56x45mm AP (M995)",
-          "notes": "Last known R4 AP load (0.4). Re-check after 0.5.",
-          "verified": false,
-          "source": "research/gzw-reference-sources.md (0.4-era)"
-        },
-        "notes": "Data: v0.4, unverified for 0.5. Weapon per level: fairly confident. ALL attachments: Pending 0.5 verification (Oct 19) \u2014 greyed names are last known (0.4) hints only."
-      },
+      "summary": "Level 4 splits into three empty tracks instead of one build: Vendor preset (off-the-shelf), Min-max (best stats per gun model), and Drip (style when the numbers are close). All tracks to be built after 0.5 (Oct 19). R4 rep threshold unknown.",
       "fiction": {
         "hook": null,
         "vignette": {
@@ -314,7 +263,51 @@
           "author": "Pending",
           "text": "[Vignette placeholder \u2014 fiction coming soon.]"
         }
-      }
+      },
+      "tracks": [
+        {
+          "id": "vendor-preset",
+          "label": "Vendor preset",
+          "whenWorthIt": "When you want an off-the-shelf gun that works without a parts chase.",
+          "status": "placeholder",
+          "placeholderNote": "To be built after 0.5 (Oct 19).",
+          "notes": "Off-the-shelf Gunny stock. The L403A1 is the 'cheat gun' in 0.4 info \u2014 strong enough unmodded that it often does not need a custom parts list. Confirm after 0.5.",
+          "weapon": {
+            "name": "L403A1",
+            "role": "Vendor preset pointer",
+            "cost": null,
+            "weight": null,
+            "notes": "Fairly confident 0.4 R4 AR pointer for the preset track. Unverified for 0.5.",
+            "verified": false,
+            "source": "research/gzw-reference-sources.md (0.4-era)",
+            "statusHint": "confident"
+          },
+          "attachments": [],
+          "ammo": null
+        },
+        {
+          "id": "min-max",
+          "label": "Min-max",
+          "whenWorthIt": "When you want the best stat sheet per gun model, not a generic parts picker.",
+          "status": "placeholder",
+          "placeholderNote": "To be built after 0.5 (Oct 19).",
+          "notes": "Best-stat builds delivered per gun model after 0.5 \u2014 not a live parts builder. Empty until the preview meta is known.",
+          "weapon": null,
+          "attachments": [],
+          "ammo": null
+        },
+        {
+          "id": "drip",
+          "label": "Drip",
+          "whenWorthIt": "When the numbers are close enough that the choice comes down to looks.",
+          "status": "placeholder",
+          "placeholderNote": "To be built after 0.5 (Oct 19).",
+          "notes": "Style-first variants once min-max options are near parity. Empty placeholder for now.",
+          "weapon": null,
+          "attachments": [],
+          "ammo": null
+        }
+      ]
     }
   ],
   "kind": "gun"

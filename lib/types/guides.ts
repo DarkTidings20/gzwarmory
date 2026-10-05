@@ -41,6 +41,24 @@ export interface SuggestedBuild {
   notes: string;
 }
 
+export type GunTrackId = "vendor-preset" | "min-max" | "drip";
+
+/** Endgame (L4) empty track — filled after 0.5 with per-model builds, not a parts builder. */
+export interface GunBuildTrack {
+  id: GunTrackId;
+  label: string;
+  /** One-line: when this track is worth picking */
+  whenWorthIt: string;
+  status: "placeholder" | "draft" | "ready";
+  /** e.g. to be built after 0.5 (Oct 19) */
+  placeholderNote: string;
+  /** Extra context (e.g. unmodded L403A1 as off-the-shelf option) */
+  notes?: string;
+  weapon?: GuideItem | null;
+  attachments?: GuideItem[];
+  ammo?: SuggestedAmmo | null;
+}
+
 export type ArmorLoadoutId = "tasking" | "looting";
 
 /** One Handshake-style armor/kit recommendation (Tasking or Looting). */
@@ -90,8 +108,10 @@ export interface GuideTier {
   unlockRepSource?: string;
   dataLabel?: string;
   summary: string;
-  /** Present when kind === "gun" */
+  /** Present when kind === "gun" (single suggested build, typically L1–L3) */
   suggestedBuild?: SuggestedBuild;
+  /** Present when kind === "gun" and the tier uses multiple endgame tracks (typically L4) */
+  tracks?: GunBuildTrack[];
   /** Present when kind === "armor" */
   armorRecommendation?: ArmorRecommendation;
   /** Present when kind === "medical" */

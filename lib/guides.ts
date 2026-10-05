@@ -18,6 +18,7 @@ export function placeholderTiers(vendorName: string): GuideTier[] {
   const mk = (id: string, label: string): GuideTier => ({
     id,
     label,
+    kind: "gun",
     unlockLevel: "TBD",
     unlockRank: "TBD",
     unlockRep: "TBD",
@@ -58,6 +59,7 @@ export function placeholderTiers(vendorName: string): GuideTier[] {
     mk("endgame", "Endgame"),
   ];
 }
+
 
 export async function getVendorsFile(): Promise<VendorsFile> {
   const raw = await fs.readFile(path.join(dataDir, "vendors.json"), "utf-8");

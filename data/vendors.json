@@ -5,8 +5,8 @@
       "id": "handshake",
       "slug": "handshake",
       "name": "Handshake",
-      "specialty": "Armor, kit (no guns)",
-      "description": "Armor and kit (no guns). L1\u2013L4 ladder skeleton ready \u2014 builds to be verified in 0.5.",
+      "specialty": "Armor, kit (no guns) \u2014 Tasking vs Looting per level",
+      "description": "Armor and kit vendor (no guns). L1\u2013L4 ladder with Tasking vs Looting recommendations \u2014 builds to be verified in 0.5.",
       "guideIds": [
         "handshake-kit"
       ],
@@ -27,8 +27,8 @@
       "id": "lab-rat",
       "slug": "lab-rat",
       "name": "Lab Rat",
-      "specialty": "Meds",
-      "description": "Medical supplies. L1\u2013L4 ladder skeleton ready \u2014 builds to be verified in 0.5.",
+      "specialty": "Meds \u2014 pouches and fills per level",
+      "description": "Medical vendor (no guns). L1\u2013L4 ladder for pouches and recommended meds \u2014 to be verified in 0.5.",
       "guideIds": [
         "lab-rat-meds"
       ],

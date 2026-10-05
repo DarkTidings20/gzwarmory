@@ -1,4 +1,6 @@
-/** Content model for vendor-organized suggested builds (pre-0.5 skeleton). */
+/** Content model for vendor-organized suggested kits (pre-0.5 skeleton). */
+
+export type TierKind = "gun" | "armor" | "medical";
 
 export interface GuideItem {
   /** Display name. Prefer names from existing /data; otherwise TBD. */
@@ -18,14 +20,13 @@ export interface GuideItem {
 }
 
 export interface SuggestedAmmo {
-  /** Specific load name, or TBD */
   name: string;
   notes?: string;
   verified: boolean;
   source?: string;
 }
 
-/** Suggested gun build for a vendor unlock tier. */
+/** Gun vendor suggested build (Gunny, etc.). */
 export interface SuggestedBuild {
   weapon: GuideItem | null;
   attachments: GuideItem[];
@@ -33,14 +34,41 @@ export interface SuggestedBuild {
   notes: string;
 }
 
+export type ArmorLoadoutId = "tasking" | "looting";
+
+/** One Handshake-style armor/kit recommendation (Tasking or Looting). */
+export interface ArmorLoadoutRec {
+  id: ArmorLoadoutId;
+  label: "Tasking" | "Looting";
+  /** Best armor piece(s) for this loadout at this level — TBD until verified */
+  armor: GuideItem | null;
+  /** Other kit pieces (rig, backpack, etc.) — placeholders only for now */
+  items: GuideItem[];
+  notes: string;
+}
+
+/** Armor / kit vendor recommendation (Handshake). */
+export interface ArmorRecommendation {
+  /** Why Tasking vs Looting differ at this level */
+  whyTheyDiffer: string;
+  loadouts: ArmorLoadoutRec[];
+  notes: string;
+}
+
+/** Medical vendor recommendation (Lab Rat). */
+export interface MedicalRecommendation {
+  /** Pouch(es) available at this vendor level */
+  pouches: GuideItem[];
+  /** Recommended meds to fill those pouches */
+  recommendedMeds: GuideItem[];
+  notes: string;
+}
+
 export interface FictionSlot {
-  /** Optional one-line hook shown above the kit */
   hook: string | null;
-  /** ~200-word vignette below the kit; placeholder until fiction is written */
   vignette: {
     status: "placeholder" | "draft" | "final";
     author: string;
-    /** Body text; use neutral placeholders when empty */
     text: string;
   };
 }
@@ -48,17 +76,19 @@ export interface FictionSlot {
 export interface GuideTier {
   id: string;
   label: string;
-  /** Unlock level if known; "TBD" when unknown — never invent */
+  kind: TierKind;
   unlockLevel: string | number | "TBD";
-  /** Vendor rank if known; "TBD" when unknown */
   unlockRank: string | number | "TBD";
-  /** Cumulative rep if sourced; "TBD" when unknown — never invent */
   unlockRep?: number | "TBD";
   unlockRepSource?: string;
-  /** e.g. Data: v0.4, unverified for 0.5 */
   dataLabel?: string;
   summary: string;
-  suggestedBuild: SuggestedBuild;
+  /** Present when kind === "gun" */
+  suggestedBuild?: SuggestedBuild;
+  /** Present when kind === "armor" */
+  armorRecommendation?: ArmorRecommendation;
+  /** Present when kind === "medical" */
+  medicalRecommendation?: MedicalRecommendation;
   fiction: FictionSlot;
 }
 
@@ -69,10 +99,10 @@ export interface KitGuide {
   title: string;
   subtitle?: string;
   weaponId?: string;
-  /** Visible pre-0.5 notice flag */
+  /** Default kind for this guide's tiers */
+  kind: TierKind;
   pre05: boolean;
   patchVersion: string;
-  /** e.g. Data: v0.4, unverified for 0.5 */
   dataLabel?: string;
   tiers: GuideTier[];
 }
@@ -83,7 +113,6 @@ export interface Vendor {
   name: string;
   specialty: string;
   description: string;
-  /** Guide ids under data/guides/ */
   guideIds: string[];
   status: "skeleton" | "partial" | "ready";
 }
@@ -101,7 +130,6 @@ export interface DispatchStub {
   author: string;
   wordCount: number | null;
   summary: string;
-  /** Path or note — long chapters live outside tier vignette slots */
   locationNote: string;
   linkedFromTiers?: string[];
 }

@@ -55,7 +55,8 @@
           "author": "Pending",
           "text": "[Vignette placeholder \u2014 fiction coming soon.]"
         }
-      }
+      },
+      "kind": "gun"
     },
     {
       "id": "level-2",
@@ -131,7 +132,8 @@
           "author": "Pending",
           "text": "[Vignette placeholder \u2014 fiction coming soon.]"
         }
-      }
+      },
+      "kind": "gun"
     },
     {
       "id": "level-3",
@@ -197,7 +199,8 @@
           "author": "Pending",
           "text": "[Vignette placeholder \u2014 fiction coming soon.]"
         }
-      }
+      },
+      "kind": "gun"
     },
     {
       "id": "level-4",
@@ -262,7 +265,9 @@
           "author": "Pending",
           "text": "[Vignette placeholder \u2014 fiction coming soon.]"
         }
-      }
+      },
+      "kind": "gun"
     }
-  ]
+  ],
+  "kind": "gun"
 }

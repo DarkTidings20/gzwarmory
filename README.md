@@ -14,7 +14,7 @@ Vendor-organized progression ladders with a **suggested build** per unlock tier:
 
 - **Vendors** — Handshake, Gunny, Lab Rat, Artisan, Turncoat, Banshee, Vulture
 - **Tiers** — Gunny AR Levels 1–4 (CQ A1 → M4A1 → suppressed → endgame)
-- **Suggested build** — weapon, attachments, ammo, notes (placeholders until 0.5 meta is known)
+- **Tier kinds** — `gun` (weapon/attachments/ammo), `armor` (Tasking vs Looting), `medical` (pouches + med fills)
 - **Fiction** — optional one-line hook above a tier; ~200-word vignette **below** the kit; long chapters under `/dispatches`
 - **Verification** — every item carries a verified / unverified flag (`pre-0.5, unverified` where applicable)
 

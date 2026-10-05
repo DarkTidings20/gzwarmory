@@ -6,10 +6,10 @@
       "slug": "sunny-skies",
       "title": "Chapter One: Sunny Skies",
       "status": "placeholder",
-      "author": "Echo",
+      "author": "Pending",
       "wordCount": 3400,
       "summary": "Kobe + Rezzkin tasked by Banshee to investigate a guest house with a missing-persons history west of Pha Lang Airfield. Voice proof of concept \u2014 not yet in this repo.",
-      "locationNote": "Draft currently in Echo's workspace (drafts/chapter-01-sunny-skies.md). Paste or PR the full chapter here when ready; do not shoehorn into a tier vignette.",
+      "locationNote": "Full chapter draft not yet in this repo. Add via PR when ready \u2014 do not shoehorn into a tier vignette.",
       "linkedFromTiers": [
         "banshee"
       ]

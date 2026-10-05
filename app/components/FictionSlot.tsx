@@ -1,6 +1,6 @@
 import type { FictionSlot as FictionSlotData } from "@/lib/types/guides";
 
-/** Kit-first fiction: optional hook above, ~200-word vignette below the loadout. */
+/** Kit-first fiction: optional hook above, ~200-word vignette below the kit. */
 export default function FictionSlot({
   fiction,
   placement,

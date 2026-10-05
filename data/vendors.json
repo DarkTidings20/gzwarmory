@@ -1,5 +1,5 @@
 {
-  "patchNote": "pre-0.5 skeleton \u2014 vendor specialties from k0b3/council; unlock levels and kit lists TBD pending 0.5 research",
+  "patchNote": "pre-0.5 skeleton \u2014 vendor specialties from player knowledge; unlock levels and kit lists TBD pending 0.5 research",
   "vendors": [
     {
       "id": "handshake",

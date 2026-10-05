@@ -1,6 +1,4 @@
-/** Content model for vendor-organized kit guides (pre-0.5 skeleton). */
-
-export type VerificationStatus = "verified" | "unverified" | "placeholder";
+/** Content model for vendor-organized suggested builds (pre-0.5 skeleton). */
 
 export interface GuideItem {
   /** Display name. Prefer names from existing /data; otherwise TBD. */
@@ -19,14 +17,30 @@ export interface GuideItem {
   itemId?: string;
 }
 
+export interface SuggestedAmmo {
+  /** Specific load name, or TBD */
+  name: string;
+  notes?: string;
+  verified: boolean;
+  source?: string;
+}
+
+/** Suggested gun build for a vendor unlock tier. */
+export interface SuggestedBuild {
+  weapon: GuideItem | null;
+  attachments: GuideItem[];
+  ammo: SuggestedAmmo | null;
+  notes: string;
+}
+
 export interface FictionSlot {
   /** Optional one-line hook shown above the kit */
   hook: string | null;
-  /** ~200-word vignette below the kit; placeholder until Echo fills */
+  /** ~200-word vignette below the kit; placeholder until fiction is written */
   vignette: {
     status: "placeholder" | "draft" | "final";
-    author: "Echo" | string;
-    /** Body text; placeholders clearly labeled for Echo */
+    author: string;
+    /** Body text; use neutral placeholders when empty */
     text: string;
   };
 }
@@ -39,10 +53,8 @@ export interface GuideTier {
   /** Vendor rank if known; "TBD" when unknown */
   unlockRank: string | number | "TBD";
   summary: string;
-  items: GuideItem[];
+  suggestedBuild: SuggestedBuild;
   fiction: FictionSlot;
-  /** Deep-link into the existing weapon builder */
-  builderDeepLink: string | null;
 }
 
 export interface KitGuide {

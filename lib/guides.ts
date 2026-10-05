@@ -2,12 +2,60 @@ import { promises as fs } from "fs";
 import path from "path";
 import type {
   DispatchesFile,
+  GuideTier,
   KitGuide,
   Vendor,
   VendorsFile,
 } from "./types/guides";
 
 const dataDir = path.join(process.cwd(), "data");
+
+const PLACEHOLDER_VIGNETTE =
+  "[Vignette placeholder — fiction coming soon. ~200 words. Kit sits above this.]";
+
+/** Default Level 1 / Mid / Endgame slots when a vendor has no guide JSON yet. */
+export function placeholderTiers(vendorName: string): GuideTier[] {
+  const mk = (id: string, label: string): GuideTier => ({
+    id,
+    label,
+    unlockLevel: "TBD",
+    unlockRank: "TBD",
+    summary: `Suggested build slot for ${vendorName} at this unlock tier. Content TBD pending 0.5 research — do not invent stats or unlocks.`,
+    suggestedBuild: {
+      weapon: {
+        name: "TBD",
+        role: "Primary",
+        cost: null,
+        weight: null,
+        notes: "Suggested weapon TBD.",
+        verified: false,
+        source: "placeholder",
+      },
+      attachments: [],
+      ammo: {
+        name: "TBD",
+        notes: "Suggested ammo TBD.",
+        verified: false,
+        source: "placeholder",
+      },
+      notes: "Placeholder suggested build — awaiting verified data.",
+    },
+    fiction: {
+      hook: null,
+      vignette: {
+        status: "placeholder",
+        author: "Pending",
+        text: PLACEHOLDER_VIGNETTE,
+      },
+    },
+  });
+
+  return [
+    mk("level-1", "Level 1 / Day 1"),
+    mk("mid", "Mid"),
+    mk("endgame", "Endgame"),
+  ];
+}
 
 export async function getVendorsFile(): Promise<VendorsFile> {
   const raw = await fs.readFile(path.join(dataDir, "vendors.json"), "utf-8");

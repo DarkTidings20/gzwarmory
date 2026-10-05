@@ -68,7 +68,7 @@ export default async function GuidePage({
         <p className="text-xs font-mono text-gray-600 mb-6">{guide.patchVersion}</p>
 
         {guide.pre05 ? (
-          <Pre05Banner detail="Gunny M4 ladder skeleton. Level 1 uses M4A1 repo data only; mid and endgame are empty placeholders. Unlock levels marked TBD. Fiction slots reserved for Echo." />
+          <Pre05Banner detail="Gunny M4 ladder skeleton. Level 1 uses M4A1 repo data only; mid and endgame are empty placeholders. Unlock levels marked TBD. Suggested-build slots use repo data only where available; mid/endgame are placeholders. Fiction coming soon." />
         ) : null}
 
         <nav className="flex flex-wrap gap-2 mb-8">

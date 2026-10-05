@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GZW Armory — Gray Zone Warfare Kit Guides",
   description:
-    "Unofficial Gray Zone Warfare vendor kit guides and weapon builder. Progression ladders by unlock level.",
+    "Unofficial Gray Zone Warfare suggested builds by vendor and unlock level.",
 };
 
 export default function RootLayout({

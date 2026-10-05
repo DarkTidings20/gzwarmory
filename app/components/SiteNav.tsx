@@ -1,13 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 
-type NavKey = "home" | "vendors" | "dispatches" | "builder" | "loadout";
+type NavKey = "home" | "vendors" | "dispatches";
 
 const links: { href: string; label: string; key: NavKey }[] = [
   { href: "/vendors", label: "Vendors", key: "vendors" },
   { href: "/dispatches", label: "Dispatches", key: "dispatches" },
-  { href: "/builder", label: "Builder", key: "builder" },
-  { href: "/loadout", label: "Loadout", key: "loadout" },
 ];
 
 export default function SiteNav({ active }: { active?: NavKey }) {

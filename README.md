@@ -1,39 +1,56 @@
 # GZW Armory
 
-**The** Gray Zone Warfare weapon builder and PMC loadout calculator.
+Unofficial Gray Zone Warfare **suggested gun builds**, organized by **vendor** and **unlock level**.
 
 > Unofficial fan tool. Not affiliated with or endorsed by MADFINGER Games.
 
-## What It Does
+**Live:** [gzwarmory.com](https://gzwarmory.com)
 
-### Module 1 — Weapon Builder
-- Pick any weapon
-- Slot compatible attachments per slot
-- See live stat deltas as you build
-- Share your build via unique URL
+> *The Raven doesn't rush. The Raven doesn't miss.*
 
-### Module 2 — PMC Loadout Calculator
-- Slot armor, helmet, rig, backpack, weapons
-- See total carry weight vs. 54kg overweight threshold
-- Weight zone indicator: Optimal / Degraded / Overweight
-- Armor coverage map (front / back / sides)
-- Material tradeoff summary (steel vs ceramic vs aramid)
+## Direction
 
-## Tech Stack
-- Next.js (React)
-- Tailwind CSS
-- Static JSON data files (no database needed)
-- Vercel hosting (free tier)
-- GitHub for community data contributions
+Vendor-organized progression ladders with a **suggested build** per unlock tier:
+
+- **Vendors** — Handshake, Gunny, Lab Rat, Artisan, Turncoat, Banshee, Vulture
+- **Tiers** — Gunny AR Levels 1–4 (CQ A1 → M4A1 → suppressed → endgame)
+- **Tier kinds** — `gun` (weapon/attachments/ammo), `armor` (Tasking vs Looting), `medical` (pouches + med fills)
+- **Fiction** — optional one-line hook above a tier; ~200-word vignette **below** the kit; long chapters under `/dispatches`
+- **Verification** — every item carries a verified / unverified flag (`pre-0.5, unverified` where applicable)
+
+The window around 0.5 (Rogue Ops) is a **research** window, not a launch window. Skeleton first; opinionated kits after the meta is known cold.
+
+Day-1 focus: **CQ A1 via Gunny L1**; **M4A1 buyable from L2** (`/vendors/gunny` / `/vendors/gunny/m4`).
+
+`/builder` and `/loadout` permanently redirect to `/vendors`.
+
+## Routes
+
+| Path | Purpose |
+|------|---------|
+| `/` | Homepage — CTA to vendor guides |
+| `/vendors` | Hub of all 7 vendors |
+| `/vendors/[vendor]` | Unlock ladder + suggested builds |
+| `/vendors/gunny/m4` | Gunny AR ladder Levels 1–4 (light skeleton) |
+| `/vendors/handshake/kit` | Handshake kit ladder L1–L4 (placeholder) |
+| `/vendors/lab-rat/meds` | Lab Rat meds ladder L1–L4 (placeholder) |
+| `/dispatches` | Long-form fiction stub (e.g. Sunny Skies) |
+
+## Tech stack
+
+- Next.js 16 + React 19 + Tailwind CSS 4
+- Static JSON in `/data` (no database)
+- Vercel hosting (pushes to `master` auto-deploy)
 
 ## Data
-- Source: Fandom wiki API + in-game verification
-- All game data in `/data/` as plain JSON
-- Community can submit PRs to fix/update data
-- Patch version badge on site — always shows data age
 
-## Domain
-gzwarmory.com
+- Reference weapons / attachments: `/data/weapons`, `/data/attachments` (stale vs 0.5 — flag unverified)
+- Vendors + guides: `/data/vendors.json`, `/data/guides/*.json`
+- Dispatches index: `/data/dispatches.json`
+- Types: `/lib/types/guides.ts`
+
+Community PRs welcome for data corrections. Prefer in-game screenshots over wiki alone.
 
 ## Status
-🚧 In development — Patch 0.4.0.2
+
+🚧 Pre-0.5 skeleton — research window. Not launch content.

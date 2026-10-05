@@ -1,0 +1,261 @@
+{
+  "id": "lab-rat-meds",
+  "slug": "meds",
+  "vendorId": "lab-rat",
+  "title": "Lab Rat Meds Ladder",
+  "subtitle": "Levels 1\u20134 pouches + med fills. Skeleton only; to be verified in 0.5.",
+  "kind": "medical",
+  "pre05": true,
+  "patchVersion": "Data: v0.4, unverified for 0.5",
+  "dataLabel": "Data: v0.4, unverified for 0.5",
+  "tiers": [
+    {
+      "id": "level-1",
+      "label": "Level 1",
+      "kind": "medical",
+      "unlockLevel": 1,
+      "unlockRank": 1,
+      "unlockRep": "TBD",
+      "unlockRepSource": "To be verified in 0.5.",
+      "dataLabel": "Data: v0.4, unverified for 0.5",
+      "summary": "Pouch(es) available at Lab Rat Level 1, plus recommended meds to fill them. Empty skeleton \u2014 To be verified in 0.5.",
+      "medicalRecommendation": {
+        "pouches": [
+          {
+            "name": "TBD",
+            "role": "Medical pouch",
+            "cost": null,
+            "weight": null,
+            "notes": "Pouch available at Lab Rat L1. To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          }
+        ],
+        "recommendedMeds": [
+          {
+            "name": "TBD",
+            "role": "Med slot 1",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          },
+          {
+            "name": "TBD",
+            "role": "Med slot 2",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          },
+          {
+            "name": "TBD",
+            "role": "Med slot 3",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          }
+        ],
+        "notes": "Data: v0.4, unverified for 0.5. Lab Rat is a medical kit vendor (no guns). To be verified in 0.5. Do not invent item names."
+      },
+      "fiction": {
+        "hook": null,
+        "vignette": {
+          "status": "placeholder",
+          "author": "Pending",
+          "text": "[Vignette placeholder \u2014 fiction coming soon.]"
+        }
+      }
+    },
+    {
+      "id": "level-2",
+      "label": "Level 2",
+      "kind": "medical",
+      "unlockLevel": 2,
+      "unlockRank": 2,
+      "unlockRep": "TBD",
+      "unlockRepSource": "To be verified in 0.5.",
+      "dataLabel": "Data: v0.4, unverified for 0.5",
+      "summary": "Pouch(es) available at Lab Rat Level 2, plus recommended meds to fill them. Empty skeleton \u2014 To be verified in 0.5.",
+      "medicalRecommendation": {
+        "pouches": [
+          {
+            "name": "TBD",
+            "role": "Medical pouch",
+            "cost": null,
+            "weight": null,
+            "notes": "Pouch available at Lab Rat L2. To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          }
+        ],
+        "recommendedMeds": [
+          {
+            "name": "TBD",
+            "role": "Med slot 1",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          },
+          {
+            "name": "TBD",
+            "role": "Med slot 2",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          },
+          {
+            "name": "TBD",
+            "role": "Med slot 3",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          }
+        ],
+        "notes": "Data: v0.4, unverified for 0.5. Lab Rat is a medical kit vendor (no guns). To be verified in 0.5. Do not invent item names."
+      },
+      "fiction": {
+        "hook": null,
+        "vignette": {
+          "status": "placeholder",
+          "author": "Pending",
+          "text": "[Vignette placeholder \u2014 fiction coming soon.]"
+        }
+      }
+    },
+    {
+      "id": "level-3",
+      "label": "Level 3",
+      "kind": "medical",
+      "unlockLevel": 3,
+      "unlockRank": 3,
+      "unlockRep": "TBD",
+      "unlockRepSource": "To be verified in 0.5.",
+      "dataLabel": "Data: v0.4, unverified for 0.5",
+      "summary": "Pouch(es) available at Lab Rat Level 3, plus recommended meds to fill them. Empty skeleton \u2014 To be verified in 0.5.",
+      "medicalRecommendation": {
+        "pouches": [
+          {
+            "name": "TBD",
+            "role": "Medical pouch",
+            "cost": null,
+            "weight": null,
+            "notes": "Pouch available at Lab Rat L3. To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          }
+        ],
+        "recommendedMeds": [
+          {
+            "name": "TBD",
+            "role": "Med slot 1",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          },
+          {
+            "name": "TBD",
+            "role": "Med slot 2",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          },
+          {
+            "name": "TBD",
+            "role": "Med slot 3",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          }
+        ],
+        "notes": "Data: v0.4, unverified for 0.5. Lab Rat is a medical kit vendor (no guns). To be verified in 0.5. Do not invent item names."
+      },
+      "fiction": {
+        "hook": null,
+        "vignette": {
+          "status": "placeholder",
+          "author": "Pending",
+          "text": "[Vignette placeholder \u2014 fiction coming soon.]"
+        }
+      }
+    },
+    {
+      "id": "level-4",
+      "label": "Level 4",
+      "kind": "medical",
+      "unlockLevel": 4,
+      "unlockRank": 4,
+      "unlockRep": "TBD",
+      "unlockRepSource": "To be verified in 0.5.",
+      "dataLabel": "Data: v0.4, unverified for 0.5",
+      "summary": "Pouch(es) available at Lab Rat Level 4, plus recommended meds to fill them. Empty skeleton \u2014 To be verified in 0.5.",
+      "medicalRecommendation": {
+        "pouches": [
+          {
+            "name": "TBD",
+            "role": "Medical pouch",
+            "cost": null,
+            "weight": null,
+            "notes": "Pouch available at Lab Rat L4. To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          }
+        ],
+        "recommendedMeds": [
+          {
+            "name": "TBD",
+            "role": "Med slot 1",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          },
+          {
+            "name": "TBD",
+            "role": "Med slot 2",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          },
+          {
+            "name": "TBD",
+            "role": "Med slot 3",
+            "cost": null,
+            "weight": null,
+            "notes": "To be verified in 0.5.",
+            "verified": false,
+            "source": "placeholder"
+          }
+        ],
+        "notes": "Data: v0.4, unverified for 0.5. Lab Rat is a medical kit vendor (no guns). To be verified in 0.5. Do not invent item names."
+      },
+      "fiction": {
+        "hook": null,
+        "vignette": {
+          "status": "placeholder",
+          "author": "Pending",
+          "text": "[Vignette placeholder \u2014 fiction coming soon.]"
+        }
+      }
+    }
+  ]
+}

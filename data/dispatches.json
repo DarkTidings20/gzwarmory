@@ -1,0 +1,18 @@
+{
+  "intro": "Long fiction chapters live here \u2014 not in the ~200-word tier vignette slots. Tier pages link out when a related dispatch exists.",
+  "dispatches": [
+    {
+      "id": "sunny-skies",
+      "slug": "sunny-skies",
+      "title": "Chapter One: Sunny Skies",
+      "status": "placeholder",
+      "author": "Pending",
+      "wordCount": 3400,
+      "summary": "Kobe + Rezzkin tasked by Banshee to investigate a guest house with a missing-persons history west of Pha Lang Airfield. Voice proof of concept \u2014 not yet in this repo.",
+      "locationNote": "Full chapter draft not yet in this repo. Add via PR when ready \u2014 do not shoehorn into a tier vignette.",
+      "linkedFromTiers": [
+        "banshee"
+      ]
+    }
+  ]
+}

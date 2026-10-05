@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const QUOTES = [
   "The dead don't optimize. You should.",
@@ -14,16 +14,13 @@ const QUOTES = [
 ];
 
 export default function RavenQuote() {
-  const [quote, setQuote] = useState("");
-
-  useEffect(() => {
-    setQuote(QUOTES[Math.floor(Math.random() * QUOTES.length)]);
-  }, []);
-
-  if (!quote) return null;
+  // Pick once on mount (client). Avoid setState-in-effect lint failure.
+  const [quote] = useState(
+    () => QUOTES[Math.floor(Math.random() * QUOTES.length)] ?? QUOTES[4],
+  );
 
   return (
-    <p className="text-gray-500 text-sm italic mt-4 mb-2">
+    <p className="text-gray-500 text-sm italic mt-4 mb-2" suppressHydrationWarning>
       &ldquo;{quote}&rdquo;
     </p>
   );

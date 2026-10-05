@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GZW Armory — Gray Zone Warfare Builder",
+  title: "GZW Armory — Gray Zone Warfare Kit Guides",
   description:
-    "Unofficial Gray Zone Warfare weapon builder and PMC loadout calculator. Build your kit, optimize your loadout.",
+    "Unofficial Gray Zone Warfare vendor kit guides and weapon builder. Progression ladders by unlock level.",
 };
 
 export default function RootLayout({

@@ -1,8 +1,8 @@
-import Link from "next/link";
-import Image from "next/image";
 import { promises as fs } from "fs";
 import path from "path";
 import WeaponBuilderShell from "../components/WeaponBuilderShell";
+import SiteNav from "../components/SiteNav";
+import SiteFooter from "../components/SiteFooter";
 
 async function getAllData() {
   const dataDir = path.join(process.cwd(), "data");
@@ -45,21 +45,7 @@ export default async function BuilderPage() {
 
   return (
     <main className="flex flex-col min-h-screen">
-      <nav className="border-b border-gray-800 px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
-          <Image src="/raven-sigil.png" alt="GZW Armory" width={36} height={36} className="object-contain" />
-          <span className="text-2xl font-bold tracking-tight text-white">
-            GZW <span className="text-amber-500">Armory</span>
-          </span>
-          <span className="text-xs bg-gray-800 text-gray-400 px-2 py-0.5 rounded font-mono">
-            v0.4.0.3
-          </span>
-        </Link>
-        <div className="flex items-center gap-6 text-sm text-gray-400">
-          <Link href="/builder" className="text-white font-medium">Weapon Builder</Link>
-          <Link href="/loadout" className="hover:text-white transition-colors">Loadout Calc</Link>
-        </div>
-      </nav>
+      <SiteNav active="builder" />
 
       <div className="flex-1 px-6 py-8 max-w-6xl mx-auto w-full">
         {/* Vendor data disclaimer */}
@@ -82,9 +68,7 @@ export default async function BuilderPage() {
         </p>
       </div>
 
-      <footer className="border-t border-gray-800 px-6 py-6 text-center text-xs text-gray-600">
-        GZW Armory is an unofficial fan tool. Not affiliated with or endorsed by MADFINGER Games.
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

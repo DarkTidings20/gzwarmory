@@ -1,0 +1,70 @@
+{
+  "patchNote": "pre-0.5 skeleton \u2014 vendor specialties from k0b3/council; unlock levels and kit lists TBD pending 0.5 research",
+  "vendors": [
+    {
+      "id": "handshake",
+      "slug": "handshake",
+      "name": "Handshake",
+      "specialty": "Armor, kit (no guns)",
+      "description": "Plates, carriers, helmets, and the kit that keeps you walking. No firearms.",
+      "guideIds": [],
+      "status": "skeleton"
+    },
+    {
+      "id": "gunny",
+      "slug": "gunny",
+      "name": "Gunny",
+      "specialty": "M4s, ARs, shotguns, snipers",
+      "description": "Day-1 home for the M4 platform. ARs, shotguns, and precision rifles as ranks open.",
+      "guideIds": [
+        "gunny-m4"
+      ],
+      "status": "partial"
+    },
+    {
+      "id": "lab-rat",
+      "slug": "lab-rat",
+      "name": "Lab Rat",
+      "specialty": "Meds",
+      "description": "Medical supplies and the kit that keeps an extract from becoming a stretcher ride.",
+      "guideIds": [],
+      "status": "skeleton"
+    },
+    {
+      "id": "artisan",
+      "slug": "artisan",
+      "name": "Artisan",
+      "specialty": "SKS, Mosin",
+      "description": "Eastern bolt and carbine platforms. Guides TBD.",
+      "guideIds": [],
+      "status": "skeleton"
+    },
+    {
+      "id": "turncoat",
+      "slug": "turncoat",
+      "name": "Turncoat",
+      "specialty": "AKs",
+      "description": "AK platforms and the parts that keep them running. Guides TBD.",
+      "guideIds": [],
+      "status": "skeleton"
+    },
+    {
+      "id": "banshee",
+      "slug": "banshee",
+      "name": "Banshee",
+      "specialty": "Sig MCX, MP7",
+      "description": "Compact platforms \u2014 Sig MCX and MP7. Guides TBD.",
+      "guideIds": [],
+      "status": "skeleton"
+    },
+    {
+      "id": "vulture",
+      "slug": "vulture",
+      "name": "Vulture",
+      "specialty": "Gear resell",
+      "description": "Resale and recovered gear. Guides TBD.",
+      "guideIds": [],
+      "status": "skeleton"
+    }
+  ]
+}

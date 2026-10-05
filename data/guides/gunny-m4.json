@@ -1,0 +1,173 @@
+{
+  "id": "gunny-m4",
+  "slug": "m4",
+  "vendorId": "gunny",
+  "title": "M4 Platform",
+  "subtitle": "Day-1 ladder \u2014 Level 1 through endgame placeholders",
+  "weaponId": "m4a1",
+  "pre05": true,
+  "patchVersion": "0.4.1.0 (repo) \u2014 pre-0.5, unverified for Rogue Ops",
+  "tiers": [
+    {
+      "id": "level-1",
+      "label": "Level 1 / Day 1",
+      "unlockLevel": "TBD",
+      "unlockRank": 2,
+      "summary": "Starting point per council: M4 via Gunny. Weapon base stats and vendor price come from data/weapons/M4A1.json. Attachment unlocks, prices, and the exact Day-1 kit composition are TBD \u2014 do not treat the vendorConfig list as a verified starter build.",
+      "items": [
+        {
+          "name": "M4A1",
+          "role": "Primary",
+          "cost": 6400,
+          "weight": 3.174,
+          "notes": "Bare weapon base (no attachments). Caliber 5.56x45mm NATO. vendorRank 2 in repo data.",
+          "verified": true,
+          "source": "data/weapons/M4A1.json",
+          "itemId": "m4a1"
+        },
+        {
+          "name": "AR-15 CQA1 Barrel - 14.5\"",
+          "role": "Barrel (vendorConfig)",
+          "cost": null,
+          "weight": 0.725,
+          "notes": "Listed in M4A1 vendorConfig as ar-15-cqa1-14-5; attachment id in repo is ar-15-cqa1-barrel-14-5. Cost/unlock TBD.",
+          "verified": true,
+          "source": "data/attachments (weight/name); vendorConfig id may not match",
+          "itemId": "ar-15-cqa1-barrel-14-5"
+        },
+        {
+          "name": "AR-15 MOE M-LOK Carbine Handguard",
+          "role": "Handguard (vendorConfig)",
+          "cost": null,
+          "weight": 0.184,
+          "notes": "From M4A1 vendorConfig. Cost/unlock TBD.",
+          "verified": true,
+          "source": "data/attachments + M4A1 vendorConfig",
+          "itemId": "ar-15-moe-m-lok-carbine-handguard"
+        },
+        {
+          "name": "CQ A1 Buffer Tube",
+          "role": "Buffer tube (vendorConfig)",
+          "cost": null,
+          "weight": 0.108,
+          "notes": "From M4A1 vendorConfig. Cost/unlock TBD.",
+          "verified": true,
+          "source": "data/attachments + M4A1 vendorConfig",
+          "itemId": "cq-a1-buffer-tube"
+        },
+        {
+          "name": "M16A1 Standard Gas Block",
+          "role": "Gas block (vendorConfig)",
+          "cost": null,
+          "weight": 0.05,
+          "notes": "From M4A1 vendorConfig. Cost/unlock TBD.",
+          "verified": true,
+          "source": "data/attachments + M4A1 vendorConfig",
+          "itemId": "m16a1-standard-gas-block"
+        },
+        {
+          "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
+          "role": "Magazine (vendorConfig)",
+          "cost": null,
+          "weight": 0.32,
+          "notes": "From M4A1 vendorConfig. Attachment verified flag unset in repo \u2014 treat as unverified.",
+          "verified": false,
+          "source": "data/attachments + M4A1 vendorConfig",
+          "itemId": "stanag-5-56x45mm-300-blk-30-round-magazine"
+        },
+        {
+          "name": "AR15 MOE Stock",
+          "role": "Stock (vendorConfig)",
+          "cost": null,
+          "weight": 0.226,
+          "notes": "From M4A1 vendorConfig. Attachment verified flag unset \u2014 unverified.",
+          "verified": false,
+          "source": "data/attachments + M4A1 vendorConfig",
+          "itemId": "ar15-moe-stock"
+        },
+        {
+          "name": "F1 Charging Handle",
+          "role": "Charging handle (vendorConfig)",
+          "cost": null,
+          "weight": 0.027,
+          "notes": "From M4A1 vendorConfig. Attachment verified flag unset \u2014 unverified.",
+          "verified": false,
+          "source": "data/attachments + M4A1 vendorConfig",
+          "itemId": "f1-charging-handle"
+        },
+        {
+          "name": "Remaining vendorConfig parts",
+          "role": "TBD",
+          "cost": null,
+          "weight": null,
+          "notes": "Also listed in M4A1 vendorConfig (names exist in attachment data, costs/unlocks TBD): Slot Muzzle Brake, MIAD Pistol Grip, Micro T-2 Red Dot Sight, Ultra Slim M-LOK MT-FGM01X Foregrip, M4 Upper Receiver, high-sight-mount (id not found in attachment indexes). Several are tagged Loot only / ??? in attachment vendor fields \u2014 do not assume Gunny stock.",
+          "verified": false,
+          "source": "data/weapons/M4A1.json vendorConfig"
+        }
+      ],
+      "fiction": {
+        "hook": "[Echo \u2014 optional one-line hook. Example shape only: The kit you buy before you know the map.]",
+        "vignette": {
+          "status": "placeholder",
+          "author": "Echo",
+          "text": "[Echo \u2014 vignette slot. ~200 words. Gray Man register: controlled attention, what Kobe clocks and files \u2014 not what he feels. Kit sits above this. Replace this placeholder when ready.]"
+        }
+      },
+      "builderDeepLink": "/builder?weapon=m4a1"
+    },
+    {
+      "id": "mid",
+      "label": "Mid",
+      "unlockLevel": "TBD",
+      "unlockRank": "TBD",
+      "summary": "Placeholder tier. No kit opinion until 0.5 meta is known cold. Slot reserved for mid-progression Gunny M4 builds.",
+      "items": [
+        {
+          "name": "TBD",
+          "role": "Primary / attachments",
+          "cost": null,
+          "weight": null,
+          "notes": "Awaiting k0b3 play + 0.5 research. Do not invent.",
+          "verified": false,
+          "source": "placeholder"
+        }
+      ],
+      "fiction": {
+        "hook": null,
+        "vignette": {
+          "status": "placeholder",
+          "author": "Echo",
+          "text": "[Echo \u2014 vignette slot. ~200 words. Gray Man register: controlled attention, what Kobe clocks and files \u2014 not what he feels. Kit sits above this. Replace this placeholder when ready.]"
+        }
+      },
+      "builderDeepLink": "/builder?weapon=m4a1"
+    },
+    {
+      "id": "endgame",
+      "label": "Endgame",
+      "unlockLevel": "TBD",
+      "unlockRank": "TBD",
+      "summary": "Placeholder tier. Endgame Gunny M4 configurations after ranks and meta settle post-0.5.",
+      "items": [
+        {
+          "name": "TBD",
+          "role": "Primary / attachments",
+          "cost": null,
+          "weight": null,
+          "notes": "Awaiting k0b3 play + 0.5 research. Do not invent.",
+          "verified": false,
+          "source": "placeholder"
+        }
+      ],
+      "fiction": {
+        "hook": null,
+        "vignette": {
+          "status": "placeholder",
+          "author": "Echo",
+          "text": "[Echo \u2014 vignette slot. ~200 words. Gray Man register: controlled attention, what Kobe clocks and files \u2014 not what he feels. Kit sits above this. Replace this placeholder when ready.]"
+        }
+      },
+      "builderDeepLink": "/builder?weapon=m4a1"
+    }
+  ]
+}

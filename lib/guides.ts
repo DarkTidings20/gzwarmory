@@ -20,6 +20,8 @@ export function placeholderTiers(vendorName: string): GuideTier[] {
     label,
     unlockLevel: "TBD",
     unlockRank: "TBD",
+    unlockRep: "TBD",
+    dataLabel: "Data: v0.4, unverified for 0.5",
     summary: `Suggested build slot for ${vendorName} at this unlock tier. Content TBD pending 0.5 research — do not invent stats or unlocks.`,
     suggestedBuild: {
       weapon: {

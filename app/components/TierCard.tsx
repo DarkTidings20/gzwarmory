@@ -12,8 +12,8 @@ function formatWeight(weight: number | null): string {
   return `${weight} kg`;
 }
 
-function formatUnlock(value: string | number | "TBD"): string {
-  if (value === "TBD" || value === "") return "TBD";
+function formatUnlock(value: string | number | "TBD" | undefined): string {
+  if (value === undefined || value === "TBD" || value === "") return "TBD";
   return String(value);
 }
 
@@ -43,9 +43,7 @@ function ItemRow({ item }: { item: GuideItem }) {
 
 function AmmoBlock({ ammo }: { ammo: SuggestedAmmo | null }) {
   if (!ammo) {
-    return (
-      <p className="text-sm text-gray-500 italic">Ammo: TBD</p>
-    );
+    return <p className="text-sm text-gray-500 italic">Ammo: TBD</p>;
   }
   return (
     <div className="flex flex-wrap items-start justify-between gap-3 rounded-lg border border-gray-800 bg-gray-950/50 px-4 py-3">
@@ -111,18 +109,35 @@ function BuildTable({
 export default function TierCard({ tier }: { tier: GuideTier }) {
   const build = tier.suggestedBuild;
   const weaponItems = build.weapon ? [build.weapon] : [];
+  const dataLabel = tier.dataLabel ?? "Data: v0.4, unverified for 0.5";
 
   return (
     <section
       id={tier.id}
       className="bg-gray-900 border border-gray-800 rounded-xl p-6 scroll-mt-8"
     >
-      <div className="mb-3">
-        <h3 className="text-xl font-semibold text-white">{tier.label}</h3>
-        <p className="text-xs font-mono text-gray-500 mt-1">
-          Unlock level: {formatUnlock(tier.unlockLevel)} · Vendor rank:{" "}
-          {formatUnlock(tier.unlockRank)}
-        </p>
+      <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
+        <div>
+          <h3 className="text-xl font-semibold text-white">{tier.label}</h3>
+          <p className="text-xs font-mono text-gray-500 mt-1">
+            Unlock level: {formatUnlock(tier.unlockLevel)} · Vendor rank:{" "}
+            {formatUnlock(tier.unlockRank)}
+            {tier.unlockRep !== undefined ? (
+              <>
+                {" "}
+                · Rep: {formatUnlock(tier.unlockRep)}
+              </>
+            ) : null}
+          </p>
+          {tier.unlockRepSource ? (
+            <p className="text-[10px] font-mono text-gray-600 mt-1 max-w-xl">
+              Rep source: {tier.unlockRepSource}
+            </p>
+          ) : null}
+        </div>
+        <span className="inline-flex items-center rounded px-2 py-1 text-[10px] font-mono uppercase tracking-wide bg-amber-950/60 text-amber-400 border border-amber-800/50">
+          {dataLabel}
+        </span>
       </div>
 
       <FictionSlot fiction={tier.fiction} placement="hook" />
@@ -136,11 +151,7 @@ export default function TierCard({ tier }: { tier: GuideTier }) {
         <p className="text-sm text-gray-400">{build.notes}</p>
       </div>
 
-      <BuildTable
-        title="Weapon"
-        items={weaponItems}
-        emptyLabel="Weapon: TBD"
-      />
+      <BuildTable title="Weapon" items={weaponItems} emptyLabel="Weapon: TBD" />
       <BuildTable
         title="Attachments"
         items={build.attachments}

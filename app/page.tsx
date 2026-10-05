@@ -65,7 +65,7 @@ export default function Home() {
             <h3 className="font-semibold text-white mb-2">Suggested Builds</h3>
             <p className="text-gray-400 text-sm">
               Each unlock tier has a suggested build slot: weapon, attachments, ammo,
-              and notes. Day 1 starts with the M4 via Gunny.
+              and notes. Level 1 is the CQ A1 via Gunny; the M4A1 is buyable from Level 2.
             </p>
           </div>
           <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">

@@ -6,16 +6,18 @@
       "slug": "handshake",
       "name": "Handshake",
       "specialty": "Armor, kit (no guns)",
-      "description": "Plates, carriers, helmets, and the kit that keeps you walking. No firearms.",
-      "guideIds": [],
+      "description": "Armor and kit (no guns). L1\u2013L4 ladder skeleton ready \u2014 builds to be verified in 0.5.",
+      "guideIds": [
+        "handshake-kit"
+      ],
       "status": "skeleton"
     },
     {
       "id": "gunny",
       "slug": "gunny",
       "name": "Gunny",
-      "specialty": "M4s, ARs, shotguns, snipers",
-      "description": "Day-1 home for the M4 platform. ARs, shotguns, and precision rifles as ranks open.",
+      "specialty": "M4s, ARs, shotguns, snipers \u2014 CQ A1 (R1) then M4A1 (R2+)",
+      "description": "AR ladder starts with the buyable CQ A1 at Rank 1. The M4A1 is buyable from Rank 2 \u2014 spawn M4 gear is not the same as a Gunny purchase.",
       "guideIds": [
         "gunny-m4"
       ],
@@ -26,8 +28,10 @@
       "slug": "lab-rat",
       "name": "Lab Rat",
       "specialty": "Meds",
-      "description": "Medical supplies and the kit that keeps an extract from becoming a stretcher ride.",
-      "guideIds": [],
+      "description": "Medical supplies. L1\u2013L4 ladder skeleton ready \u2014 builds to be verified in 0.5.",
+      "guideIds": [
+        "lab-rat-meds"
+      ],
       "status": "skeleton"
     },
     {

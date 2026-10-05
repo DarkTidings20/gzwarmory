@@ -52,6 +52,11 @@ export interface GuideTier {
   unlockLevel: string | number | "TBD";
   /** Vendor rank if known; "TBD" when unknown */
   unlockRank: string | number | "TBD";
+  /** Cumulative rep if sourced; "TBD" when unknown — never invent */
+  unlockRep?: number | "TBD";
+  unlockRepSource?: string;
+  /** e.g. Data: v0.4, unverified for 0.5 */
+  dataLabel?: string;
   summary: string;
   suggestedBuild: SuggestedBuild;
   fiction: FictionSlot;
@@ -67,6 +72,8 @@ export interface KitGuide {
   /** Visible pre-0.5 notice flag */
   pre05: boolean;
   patchVersion: string;
+  /** e.g. Data: v0.4, unverified for 0.5 */
+  dataLabel?: string;
   tiers: GuideTier[];
 }
 
